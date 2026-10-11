@@ -1,0 +1,26 @@
+{
+  "files.eol": "\n",
+  "files.associations": {
+    "*.inc": "poryscript-asm",
+    "*.pory": "poryscript"
+  },
+  "files.exclude": {
+    "build": true
+  },
+  "search.exclude": {
+    "build": true,
+    "graphics": true
+  },
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "C_Cpp.default.includePath": [
+    "${workspaceFolder}/include"
+  ],
+  "C_Cpp.default.defines": [
+    "MODERN=1",
+    "EMERALD",
+    "TESTING=0"
+  ],
+  "files.encoding": "utf8",
+  "languageServerPoryscript.fontConfigFilepath": "tools/poryscript/font_config.json",
+  "git.autofetch": false
+}

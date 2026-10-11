@@ -1,0 +1,58 @@
+{
+  "id": "MAP_ARCHE_CAMPUS_MAINTENANCE",
+  "name": "ArcheCampus_Maintenance",
+  "layout": "LAYOUT_ARCHE_CAMPUS_MAINTENANCE",
+  "music": "MUS_LILYCOVE",
+  "region": "REGION_HOENN",
+  "region_map_section": "MAPSEC_LILYCOVE_CITY",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": true,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [
+    {
+      "local_id": "LOCALID_PART55_EXCADRILL",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(EXCADRILL)",
+      "x": 4,
+      "y": 8,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Part55_Excadrill",
+      "flag": "FLAG_PART55_HIDE_EXCADRILL"
+    },
+    {
+      "local_id": "LOCALID_PART55_WorkSteelix",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(STEELIX)",
+      "x": 5,
+      "y": 3,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Part55_WorkSteelix",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 4,
+      "y": 10,
+      "elevation": 3,
+      "dest_map": "MAP_ARCHE_CAMPUS_LOGISTICS",
+      "dest_warp_id": "2"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

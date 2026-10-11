@@ -1,0 +1,22 @@
+{
+  "status": "windows-source-ready",
+  "distribution": "Ubuntu-24.04",
+  "linuxUser": "pokemon",
+  "linuxSource": "/home/pokemon/projects/emerald-story",
+  "windowsSource": "D:\\Pokemon gba\\project",
+  "upstreamTag": "expansion/1.17.1",
+  "upstreamCommit": "bb1093a7c72d3961d9a37d8e02ad2abc2c866682",
+  "allowGui": false,
+  "language": "zh-Hans",
+  "sourceEncoding": "UTF-8",
+  "developmentBranch": "project/part7",
+  "chineseSourceCommit": "e8671a6d9d5f645ff60468cf1aac03c8c0897eb7",
+  "migrationStrategy": "A",
+  "backupTag": "pre-chinese-base-migration",
+  "implementationCheckpoint": "pre-part7-implementation",
+  "latestSourceCommit": "578496443f1e7deb6bb06fa1f02311262fad6ae6",
+  "completedBatch": "part7-and-playtest-fixes-20261010",
+  "sourceAuthority": "windows",
+  "linuxBuildCache": "/home/pokemon/projects/emerald-story",
+  "syncDirection": "windows-to-linux"
+}

@@ -1,0 +1,3 @@
+#ifndef GUARD_CONSTANTS_PART6_H
+#define GUARD_CONSTANTS_PART6_H
+#endif

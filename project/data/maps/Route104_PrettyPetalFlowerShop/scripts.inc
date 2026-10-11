@@ -1,0 +1,151 @@
+Route104_PrettyPetalFlowerShop_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, Route104_PrettyPetalFlowerShop_OnTransition
+	.byte 0
+
+Route104_PrettyPetalFlowerShop_OnTransition:
+	setflag FLAG_LANDMARK_FLOWER_SHOP
+	goto_if_unset FLAG_MET_PRETTY_PETAL_SHOP_OWNER, Route104_PrettyPetalFlowerShop_EventScript_MoveShopOwner
+	goto_if_unset FLAG_BADGE03_GET, Route104_PrettyPetalFlowerShop_EventScript_MoveShopOwner
+	setflag FLAG_TEMP_1
+	end
+
+Route104_PrettyPetalFlowerShop_EventScript_MoveShopOwner::
+	setobjectxyperm LOCALID_FLOWER_SHOP_OWNER, 4, 6
+	end
+
+Route104_PrettyPetalFlowerShop_EventScript_ShopOwner::
+	lock
+	faceplayer
+	goto_if_set FLAG_TEMP_1, Route104_PrettyPetalFlowerShop_EventScript_SellDecorations
+	msgbox Route104_PrettyPetalFlowerShop_Text_ThisIsPrettyPetalFlowerShop, MSGBOX_DEFAULT
+	goto_if_set FLAG_MET_PRETTY_PETAL_SHOP_OWNER, Route104_PrettyPetalFlowerShop_EventScript_AlreadyMet
+	setflag FLAG_MET_PRETTY_PETAL_SHOP_OWNER
+	msgbox Route104_PrettyPetalFlowerShop_Text_IntroLearnAboutBerries, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, YES, Route104_PrettyPetalFlowerShop_EventScript_ExplainBerries
+	call_if_eq VAR_RESULT, NO, Route104_PrettyPetalFlowerShop_EventScript_DontExplainBerries
+	release
+	end
+
+Route104_PrettyPetalFlowerShop_EventScript_AlreadyMet::
+	msgbox Route104_PrettyPetalFlowerShop_Text_LearnAboutBerries, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, YES, Route104_PrettyPetalFlowerShop_EventScript_ExplainBerries
+	call_if_eq VAR_RESULT, NO, Route104_PrettyPetalFlowerShop_EventScript_DontExplainBerries
+	release
+	end
+
+Route104_PrettyPetalFlowerShop_EventScript_ExplainBerries::
+	msgbox Route104_PrettyPetalFlowerShop_Text_BerriesExplanation, MSGBOX_DEFAULT
+	return
+
+Route104_PrettyPetalFlowerShop_EventScript_DontExplainBerries::
+	msgbox Route104_PrettyPetalFlowerShop_Text_FlowersBringHappiness, MSGBOX_DEFAULT
+	return
+
+Route104_PrettyPetalFlowerShop_EventScript_SellDecorations::
+	message gText_PlayerWhatCanIDoForYou
+	waitmessage
+	pokemartdecoration2 Route104_PrettyPetalFlowerShop_Pokemart_Plants
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+Route104_PrettyPetalFlowerShop_Pokemart_Plants:
+	.2byte DECOR_RED_PLANT
+	.2byte DECOR_TROPICAL_PLANT
+	.2byte DECOR_PRETTY_FLOWERS
+	.2byte DECOR_COLORFUL_PLANT
+	.2byte DECOR_BIG_PLANT
+	.2byte DECOR_GORGEOUS_PLANT
+	pokemartlistend
+
+Route104_PrettyPetalFlowerShop_EventScript_WailmerPailGirl::
+	lock
+	faceplayer
+	goto_if_unset FLAG_RECEIVED_WAILMER_PAIL, Route104_PrettyPetalFlowerShop_EventScript_GiveWailmerPail
+	msgbox Route104_PrettyPetalFlowerShop_Text_WailmerPailExplanation, MSGBOX_DEFAULT
+	release
+	end
+
+Route104_PrettyPetalFlowerShop_EventScript_GiveWailmerPail::
+	msgbox Route104_PrettyPetalFlowerShop_Text_YouCanHaveThis, MSGBOX_DEFAULT
+	giveitem ITEM_WAILMER_PAIL
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	msgbox Route104_PrettyPetalFlowerShop_Text_WailmerPailExplanation, MSGBOX_DEFAULT
+	setflag FLAG_RECEIVED_WAILMER_PAIL
+	release
+	end
+
+Route104_PrettyPetalFlowerShop_EventScript_RandomBerryGirl::
+	lock
+	faceplayer
+	dotimebasedevents
+	goto_if_set FLAG_DAILY_FLOWER_SHOP_RECEIVED_BERRY, Route104_PrettyPetalFlowerShop_EventScript_AlreadyReceivedBerry
+	msgbox Route104_PrettyPetalFlowerShop_Text_ImGrowingFlowers, MSGBOX_DEFAULT
+	giverandomberry BERRY_ID_CHERI, BERRY_ID_PERSIM
+	goto_if_eq VAR_RESULT, 0, Common_EventScript_ShowBagIsFull
+	setflag FLAG_DAILY_FLOWER_SHOP_RECEIVED_BERRY
+	msgbox Route104_PrettyPetalFlowerShop_Text_MachineMixesBerries, MSGBOX_DEFAULT
+	release
+	end
+
+Route104_PrettyPetalFlowerShop_EventScript_AlreadyReceivedBerry::
+	msgbox Route104_PrettyPetalFlowerShop_Text_MachineMixesBerries, MSGBOX_DEFAULT
+	release
+	end
+
+FlowerShop_Part1_Daily::
+ lock
+ faceplayer
+ goto_if_unset FLAG_MET_PRETTY_PETAL_SHOP_OWNER, FlowerShop_Part1_FirstVisit
+ dotimebasedevents
+ goto_if_set FLAG_DAILY_PART1_FLOWER_BERRY, FlowerShop_Part1_Tomorrow
+ msgbox FlowerShop_Part1_Intro, MSGBOX_DEFAULT
+ random 6
+ switch VAR_RESULT
+ case 0, FlowerShop_Part1_Cheri
+ case 1, FlowerShop_Part1_Chesto
+ case 2, FlowerShop_Part1_Pecha
+ case 3, FlowerShop_Part1_Rawst
+ case 4, FlowerShop_Part1_Aspear
+ setvar VAR_0x8004, ITEM_ORAN_BERRY
+ goto FlowerShop_Part1_Give
+FlowerShop_Part1_Cheri::
+ setvar VAR_0x8004, ITEM_CHERI_BERRY
+ goto FlowerShop_Part1_Give
+FlowerShop_Part1_Chesto::
+ setvar VAR_0x8004, ITEM_CHESTO_BERRY
+ goto FlowerShop_Part1_Give
+FlowerShop_Part1_Pecha::
+ setvar VAR_0x8004, ITEM_PECHA_BERRY
+ goto FlowerShop_Part1_Give
+FlowerShop_Part1_Rawst::
+ setvar VAR_0x8004, ITEM_RAWST_BERRY
+ goto FlowerShop_Part1_Give
+FlowerShop_Part1_Aspear::
+ setvar VAR_0x8004, ITEM_ASPEAR_BERRY
+FlowerShop_Part1_Give::
+ giveitem VAR_0x8004, 1
+ goto_if_eq VAR_RESULT, FALSE, FlowerShop_Part1_BagFull
+ setflag FLAG_DAILY_PART1_FLOWER_BERRY
+FlowerShop_Part1_Tomorrow::
+ msgbox FlowerShop_Part1_After, MSGBOX_DEFAULT
+ release
+ end
+FlowerShop_Part1_FirstVisit::
+ msgbox FlowerShop_Part1_MeetOwner, MSGBOX_DEFAULT
+ release
+ end
+FlowerShop_Part1_BagFull::
+ msgbox Part1_Text_BagFull, MSGBOX_DEFAULT
+ release
+ end
+
+FlowerShop_Part1_Intro:
+	.string "如果旅行经过这里，可以偶尔回来看\n看哦。\p我们每天都会挑一些成熟的树果送给\n训练家。\p今天这一枚就送给你吧！$"
+
+FlowerShop_Part1_After:
+	.string "今天的树果已经送给你啦。\p明天旅行经过时，再来看看吧！$"
+
+FlowerShop_Part1_MeetOwner:
+	.string "欢迎！先和店里的姐姐聊聊树果的用\n法吧。$"

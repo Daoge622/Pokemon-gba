@@ -1,0 +1,4 @@
+// Environment smoke test only. Not attached to an NPC or map event.
+script DevEnvironmentSmoke {
+    msgbox("Development environment ready!", MSGBOX_DEFAULT)
+}

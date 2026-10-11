@@ -1,0 +1,9 @@
+ArcheCampus_Maintenance_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, ArcheCampus_Maintenance_Part55OnTransition
+	map_script MAP_SCRIPT_ON_LOAD, Part55_MaintenanceLoad
+	.byte 0
+
+ArcheCampus_Maintenance_Part55OnTransition:
+	clearflag FLAG_PART55_HIDE_EXCADRILL
+	call_if_ge VAR_PART55_STEELIX_REPAIR, 1, Part55_HideExcadrill
+	end

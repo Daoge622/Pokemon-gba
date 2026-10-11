@@ -1,0 +1,208 @@
+{
+  "id": "MAP_ARCHE_CAMPUS_TRAINING_HALL",
+  "name": "ArcheCampus_TrainingHall",
+  "layout": "LAYOUT_ARCHE_CAMPUS_TRAINING_HALL",
+  "music": "MUS_LILYCOVE",
+  "region": "REGION_HOENN",
+  "region_map_section": "MAPSEC_LILYCOVE_CITY",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [
+    {
+      "local_id": "LOCALID_PART5_TRAINING_DESK",
+      "graphics_id": "OBJ_EVENT_GFX_WOMAN_3",
+      "x": 18,
+      "y": 14,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Part55_BadgeTrainingDesk",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_PART5_TRAINING_TECH",
+      "graphics_id": "OBJ_EVENT_GFX_ARCHE_RESEARCHER_M",
+      "x": 7,
+      "y": 13,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Part5_TrainingTech",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_PART5_TRAINING_SURVEYOR",
+      "graphics_id": "OBJ_EVENT_GFX_ARCHE_RESEARCHER_F",
+      "x": 2,
+      "y": 9,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Part5_TrainingTech",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_PART5_TRAINING_GUARD",
+      "graphics_id": "OBJ_EVENT_GFX_ARCHE_COMBATANT_F",
+      "x": 10,
+      "y": 11,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Part5_TrainingTech",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_PART55_Advanced",
+      "graphics_id": "OBJ_EVENT_GFX_ARCHE_RESEARCHER_M",
+      "x": 22,
+      "y": 14,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Part55_Advanced",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CAMPER",
+      "x": 7,
+      "y": 6,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "StoryC_HayatoHall",
+      "flag": "FLAG_TEMP_1F"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ARCHE_COMBATANT_M",
+      "x": 16,
+      "y": 7,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Campus_TH_Trainee",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ARCHE_COMBATANT_M",
+      "x": 21,
+      "y": 7,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Campus_TH_Reviewer",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ARCHE_RESEARCHER_F",
+      "x": 6,
+      "y": 16,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Campus_TH_RackKeeper",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 12,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_ARCHE_CAMPUS",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_ARCHE_CAMPUS",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 2,
+      "y": 7,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Campus_TH_MachineSign"
+    },
+    {
+      "type": "sign",
+      "x": 22,
+      "y": 4,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Campus_TH_ScreenSign"
+    },
+    {
+      "type": "sign",
+      "x": 2,
+      "y": 17,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Campus_TH_RackSign"
+    },
+    {
+      "type": "sign",
+      "x": 5,
+      "y": 17,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Campus_TH_RackSign"
+    },
+    {
+      "type": "sign",
+      "x": 9,
+      "y": 12,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Campus_TH_GlassSign"
+    },
+    {
+      "type": "sign",
+      "x": 15,
+      "y": 12,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Campus_TH_GlassSign"
+    }
+  ]
+}

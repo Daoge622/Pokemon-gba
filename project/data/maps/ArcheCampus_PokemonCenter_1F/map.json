@@ -1,0 +1,107 @@
+{
+  "id": "MAP_ARCHE_CAMPUS_POKEMON_CENTER_1F",
+  "name": "ArcheCampus_PokemonCenter_1F",
+  "layout": "LAYOUT_POKEMON_CENTER_1F",
+  "music": "MUS_POKE_CENTER",
+  "region": "REGION_HOENN",
+  "region_map_section": "MAPSEC_LILYCOVE_CITY",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [
+    {
+      "local_id": "LOCALID_PART5_CAMPUS_NURSE",
+      "graphics_id": "OBJ_EVENT_GFX_NURSE",
+      "x": 7,
+      "y": 2,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Part5_CampusNurse",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_PART5_CAMPUS_PC_DONATION",
+      "graphics_id": "OBJ_EVENT_GFX_MAN_1",
+      "x": 11,
+      "y": 2,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Part5_CampusPCDonation",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_PART5_CAMPUS_PC_TRAVELER",
+      "graphics_id": "OBJ_EVENT_GFX_BOY_1",
+      "x": 3,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Part5_CampusPCTraveler",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_PART5_CAMPUS_PC_FOREIGN",
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 10,
+      "y": 6,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Part5_CampusPCForeign",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_PART5_CAMPUS_PC_STAIRS",
+      "graphics_id": "OBJ_EVENT_GFX_WOMAN_3",
+      "x": 1,
+      "y": 6,
+      "elevation": 4,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Part5_CampusPCStairs",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 7,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_ARCHE_CAMPUS",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 6,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_ARCHE_CAMPUS",
+      "dest_warp_id": "3"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

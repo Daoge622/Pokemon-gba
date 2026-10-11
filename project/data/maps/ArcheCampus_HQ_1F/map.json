@@ -1,0 +1,312 @@
+{
+  "id": "MAP_ARCHE_CAMPUS_HQ_1F",
+  "name": "ArcheCampus_HQ_1F",
+  "layout": "LAYOUT_ARCHE_CAMPUS_HQ_1_F",
+  "music": "MUS_LILYCOVE",
+  "region": "REGION_HOENN",
+  "region_map_section": "MAPSEC_LILYCOVE_CITY",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [
+    {
+      "local_id": "LOCALID_PART5_HQ_RECEPTION",
+      "graphics_id": "OBJ_EVENT_GFX_WOMAN_3",
+      "x": 12,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Part55_BadgeReception",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_PART5_HQ_EMPLOYEE",
+      "graphics_id": "OBJ_EVENT_GFX_MAN_2",
+      "x": 5,
+      "y": 8,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Part5_HQLobbyEmployee",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_PART5_HQ_LOBBY_GUARD",
+      "graphics_id": "OBJ_EVENT_GFX_ARCHE_COMBATANT_M",
+      "x": 5,
+      "y": 2,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Part55_GateGuard",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_PART5_HQ_CAFE",
+      "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
+      "x": 22,
+      "y": 7,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Part5_HQCafeStaff",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_PART5_HQ_FAMILY",
+      "graphics_id": "OBJ_EVENT_GFX_POKEFAN_M",
+      "x": 8,
+      "y": 7,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Part5_HQVisitorFamily",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_PART55_BadgeOwner",
+      "graphics_id": "OBJ_EVENT_GFX_MAN_3",
+      "x": 17,
+      "y": 5,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Part55_BadgeOwner",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_PART55_NewEmployee",
+      "graphics_id": "OBJ_EVENT_GFX_MAN_1",
+      "x": 9,
+      "y": 3,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Part55_NewEmployee",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_PART6_RAIN_HQ",
+      "graphics_id": "OBJ_EVENT_GFX_ARCHE_REIN",
+      "x": 15,
+      "y": 8,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Part6_RainHQ",
+      "flag": "FLAG_TEMP_11"
+    },
+    {
+      "local_id": "LOCALID_PART6_HQ_CRISIS_STAFF",
+      "graphics_id": "OBJ_EVENT_GFX_ARCHE_RESEARCHER_M",
+      "x": 17,
+      "y": 8,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Part6_HQCrisisStaff",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_PART6_ADJ_TEACH",
+      "graphics_id": "OBJ_EVENT_GFX_ARCHE_RESEARCHER_F",
+      "x": 9,
+      "y": 10,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Part6_AdjusterTeach",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_MAN_1",
+      "x": 20,
+      "y": 10,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Campus_HQ_LoungeVisitor",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ARCHE_RESEARCHER_M",
+      "x": 14,
+      "y": 11,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Campus_HQ_StairStaff",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ARCHE_COMBATANT_M",
+      "x": 23,
+      "y": 2,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "StoryA_GuardCard",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 12,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_ARCHE_CAMPUS",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 13,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_ARCHE_CAMPUS",
+      "dest_warp_id": "6"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_ARCHE_CAMPUS_HQ_2F",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 3,
+      "y": 6,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "Part5_HQProducts"
+    },
+    {
+      "type": "sign",
+      "x": 7,
+      "y": 1,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "Part5_HQCommittee"
+    },
+    {
+      "type": "sign",
+      "x": 15,
+      "y": 1,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Part55_GlobalResearchMap"
+    },
+    {
+      "type": "sign",
+      "x": 20,
+      "y": 1,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Part55_BasementLift"
+    },
+    {
+      "type": "sign",
+      "x": 0,
+      "y": 3,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Part55_Network1"
+    },
+    {
+      "type": "sign",
+      "x": 21,
+      "y": 1,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "StoryA_ElevatorB"
+    },
+    {
+      "type": "sign",
+      "x": 7,
+      "y": 6,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Campus_HQ_ExhibitSensor"
+    },
+    {
+      "type": "sign",
+      "x": 3,
+      "y": 9,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Campus_HQ_ExhibitBuoy"
+    },
+    {
+      "type": "sign",
+      "x": 7,
+      "y": 9,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Campus_HQ_ExhibitModel"
+    },
+    {
+      "type": "sign",
+      "x": 8,
+      "y": 1,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Part5_HQCommittee"
+    },
+    {
+      "type": "sign",
+      "x": 16,
+      "y": 1,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Part55_GlobalResearchMap"
+    }
+  ]
+}

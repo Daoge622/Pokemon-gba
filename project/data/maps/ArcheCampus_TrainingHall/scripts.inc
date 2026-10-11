@@ -1,0 +1,7 @@
+ArcheCampus_TrainingHall_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, ArcheCampus_TrainingHall_OnTransition
+	.byte 0
+
+ArcheCampus_TrainingHall_OnTransition:
+	call StoryC_HayatoHall_SetVisibility
+	end
