@@ -1,0 +1,26 @@
+[
+  {
+    "file": "mGBA-0.10.5-win64.7z",
+    "sha256": "b497a57c7d9093834dadc64f33a90f7c411439c21fdb8a0143255a45ea37563a"
+  },
+  {
+    "file": "porymap-6.3.1-windows-curl.zip",
+    "sha256": "71eae8f1cd00ed1701fe53e0ede8d2e946f7d9436a66ab3a641870fffb6f8f9a"
+  },
+  {
+    "file": "poryscript-3.6.1-linux.zip",
+    "sha256": "249f9adeb3b6d7f2e33347c1d0bce5f3ff8fb06e914c75b81d08187f8404c4ff"
+  },
+  {
+    "file": "poryscript-3.6.1-windows.zip",
+    "sha256": "6a1ad9f54b1621b2b13f5cfc3c78f56c2c8bcb4e54afafbd82b5a430d35cd477"
+  },
+  {
+    "file": "wsl.3.0.1.0.x64.msi",
+    "sha256": "28b1a0d013640a2ac95898ea705fa186e5b4ff767a1c1b49257161bc106599c6"
+  },
+  {
+    "file": "ubuntu-24.04-amd64.wsl",
+    "sha256": "bb415d824822c4b878125729af451a5d18fb13d1cf5cbed9a7393ad64ac6039e"
+  }
+]

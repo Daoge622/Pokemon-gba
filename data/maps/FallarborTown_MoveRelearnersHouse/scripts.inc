@@ -1,0 +1,107 @@
+FallarborTown_MoveRelearnersHouse_MapScripts::
+	.byte 0
+
+FallarborTown_MoveRelearnersHouse_EventScript_MoveRelearner::
+	lockall
+	applymovement LOCALID_MOVE_RELEARNER, Common_Movement_FacePlayer
+	waitmovement 0
+	goto_if_set FLAG_TEMP_1, FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove
+	msgbox FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor, MSGBOX_DEFAULT
+	setflag FLAG_TEMP_1
+	goto FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove
+	end
+
+FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove::
+	goto_if_unset FLAG_PART3_FREE_MOVE_RELEARN_USED, FallarborTown_MoveRelearnersHouse_Part3_AskFree
+	checkitem ITEM_HEART_SCALE
+	goto_if_eq VAR_RESULT, FALSE, FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale
+	msgbox FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove, MSGBOX_YESNO
+	goto_if_ne VAR_RESULT, YES, FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale
+	goto FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon
+	end
+
+FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon::
+	msgbox FallarborTown_MoveRelearnersHouse_Text_TutorWhichMon, MSGBOX_DEFAULT
+	setmoverelearnerstate MOVE_RELEARNER_LEVEL_UP_MOVES @ Specifically supposed to teach level up moves
+	chooseboxmon SELECT_PC_MON_MOVE_RELEARNER
+	waitstate
+	goto_if_eq VAR_0x8004, PARTY_NOTHING_CHOSEN, FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale
+	special IsSelectedMonEgg
+	goto_if_eq VAR_RESULT, TRUE, FallarborTown_MoveRelearnersHouse_EventScript_CantTeachEgg
+	special Special_HasMoveToRelearn
+	goto_if_eq VAR_RESULT, FALSE, FallarborTown_MoveRelearnersHouse_EventScript_NoMoveToTeachMon
+	goto FallarborTown_MoveRelearnersHouse_EventScript_ChooseMove
+	end
+
+FallarborTown_MoveRelearnersHouse_EventScript_ChooseMove::
+	msgbox FallarborTown_MoveRelearnersHouse_Text_TeachWhichMove, MSGBOX_DEFAULT
+	special TeachMoveRelearnerMove
+	goto_if_eq VAR_RESULT, FALSE, FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon
+	goto_if_unset FLAG_PART3_FREE_MOVE_RELEARN_USED, FallarborTown_MoveRelearnersHouse_Part3_FreeSuccess
+	msgbox FallarborTown_MoveRelearnersHouse_Text_HandedOverHeartScale, MSGBOX_DEFAULT
+	removeitem ITEM_HEART_SCALE
+	goto FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale
+	end
+
+FallarborTown_MoveRelearnersHouse_EventScript_NoMoveToTeachMon::
+	msgbox FallarborTown_MoveRelearnersHouse_Text_DontHaveMoveToTeachPokemon, MSGBOX_DEFAULT
+	goto FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon
+	end
+
+FallarborTown_MoveRelearnersHouse_EventScript_CantTeachEgg::
+	msgbox FallarborTown_MoveRelearnersHouse_Text_CantTeachEgg, MSGBOX_DEFAULT
+	goto FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon
+	end
+
+FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale::
+	goto_if_unset FLAG_PART3_FREE_MOVE_RELEARN_USED, FallarborTown_MoveRelearnersHouse_Part3_FreeLater
+	msgbox FallarborTown_MoveRelearnersHouse_Text_ComeBackWithHeartScale, MSGBOX_DEFAULT
+	releaseall
+	end
+
+FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor:
+	.string "大家都叫我宝可梦招式爱好者！\p有心之鳞片的话，我可以帮宝可梦重\n新想起成长时能学会的招式。\p第一次免费，之后每次收一片心之鳞\n片。$"
+
+FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove:
+    .string "哇哦！\n这是心之鳞片！\p要把招式教给你的宝可梦吗？$"
+
+FallarborTown_MoveRelearnersHouse_Text_TutorWhichMon:
+    .string "要选择哪只宝可梦？$"
+
+FallarborTown_MoveRelearnersHouse_Text_TeachWhichMove:
+    .string "要学习哪个招式？$"
+
+FallarborTown_MoveRelearnersHouse_Text_DontHaveMoveToTeachPokemon:
+    .string "抱歉……\p看来我没有招式能\n教给这只宝可梦。$"
+
+FallarborTown_MoveRelearnersHouse_Text_HandedOverHeartScale:
+    .string "{PLAYER}将1个心之鳞片\n作为谢礼送给了对方！$"
+
+FallarborTown_MoveRelearnersHouse_Text_ComeBackWithHeartScale:
+    .string "如果有想让宝可梦学习的招式，\n就把心之鳞片带过来吧！$"
+
+FallarborTown_MoveRelearnersHouse_Text_CantTeachEgg:
+    .string "嗯……\p蛋应该没法学习招式吧？$"
+
+
+FallarborTown_MoveRelearnersHouse_Part3_AskFree::
+ msgbox FallarborTown_MoveRelearnersHouse_Part3_FreeOfferText, MSGBOX_YESNO
+ goto_if_ne VAR_RESULT, YES, FallarborTown_MoveRelearnersHouse_Part3_FreeLater
+ goto FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon
+FallarborTown_MoveRelearnersHouse_Part3_FreeSuccess::
+ setflag FLAG_PART3_FREE_MOVE_RELEARN_USED
+ msgbox FallarborTown_MoveRelearnersHouse_Part3_FreeSuccessText, MSGBOX_DEFAULT
+ goto FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale
+FallarborTown_MoveRelearnersHouse_Part3_FreeLater::
+ msgbox FallarborTown_MoveRelearnersHouse_Part3_FreeLaterText, MSGBOX_DEFAULT
+ releaseall
+ end
+
+FallarborTown_MoveRelearnersHouse_Part3_FreeOfferText:
+	.string "第一次就不收谢礼了！\p要让我帮宝可梦重新想起一个招式吗\n？$"
+
+FallarborTown_MoveRelearnersHouse_Part3_FreeSuccessText:
+	.string "怎么样，想起来了吧？\p下次带一片心之鳞片来，我就能再帮\n忙。$"
+
+FallarborTown_MoveRelearnersHouse_Part3_FreeLaterText:
+	.string "第一次回忆招式免费。有需要的时候\n，随时来找我吧！$"

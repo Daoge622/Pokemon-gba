@@ -1,0 +1,13 @@
+binutils-arm-none-eabi	2.42-1ubuntu1+23
+build-essential	12.10ubuntu1
+gcc-arm-none-eabi	15:13.2.rel1-2
+git	1:2.43.0-1ubuntu7.3
+libmgba-dev:amd64	0.10.2+dfsg-1.1build3
+libnewlib-arm-none-eabi	4.4.0.20231231-2
+libpng-dev:amd64	1.6.43-5ubuntu0.6
+pkg-config:amd64	1.8.1-2build1
+python3	3.12.3-0ubuntu2.1
+qmake6:amd64	6.4.2+dfsg-21.1build5
+qt6-charts-dev:amd64	6.4.2-5build2
+qt6-declarative-dev:amd64	6.4.2+dfsg-4build3
+ripgrep	14.1.0-1

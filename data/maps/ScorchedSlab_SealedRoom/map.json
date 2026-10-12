@@ -1,0 +1,38 @@
+{
+  "id": "MAP_SCORCHED_SLAB_SEALED_ROOM",
+  "name": "ScorchedSlab_SealedRoom",
+  "layout": "LAYOUT_SCORCHED_SLAB_SEALED_ROOM",
+  "music": "MUS_PETALBURG_WOODS",
+  "region": "REGION_HOENN",
+  "region_map_section": "MAPSEC_SCORCHED_SLAB",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": true,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 7,
+      "y": 16,
+      "elevation": 3,
+      "dest_map": "MAP_SCORCHED_SLAB",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 7,
+      "y": 4,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Part4_UnknownResearchData"
+    }
+  ]
+}

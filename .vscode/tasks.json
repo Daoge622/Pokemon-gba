@@ -1,0 +1,69 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Project: Build",
+      "type": "process",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/scripts/windows/dev.ps1",
+        "-Action",
+        "Build"
+      ],
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Project: Release",
+      "type": "process",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/scripts/windows/dev.ps1",
+        "-Action",
+        "Release"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Project: Sync",
+      "type": "process",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/scripts/windows/dev.ps1",
+        "-Action",
+        "Sync"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Project: RecordDeltas",
+      "type": "process",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/scripts/windows/dev.ps1",
+        "-Action",
+        "RecordDeltas"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}

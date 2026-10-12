@@ -1,0 +1,8 @@
+ArcheCampus_Apartment_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, ArcheCampus_Apartment_Part55OnTransition
+	.byte 0
+
+ArcheCampus_Apartment_Part55OnTransition:
+	setflag FLAG_PART55_HIDE_PATIENT_FRIEND
+	call_if_eq VAR_PART55_MEDICINE, 3, Part55_ShowPatientFriend
+	end

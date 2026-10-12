@@ -1,0 +1,2085 @@
+=== PARTNER_NONE ===
+Name:
+Class: Pkmn Trainer 1
+Pic: Brendan
+Gender: Male
+Music: Male
+
+=== PARTNER_STEVEN ===
+Name: 大吾
+Class: Rival
+Pic: Steven
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Basic Trainer
+
+Metagross @ Metagrossite
+Level: 47
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Meteor Mash
+- Zen Headbutt
+- Bullet Punch
+- Earthquake
+
+Skarmory
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Steel Wing
+- Aerial Ace
+- Tailwind
+- Roost
+
+Aggron
+Level: 46
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Iron Head
+- Rock Slide
+- Earthquake
+- Dragon Claw
+
+=== PARTNER_PART55_ROOKIE ===
+Name: 新人
+Class: Team Magma
+Pic: Magma Grunt F
+Gender: Female
+Music: Cool
+Double Battle: No
+AI: Check Bad Move / Try To Faint
+
+Jigglypuff @ Eviolite
+Level: 39
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hyper Voice
+- Dazzling Gleam
+- Helping Hand
+- Sing
+
+=== PARTNER_PART55_AQUA_OBSERVER_A ===
+Name: 队员
+Class: Team Aqua
+Pic: Aqua Grunt M
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Check Bad Move / Try To Faint
+Multi Party: Half
+
+Frillish
+Level: 36
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Water Pulse
+- Hex
+- Recover
+- Night Shade
+
+Pelipper
+Level: 37
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Water Pulse
+- Air Slash
+- Roost
+- Quick Attack
+
+=== PARTNER_PART55_AQUA_OBSERVER_B ===
+Name: 队员
+Class: Team Aqua
+Pic: Aqua Grunt M
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Check Bad Move / Try To Faint
+Multi Party: Half
+
+Basculin
+Level: 36
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Aqua Jet
+- Crunch
+- Take Down
+- Scary Face
+
+Crawdaunt
+Level: 37
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Razor Shell
+- Knock Off
+- Aqua Jet
+- Leer
+
+=== PARTNER_PART55_SAFARI_EXPERT ===
+Name: 诚一
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Basic Trainer
+
+Bouffalant
+Level: 40
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Head Charge
+- Wild Charge
+- Revenge
+- Scary Face
+
+Kangaskhan
+Level: 41
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Body Slam
+- Crunch
+- Low Kick
+- Fake Out
+
+Chansey
+Level: 39
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Soft Boiled
+- Seismic Toss
+- Thunder Wave
+- Dazzling Gleam
+
+=== PARTNER_PART55_ADVANCED_TRAINER ===
+Name: 浩司
+Class: Arche Technician
+Pic: Arche Researcher M
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Basic Trainer
+
+Klinklang
+Level: 44
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Gear Grind
+- Charge Beam
+- Autotomize
+- Thunder Wave
+
+Lucario
+Level: 45
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Aura Sphere
+- Flash Cannon
+- Dark Pulse
+- Quick Attack
+
+Medicham @ Medichamite
+Level: 46
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Drain Punch
+- Zen Headbutt
+- Ice Punch
+- Fake Out
+
+=== PARTNER_PART55_PSYCHIC_RESEARCHER ===
+Name: 直人
+Class: Psychic
+Pic: Psychic M
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Basic Trainer
+
+Espeon
+Level: 44
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Psychic
+- Dazzling Gleam
+- Morning Sun
+- Swift
+
+Beheeyem
+Level: 44
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Psychic
+- Thunderbolt
+- Shadow Ball
+- Calm Mind
+
+Gothitelle
+Level: 45
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Psychic
+- Shadow Ball
+- Reflect
+- Charm
+
+Alakazam
+Level: 46
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Psychic
+- Shadow Ball
+- Energy Ball
+- Recover
+
+=== PARTNER_PART6_RAIN ===
+Name: 莱因
+Class: Arche Director
+Pic: Arche Rein
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer / Smart Switching / Smart Mon Choices
+Items: Hyper Potion / Hyper Potion
+
+Castform
+Level: 44
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Weather Ball
+- Rain Dance
+- Sunny Day
+- Thunderbolt
+
+Rotom-Wash
+Level: 45
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Hydro Pump
+- Thunderbolt
+- Will-O-Wisp
+- Hex
+
+Abomasnow
+Level: 45
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Blizzard
+- Wood Hammer
+- Ice Shard
+- Giga Drain
+
+Electivire
+Level: 46
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Thunder Punch
+- Ice Punch
+- Cross Chop
+- Quick Attack
+
+Magnezone @ Sitrus Berry
+Level: 48
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flash Cannon
+- Thunderbolt
+- Tri Attack
+- Light Screen
+
+=== PARTNER_PART6_GALLADE_MASTER ===
+Name: 剑舞家
+Class: Black Belt
+Pic: Black Belt
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Basic Trainer
+Items: Hyper Potion / Hyper Potion
+
+Samurott
+Level: 51
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Razor Shell
+- Megahorn
+- Aqua Jet
+- Swords Dance
+
+Absol
+Level: 51
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Night Slash
+- Psycho Cut
+- Swords Dance
+- Sucker Punch
+
+Bisharp
+Level: 52
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Night Slash
+- Iron Head
+- Sucker Punch
+- Swords Dance
+
+Gallade @ Galladite
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Psycho Cut
+- Leaf Blade
+- Close Combat
+- Swords Dance
+
+=== PARTNER_PART6_SKY_GUARD_131 ===
+Name: 安保员
+Class: Arche Guard
+Pic: Arche Combatant M
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+
+Bisharp
+Level: 48
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Brick Break
+- Iron Head
+- Sucker Punch
+- Thunder Wave
+
+Excadrill
+Level: 48
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Earthquake
+- Iron Head
+- Rock Slide
+- Swords Dance
+
+=== PARTNER_PART6_SKY_SECURITY ===
+Name: 安保员
+Class: Arche Guard
+Pic: Arche Combatant M
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+
+Escavalier
+Level: 49
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Iron Head
+- X-Scissor
+- Aerial Ace
+- Iron Defense
+
+Lucario
+Level: 49
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Aura Sphere
+- Flash Cannon
+- Dark Pulse
+- Quick Attack
+
+Porygon2
+Level: 50
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Tri Attack
+- Ice Beam
+- Recover
+- Thunder Wave
+
+=== PARTNER_PART6_SKY_LIFE_RESEARCHER ===
+Name: 研究员
+Class: Scientist Frlg
+Pic: Arche Researcher M
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Basic Trainer
+
+Gothitelle
+Level: 50
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Psychic
+- Shadow Ball
+- Charm
+- Calm Mind
+
+Duosion
+Level: 50
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Psychic
+- Shadow Ball
+- Recover
+- Reflect
+
+Ditto
+Level: 51
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Transform
+
+=== PARTNER_PART6_SKY_TECH_GUARD ===
+Name: 技术护卫组
+Class: Arche Technician
+Pic: Arche Combatant F
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Basic Trainer / Double Battle
+
+Klinklang
+Level: 50
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Gear Grind
+- Wild Charge
+- Shift Gear
+- Thunder Wave
+
+Rotom
+Level: 51
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Thunderbolt
+- Shadow Ball
+- Will-O-Wisp
+- Helping Hand
+
+Beheeyem
+Level: 50
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Psychic
+- Thunderbolt
+- Recover
+- Light Screen
+
+Eelektross
+Level: 51
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Thunderbolt
+- Flamethrower
+- Crunch
+- Acid Spray
+
+=== PARTNER_PART6_SKY_SENIOR_RESEARCHER ===
+Name: 高级研究员
+Class: Arche Surveyor
+Pic: Arche Researcher M
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+
+Sigilyph
+Level: 51
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Psychic
+- Air Slash
+- Light Screen
+- Reflect
+
+Porygon-Z
+Level: 52
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Tri Attack
+- Thunderbolt
+- Ice Beam
+- Nasty Plot
+
+Archeops
+Level: 52
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Acrobatics
+- Rock Slide
+- Dragon Claw
+- Crunch
+
+=== PARTNER_PART6_EVELYN ===
+Name: 伊芙琳
+Class: Arche Director
+Pic: Arche Evelyn
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Basic Trainer / Smart Switching / Smart Mon Choices
+Items: Hyper Potion / Full Restore
+
+Porygon-Z
+Level: 51
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Tri Attack
+- Thunderbolt
+- Ice Beam
+- Agility
+
+Milotic
+Level: 51
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Scald
+- Ice Beam
+- Recover
+- Dragon Tail
+
+Reuniclus
+Level: 52
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Psychic
+- Focus Blast
+- Recover
+- Reflect
+
+Togekiss
+Level: 52
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Air Slash
+- Aura Sphere
+- Dazzling Gleam
+- Roost
+
+Alakazam @ Alakazite
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Psychic
+- Shadow Ball
+- Focus Blast
+- Energy Ball
+
+=== PARTNER_PART7_FOREST_RANGER ===
+Name: 护林员
+Class: Pkmn Ranger
+Pic: Pokemon Ranger F
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Basic Trainer
+Items: Hyper Potion
+
+Sawsbuck
+Level: 53
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Horn Leech
+- Jump Kick
+- Double-Edge
+- Sunny Day
+
+Shiftry
+Level: 54
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Leaf Blade
+- Sucker Punch
+- Fake Out
+- Extrasensory
+
+Ludicolo
+Level: 53
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Giga Drain
+- Surf
+- Fake Out
+- Rain Dance
+
+=== PARTNER_PART7_FOREST_COOLTRAINER ===
+Name: 林间训练家
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Basic Trainer
+Items: Hyper Potion
+
+Breloom
+Level: 54
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Mach Punch
+- Seed Bomb
+- Spore
+- Rock Tomb
+
+Lilligant
+Level: 53
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Giga Drain
+- Energy Ball
+- Quiver Dance
+- Sleep Powder
+
+Cacturne
+Level: 54
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Seed Bomb
+- Sucker Punch
+- Spikes
+- Drain Punch
+
+=== PARTNER_PART7_FOREST_BUG_MANIAC ===
+Name: 虫系高手
+Class: Bug Maniac
+Pic: Bug Maniac
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: Basic Trainer
+Items: Hyper Potion
+
+Heracross
+Level: 54
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Megahorn
+- Close Combat
+- Rock Slide
+- Night Slash
+
+Ninjask
+Level: 53
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- X-Scissor
+- Aerial Ace
+- Swords Dance
+- Protect
+
+Galvantula
+Level: 53
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Thunderbolt
+- Bug Buzz
+- Sticky Web
+- Giga Drain
+
+=== PARTNER_PART7_SCEPTILE_MASTER ===
+Name: 林间老手
+Class: Expert
+Pic: Expert M
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Basic Trainer
+Items: Full Restore / Full Restore
+
+Torterra
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Wood Hammer
+- Earthquake
+- Crunch
+- Synthesis
+
+Breloom
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Mach Punch
+- Seed Bomb
+- Spore
+- Rock Tomb
+
+Shiftry
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Leaf Blade
+- Sucker Punch
+- Fake Out
+- Extrasensory
+
+Sceptile @ Sceptilite
+Level: 57
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Leaf Blade
+- Dragon Pulse
+- Earthquake
+- Focus Blast
+
+=== PARTNER_PART7_JAGGED_FIGHTER ===
+Name: 格斗家
+Class: Black Belt
+Pic: Black Belt
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Basic Trainer
+
+Hariyama
+Level: 55
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Close Combat
+- Knock Off
+- Fake Out
+- Heavy Slam
+
+Toxicroak
+Level: 55
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Drain Punch
+- Poison Jab
+- Sucker Punch
+- Swords Dance
+
+Machamp
+Level: 56
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Dynamic Punch
+- Stone Edge
+- Bullet Punch
+- Knock Off
+
+=== PARTNER_PART7_JAGGED_KINDLER ===
+Name: 火系训练家
+Class: Kindler
+Pic: Kindler
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Basic Trainer
+
+Camerupt
+Level: 56
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Earth Power
+- Flamethrower
+- Yawn
+- Rock Slide
+
+Torkoal
+Level: 56
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Lava Plume
+- Body Press
+- Stealth Rock
+- Yawn
+
+Darmanitan
+Level: 56
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Flare Blitz
+- Hammer Arm
+- Rock Slide
+- U-turn
+
+=== PARTNER_PART7_BLAZIKEN_ELDER ===
+Name: 山道老手
+Class: Expert
+Pic: Expert M
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Basic Trainer
+Items: Full Restore / Full Restore
+
+Hariyama
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Close Combat
+- Knock Off
+- Fake Out
+- Heavy Slam
+
+Magmortar
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flamethrower
+- Thunderbolt
+- Focus Blast
+- Confuse Ray
+
+Breloom
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Mach Punch
+- Seed Bomb
+- Spore
+- Rock Tomb
+
+Blaziken @ Blazikenite
+Level: 57
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Blaze Kick
+- Close Combat
+- Thunder Punch
+- Swords Dance
+
+=== PARTNER_PART7_SWAMPERT_DIVER ===
+Name: 潜水好手
+Class: Expert
+Pic: Expert F
+Gender: Female
+Music: Intense
+Double Battle: No
+AI: Basic Trainer
+Items: Full Restore / Full Restore
+
+Seismitoad
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Earthquake
+- Muddy Water
+- Drain Punch
+- Rain Dance
+
+Pelipper
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Hurricane
+- Scald
+- Roost
+- U-turn
+
+Gastrodon
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Earth Power
+- Scald
+- Recover
+- Toxic
+
+Swampert @ Swampertite
+Level: 57
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Waterfall
+- Earthquake
+- Ice Punch
+- Rain Dance
+
+=== PARTNER_PART7_DRAGON_TRIAL ===
+Name: 龙系长者
+Class: Dragon Tamer
+Pic: Dragon Tamer
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Basic Trainer
+Items: Full Restore / Full Restore
+
+Kingdra
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Surf
+- Dragon Pulse
+- Ice Beam
+- Focus Energy
+
+Flygon
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Earthquake
+- Dragon Claw
+- Rock Slide
+- U-turn
+
+Altaria
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Dragon Pulse
+- Moonblast
+- Roost
+- Cotton Guard
+
+Haxorus
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Dragon Claw
+- Earthquake
+- Poison Jab
+- Dragon Dance
+
+Salamence @ Salamencite
+Level: 57
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Dragon Claw
+- Fly
+- Earthquake
+- Fire Fang
+
+=== PARTNER_PART7_DRAGON_TRIAL_REMATCH ===
+Name: 龙系长者
+Class: Dragon Tamer
+Pic: Dragon Tamer
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Basic Trainer
+Items: Full Restore / Full Restore
+
+Kingdra
+Level: 66
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Surf
+- Dragon Pulse
+- Ice Beam
+- Rain Dance
+
+Flygon
+Level: 66
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Earthquake
+- Dragon Claw
+- Stone Edge
+- U-turn
+
+Altaria
+Level: 67
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Dragon Pulse
+- Moonblast
+- Roost
+- Cotton Guard
+
+Haxorus
+Level: 68
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Outrage
+- Earthquake
+- Poison Jab
+- Dragon Dance
+
+Garchomp
+Level: 68
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Dragon Claw
+- Earthquake
+- Stone Edge
+- Swords Dance
+
+Salamence @ Salamencite
+Level: 70
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Dragon Claw
+- Double-Edge
+- Earthquake
+- Dragon Dance
+
+=== PARTNER_PART7_DRIFTER ===
+Name: 漂流老手
+Class: Swimmer M
+Pic: Swimmer M
+Gender: Male
+Music: Swimmer
+Double Battle: No
+AI: Basic Trainer
+
+Mantine
+Level: 53
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Air Slash
+- Scald
+- Ice Beam
+- Roost
+
+Floatzel
+Level: 54
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Aqua Jet
+- Waterfall
+- Ice Fang
+- Crunch
+
+Jellicent
+Level: 54
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Scald
+- Shadow Ball
+- Recover
+- Will-O-Wisp
+
+Sharpedo
+Level: 55
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Liquidation
+- Crunch
+- Ice Fang
+- Aqua Jet
+
+=== PARTNER_PART7_BACKFLOW_SIBLINGS ===
+Name: 兄妹
+Class: Sis And Bro
+Pic: Sis And Bro
+Gender: Male
+Music: Twins
+Double Battle: Yes
+AI: Basic Trainer / Double Battle
+
+Lanturn
+Level: 54
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Discharge
+- Surf
+- Ice Beam
+- Thunder Wave
+
+Tentacruel
+Level: 54
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Sludge Bomb
+- Surf
+- Toxic Spikes
+- Rapid Spin
+
+Walrein
+Level: 55
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Ice Beam
+- Surf
+- Body Slam
+- Rest
+
+Chandelure
+Level: 55
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Shadow Ball
+- Flamethrower
+- Energy Ball
+- Will-O-Wisp
+
+=== PARTNER_PART7_PLATFORM_ACE ===
+Name: 训练平台
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Basic Trainer
+
+Braviary
+Level: 51
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Brave Bird
+- Superpower
+- Rock Slide
+- Tailwind
+
+Krookodile
+Level: 52
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Earthquake
+- Crunch
+- Stone Edge
+- Dragon Claw
+
+Jolteon
+Level: 52
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Thunderbolt
+- Shadow Ball
+- Volt Switch
+- Thunder Wave
+
+Starmie
+Level: 53
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Surf
+- Psychic
+- Thunderbolt
+- Recover
+
+=== PARTNER_PART7_VR_BUG_MANIAC ===
+Name: 虫系少年
+Class: Bug Maniac
+Pic: Bug Maniac
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: Basic Trainer
+
+Heracross
+Level: 52
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Megahorn
+- Close Combat
+- Rock Slide
+- Night Slash
+
+Scizor
+Level: 53
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Bullet Punch
+- X-Scissor
+- Swords Dance
+- Roost
+
+Scolipede
+Level: 53
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Megahorn
+- Poison Jab
+- Earthquake
+- Rock Slide
+
+Volcarona
+Level: 55
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+- Fiery Dance
+- Bug Buzz
+- Quiver Dance
+- Giga Drain
+
+=== PARTNER_PART7_LUCARIO_MASTER ===
+Name: 格斗高手
+Class: Black Belt
+Pic: Black Belt
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Basic Trainer
+Items: Full Restore / Full Restore
+
+Mienshao
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- High Jump Kick
+- U-turn
+- Stone Edge
+- Fake Out
+
+Conkeldurr
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Hammer Arm
+- Rock Slide
+- Mach Punch
+- Bulk Up
+
+Gallade
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Sacred Sword
+- Psycho Cut
+- Leaf Blade
+- Shadow Sneak
+
+Lucario @ Lucarionite
+Level: 56
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Aura Sphere
+- Flash Cannon
+- Dark Pulse
+- Vacuum Wave
+
+=== PARTNER_PART7_GARCHOMP_ACE ===
+Name: 龙系精英
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Basic Trainer
+Items: Full Restore / Full Restore
+
+Flygon
+Level: 63
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Earthquake
+- Dragon Claw
+- Stone Edge
+- U-turn
+
+Haxorus
+Level: 64
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Outrage
+- Earthquake
+- Poison Jab
+- Dragon Dance
+
+Hydreigon
+Level: 64
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Dragon Pulse
+- Dark Pulse
+- Flamethrower
+- Earth Power
+
+Garchomp @ Garchompite
+Level: 67
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Earthquake
+- Dragon Claw
+- Stone Edge
+- Swords Dance
+
+=== PARTNER_PART7_SIDNEY_STRONG ===
+Name: 花月
+Class: Elite Four
+Pic: Elite Four Sidney
+Gender: Male
+Music: Elite Four
+Double Battle: No
+AI: Basic Trainer / Smart Switching / Smart Mon Choices
+Items: Full Restore / Full Restore
+
+Mightyena
+Level: 65
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Crunch
+- Play Rough
+- Sucker Punch
+- Ice Fang
+
+Shiftry @ Life Orb
+Level: 66
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Leaf Blade
+- Sucker Punch
+- Fake Out
+- Knock Off
+
+Cacturne
+Level: 66
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Seed Bomb
+- Sucker Punch
+- Spikes
+- Drain Punch
+
+Crawdaunt
+Level: 67
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Crabhammer
+- Knock Off
+- Aqua Jet
+- Swords Dance
+
+Drapion
+Level: 67
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Knock Off
+- Poison Jab
+- Earthquake
+- Swords Dance
+
+Absol @ Absolite
+Level: 68
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Night Slash
+- Psycho Cut
+- Sucker Punch
+- Swords Dance
+
+=== PARTNER_PART7_PHOEBE_STRONG ===
+Name: 芙蓉
+Class: Elite Four
+Pic: Elite Four Phoebe
+Gender: Female
+Music: Elite Four
+Double Battle: No
+AI: Basic Trainer / Smart Switching / Smart Mon Choices
+Items: Full Restore / Full Restore
+
+Dusknoir @ Leftovers
+Level: 66
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Shadow Sneak
+- Ice Punch
+- Earthquake
+- Will-O-Wisp
+
+Sableye
+Level: 67
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Shadow Ball
+- Foul Play
+- Will-O-Wisp
+- Recover
+
+Mismagius
+Level: 67
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Shadow Ball
+- Dazzling Gleam
+- Thunderbolt
+- Calm Mind
+
+Shedinja
+Level: 67
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Shadow Sneak
+- X-Scissor
+- Will-O-Wisp
+- Protect
+
+Chandelure
+Level: 68
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Shadow Ball
+- Flamethrower
+- Energy Ball
+- Will-O-Wisp
+
+Banette @ Banettite
+Level: 69
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Shadow Claw
+- Gunk Shot
+- Knock Off
+- Shadow Sneak
+
+=== PARTNER_PART7_GLACIA_STRONG ===
+Name: 波妮
+Class: Elite Four
+Pic: Elite Four Glacia
+Gender: Female
+Music: Elite Four
+Double Battle: No
+AI: Basic Trainer / Smart Switching / Smart Mon Choices
+Items: Full Restore / Full Restore
+
+Glalie @ Glalitite
+Level: 67
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Freeze-Dry
+- Crunch
+- Earthquake
+- Explosion
+
+Froslass
+Level: 67
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Ice Beam
+- Shadow Ball
+- Thunderbolt
+- Spikes
+
+Weavile
+Level: 68
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Icicle Crash
+- Knock Off
+- Ice Shard
+- Low Kick
+
+Mamoswine
+Level: 68
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Icicle Crash
+- Earthquake
+- Ice Shard
+- Stone Edge
+
+Abomasnow
+Level: 69
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Blizzard
+- Giga Drain
+- Ice Shard
+- Earth Power
+
+Walrein
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Ice Beam
+- Surf
+- Body Slam
+- Rest
+
+=== PARTNER_PART7_DRAKE_STRONG ===
+Name: 源治
+Class: Elite Four
+Pic: Elite Four Drake
+Gender: Male
+Music: Elite Four
+Double Battle: No
+AI: Basic Trainer / Smart Switching / Smart Mon Choices
+Items: Full Restore / Full Restore
+
+Shelgon @ Eviolite
+Level: 69
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Claw
+- Zen Headbutt
+- Protect
+- Dragon Dance
+
+Kingdra @ Wacan Berry
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hydro Pump
+- Draco Meteor
+- Ice Beam
+- Rain Dance
+
+Flygon
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Dragon Claw
+- Rock Slide
+- U-turn
+
+Altaria
+Level: 71
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Pulse
+- Moonblast
+- Roost
+- Cotton Guard
+
+Haxorus
+Level: 71
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Claw
+- Earthquake
+- Poison Jab
+- Dragon Dance
+
+Salamence @ Salamencite
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Claw
+- Fly
+- Earthquake
+- Fire Fang
+
+=== PARTNER_PART7_WALLACE_STRONG ===
+Name: 米可利
+Class: Champion
+Pic: Champion Wallace
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer / Smart Switching / Smart Mon Choices
+Items: Full Restore / Full Restore
+
+Wailord
+Level: 71
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Rain Dance
+- Water Spout
+- Ice Beam
+- Double-Edge
+
+Tentacruel
+Level: 71
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sludge Bomb
+- Hydro Pump
+- Toxic Spikes
+- Ice Beam
+
+Ludicolo
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Giga Drain
+- Surf
+- Ice Beam
+- Leech Seed
+
+Gyarados @ Leftovers
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Waterfall
+- Earthquake
+- Ice Fang
+- Dragon Dance
+
+Swampert @ Swampertite
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Waterfall
+- Earthquake
+- Ice Punch
+- Protect
+
+Milotic @ Sitrus Berry
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Scald
+- Ice Beam
+- Recover
+- Dragon Tail
+
+=== PARTNER_PART7_FISHER_REMATCH ===
+Name: 钓鱼父亲
+Class: Fisherman
+Pic: Fisherman
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Basic Trainer
+Items: Full Restore / Full Restore
+
+Lanturn
+Level: 62
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Discharge
+- Scald
+- Ice Beam
+- Thunder Wave
+
+Whiscash
+Level: 62
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Earthquake
+- Waterfall
+- Zen Headbutt
+- Dragon Dance
+
+Kingdra
+Level: 63
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Surf
+- Dragon Pulse
+- Ice Beam
+- Rain Dance
+
+Gyarados @ Gyaradosite
+Level: 65
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Waterfall
+- Earthquake
+- Ice Fang
+- Dragon Dance
+
+=== PARTNER_STORY_XAVIER ===
+Name: 萨维尔
+Class: Arche Director
+Pic: Arche Xavier
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer / Smart Switching / Smart Mon Choices
+Items: Full Restore / Full Restore
+
+Relicanth
+Level: 53
+Ability: Rock Head
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Head Smash
+- Waterfall
+- Earthquake
+- Yawn
+
+Armaldo
+Level: 54
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- X-Scissor
+- Rock Slide
+- Aqua Tail
+- Swords Dance
+
+Cradily
+Level: 54
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Giga Drain
+- Ancient Power
+- Toxic
+- Recover
+
+Carracosta
+Level: 55
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Waterfall
+- Stone Edge
+- Aqua Jet
+- Shell Smash
+
+Archeops
+Level: 55
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Acrobatics
+- Rock Slide
+- Earthquake
+- U-turn
+
+Aerodactyl @ Aerodactylite
+Level: 56
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- Rock Slide
+- Aerial Ace
+- Earthquake
+- Ice Fang
+
+=== PARTNER_STORY_HAYATO_FINAL ===
+Name: 隼人
+Class: Pkmn Trainer 1
+Pic: Camper
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer / Smart Switching / Smart Mon Choices
+Items: Full Restore
+
+Staraptor
+Level: 57
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Brave Bird
+- Close Combat
+- U-turn
+- Quick Attack
+
+Manectric
+Level: 57
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Thunderbolt
+- Flamethrower
+- Volt Switch
+- Thunder Wave
+
+Crawdaunt
+Level: 58
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Crabhammer
+- Knock Off
+- Aqua Jet
+- Swords Dance
+
+Darmanitan
+Level: 58
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Flare Blitz
+- Earthquake
+- Rock Slide
+- U-turn
+
+Swanna
+Level: 58
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Scald
+- Hurricane
+- Ice Beam
+- Roost
+
+Scrafty @ Sitrus Berry
+Level: 60
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+- High Jump Kick
+- Crunch
+- Drain Punch
+- Dragon Dance
+
+=== PARTNER_STORY_C_02 ===
+Name: 买错的两人
+Class: Pokefan
+Pic: Pokefan M
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Basic Trainer / Double Battle
+
+Pikachu @ Thick Club
+Level: 37
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Thunderbolt
+- Quick Attack
+- Double Team
+- Thunder Wave
+
+Marowak @ Light Ball
+Level: 37
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Bulldoze
+- Headbutt
+- Focus Energy
+- Rock Slide
+
+Liepard @ Black Sludge
+Level: 38
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Fake Out
+- Snarl
+- Sucker Punch
+- Hone Claws
+
+Cinccino @ Big Root
+Level: 38
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Tail Slap
+- Swift
+- Sing
+- Helping Hand
+
+=== PARTNER_STORY_C_03 ===
+Name: 守墓人
+Class: Expert
+Pic: Expert M
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+
+Yamask
+Level: 36
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Hex
+- Will-O-Wisp
+- Night Shade
+- Disable
+
+Lampent
+Level: 37
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Hex
+- Flame Burst
+- Will-O-Wisp
+- Confuse Ray
+
+Golett
+Level: 37
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Shadow Punch
+- Magnitude
+- Mega Punch
+- Iron Defense
+
+Dusclops
+Level: 38
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Shadow Sneak
+- Shadow Punch
+- Will-O-Wisp
+- Disable
+
+=== PARTNER_STORY_C_04 ===
+Name: 观星情侣
+Class: Young Couple
+Pic: Young Couple
+Gender: Female
+Music: Female
+Double Battle: Yes
+AI: Basic Trainer / Double Battle
+
+Clefable
+Level: 42
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Moonblast
+- Follow Me
+- Cosmic Power
+- Metronome
+
+Beheeyem
+Level: 42
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Psychic
+- Zen Headbutt
+- Calm Mind
+- Light Screen
+
+Lunatone
+Level: 43
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Psychic
+- Rock Slide
+- Cosmic Power
+- Moonblast
+
+Solrock
+Level: 43
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Rock Slide
+- Psychic
+- Solar Beam
+- Cosmic Power
+
+=== PARTNER_STORY_C_05 ===
+Name: 研究员
+Class: Scientist Frlg
+Pic: Scientist Frlg
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+
+Lanturn
+Level: 40
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Discharge
+- Bubble Beam
+- Confuse Ray
+- Thunder Wave
+
+Stunfisk
+Level: 40
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Discharge
+- Muddy Water
+- Bounce
+- Thunder Wave
+
+Eelektross
+Level: 42
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Thunderbolt
+- Crunch
+- Flamethrower
+- Acrobatics
+
+=== PARTNER_STORY_C_06 ===
+Name: 外地训练家
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Basic Trainer
+
+Luxray
+Level: 43
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Thunder Fang
+- Crunch
+- Ice Fang
+- Roar
+
+Zebstrika
+Level: 43
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Spark
+- Flame Charge
+- Stomp
+- Thunder Wave
+
+Lilligant
+Level: 43
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Giga Drain
+- Energy Ball
+- Quiver Dance
+- Sleep Powder
+
+Ampharos
+Level: 45
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Thunder Punch
+- Power Gem
+- Dragon Pulse
+- Thunder Wave
+
+=== PARTNER_STORY_C_07 ===
+Name: 隼人
+Class: Pkmn Trainer 1
+Pic: Camper
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer / Smart Switching / Smart Mon Choices
+Items: Hyper Potion
+
+Staraptor
+Level: 44
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Close Combat
+- Aerial Ace
+- Take Down
+- Quick Attack
+
+Krokorok
+Level: 44
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Crunch
+- Dig
+- Foul Play
+- Torment
+
+Seismitoad
+Level: 45
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Muddy Water
+- Drain Punch
+- Mud Shot
+- Rain Dance
+
+Darmanitan
+Level: 45
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Fire Punch
+- Hammer Arm
+- Headbutt
+- Work Up
+
+Scrafty
+Level: 46
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- High Jump Kick
+- Crunch
+- Ice Punch
+- Fake Out
+
+=== PARTNER_STORY_HAYATO_1 ===
+Name: 隼人
+Class: Pkmn Trainer 1
+Pic: Camper
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+
+Starly
+Level: 9
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Tackle
+- Growl
+- Quick Attack
+
+Scraggy
+Level: 10
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Low Kick
+- Leer
+- Sand Attack
+
+=== PARTNER_STORY_HAYATO_2 ===
+Name: 隼人
+Class: Pkmn Trainer 1
+Pic: Camper
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+
+Staravia
+Level: 18
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Wing Attack
+- Quick Attack
+- Double Team
+- Growl
+
+Ducklett
+Level: 19
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Bubble Beam
+- Aerial Ace
+- Water Sport
+- Defog
+
+Scraggy
+Level: 20
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- High Jump Kick
+- Headbutt
+- Feint Attack
+- Swagger
+
+=== PARTNER_STORY_HAYATO_3 ===
+Name: 隼人
+Class: Pkmn Trainer 1
+Pic: Camper
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+Items: Super Potion
+
+Staravia
+Level: 27
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Aerial Ace
+- Quick Attack
+- Take Down
+- Double Team
+
+Ducklett
+Level: 27
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Bubble Beam
+- Aerial Ace
+- Aqua Ring
+- Feather Dance
+
+Darumaka
+Level: 28
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Fire Punch
+- Headbutt
+- Work Up
+- Rollout
+
+Scraggy @ Eviolite
+Level: 29
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- High Jump Kick
+- Brick Break
+- Payback
+- Swagger
+
+=== PARTNER_STORY_B_SPARE1 ===
+Name: 队员
+Class: Team Aqua
+Pic: Aqua Grunt M
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Check Bad Move / Try To Faint
+Multi Party: Half
+
+Mightyena
+Level: 33
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Bite
+- Swagger
+- Scary Face
+- Take Down
+
+Carvanha
+Level: 34
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Bite
+- Ice Fang
+- Aqua Jet
+- Screech
+
+=== PARTNER_STORY_B_SPARE2 ===
+Name: 队员
+Class: Team Aqua
+Pic: Aqua Grunt M
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Check Bad Move / Try To Faint
+Multi Party: Half
+
+Golbat
+Level: 33
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Air Cutter
+- Poison Fang
+- Confuse Ray
+- Bite
+
+Wailmer
+Level: 35
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Water Pulse
+- Rollout
+- Astonish
+- Brine
+
+=== PARTNER_STORY_B_SPARE3 ===
+Name: 新人
+Class: Pkmn Trainer 1
+Pic: Rookie Casual
+Gender: Female
+Music: Cool
+Double Battle: No
+AI: Check Bad Move / Try To Faint
+
+Jigglypuff @ Eviolite
+Level: 50
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hyper Voice
+- Dazzling Gleam
+- Helping Hand
+- Sing
+
+=== PARTNER_STORY_A_SPARE1 ===
+Name: 队员
+Class: Team Magma
+Pic: Magma Grunt M
+Gender: Male
+Music: Magma
+Double Battle: No
+AI: Check Bad Move / Try To Faint
+Multi Party: Half
+
+Mightyena
+Level: 50
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Crunch
+- Play Rough
+- Sucker Punch
+- Swagger
+
+Camerupt
+Level: 51
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Lava Plume
+- Earth Power
+- Rock Slide
+- Yawn
+
+=== PARTNER_STORY_A_SPARE2 ===
+Name: 队员
+Class: Team Magma
+Pic: Magma Grunt M
+Gender: Male
+Music: Magma
+Double Battle: No
+AI: Check Bad Move / Try To Faint
+Multi Party: Half
+
+Crobat
+Level: 50
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Cross Poison
+- Air Slash
+- Confuse Ray
+- Bite
+
+Houndoom
+Level: 51
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Flamethrower
+- Dark Pulse
+- Will-O-Wisp
+- Snarl
+

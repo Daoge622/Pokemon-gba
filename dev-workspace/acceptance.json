@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-06",
+  "upstream": "https://github.com/rh-hideout/pokeemerald-expansion",
+  "tag": "expansion/1.17.1",
+  "commit": "bb1093a7c72d3961d9a37d8e02ad2abc2c866682",
+  "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\pokemon\\projects\\emerald-story",
+  "distribution": "Ubuntu-24.04",
+  "wslVersion": 2,
+  "normalRomBytes": 33554432,
+  "normalRomSHA256": "e0d6f5ab29a2228e91305c92a94e030dc9a9f3abbb91942dfafc9b98dd05d16c",
+  "releaseRomBytes": 33554432,
+  "releaseRomSHA256": "6a648d3ec1c3ff12e3f1c668b40fe8e7755f0fffd27bdd9e27df2db3741ab83a",
+  "mgbaWindows": "0.10.5: observed running intro and title",
+  "mgbaCore": "0.10.2: public API, 2880 frames, starting moving-truck map",
+  "porymap": "6.3.1 Linux WSLg: version checked, 34/34 monitored, PetalburgCity",
+  "oneClickTestExitCode": 0,
+  "formalStoryModified": false,
+  "physicalGbaTested": false
+}

@@ -1,0 +1,68 @@
+
+gPokeNewsTextSlateport_Upcoming::
+	.string "大家好！\n"
+	.string "现在是宝可梦新闻时间。\p"
+	.string "在凯那市最受欢迎的努力家\n"
+	.string "又登上新闻头条啦！\p"
+	.string "他承诺{STR_VAR_1}天后会有\n"
+	.string "一个“惊天大活动”！\p"
+	.string "虽然拒绝透露具体内容，\n"
+	.string "但努力家告诉我们：\l"
+	.string "“存好钱吧，准没错……”\p"
+	.string "听上去在那天值得\n"
+	.string "到凯那市逛一逛啊。\p"
+	.string "以上就是宝可梦新闻的全部内容。$"
+
+gPokeNewsTextSlateport_Ongoing::
+    .string "大家好！\n现在是宝可梦新闻时间。\p这是大家期待已久的新闻！\p凯那市的努力家\n正在市场举行超级促销活动！\p他承诺商店里的特攻增强剂和\n攻击增强剂优惠到难以置信！\p听上去值得到凯那市逛一逛啊。\n尽情购物享受消费乐趣吧！\p以上就是宝可梦新闻的全部内容。$"
+
+gPokeNewsTextSlateport_Ending::
+    .string "大家好！\n现在是宝可梦新闻时间。\p这是大家期待已久的新闻！\p凯那市的努力家\n正在市场举行超级促销活动！\p他承诺商店里的特攻增强剂和\n攻击增强剂优惠到难以置信！\p努力家透露，\n商品库存还很充足哦！\p快去凯那市享受\n愉快的购物时光吧！\p以上就是宝可梦新闻的全部内容。$"
+
+gPokeNewsTextGameCorner_Upcoming::
+	.string "大家好！\n"
+	.string "现在是宝可梦新闻时间。\p"
+	.string "来了，\n"
+	.string "这一天终于要来了！\p"
+	.string "游戏城的特别服务日\n"
+	.string "还有{STR_VAR_1}天就要开始\l"
+	.string "了！\p"
+	.string "即使是平常运气比较差的人\n"
+	.string "在这特别的日子里也会交上好运！\p"
+	.string "以上就是宝可梦新闻的全部内容。$"
+
+gPokeNewsTextGameCorner_Ongoing::
+    .string "大家好！\n现在是宝可梦新闻时间。\p来了！\n这一天终于到来了！\p游戏城的特别服务日\n就在今天开始了！\p你能在老虎机和轮盘赌中\n交上好运吗？\p来吧，就在这里！\n就在紫堇市！\p以上就是宝可梦新闻的全部内容。$"
+
+gPokeNewsTextGameCorner_Ending::
+    .string "大家好！\n现在是宝可梦新闻时间。\p来了！\n这一天终于到来了！\p游戏城的特别服务日\n就在今天开始了！\p你能在老虎机和轮盘赌中\n交上好运吗？\p时间所剩不多，\n就在紫堇市！\p以上就是宝可梦新闻的全部内容。$"
+
+gPokeNewsTextLilycove_Upcoming::
+    .string "大家好！\n现在是宝可梦新闻时间。\p我们刚刚从水静百货\n收到了一条振奋人心的消息，\p清仓甩卖还有{STR_VAR_1}天\n就要开始了！\p那些你梦寐以求的新奇商品，\n在这一天，说不定都能买到哦！\p以上就是宝可梦新闻的全部内容。$"
+
+gPokeNewsTextLilycove_Ongoing::
+    .string "大家好！\n现在是宝可梦新闻时间。\p我们一直期待着\n今天的到来！\p水静百货的\n清仓甩卖终于开始了！\p所有你梦寐以求的新奇商品，\n今天可能都会与你相遇哦！\p以上就是宝可梦新闻的全部内容。$"
+
+gPokeNewsTextLilycove_Ending::
+    .string "大家好！\n现在是宝可梦新闻时间。\p我们一直期待着\n今天的到来！\p水静百货的\n清仓甩卖终于开始了！\p所有你梦寐以求的新奇商品，\n今天可能都会与你相遇哦！\p以上就是宝可梦新闻的全部内容。$"
+
+gPokeNewsTextBlendMaster_Upcoming::
+	.string "大家好！\n"
+	.string "现在是宝可梦新闻时间。\p"
+	.string "为所有宝可方块的制作爱好者\n"
+	.string "带来重大消息！\p"
+	.string "传说中的混合名人将会\n"
+	.string "在{STR_VAR_1}天后现身水静\l"
+	.string "市！\p"
+	.string "据说混合名人拥有整个丰缘地区\n"
+	.string "最顶尖的树果混合技巧，\p"
+	.string "想要制作极品宝可方块的人，\n"
+	.string "想要一睹大师风采的人，\l"
+	.string "请务必存好树果哦！\p"
+	.string "以上就是宝可梦新闻的全部内容。$"
+
+gPokeNewsTextBlendMaster_Ongoing::
+    .string "大家好！\n现在是宝可梦新闻时间。\p为所有宝可方块的制作爱好者\n带来重大消息！\p传说中的混合名人\n终于来了！\p混合名人正在水静市华丽大赛会场\n展示惊人的树果混合技巧！\p想要制作极品宝可方块的人，\n想要一睹大师风采的人，\l快来水静市吧！\p以上就是宝可梦新闻的全部内容。$"
+
+gPokeNewsTextBlendMaster_Ending::
+    .string "大家好！\n现在是宝可梦新闻时间。\p难以置信！\n太难以置信了！\p树果混合器正在以令人头晕目眩\n的速度旋转着！\p混合名人果然名不虚传！\p混合名人很快就要\n离开水静市了。\p如果你还没有来一睹大师风采，\n不要错过这个机会！\l赶快到水静市来吧！\p以上就是宝可梦新闻的全部内容。$"

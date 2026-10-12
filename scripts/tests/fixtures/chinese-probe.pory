@@ -1,0 +1,8 @@
+// Unbound compiler fixture: never added to the game's event table.
+// Explicit Chinese breaks are preferred over space-based format() for long prose.
+script ChineseCompilerProbe {
+    msgbox(format("你好，{PLAYER}！中文测试123。"), MSGBOX_DEFAULT)
+    msgbox("这是English混排。\n宝可梦：{STR_VAR_1}\p道具：{STR_VAR_2}。", MSGBOX_DEFAULT)
+    msgbox("第一行\n第二行\p新的一页。", MSGBOX_DEFAULT)
+    msgbox("要继续吗？", MSGBOX_YESNO)
+}

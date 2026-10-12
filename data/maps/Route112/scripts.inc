@@ -1,0 +1,186 @@
+Route112_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, Route112_OnTransition
+	.byte 0
+
+Route112_OnTransition:
+	clearflag FLAG_FORCE_MIRAGE_TOWER_VISIBLE
+	setvar VAR_JAGGED_PASS_ASH_WEATHER, 0
+	end
+
+Route112_EventScript_MagmaGrunts::
+	lockall
+	delay 40
+	applymovement LOCALID_ROUTE112_GRUNT_1, Common_Movement_WalkInPlaceFasterRight
+	waitmovement 0
+	delay 20
+	msgbox Route112_Text_LeaderGoingToAwakenThing, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_ROUTE112_GRUNT_1, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	delay 40
+	applymovement LOCALID_ROUTE112_GRUNT_2, Common_Movement_WalkInPlaceFasterLeft
+	waitmovement 0
+	delay 20
+	msgbox Route112_Text_YeahWeNeedMeteorite, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_ROUTE112_GRUNT_2, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	delay 40
+	applymovement LOCALID_ROUTE112_GRUNT_1, Common_Movement_WalkInPlaceFasterRight
+	waitmovement 0
+	delay 20
+	msgbox Route112_Text_OhThatsWhyCrewWentToFallarbor, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_ROUTE112_GRUNT_1, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	delay 40
+	applymovement LOCALID_ROUTE112_GRUNT_2, Common_Movement_WalkInPlaceFasterLeft
+	waitmovement 0
+	delay 20
+	msgbox Route112_Text_CantLetAnyonePassUntilTheyreBack, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_ROUTE112_GRUNT_2, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	releaseall
+	end
+
+Route112_EventScript_MtChimneyCableCarSign::
+	msgbox Route112_Text_MtChimneyCableCarSign, MSGBOX_SIGN
+	end
+
+Route112_EventScript_MtChimneySign::
+	msgbox Route112_Text_MtChimneySign, MSGBOX_SIGN
+	end
+
+Route112_EventScript_RouteSignLavaridge::
+	msgbox Route112_Text_RouteSignLavaridge, MSGBOX_SIGN
+	end
+
+Route112_EventScript_Hiker::
+	msgbox Route112_Text_NotEasyToGetBackToLavaridge, MSGBOX_NPC
+	end
+
+Route112_EventScript_Brice::
+	trainerbattle_single TRAINER_BRICE, Route112_Text_BriceIntro, Route112_Text_BriceDefeat
+	msgbox Route112_Text_BricePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route112_EventScript_Trent::
+	trainerbattle_single TRAINER_TRENT_1, Route112_Text_TrentIntro, Route112_Text_TrentDefeat, Route112_EventScript_RegisterTrent
+	specialvar VAR_RESULT, ShouldTryRematchBattle
+	goto_if_eq VAR_RESULT, TRUE, Route112_EventScript_RematchTrent
+	msgbox Route112_Text_TrentPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+Route112_EventScript_RegisterTrent::
+	special PlayerFaceTrainerAfterBattle
+	waitmovement 0
+	msgbox Route112_Text_TrentRegister, MSGBOX_DEFAULT
+	register_matchcall TRAINER_TRENT_1
+	release
+	end
+
+Route112_EventScript_RematchTrent::
+	trainerbattle_rematch TRAINER_TRENT_1, Route112_Text_TrentRematchIntro, Route112_Text_TrentRematchDefeat
+	msgbox Route112_Text_TrentRematchPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route112_EventScript_Larry::
+	trainerbattle_single TRAINER_LARRY, Route112_Text_LarryIntro, Route112_Text_LarryDefeat
+	msgbox Route112_Text_LarryPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route112_EventScript_Carol::
+	trainerbattle_single TRAINER_CAROL, Route112_Text_CarolIntro, Route112_Text_CarolDefeat
+	msgbox Route112_Text_CarolPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route112_EventScript_Bryant::
+	trainerbattle_single TRAINER_BRYANT, Route112_Text_BryantIntro, Route112_Text_BryantDefeat
+	msgbox Route112_Text_BryantPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route112_EventScript_Shayla::
+	trainerbattle_single TRAINER_SHAYLA, Route112_Text_ShaylaIntro, Route112_Text_ShaylaDefeat
+	msgbox Route112_Text_ShaylaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route112_Text_LeaderGoingToAwakenThing:
+    .string "喂，我们老大真的\n打算唤醒那东西？$"
+
+Route112_Text_YeahWeNeedMeteorite:
+    .string "嗯，听上去是这样，\n但据说我们还需要一块陨石。$"
+
+Route112_Text_OhThatsWhyCrewWentToFallarbor:
+    .string "哦，我明白了，\n所以大家才会去秋叶镇。$"
+
+Route112_Text_CantLetAnyonePassUntilTheyreBack:
+    .string "说得没错。而且在他们回来前，\n我们不能让任何人通过这里。$"
+
+Route112_Text_NotEasyToGetBackToLavaridge:
+    .string "呃，我想去紫堇市，\n但如果我从这些岩脊上走下去，\l再回到釜炎镇就没那么容易了。$"
+
+Route112_Text_MtChimneyCableCarSign:
+    .string "烟囱山缆车\n“登山的捷径！”$"
+
+Route112_Text_MtChimneySign:
+    .string "烟囱山\p“去釜炎镇或山顶，\n请乘坐缆车。”$"
+
+Route112_Text_RouteSignLavaridge:
+    .string "112号道路\n{LEFT_ARROW}釜炎镇$"
+
+
+Route112_Part3_Hiker::
+ trainerbattle_single TRAINER_PART3_HIKER, Route112_Part3_HikerIntro, Route112_Part3_HikerDefeat
+ msgbox Route112_Part3_HikerAfter, MSGBOX_AUTOCLOSE
+ end
+Route112_Part3_TrainingRock::
+ msgbox Route112_Part3_TrainingRockText, MSGBOX_NPC
+ end
+Route112_Part3_CableWorker::
+ lock
+ faceplayer
+ goto_if_set FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY, Route112_Part3_CableWorkerClear
+ msgbox Route112_Part3_CableWorkerBlockedText, MSGBOX_DEFAULT
+ release
+ end
+Route112_Part3_CableWorkerClear::
+ msgbox Route112_Part3_CableWorkerClearText, MSGBOX_DEFAULT
+ release
+ end
+Route112_Part3_CableTourist::
+ lock
+ faceplayer
+ goto_if_set FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY, Route112_Part3_CableTouristClear
+ msgbox Route112_Part3_CableTouristBlockedText, MSGBOX_DEFAULT
+ release
+ end
+Route112_Part3_CableTouristClear::
+ msgbox Route112_Part3_CableTouristClearText, MSGBOX_DEFAULT
+ release
+ end
+
+Route112_Part3_HikerIntro:
+	.string "每天背着石头爬山，身体和宝可梦都\n会更结实！\p来看看今天的训练成果吧！$"
+
+Route112_Part3_HikerDefeat:
+	.string "呼……今天还得多爬一趟！$"
+
+Route112_Part3_HikerAfter:
+	.string "我每天都背着石头爬山。\p每爬一次，就在那块石头上刻一道记\n号。$"
+
+Route112_Part3_TrainingRockText:
+	.string "石头表面刻着密密麻麻的记号。\p似乎是某人的训练次数。$"
+
+Route112_Part3_CableWorkerBlockedText:
+	.string "刚才明明还有人在坐缆车……\p那群穿红衣服的人到底想干什么？真\n让人放心不下。$"
+
+Route112_Part3_CableWorkerClearText:
+	.string "缆车已经恢复正常营业了。\p欢迎乘车登山！山顶的景色可棒了。$"
+
+Route112_Part3_CableTouristBlockedText:
+	.string "缆车口被人堵住的时候，我还以为今\n天上不了山了。\p山上好像也不太平，真叫人担心。$"
+
+Route112_Part3_CableTouristClearText:
+	.string "总算能安心看风景了！\p旅行还是轻轻松松的最好。$"

@@ -1,0 +1,1179 @@
+BattleFrontier_BattleTowerLobby_MapScripts::
+	map_script MAP_SCRIPT_ON_RESUME, BattleFrontier_BattleTowerLobby_OnResume
+	map_script MAP_SCRIPT_ON_TRANSITION, BattleFrontier_BattleTowerLobby_OnTransition
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleTowerLobby_OnFrame
+	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattleTowerLobby_OnWarp
+	.byte 0
+
+BattleFrontier_BattleTowerLobby_OnResume:
+	special TryHideBattleTowerReporter
+	end
+
+BattleFrontier_BattleTowerLobby_OnTransition:
+	call BattleFrontier_BattleTowerLobby_EventScript_ShowOrHideReporter
+	apprentice_shouldcheckgone
+	goto_if_eq VAR_0x8004, FALSE, BattleFrontier_BattleTowerLobby_EventScript_ShowApprentice  @ VAR_0x8004 always TRUE here
+	goto_if_set FLAG_DAILY_APPRENTICE_LEAVES, BattleFrontier_BattleTowerLobby_EventScript_HideApprentice
+BattleFrontier_BattleTowerLobby_EventScript_ShowApprentice::
+	clearflag FLAG_HIDE_APPRENTICE
+	apprentice_setgfx
+BattleFrontier_BattleTowerLobby_EventScript_EndShowOrHideApprentice::
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_HideApprentice::
+	setflag FLAG_HIDE_APPRENTICE
+	goto BattleFrontier_BattleTowerLobby_EventScript_EndShowOrHideApprentice
+
+BattleFrontier_BattleTowerLobby_OnWarp:
+	map_script_2 VAR_TEMP_1, 0, BattleFrontier_BattleTowerLobby_EventScript_PlayerFaceNorth
+	.2byte 0
+
+BattleFrontier_BattleTowerLobby_EventScript_PlayerFaceNorth::
+	setvar VAR_TEMP_1, 1
+	turnobject LOCALID_PLAYER, DIR_NORTH
+	end
+
+BattleFrontier_BattleTowerLobby_OnFrame:
+	map_script_2 VAR_TEMP_CHALLENGE_STATUS, 0, BattleFrontier_BattleTowerLobby_EventScript_GetChallengeStatus
+	map_script_2 VAR_TEMP_CHALLENGE_STATUS, CHALLENGE_STATUS_SAVING, BattleFrontier_BattleTowerLobby_EventScript_QuitWithoutSaving
+	map_script_2 VAR_TEMP_CHALLENGE_STATUS, CHALLENGE_STATUS_PAUSED, BattleFrontier_BattleTowerLobby_EventScript_ResumeChallenge
+	map_script_2 VAR_TEMP_CHALLENGE_STATUS, CHALLENGE_STATUS_WON, BattleFrontier_BattleTowerLobby_EventScript_WonChallenge
+	map_script_2 VAR_TEMP_CHALLENGE_STATUS, CHALLENGE_STATUS_LOST, BattleFrontier_BattleTowerLobby_EventScript_LostChallenge
+	.2byte 0
+
+BattleFrontier_BattleTowerLobby_EventScript_GetChallengeStatus::
+	frontier_getstatus
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_QuitWithoutSaving::
+	lock
+	faceplayer
+	msgbox BattleFrontier_BattleTowerLobby_Text_DidntSaveBeforeQuitting, MSGBOX_DEFAULT
+	closemessage
+	tower_set TOWER_DATA_WIN_STREAK, 0
+	tower_set TOWER_DATA_WIN_STREAK_ACTIVE, FALSE
+	frontier_set FRONTIER_DATA_CHALLENGE_STATUS, 0
+	setvar VAR_TEMP_CHALLENGE_STATUS, 255
+	release
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_WonChallenge::
+	lock
+	faceplayer
+	frontier_isbrain
+	goto_if_eq VAR_RESULT, TRUE, BattleFrontier_BattleTowerLobby_EventScript_DefeatedMaiden
+	message BattleFrontier_BattleTowerLobby_Text_CongratsBeatenSeven
+	waitmessage
+	goto BattleFrontier_BattleTowerLobby_EventScript_GiveRibbons
+
+BattleFrontier_BattleTowerLobby_EventScript_DefeatedMaiden::
+	msgbox BattleFrontier_BattleTowerLobby_Text_CongratsDefeatedMaiden, MSGBOX_DEFAULT
+BattleFrontier_BattleTowerLobby_EventScript_GiveRibbons::
+	tower_giveribbons
+	goto_if_eq VAR_RESULT, FALSE, BattleFrontier_BattleTowerLobby_EventScript_GiveBattlePoints
+	message BattleFrontier_BattleTowerLobby_Text_HereAreSomeRibbons
+	waitmessage
+	playfanfare MUS_OBTAIN_ITEM
+	waitfanfare
+	msgbox BattleFrontier_BattleTowerLobby_Text_PutRibbonOnMons, MSGBOX_DEFAULT
+BattleFrontier_BattleTowerLobby_EventScript_GiveBattlePoints::
+	msgbox BattleFrontier_BattleTowerLobby_Text_AwardYouTheseBattlePoints, MSGBOX_DEFAULT
+	frontier_givepoints
+	msgbox BattleFrontier_Text_ObtainedXBattlePoints, MSGBOX_GETPOINTS
+	call BattleFrontier_BattleTowerLobby_EventScript_AskSaveBattle
+	tower_get TOWER_DATA_WIN_STREAK
+	goto_if_ne VAR_RESULT, 49, BattleFrontier_BattleTowerLobby_EventScript_LookForwardToChallenge
+	msgbox BattleFrontier_BattleTowerLobby_Text_AboutToFace50thTrainer, MSGBOX_DEFAULT
+BattleFrontier_BattleTowerLobby_EventScript_LookForwardToChallenge::
+	msgbox BattleFrontier_BattleTowerLobby_Text_LookForwardToAnotherChallenge, MSGBOX_DEFAULT
+	closemessage
+	setvar VAR_TEMP_CHALLENGE_STATUS, 255
+	callnative UpdateFollowingPokemon
+	release
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_LostChallenge::
+	goto_if_ne VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_MULTIS, BattleFrontier_BattleTowerLobby_EventScript_CancelWinStreak
+	goto_if_set FLAG_CHOSEN_MULTI_BATTLE_NPC_PARTNER, BattleFrontier_BattleTowerLobby_EventScript_CancelWinStreak
+	tower_get TOWER_DATA_WIN_STREAK
+	goto_if_ne VAR_RESULT, 0, BattleFrontier_BattleTowerLobby_EventScript_LostThanksForPlaying
+BattleFrontier_BattleTowerLobby_EventScript_CancelWinStreak::
+	tower_set TOWER_DATA_WIN_STREAK_ACTIVE, FALSE
+BattleFrontier_BattleTowerLobby_EventScript_LostThanksForPlaying::
+	lock
+	faceplayer
+	message BattleFrontier_BattleTowerLobby_Text_ThankYouForPlaying
+	waitmessage
+	call BattleFrontier_BattleTowerLobby_EventScript_AskSaveBattle
+	msgbox BattleFrontier_BattleTowerLobby_Text_LookForwardToAnotherChallenge, MSGBOX_DEFAULT
+	closemessage
+	setvar VAR_TEMP_CHALLENGE_STATUS, 255
+	callnative UpdateFollowingPokemon
+	release
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_AskSaveBattle::
+	message BattleFrontier_BattleTowerLobby_Text_RecordWillBeSaved
+	waitmessage
+	frontier_checkairshow
+	special LoadPlayerParty
+	special HealPlayerParty
+	tower_save 0
+	playse SE_SAVE
+	waitse
+	call BattleFrontier_EventScript_GetCantRecordBattle
+	goto_if_eq VAR_RESULT, TRUE, BattleFrontier_BattleTowerLobby_EventScript_EndSaveBattle
+	message BattleFrontier_BattleTowerLobby_Text_RecordLastMatch
+	waitmessage
+	multichoicedefault 20, 8, MULTI_YESNO, 1, FALSE
+	switch VAR_RESULT
+	case 1, BattleFrontier_BattleTowerLobby_EventScript_EndSaveBattle
+	case 0, BattleFrontier_EventScript_SaveBattle
+	case MULTI_B_PRESSED, BattleFrontier_BattleTowerLobby_EventScript_EndSaveBattle
+
+BattleFrontier_EventScript_SaveBattle::
+	frontier_savebattle
+	goto_if_eq VAR_RESULT, FALSE, BattleFrontier_EventScript_BattleSaveFailed
+	playse SE_SAVE
+	msgbox BattleFrontier_BattleTowerLobby_Text_BattleRecordedOnPass, MSGBOX_DEFAULT
+	goto BattleFrontier_BattleTowerLobby_EventScript_EndSaveBattle
+
+BattleFrontier_EventScript_BattleSaveFailed::
+	msgbox BattleFrontier_BattleTowerBattleRoom_Text_RecordCouldntBeSaved, MSGBOX_DEFAULT
+BattleFrontier_BattleTowerLobby_EventScript_EndSaveBattle::
+	return
+
+BattleFrontier_EventScript_GetCantRecordBattle::
+	frontier_get FRONTIER_DATA_RECORD_DISABLED
+	return
+
+BattleFrontier_BattleTowerLobby_EventScript_ResumeChallenge::
+	lock
+	faceplayer
+	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_SINGLES, BattleFrontier_BattleTowerLobby_EventScript_SetBravoTrainerOn
+	message BattleFrontier_BattleTowerLobby_Text_WeveBeenWaitingForYou
+	waitmessage
+	message BattleFrontier_BattleTowerLobby_Text_ProgressWillBeSaved
+	waitmessage
+	tower_save CHALLENGE_STATUS_SAVING
+	playse SE_SAVE
+	waitse
+	frontier_set FRONTIER_DATA_PAUSED, FALSE
+	goto BattleFrontier_BattleTowerLobby_EventScript_EnterElevator
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_SetBravoTrainerOn::
+	setvar VAR_BRAVO_TRAINER_BATTLE_TOWER_ON, TRUE
+	return
+
+BattleFrontier_BattleTowerLobby_EventScript_SinglesAttendant::
+	lock
+	faceplayer
+	setvar VAR_FRONTIER_FACILITY, FRONTIER_FACILITY_TOWER
+	special SavePlayerParty
+	msgbox BattleFrontier_BattleTowerLobby_Text_WelcomSingleBattle, MSGBOX_DEFAULT
+BattleFrontier_BattleTowerLobby_EventScript_AskEnterSinglesChallenge::
+	message BattleFrontier_BattleTowerLobby_Text_TakeSinglesChallenge
+	waitmessage
+	multichoice 17, 6, MULTI_CHALLENGEINFO, FALSE
+	switch VAR_RESULT
+	case 0, BattleFrontier_BattleTowerLobby_EventScript_TryEnterSinglesChallenge
+	case 1, BattleFrontier_BattleTowerLobby_EventScript_ExplainSinglesChallenge
+	case 2, BattleFrontier_BattleTowerLobby_EventScript_CancelChallenge
+	case MULTI_B_PRESSED, BattleFrontier_BattleTowerLobby_EventScript_CancelChallenge
+
+BattleFrontier_BattleTowerLobby_EventScript_TryEnterSinglesChallenge::
+	setvar VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_SINGLES
+	message BattleFrontier_BattleTowerLobby_Text_WhichLevelMode
+	waitmessage
+	multichoice 17, 6, MULTI_LEVEL_MODE, FALSE
+	switch VAR_RESULT
+	case FRONTIER_LVL_TENT, BattleFrontier_BattleTowerLobby_EventScript_CancelChallenge
+	case MULTI_B_PRESSED, BattleFrontier_BattleTowerLobby_EventScript_CancelChallenge
+	frontier_checkineligible
+	goto_if_eq VAR_0x8004, TRUE, BattleFrontier_BattleTowerLobby_EventScript_NotEnoughValidMons
+	frontier_set FRONTIER_DATA_LVL_MODE, VAR_RESULT
+	msgbox BattleFrontier_BattleTowerLobby_Text_SelectThreeMons, MSGBOX_DEFAULT
+	fadescreen FADE_TO_BLACK
+	callnative RemoveFollowingPokemon
+	call BattleFrontier_EventScript_GetLvlMode
+	copyvar VAR_0x8004, VAR_RESULT
+	setvar VAR_0x8005, FRONTIER_PARTY_SIZE
+	special ChoosePartyForBattleFrontier
+	goto_if_eq VAR_RESULT, 0, BattleFrontier_BattleTowerLobby_EventScript_LoadPartyCancelChallenge
+	msgbox BattleFrontier_BattleTowerLobby_Text_OkayToSaveBeforeEntering, MSGBOX_YESNO
+	switch VAR_RESULT
+	case NO, BattleFrontier_BattleTowerLobby_EventScript_LoadPartyCancelChallenge
+	case YES, BattleFrontier_BattleTowerLobby_EventScript_SaveBeforeSinglesChallenge
+	case MULTI_B_PRESSED, BattleFrontier_BattleTowerLobby_EventScript_LoadPartyCancelChallenge
+
+BattleFrontier_BattleTowerLobby_EventScript_SaveBeforeSinglesChallenge::
+	frontier_set FRONTIER_DATA_SELECTED_MON_ORDER
+	setvar VAR_TEMP_CHALLENGE_STATUS, 0
+	tower_init
+	tower_set TOWER_DATA_WIN_STREAK_ACTIVE, TRUE
+	frontier_set FRONTIER_DATA_PAUSED, FALSE
+	special LoadPlayerParty
+	closemessage
+	delay 2
+	call Common_EventScript_SaveGame
+	setvar VAR_TEMP_CHALLENGE_STATUS, 255
+	goto_if_eq VAR_RESULT, 0, BattleFrontier_BattleTowerLobby_EventScript_CancelChallengeSaveFailed
+	incrementgamestat GAME_STAT_ENTERED_BATTLE_TOWER
+	setvar VAR_BRAVO_TRAINER_BATTLE_TOWER_ON, TRUE
+	goto BattleFrontier_BattleTowerLobby_EventScript_EnterElevator
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_ExplainSinglesChallenge::
+	msgbox BattleFrontier_BattleTowerLobby_Text_ExplainSinglesChallenge, MSGBOX_DEFAULT
+	goto BattleFrontier_BattleTowerLobby_EventScript_AskEnterSinglesChallenge
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_DoublesAttendant::
+	lock
+	faceplayer
+	setvar VAR_FRONTIER_FACILITY, FRONTIER_FACILITY_TOWER
+	special SavePlayerParty
+	msgbox BattleFrontier_BattleTowerLobby_Text_WelcomeDoubleBattle, MSGBOX_DEFAULT
+BattleFrontier_BattleTowerLobby_EventScript_AskEnterDoublesChallenge::
+	message BattleFrontier_BattleTowerLobby_Text_TakeDoublesChallenge
+	waitmessage
+	multichoice 17, 6, MULTI_CHALLENGEINFO, FALSE
+	switch VAR_RESULT
+	case 0, BattleFrontier_BattleTowerLobby_EventScript_TryEnterDoublesChallenge
+	case 1, BattleFrontier_BattleTowerLobby_EventScript_ExplainDoublesChallenge
+	case 2, BattleFrontier_BattleTowerLobby_EventScript_CancelChallenge
+	case MULTI_B_PRESSED, BattleFrontier_BattleTowerLobby_EventScript_CancelChallenge
+
+BattleFrontier_BattleTowerLobby_EventScript_TryEnterDoublesChallenge::
+	setvar VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_DOUBLES
+	message BattleFrontier_BattleTowerLobby_Text_WhichLevelMode
+	waitmessage
+	multichoice 17, 6, MULTI_LEVEL_MODE, FALSE
+	switch VAR_RESULT
+	case FRONTIER_LVL_TENT, BattleFrontier_BattleTowerLobby_EventScript_CancelChallenge
+	case MULTI_B_PRESSED, BattleFrontier_BattleTowerLobby_EventScript_CancelChallenge
+	frontier_checkineligible
+	goto_if_eq VAR_0x8004, TRUE, BattleFrontier_BattleTowerLobby_EventScript_NotEnoughValidMons
+	frontier_set FRONTIER_DATA_LVL_MODE, VAR_RESULT
+	msgbox BattleFrontier_BattleTowerLobby_Text_PleaseSelectFourMons, MSGBOX_DEFAULT
+	fadescreen FADE_TO_BLACK
+	callnative RemoveFollowingPokemon
+	call BattleFrontier_EventScript_GetLvlMode
+	copyvar VAR_0x8004, VAR_RESULT
+	setvar VAR_0x8005, FRONTIER_DOUBLES_PARTY_SIZE
+	special ChoosePartyForBattleFrontier
+	goto_if_eq VAR_RESULT, 0, BattleFrontier_BattleTowerLobby_EventScript_LoadPartyCancelChallenge
+	msgbox BattleFrontier_BattleTowerLobby_Text_OkayToSaveBeforeEntering, MSGBOX_YESNO
+	switch VAR_RESULT
+	case NO, BattleFrontier_BattleTowerLobby_EventScript_LoadPartyCancelChallenge
+	case YES, BattleFrontier_BattleTowerLobby_EventScript_SaveBeforeDoublesChallenge
+	case MULTI_B_PRESSED, BattleFrontier_BattleTowerLobby_EventScript_LoadPartyCancelChallenge
+
+BattleFrontier_BattleTowerLobby_EventScript_SaveBeforeDoublesChallenge::
+	frontier_set FRONTIER_DATA_SELECTED_MON_ORDER
+	setvar VAR_TEMP_CHALLENGE_STATUS, 0
+	tower_init
+	tower_set TOWER_DATA_WIN_STREAK_ACTIVE, TRUE
+	frontier_set FRONTIER_DATA_PAUSED, FALSE
+	special LoadPlayerParty
+	closemessage
+	delay 2
+	call Common_EventScript_SaveGame
+	setvar VAR_TEMP_CHALLENGE_STATUS, 255
+	goto_if_eq VAR_RESULT, 0, BattleFrontier_BattleTowerLobby_EventScript_CancelChallengeSaveFailed
+	incrementgamestat GAME_STAT_ENTERED_BATTLE_TOWER
+	setvar VAR_BRAVO_TRAINER_BATTLE_TOWER_ON, FALSE
+	goto BattleFrontier_BattleTowerLobby_EventScript_EnterElevator
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_ExplainDoublesChallenge::
+	msgbox BattleFrontier_BattleTowerLobby_Text_ExplainDoublesChallenge, MSGBOX_DEFAULT
+	goto BattleFrontier_BattleTowerLobby_EventScript_AskEnterDoublesChallenge
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_MultisAttendant::
+	lock
+	faceplayer
+	setvar VAR_FRONTIER_FACILITY, FRONTIER_FACILITY_TOWER
+	clearflag FLAG_CHOSEN_MULTI_BATTLE_NPC_PARTNER
+	special SavePlayerParty
+	msgbox BattleFrontier_BattleTowerLobby_Text_WelcomeMultiBattle, MSGBOX_DEFAULT
+BattleFrontier_BattleTowerLobby_EventScript_AskEnterMultisChallenge::
+	message BattleFrontier_BattleTowerLobby_Text_TakeMultisChallenge
+	waitmessage
+	multichoice 17, 6, MULTI_CHALLENGEINFO, FALSE
+	switch VAR_RESULT
+	case 0, BattleFrontier_BattleTowerLobby_EventScript_TryEnterMultisChallenge
+	case 1, BattleFrontier_BattleTowerLobby_EventScript_ExplainMultisChallenge
+	case 2, BattleFrontier_BattleTowerLobby_EventScript_CancelChallenge
+	case MULTI_B_PRESSED, BattleFrontier_BattleTowerLobby_EventScript_CancelChallenge
+
+BattleFrontier_BattleTowerLobby_EventScript_TryEnterMultisChallenge::
+	setvar VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_MULTIS
+	message BattleFrontier_BattleTowerLobby_Text_WhichLevelMode
+	waitmessage
+	multichoice 17, 6, MULTI_LEVEL_MODE, FALSE
+	switch VAR_RESULT
+	case FRONTIER_LVL_TENT, BattleFrontier_BattleTowerLobby_EventScript_CancelChallenge
+	case MULTI_B_PRESSED, BattleFrontier_BattleTowerLobby_EventScript_CancelChallenge
+	frontier_checkineligible
+	goto_if_eq VAR_0x8004, TRUE, BattleFrontier_BattleTowerLobby_EventScript_NotEnoughValidMons
+	frontier_set FRONTIER_DATA_LVL_MODE, VAR_RESULT
+	msgbox BattleFrontier_BattleTowerLobby_Text_PleaseSelectTwoMons, MSGBOX_DEFAULT
+	fadescreen FADE_TO_BLACK
+	callnative RemoveFollowingPokemon
+	call BattleFrontier_EventScript_GetLvlMode
+	copyvar VAR_0x8004, VAR_RESULT
+	setvar VAR_0x8005, FRONTIER_MULTI_PARTY_SIZE
+	special ChoosePartyForBattleFrontier
+	goto_if_eq VAR_RESULT, 0, BattleFrontier_BattleTowerLobby_EventScript_LoadPartyCancelChallenge
+	msgbox BattleFrontier_BattleTowerLobby_Text_OkayToSaveBeforeEntering, MSGBOX_YESNO
+	switch VAR_RESULT
+	case NO, BattleFrontier_BattleTowerLobby_EventScript_LoadPartyCancelChallenge
+	case YES, BattleFrontier_BattleTowerLobby_EventScript_SaveBeforeMultisChallenge
+	case MULTI_B_PRESSED, BattleFrontier_BattleTowerLobby_EventScript_LoadPartyCancelChallenge
+
+BattleFrontier_BattleTowerLobby_EventScript_SaveBeforeMultisChallenge::
+	frontier_set FRONTIER_DATA_SELECTED_MON_ORDER
+	setvar VAR_TEMP_CHALLENGE_STATUS, 0
+	tower_init
+	tower_set TOWER_DATA_WIN_STREAK_ACTIVE, TRUE
+	frontier_set FRONTIER_DATA_PAUSED, FALSE
+	special LoadPlayerParty
+	closemessage
+	delay 2
+	call Common_EventScript_SaveGame
+	setvar VAR_TEMP_CHALLENGE_STATUS, 255
+	goto_if_eq VAR_RESULT, 0, BattleFrontier_BattleTowerLobby_EventScript_CancelChallengeSaveFailed
+	incrementgamestat GAME_STAT_ENTERED_BATTLE_TOWER
+	setvar VAR_BRAVO_TRAINER_BATTLE_TOWER_ON, FALSE
+	goto BattleFrontier_BattleTowerLobby_EventScript_EnterElevator
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_ExplainMultisChallenge::
+	msgbox BattleFrontier_BattleTowerLobby_Text_ExplainMultisChallenge, MSGBOX_DEFAULT
+	goto BattleFrontier_BattleTowerLobby_EventScript_AskEnterMultisChallenge
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_LinkMultisAttendant::
+	lock
+	faceplayer
+	setvar VAR_FRONTIER_FACILITY, FRONTIER_FACILITY_TOWER
+	special SavePlayerParty
+	msgbox BattleFrontier_BattleTowerLobby_Text_WelcomeLinkMultiBattle, MSGBOX_DEFAULT
+BattleFrontier_BattleTowerLobby_EventScript_AskEnterLinkMultisChallenge::
+	message BattleFrontier_BattleTowerLobby_Text_TakeLinkMultisChallenge
+	waitmessage
+	multichoice 17, 6, MULTI_CHALLENGEINFO, FALSE
+	switch VAR_RESULT
+	case 0, BattleFrontier_BattleTowerLobby_EventScript_TryEnterLinkMultisChallenge
+	case 1, BattleFrontier_BattleTowerLobby_EventScript_ExplainLinkMultisChallenge
+	case 2, BattleFrontier_BattleTowerLobby_EventScript_CancelChallenge
+	case MULTI_B_PRESSED, BattleFrontier_BattleTowerLobby_EventScript_CancelChallenge
+
+BattleFrontier_BattleTowerLobby_EventScript_TryEnterLinkMultisChallenge::
+	setvar VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_LINK_MULTIS
+	message BattleFrontier_BattleTowerLobby_Text_WhichLevelMode
+	waitmessage
+	multichoice 17, 6, MULTI_LEVEL_MODE, FALSE
+	switch VAR_RESULT
+	case FRONTIER_LVL_TENT, BattleFrontier_BattleTowerLobby_EventScript_CancelChallenge
+	case MULTI_B_PRESSED, BattleFrontier_BattleTowerLobby_EventScript_CancelChallenge
+	frontier_checkineligible
+	goto_if_eq VAR_0x8004, TRUE, BattleFrontier_BattleTowerLobby_EventScript_NotEnoughValidMons
+	frontier_set FRONTIER_DATA_LVL_MODE, VAR_RESULT
+	msgbox BattleFrontier_BattleTowerLobby_Text_PleaseSelectTwoMons2, MSGBOX_DEFAULT
+	fadescreen FADE_TO_BLACK
+	callnative RemoveFollowingPokemon
+	call BattleFrontier_EventScript_GetLvlMode
+	copyvar VAR_0x8004, VAR_RESULT
+	setvar VAR_0x8005, FRONTIER_MULTI_PARTY_SIZE
+	special ChoosePartyForBattleFrontier
+	goto_if_eq VAR_RESULT, 0, BattleFrontier_BattleTowerLobby_EventScript_LoadPartyCancelChallenge
+	msgbox BattleFrontier_BattleTowerLobby_Text_OkayToSaveBeforeEntering, MSGBOX_YESNO
+	switch VAR_RESULT
+	case NO, BattleFrontier_BattleTowerLobby_EventScript_LoadPartyCancelChallenge
+	case YES, BattleFrontier_BattleTowerLobby_EventScript_SaveBeforeLinkMultisChallenge
+	case MULTI_B_PRESSED, BattleFrontier_BattleTowerLobby_EventScript_LoadPartyCancelChallenge
+
+BattleFrontier_BattleTowerLobby_EventScript_SaveBeforeLinkMultisChallenge::
+	frontier_set FRONTIER_DATA_SELECTED_MON_ORDER
+	setvar VAR_TEMP_CHALLENGE_STATUS, 0
+	tower_init
+	tower_set TOWER_DATA_WIN_STREAK_ACTIVE, TRUE
+	frontier_set FRONTIER_DATA_PAUSED, FALSE
+	special LoadPlayerParty
+	closemessage
+	delay 2
+@ The command tower_save ultimately calls TrySavingData(SAVE_LINK), which writes data in SaveBlock1 and SaveBlock2
+@ to the flash, but not data in PokemonStorage. The SaveGame script that follows asks the player to do a full save,
+@ which they can opt out of. As a result the player can save their party and quit without having saved the PC.
+@ This allows players to clone pokemon and their held items by withdrawing them (or erase them by despositing).
+#ifndef BUGFIX
+	tower_save 0
+#endif
+	call Common_EventScript_SaveGame
+	setvar VAR_TEMP_CHALLENGE_STATUS, 255
+	goto_if_eq VAR_RESULT, 0, BattleFrontier_BattleTowerLobby_EventScript_CancelChallengeSaveFailed
+@ GAME_STAT_ENTERED_BATTLE_TOWER should not be incremented here, for two reasons:
+@ 1. It is incremented again in BattleFrontier_BattleTowerLobby_EventScript_CableLinkSuccessful or BattleFrontier_BattleTowerLobby_EventScript_WirelessLinkSuccessful
+@ 2. If the player tries to connect, but fails, the counter will still be incremented even if the player never enters the tower.
+#ifndef BUGFIX
+	incrementgamestat GAME_STAT_ENTERED_BATTLE_TOWER
+#endif
+	specialvar VAR_RESULT, IsWirelessAdapterConnected
+	goto_if_eq VAR_RESULT, TRUE, BattleFrontier_BattleTowerLobby_EventScript_TryWirelessLink
+	goto BattleFrontier_BattleTowerLobby_EventScript_TryCableLink
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_FeelingsMan::
+	lock
+	faceplayer
+	message BattleFrontier_BattleTowerLobby_Text_DescribeFeelingsAboutBattleTower
+	waitmessage
+	multichoice 16, 4, MULTI_BATTLE_TOWER_FEELINGS, FALSE
+	switch VAR_RESULT
+	case 0, BattleFrontier_BattleTowerLobby_EventScript_FeelingsBattleNow
+	case 1, BattleFrontier_BattleTowerLobby_EventScript_FeelingsIWon
+	case 2, BattleFrontier_BattleTowerLobby_EventScript_FeelingsILost
+	case 3, BattleFrontier_BattleTowerLobby_EventScript_FeelingsWontTell
+	case MULTI_B_PRESSED, BattleFrontier_BattleTowerLobby_EventScript_FeelingsWontTell
+	release
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_FeelingsBattleNow::
+	msgbox BattleFrontier_BattleTowerLobby_Text_FeelWhatWhenYouBegin, MSGBOX_DEFAULT
+	setvar VAR_0x8004, EASY_CHAT_TYPE_BATTLE_START
+	call Common_ShowEasyChatScreen
+	lock
+	faceplayer
+	goto BattleFrontier_BattleTowerLobby_EventScript_CheckFeelings
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_FeelingsIWon::
+	msgbox BattleFrontier_BattleTowerLobby_Text_FeelWhatWhenYouveWon, MSGBOX_DEFAULT
+	setvar VAR_0x8004, EASY_CHAT_TYPE_BATTLE_WON
+	call Common_ShowEasyChatScreen
+	lock
+	faceplayer
+	goto BattleFrontier_BattleTowerLobby_EventScript_CheckFeelings
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_FeelingsILost::
+	msgbox BattleFrontier_BattleTowerLobby_Text_FeelWhatWhenYouveLost, MSGBOX_DEFAULT
+	setvar VAR_0x8004, EASY_CHAT_TYPE_BATTLE_LOST
+	call Common_ShowEasyChatScreen
+	lock
+	faceplayer
+	goto BattleFrontier_BattleTowerLobby_EventScript_CheckFeelings
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_FeelingsWontTell::
+	msgbox BattleFrontier_BattleTowerLobby_Text_DontThinkMuchAboutIt, MSGBOX_DEFAULT
+	release
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_CheckFeelings::
+	goto_if_eq VAR_RESULT, 0, BattleFrontier_BattleTowerLobby_EventScript_CanceledEasyChat
+	goto_if_eq VAR_RESULT, 1, BattleFrontier_BattleTowerLobby_EventScript_SubmittedFeelings
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_CanceledEasyChat::
+	msgbox BattleFrontier_BattleTowerLobby_Text_ChangedYourMind, MSGBOX_DEFAULT
+	release
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_SubmittedFeelings::
+	msgbox BattleFrontier_BattleTowerLobby_Text_ThatsHowYouFeel, MSGBOX_DEFAULT
+	release
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_Woman::
+	msgbox BattleFrontier_BattleTowerLobby_Text_WinsInRowRecorded, MSGBOX_NPC
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_Boy::
+	msgbox BattleFrontier_BattleTowerLobby_Text_CanLeaveUntilLossOrSevenWins, MSGBOX_NPC
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_ShowSinglesResults::
+	lockall
+	frontier_results FRONTIER_FACILITY_TOWER, FRONTIER_MODE_SINGLES
+	waitbuttonpress
+	special RemoveRecordsWindow
+	releaseall
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_ShowDoublesResults::
+	lockall
+	frontier_results FRONTIER_FACILITY_TOWER, FRONTIER_MODE_DOUBLES
+	waitbuttonpress
+	special RemoveRecordsWindow
+	releaseall
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_ShowMultisResults::
+	lockall
+	frontier_results FRONTIER_FACILITY_TOWER, FRONTIER_MODE_MULTIS
+	waitbuttonpress
+	special RemoveRecordsWindow
+	releaseall
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_ShowLinkMultisResults::
+	lockall
+	frontier_results FRONTIER_FACILITY_TOWER, FRONTIER_MODE_LINK_MULTIS
+	waitbuttonpress
+	special RemoveRecordsWindow
+	releaseall
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_NotEnoughValidMons::
+	switch VAR_RESULT
+	case FRONTIER_LVL_50, BattleFrontier_BattleTowerLobby_EventScript_NotEnoughValidMonsLv50
+	case FRONTIER_LVL_OPEN, BattleFrontier_BattleTowerLobby_EventScript_NotEnoughValidMonsLvOpen
+
+BattleFrontier_BattleTowerLobby_EventScript_NotEnoughValidMonsLv50::
+	switch VAR_FRONTIER_BATTLE_MODE
+	case FRONTIER_MODE_SINGLES, BattleFrontier_BattleTowerLobby_EventScript_NotEnoughValidMonsLv50Singles
+	case FRONTIER_MODE_DOUBLES, BattleFrontier_BattleTowerLobby_EventScript_NotEnoughValidMonsLv50Doubles
+	msgbox BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Multis, MSGBOX_DEFAULT
+	call BattleFrontier_ShowCaughtBannedSpecies
+	msgbox BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsEnd, MSGBOX_DEFAULT
+	goto BattleFrontier_BattleTowerLobby_EventScript_EndCancelChallenge
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_NotEnoughValidMonsLv50Singles::
+	msgbox BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Singles, MSGBOX_DEFAULT
+	call BattleFrontier_ShowCaughtBannedSpecies
+	msgbox BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsEnd, MSGBOX_DEFAULT
+	goto BattleFrontier_BattleTowerLobby_EventScript_EndCancelChallenge
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_NotEnoughValidMonsLv50Doubles::
+	msgbox BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Doubles, MSGBOX_DEFAULT
+	call BattleFrontier_ShowCaughtBannedSpecies
+	msgbox BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsEnd, MSGBOX_DEFAULT
+	goto BattleFrontier_BattleTowerLobby_EventScript_EndCancelChallenge
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_NotEnoughValidMonsLvOpen::
+	switch VAR_FRONTIER_BATTLE_MODE
+	case FRONTIER_MODE_SINGLES, BattleFrontier_BattleTowerLobby_EventScript_NotEnoughValidMonsLvOpenSingles
+	case FRONTIER_MODE_DOUBLES, BattleFrontier_BattleTowerLobby_EventScript_NotEnoughValidMonsLvOpenDoubles
+	msgbox BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenMultis, MSGBOX_DEFAULT
+	call BattleFrontier_ShowCaughtBannedSpecies
+	msgbox BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsEnd, MSGBOX_DEFAULT
+	goto BattleFrontier_BattleTowerLobby_EventScript_EndCancelChallenge
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_NotEnoughValidMonsLvOpenSingles::
+	msgbox BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenSingles, MSGBOX_DEFAULT
+	call BattleFrontier_ShowCaughtBannedSpecies
+	msgbox BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsEnd, MSGBOX_DEFAULT
+	goto BattleFrontier_BattleTowerLobby_EventScript_EndCancelChallenge
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_NotEnoughValidMonsLvOpenDoubles::
+	msgbox BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenDoubles, MSGBOX_DEFAULT
+	call BattleFrontier_ShowCaughtBannedSpecies
+	msgbox BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsEnd, MSGBOX_DEFAULT
+	goto BattleFrontier_BattleTowerLobby_EventScript_EndCancelChallenge
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_CancelChallengeSaveFailed::
+	frontier_set FRONTIER_DATA_CHALLENGE_STATUS  @ No status provided, so it relies on VAR_0x8006 being 0 already
+	goto BattleFrontier_BattleTowerLobby_EventScript_CancelChallenge
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_LoadPartyCancelChallenge::
+	special LoadPlayerParty
+	callnative UpdateFollowingPokemon
+BattleFrontier_BattleTowerLobby_EventScript_CancelChallenge::
+	special CloseLink
+	msgbox BattleFrontier_BattleTowerLobby_Text_LookForwardToAnotherChallenge, MSGBOX_DEFAULT
+BattleFrontier_BattleTowerLobby_EventScript_EndCancelChallenge::
+	release
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_EnterElevator::
+	special SavePlayerParty
+	setvar VAR_0x8004, FRONTIER_UTIL_FUNC_SET_PARTY_ORDER
+	call BattleFrontier_BattleTowerLobby_EventScript_GetPartySize
+	special CallFrontierUtilFunc
+	setvar VAR_RESULT, 0
+BattleFrontier_BattleTowerLobby_EventScript_WaitForLinkOpponentLoad::
+	tower_loadlinkopponents
+	delay 1
+	goto_if_ne VAR_RESULT, 6, BattleFrontier_BattleTowerLobby_EventScript_WaitForLinkOpponentLoad
+	call BattleFrontier_BattleTowerLobby_EventScript_ShowYouToBattleRoom
+	clearflag FLAG_CANCEL_BATTLE_ROOM_CHALLENGE
+	warp MAP_BATTLE_FRONTIER_BATTLE_TOWER_ELEVATOR, 1, 6
+	setvar VAR_TEMP_CHALLENGE_STATUS, 0
+	waitstate
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_ShowYouToBattleRoom::
+	call BattleFrontier_BattleTowerLobby_EventScript_BufferModeText
+	goto_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_LINK_MULTIS, BattleFrontier_BattleTowerLobby_EventScript_ShowYouToLinkMultiBattleRoom
+	msgbox BattleFrontier_BattleTowerLobby_Text_ShowYouToBattleRoom, MSGBOX_DEFAULT
+	goto BattleFrontier_BattleTowerLobby_EventScript_WalkToElevator
+
+BattleFrontier_BattleTowerLobby_EventScript_ShowYouToLinkMultiBattleRoom::
+	messageautoscroll BattleFrontier_BattleTowerLobby_Text_ShowYouToBattleRoom
+	waitmessage
+	delay 48
+BattleFrontier_BattleTowerLobby_EventScript_WalkToElevator::
+	closemessage
+	call BattleFrontier_BattleTowerLobby_EventScript_SetAttendantTalkedTo
+	call BattleFrontier_BattleTowerLobby_EventScript_GetDoorXCoord
+	applymovement VAR_LAST_TALKED, BattleFrontier_BattleTowerLobby_Movement_WalkToElevator
+	applymovement LOCALID_PLAYER, BattleFrontier_BattleTowerLobby_Movement_WalkToElevator
+	waitmovement 0
+	opendoor VAR_0x8004, 1
+	waitdooranim
+	applymovement VAR_LAST_TALKED, BattleFrontier_BattleTowerLobby_Movement_AttendantEnterElevator
+	applymovement LOCALID_PLAYER, BattleFrontier_BattleTowerLobby_Movement_PlayerEnterElevator
+	waitmovement 0
+	closedoor VAR_0x8004, 1
+	waitdooranim
+	return
+
+BattleFrontier_BattleTowerLobby_Movement_WalkToElevator:
+	walk_up
+	walk_up
+	walk_up
+	step_end
+
+BattleFrontier_BattleTowerLobby_Movement_AttendantEnterElevator:
+	walk_up
+	set_invisible
+	step_end
+
+BattleFrontier_BattleTowerLobby_Movement_PlayerEnterElevator:
+	walk_up
+	walk_up
+	set_invisible
+	step_end
+
+@ Unused
+BattleFrontier_BattleTowerLobby_Movement_UnusedEnterElevator:
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	set_invisible
+	step_end
+
+BattleFrontier_BattleTowerLobby_EventScript_BufferModeText::
+	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_SINGLES, BattleFrontier_BattleTowerLobby_EventScript_BufferTextSingle
+	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_DOUBLES, BattleFrontier_BattleTowerLobby_EventScript_BufferTextDouble
+	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_MULTIS, BattleFrontier_BattleTowerLobby_EventScript_BufferTextMulti
+	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_LINK_MULTIS, BattleFrontier_BattleTowerLobby_EventScript_BufferTextLinkMulti
+	return
+
+BattleFrontier_BattleTowerLobby_EventScript_BufferTextSingle::
+	bufferstdstring STR_VAR_1, STDSTRING_SINGLE
+	return
+
+BattleFrontier_BattleTowerLobby_EventScript_BufferTextDouble::
+	bufferstdstring STR_VAR_1, STDSTRING_DOUBLE
+	return
+
+BattleFrontier_BattleTowerLobby_EventScript_BufferTextMulti::
+	bufferstdstring STR_VAR_1, STDSTRING_MULTI
+	return
+
+BattleFrontier_BattleTowerLobby_EventScript_BufferTextLinkMulti::
+	bufferstdstring STR_VAR_1, STDSTRING_MULTI_LINK
+	return
+
+BattleFrontier_BattleTowerLobby_EventScript_SetAttendantTalkedTo::
+	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_SINGLES, BattleFrontier_BattleTowerLobby_EventScript_TalkedToSinglesAttendant
+	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_DOUBLES, BattleFrontier_BattleTowerLobby_EventScript_TalkedToDoublesAttendant
+	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_MULTIS, BattleFrontier_BattleTowerLobby_EventScript_TalkedToMultisAttendant
+	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_LINK_MULTIS, BattleFrontier_BattleTowerLobby_EventScript_TalkedToLinkMultisAttendant
+	return
+
+BattleFrontier_BattleTowerLobby_EventScript_TalkedToSinglesAttendant::
+	setvar VAR_LAST_TALKED, LOCALID_TOWER_ATTENDANT_SINGLES
+	return
+
+BattleFrontier_BattleTowerLobby_EventScript_TalkedToDoublesAttendant::
+	setvar VAR_LAST_TALKED, LOCALID_TOWER_ATTENDANT_DOUBLES
+	return
+
+BattleFrontier_BattleTowerLobby_EventScript_TalkedToMultisAttendant::
+	setvar VAR_LAST_TALKED, LOCALID_TOWER_ATTENDANT_MULTIS
+	return
+
+BattleFrontier_BattleTowerLobby_EventScript_TalkedToLinkMultisAttendant::
+	setvar VAR_LAST_TALKED, LOCALID_TOWER_ATTENDANT_LINK_MULTIS
+	return
+
+BattleFrontier_BattleTowerLobby_EventScript_GetDoorXCoord::
+	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_SINGLES, BattleFrontier_BattleTowerLobby_EventScript_GetDoorXCoordSingles
+	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_DOUBLES, BattleFrontier_BattleTowerLobby_EventScript_GetDoorXCoordDoubles
+	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_MULTIS, BattleFrontier_BattleTowerLobby_EventScript_GetDoorXCoordMultis
+	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_LINK_MULTIS, BattleFrontier_BattleTowerLobby_EventScript_GetDoorXCoordLinkMultis
+	return
+
+BattleFrontier_BattleTowerLobby_EventScript_GetDoorXCoordSingles::
+	setvar VAR_0x8004, 6
+	return
+
+BattleFrontier_BattleTowerLobby_EventScript_GetDoorXCoordDoubles::
+	setvar VAR_0x8004, 10
+	return
+
+BattleFrontier_BattleTowerLobby_EventScript_GetDoorXCoordMultis::
+	setvar VAR_0x8004, 14
+	return
+
+BattleFrontier_BattleTowerLobby_EventScript_GetDoorXCoordLinkMultis::
+	setvar VAR_0x8004, 18
+	return
+
+BattleFrontier_BattleTowerLobby_EventScript_GetPartySize::
+	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_SINGLES, BattleFrontier_BattleTowerLobby_EventScript_GetSinglesPartySize
+	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_DOUBLES, BattleFrontier_BattleTowerLobby_EventScript_GetDoublesPartySize
+	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_MULTIS, BattleFrontier_BattleTowerLobby_EventScript_GetMultisPartySize
+	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_LINK_MULTIS, BattleFrontier_BattleTowerLobby_EventScript_GetLinkMultisPartySize
+	return
+
+BattleFrontier_BattleTowerLobby_EventScript_GetSinglesPartySize::
+	setvar VAR_0x8005, FRONTIER_PARTY_SIZE
+	return
+
+BattleFrontier_BattleTowerLobby_EventScript_GetDoublesPartySize::
+	setvar VAR_0x8005, FRONTIER_DOUBLES_PARTY_SIZE
+	return
+
+BattleFrontier_BattleTowerLobby_EventScript_GetMultisPartySize::
+	setvar VAR_0x8005, FRONTIER_MULTI_PARTY_SIZE
+	return
+
+BattleFrontier_BattleTowerLobby_EventScript_GetLinkMultisPartySize::
+	setvar VAR_0x8005, FRONTIER_MULTI_PARTY_SIZE
+	return
+
+BattleFrontier_EventScript_GetLvlMode::
+	frontier_get FRONTIER_DATA_LVL_MODE
+	return
+
+BattleFrontier_BattleTowerLobby_EventScript_TryCableLink::
+	setvar VAR_0x8004, USING_BATTLE_TOWER
+	message gText_PleaseWaitForLink
+	waitmessage
+	setvar VAR_0x8005, 0
+	special TryBattleLinkup
+	goto_if_eq VAR_RESULT, LINKUP_SUCCESS, BattleFrontier_BattleTowerLobby_EventScript_CableLinkSuccessful
+	goto_if_eq VAR_RESULT, LINKUP_SOMEONE_NOT_READY, CableClub_EventScript_AbortLinkSomeoneNotReady
+	goto_if_eq VAR_RESULT, LINKUP_DIFF_SELECTIONS, BattleFrontier_BattleTowerLobby_EventScript_AbortLinkDifferentSelections
+	goto_if_eq VAR_RESULT, LINKUP_WRONG_NUM_PLAYERS, BattleFrontier_BattleTowerLobby_EventScript_AbortLinkIncorrectNumberOfPlayers
+	goto_if_eq VAR_RESULT, LINKUP_FAILED, BattleFrontier_BattleTowerLobby_EventScript_CancelChallenge
+	goto_if_eq VAR_RESULT, LINKUP_CONNECTION_ERROR, CableClub_EventScript_AbortLinkConnectionError
+	goto_if_eq VAR_RESULT, LINKUP_FAILED_BATTLE_TOWER, BattleFrontier_BattleTowerLobby_EventScript_AbortLink
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_AbortLinkDifferentSelections::
+	special CloseLink
+	goto_if_eq VAR_0x8005, 3, BattleFrontier_BattleTowerLobby_EventScript_FriendDifferentSelection
+	msgbox Text_PlayersMadeDifferentSelections, MSGBOX_DEFAULT
+	release
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_FriendDifferentSelection::
+	msgbox BattleFrontier_BattleTowerLobby_Text_FriendChoseDifferentLvlMode, MSGBOX_DEFAULT
+	msgbox BattleFrontier_BattleTowerLobby_Text_ChooseDifferentMonsMatchLvlMode, MSGBOX_DEFAULT
+	release
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_AbortLinkIncorrectNumberOfPlayers::
+	msgbox BattleFrontier_BattleTowerLobby_Text_LinkMultiOnlyForTwoPlayers, MSGBOX_DEFAULT
+	special CloseLink
+	msgbox CableClub_Text_IncorrectNumberOfParticipants, MSGBOX_DEFAULT
+	release
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_AbortLink::
+	special CloseLink
+	call_if_eq VAR_0x8005, 0, BattleFrontier_BattleTowerLobby_EventScript_FriendChoseDifferentLvlMode
+	call_if_eq VAR_0x8005, 1, BattleFrontier_BattleTowerLobby_EventScript_FriendAlsoSelectedMon
+	call_if_eq VAR_0x8005, 2, BattleFrontier_BattleTowerLobby_EventScript_FriendAlsoSelectedMons
+	msgbox BattleFrontier_BattleTowerLobby_Text_ChooseDifferentMonsMatchLvlMode, MSGBOX_DEFAULT
+	release
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_FriendChoseDifferentLvlMode::
+	msgbox BattleFrontier_BattleTowerLobby_Text_FriendChoseDifferentLvlMode, MSGBOX_DEFAULT
+	return
+
+BattleFrontier_BattleTowerLobby_EventScript_FriendAlsoSelectedMon::
+	msgbox BattleFrontier_BattleTowerLobby_Text_FriendAlsoSelectedMon, MSGBOX_DEFAULT
+	return
+
+BattleFrontier_BattleTowerLobby_EventScript_FriendAlsoSelectedMons::
+	msgbox BattleFrontier_BattleTowerLobby_Text_FriendAlsoSelectedMons, MSGBOX_DEFAULT
+	return
+
+BattleFrontier_BattleTowerLobby_EventScript_CableLinkSuccessful::
+	incrementgamestat GAME_STAT_ENTERED_BATTLE_TOWER
+	setvar VAR_BRAVO_TRAINER_BATTLE_TOWER_ON, FALSE
+	message BattleFrontier_BattleTowerLobby_Text_SaveGameBeforeShowingIn
+	waitmessage
+	tower_save CHALLENGE_STATUS_SAVING
+	special SaveForBattleTowerLink
+	playse SE_SAVE
+	waitse
+	special TrySetBattleTowerLinkType
+	goto BattleFrontier_BattleTowerLobby_EventScript_EnterElevator
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_ExplainLinkMultisChallenge::
+	msgbox BattleFrontier_BattleTowerLobby_Text_ExplainLinkMultisChallenge, MSGBOX_DEFAULT
+	goto BattleFrontier_BattleTowerLobby_EventScript_AskEnterLinkMultisChallenge
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_TryWirelessLink::
+	setvar VAR_0x8004, LINK_GROUP_BATTLE_TOWER
+	goto BattleFrontier_BattleTowerLobby_EventScript_ChooseLeader
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_ChooseLeader::
+	message CableClub_Text_ChooseGroupLeaderOfTwo
+	waitmessage
+	multichoice 16, 6, MULTI_LINK_LEADER, FALSE
+	switch VAR_RESULT
+	case 0, BattleFrontier_BattleTowerLobby_EventScript_TryJoinGroup
+	case 1, BattleFrontier_BattleTowerLobby_EventScript_TryBecomeLeader
+	case 2, BattleFrontier_BattleTowerLobby_EventScript_CancelChallenge
+	case MULTI_B_PRESSED, BattleFrontier_BattleTowerLobby_EventScript_CancelChallenge
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_TryBecomeLeader::
+	call CableClub_EventScript_TryBecomeLinkLeader
+	goto_if_eq VAR_RESULT, LINKUP_SUCCESS, BattleFrontier_BattleTowerLobby_EventScript_WirelessLinkSuccessful
+	goto_if_eq VAR_RESULT, LINKUP_FAILED, BattleFrontier_BattleTowerLobby_EventScript_ChooseLeader
+	goto_if_eq VAR_RESULT, LINKUP_RETRY_ROLE_ASSIGN, BattleFrontier_BattleTowerLobby_EventScript_TryBecomeLeader
+	goto_if_eq VAR_RESULT, LINKUP_FAILED_BATTLE_TOWER, BattleFrontier_BattleTowerLobby_EventScript_AbortLink
+	release
+	return
+
+BattleFrontier_BattleTowerLobby_EventScript_TryJoinGroup::
+	call CableClub_EventScript_TryJoinLinkGroup
+	goto_if_eq VAR_RESULT, LINKUP_SUCCESS, BattleFrontier_BattleTowerLobby_EventScript_WirelessLinkSuccessful
+	goto_if_eq VAR_RESULT, LINKUP_FAILED, BattleFrontier_BattleTowerLobby_EventScript_ChooseLeader
+	goto_if_eq VAR_RESULT, LINKUP_RETRY_ROLE_ASSIGN, BattleFrontier_BattleTowerLobby_EventScript_TryJoinGroup
+	goto_if_eq VAR_RESULT, LINKUP_FAILED_BATTLE_TOWER, BattleFrontier_BattleTowerLobby_EventScript_AbortLink
+	release
+	return
+
+BattleFrontier_BattleTowerLobby_EventScript_WirelessLinkSuccessful::
+	incrementgamestat GAME_STAT_ENTERED_BATTLE_TOWER
+	setvar VAR_BRAVO_TRAINER_BATTLE_TOWER_ON, FALSE
+	message BattleFrontier_BattleTowerLobby_Text_SaveGameBeforeShowingIn
+	waitmessage
+	tower_save CHALLENGE_STATUS_SAVING
+	special SaveForBattleTowerLink
+	playse SE_SAVE
+	waitse
+	goto BattleFrontier_BattleTowerLobby_EventScript_EnterElevator
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_RulesBoard::
+	lockall
+	msgbox BattleFrontier_BattleTowerLobby_Text_RulesAreListed, MSGBOX_DEFAULT
+	goto BattleFrontier_BattleTowerLobby_EventScript_ReadRulesBoard
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_ReadRulesBoard::
+	message BattleFrontier_BattleTowerLobby_Text_ReadWhichHeading
+	waitmessage
+	multichoice 17, 2, MULTI_BATTLE_TOWER_RULES, FALSE
+	switch VAR_RESULT
+	case 0, BattleFrontier_BattleTowerLobby_EventScript_RulesTower
+	case 1, BattleFrontier_BattleTowerLobby_EventScript_RulesMons
+	case 2, BattleFrontier_BattleTowerLobby_EventScript_RulesSalon
+	case 3, BattleFrontier_BattleTowerLobby_EventScript_RulesMultiLink
+	case 4, BattleFrontier_BattleTowerLobby_EventScript_ExitRules
+	case MULTI_B_PRESSED, BattleFrontier_BattleTowerLobby_EventScript_ExitRules
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_RulesTower::
+	msgbox BattleFrontier_BattleTowerLobby_Text_ExplainTowerRules, MSGBOX_DEFAULT
+	goto BattleFrontier_BattleTowerLobby_EventScript_ReadRulesBoard
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_RulesMons::
+	msgbox BattleFrontier_BattleTowerLobby_Text_ExplainMonRules, MSGBOX_DEFAULT
+	goto BattleFrontier_BattleTowerLobby_EventScript_ReadRulesBoard
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_RulesSalon::
+	msgbox BattleFrontier_BattleTowerLobby_Text_ExplainSalonRules, MSGBOX_DEFAULT
+	goto BattleFrontier_BattleTowerLobby_EventScript_ReadRulesBoard
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_RulesMultiLink::
+	msgbox BattleFrontier_BattleTowerLobby_Text_ExplainMultiLinkRules, MSGBOX_DEFAULT
+	goto BattleFrontier_BattleTowerLobby_EventScript_ReadRulesBoard
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_ExitRules::
+	releaseall
+	end
+
+@ Unused
+BattleFrontier_BattleTowerLobby_Text_DirectYouToBattleRoom:
+    .string "我将带您到对战间。$"
+
+BattleFrontier_BattleTowerLobby_Text_DidntSaveBeforeQuitting:
+    .string "抱歉！\p您在上次结束时\n没有写入记录。\p非常遗憾，没有写入记录的\n挑战我们将视其为无效。$"
+
+BattleFrontier_BattleTowerLobby_Text_CongratsBeatenSeven:
+    .string "恭喜您！\n您已击败全部7位训练家！\p$"
+
+@ Unused
+BattleFrontier_BattleTowerLobby_Text_EarnedFabulousPrize:
+    .string "作为连续击败7位训练家的奖励，\n您将获得精美的奖品！\p$"
+
+BattleFrontier_BattleTowerLobby_Text_ReceivedPrize:
+    .string "{PLAYER}得到奖品\n{STR_VAR_1}。$"
+
+@ Unused
+BattleFrontier_BattleTowerLobby_Text_BagFullMakeRoom:
+    .string "啊，您的包包已经满了。\p请将包包整理好之后\n再来找我。$"
+
+BattleFrontier_BattleTowerLobby_Text_ThankYouForPlaying:
+    .string "辛苦了！\p$"
+
+BattleFrontier_BattleTowerLobby_Text_RecordWillBeSaved:
+    .string "正在写入记录，\n请稍等。$"
+
+BattleFrontier_BattleTowerLobby_Text_WeveBeenWaitingForYou:
+    .string "我们已经恭候多时了！\p$"
+
+BattleFrontier_BattleTowerLobby_Text_ProgressWillBeSaved:
+    .string "进入对战间之前需要\n写入记录，请稍等。$"
+
+BattleFrontier_BattleTowerLobby_Text_AboutToFace50thTrainer:
+    .string "下面您即将迎战的是\n第50位训练家了，\p现在起，您每次连续打败7位训练家，\n我们将会把奖章送给您参战的宝可梦。\p祝您好运！$"
+
+BattleFrontier_BattleTowerLobby_Text_HereAreSomeRibbons:
+    .string "这是连续打败7位\n强大的训练家的奖励。\p{PLAYER}得到奖章！$"
+
+BattleFrontier_BattleTowerLobby_Text_PutRibbonOnMons:
+    .string "{PLAYER}给挑战的宝可梦\n戴上了奖章。$"
+
+BattleFrontier_BattleTowerLobby_Text_DescribeFeelingsAboutBattleTower:
+    .string "打扰了，\n能占用你一点时间吗？\p请说说你在对战塔比赛开始之前的\n想法，也可以谈谈赢了或输了比赛\l之后的感受。$"
+
+BattleFrontier_BattleTowerLobby_Text_FeelWhatWhenYouBegin:
+    .string "那么，你在比赛之前\n有什么想法呢？$"
+
+BattleFrontier_BattleTowerLobby_Text_FeelWhatWhenYouveWon:
+    .string "那么，你在赢了比赛之后\n有什么感受呢？$"
+
+BattleFrontier_BattleTowerLobby_Text_FeelWhatWhenYouveLost:
+    .string "能告诉我们输了比赛\n你有什么话想说吗？$"
+
+BattleFrontier_BattleTowerLobby_Text_DontThinkMuchAboutIt:
+    .string "啊，那么说你并不会多想吗？\n看来是个沉着的人啊。$"
+
+BattleFrontier_BattleTowerLobby_Text_ChangedYourMind:
+    .string "哎？你改主意了吗？\n看来你是个易变的人啊。$"
+
+BattleFrontier_BattleTowerLobby_Text_ThatsHowYouFeel:
+    .string "嗯，你是这么想的吗？\n很有新意啊。\p谢谢！$"
+
+BattleFrontier_BattleTowerLobby_Text_WinsInRowRecorded:
+    .string "连胜的次数都会\n被记录下来。\p我可不想输得太难堪啊！$"
+
+BattleFrontier_BattleTowerLobby_Text_CanLeaveUntilLossOrSevenWins:
+    .string "进入对战塔后，只有被打败或者\n连续战胜7位训练家才能离开。\p开始挑战之前你最好\n做好充分的准备。$"
+
+@ Unused
+BattleFrontier_BattleTowerLobby_Text_DoubleBattleRoomConstruction:
+    .string "欢迎来到对战塔\n双打对战区！\p很不幸，\n对战间还在建设之中。\p当建筑完成后\n再来吧。$"
+
+@ Unused
+BattleFrontier_BattleTowerLobby_Text_MultiBattleRoomConstruction:
+    .string "欢迎来到对战塔\n多人对战区！\p很不幸，\n对战间还在建设之中。\p当建筑完成后\n再来吧。$"
+
+BattleFrontier_BattleTowerLobby_Text_LookForwardToAnotherChallenge:
+    .string "随时恭候您再次挑战！$"
+
+BattleFrontier_BattleTowerLobby_Text_WhichLevelMode:
+    .string "对战间有2种挑战等级，\nLv. 50级和自由等级。\l您想选哪种？$"
+
+@ Unused
+BattleFrontier_BattleTowerLobby_Text_PleaseSelectMons:
+    .string "请选择要参加的\n宝可梦。$"
+
+BattleFrontier_BattleTowerLobby_Text_OkayToSaveBeforeEntering:
+    .string "进入对战间之前需要\n先写入记录，可以吗？$"
+
+BattleFrontier_BattleTowerLobby_Text_ShowYouToBattleRoom:
+    .string "现在我将带您前往\n{STR_VAR_1}对战间。$"
+
+BattleFrontier_BattleTowerLobby_Text_RecordLastMatch:
+    .string "要将您在对战塔的最后一场对战\n记录到开拓通行证上吗？$"
+
+@ Unused
+BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50:
+	.string "这位客人！\p"
+	.string "您符合条件的宝可梦不足\n"
+	.string "{STR_VAR_2}只。\p"
+	.string "需要有{STR_VAR_2}只不同的\n"
+	.string "等级50以内的\l"
+	.string "宝可梦才可以参加比赛，\p"
+	.string "同时这些宝可梦携带的道具\n"
+	.string "也需要各不相同。\p"
+	.string "蛋{STR_VAR_1}。$"
+
+BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsEnd:
+	.string "准备好之后再来吧。$"
+
+@ Unused
+BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpen:
+	.string "这位客人！\p"
+	.string "您符合条件的宝可梦不足\n"
+	.string "{STR_VAR_2}只。\p"
+	.string "需要有{STR_VAR_2}只不同的\n"
+	.string "宝可梦\l"
+	.string "才可以参加比赛，\p"
+	.string "同时这些宝可梦携带的道具\n"
+	.string "也需要各不相同。\p"
+	.string "蛋{STR_VAR_1}。$"
+
+BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Singles:
+    .string "这位客人！\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只等级50以内的\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}。$"
+
+BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenSingles:
+    .string "这位客人！\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}。$"
+
+BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Doubles:
+    .string "这位客人！\p您能够参加对战的\n宝可梦不满4只。\p您需要准备4只等级50以内的\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}。$"
+
+BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenDoubles:
+    .string "这位客人！\p您能够参加对战的\n宝可梦不满4只。\p您需要准备4只\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}。$"
+
+BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Multis:
+    .string "这位客人！\p您能够参加对战的\n宝可梦不满2只。\p您需要准备2只等级50以内的\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}。$"
+
+BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenMultis:
+    .string "这位客人！\p您能够参加对战的\n宝可梦不满2只。\p您需要准备2只\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}。$"
+
+BattleFrontier_BattleTowerLobby_Text_WelcomSingleBattle:
+    .string "训练家的才能\n将在此接受考验！\p欢迎来到对战塔！\p我是您的单打对战间向导。$"
+
+BattleFrontier_BattleTowerLobby_Text_TakeSinglesChallenge:
+    .string "要挑战单打对战间吗？$"
+
+BattleFrontier_BattleTowerLobby_Text_ExplainSinglesChallenge:
+    .string "对战塔的单打对战间\n是用3只宝可梦进行单打对战的设施，\p对战塔内有很多单打对战间，\n供团队对战使用。\p在单打对战间中，\n会有7位训练家等待挑战，\p如果顺利战胜7人，\n我们会向您呈上对战点数。\p如果您在挑战途中\n想要暂停的话，\p请确保在暂停前完好地写下了记录。\n否则我们将视挑战为无效。$"
+
+BattleFrontier_BattleTowerLobby_Text_SelectThreeMons:
+    .string "请选择要参加挑战的\n3只宝可梦。$"
+
+BattleFrontier_BattleTowerLobby_Text_WelcomeDoubleBattle:
+    .string "训练家的才能\n将在此接受考验！\p欢迎来到对战塔！\p我是您的双打对战间向导。$"
+
+BattleFrontier_BattleTowerLobby_Text_TakeDoublesChallenge:
+    .string "要挑战双打对战间吗？$"
+
+BattleFrontier_BattleTowerLobby_Text_ExplainDoublesChallenge:
+    .string "对战塔的双打对战间\n是用4只宝可梦进行双打对战的设施，\p对战塔内有很多双打对战间，\n供团队对战使用。\p在双打对战间中，\n会有7位训练家等待挑战，\p如果顺利战胜7人，\n我们会向您呈上对战点数。\p如果您在挑战途中\n想要暂停的话，\p请确保在暂停前完好地写下了记录。\n否则我们将视挑战为无效。$"
+
+BattleFrontier_BattleTowerLobby_Text_PleaseSelectFourMons:
+    .string "请选择要参加挑战的\n4只宝可梦。$"
+
+BattleFrontier_BattleTowerLobby_Text_WelcomeMultiBattle:
+    .string "训练家的才能\n将在此接受考验！\p欢迎来到对战塔！\p我是您的多人对战间向导。$"
+
+BattleFrontier_BattleTowerLobby_Text_TakeMultisChallenge:
+    .string "要挑战多人对战间吗？$"
+
+BattleFrontier_BattleTowerLobby_Text_ExplainMultisChallenge:
+    .string "对战塔的多人对战间\n是进行多人对战的设施。\p要参加多人对战，您需要在塔内\n选择1位训练家作为搭档，\l每人派出2只宝可梦进行比赛。\p塔内有个叫对战沙龙的房间，\n可以在那里遇到其他训练家。\p在那里，你需要选择1位训练家\n作为多人对战的搭档。\p组队成功后，\n将被引导至多人对战间。\p在多人对战间中，\n会有7组训练家等待挑战，\p如果顺利战胜7组，\n我们会向您呈上对战点数。\p如果您在挑战途中\n想要暂停的话，\p请确保在暂停前完好地写下了记录。\n否则我们将视挑战为无效。$"
+
+BattleFrontier_BattleTowerLobby_Text_PleaseSelectTwoMons:
+    .string "请选择要参加挑战的\n2只宝可梦。$"
+
+BattleFrontier_BattleTowerLobby_Text_WelcomeLinkMultiBattle:
+    .string "训练家的才能\n将在此接受考验！\p欢迎来到对战塔！\p我是您的多人连线对战间向导。$"
+
+BattleFrontier_BattleTowerLobby_Text_TakeLinkMultisChallenge:
+    .string "要挑战多人连线对战间吗？$"
+
+BattleFrontier_BattleTowerLobby_Text_ExplainLinkMultisChallenge:
+    .string "对战塔的多人对战间\n是和朋友一起进行\l多人对战的设施。\p您需要先使用无线适配器\n或GBA连接线与朋友连接，\p携带2只宝可梦和朋友\n组队进行挑战。\p对战塔内有很多\n多人对战间，\p供团队对战使用。\n在多人对战间中，\l会有7组训练家等待\p您和您朋友的组队挑战。\n如果顺利战胜7组，\p我们会向您呈上对战点数。\n请注意这里与其他房间不同，\p您不能暂停挑战。一旦挑战开始，\n就需要不间断地进行7次多人对战。$"
+
+BattleFrontier_BattleTowerLobby_Text_PleaseSelectTwoMons2:
+    .string "请选择要参加挑战的\n2只宝可梦。$"
+
+@ Unused
+BattleFrontier_BattleTowerLobby_Text_ChoseSameMonAsFriend:
+    .string "您和您的朋友选择了\n同一种宝可梦。\p请选择与您朋友不同\n的宝可梦，确认您们选择的是同样的\l挑战等级，然后重新申请挑战。$"
+
+BattleFrontier_BattleTowerLobby_Text_LinkMultiOnlyForTwoPlayers:
+    .string "多人连线对战间的挑战\n只对2位连接上的玩家开放。$"
+
+BattleFrontier_BattleTowerLobby_Text_FriendAlsoSelectedMon:
+    .string "您的朋友也选择了\n宝可梦{STR_VAR_1}。$"
+
+BattleFrontier_BattleTowerLobby_Text_FriendAlsoSelectedMons:
+	.string "您的朋友也选择了\n"
+	.string "宝可梦{STR_VAR_1}和\l"
+	.string "{STR_VAR_2}。$"
+
+BattleFrontier_BattleTowerLobby_Text_FriendChoseDifferentLvlMode:
+    .string "您的朋友选择了不同的\n挑战等级。$"
+
+@ Unused
+BattleFrontier_BattleTowerLobby_Text_FriendChoseDifferentLvlModeSameMon:
+    .string "您的朋友选择了不同的\n挑战等级。\p您的朋友也选择了\n宝可梦{STR_VAR_1}。$"
+
+@ Unused
+BattleFrontier_BattleTowerLobby_Text_FriendChoseDifferentLvlModeSameMons:
+	.string "您的朋友选择了不同的\n"
+	.string "挑战等级。\p"
+	.string "您的朋友也选择了\n"
+	.string "宝可梦{STR_VAR_1}和\l"
+	.string "{STR_VAR_2}。$"
+
+BattleFrontier_BattleTowerLobby_Text_ChooseDifferentMonsMatchLvlMode:
+    .string "请选择2只与您的朋友不同的宝可梦，\n确认您们选择的是同样的挑战等级，\l然后重新申请挑战。$"
+
+BattleFrontier_BattleTowerLobby_Text_SaveGameBeforeShowingIn:
+    .string "开始挑战之前需要先写入记录，\n请稍等。$"
+
+BattleFrontier_BattleTowerLobby_Text_CongratsDefeatedMaiden:
+    .string "恭喜！\n您打败了对战塔大君，\l并且在与7位训练家的对战中全胜！$"
+
+BattleFrontier_BattleTowerLobby_Text_AwardYouTheseBattlePoints:
+    .string "为了表彰您无限的才能，\n我们将向您呈上对战点数。$"
+
+BattleFrontier_Text_ObtainedXBattlePoints:
+    .string "{PLAYER}获得了\n{STR_VAR_1}BP的对战点数。$"
+
+BattleFrontier_BattleTowerLobby_Text_RulesAreListed:
+    .string "上面列出了对战塔的规则。$"
+
+BattleFrontier_BattleTowerLobby_Text_ReadWhichHeading:
+    .string "要读哪一部分的说明？$"
+
+BattleFrontier_BattleTowerLobby_Text_ExplainTowerRules:
+    .string "对战塔中\n有4种类型的对战——\l单打对战，双打对战，\l多人对战和多人连线对战。\p每种对战都有不同的\n对战间，\p请到相应的向导处\n申请参加挑战。$"
+
+BattleFrontier_BattleTowerLobby_Text_ExplainMonRules:
+    .string "根据进入的对战间的不同，\n需要携带的宝可梦的数量\l也各不同。\p单打对战模式\n需要3只宝可梦，\p双打对战需要4只，\n而多人模式需要2只。$"
+
+BattleFrontier_BattleTowerLobby_Text_ExplainSalonRules:
+    .string "您需要在对战沙龙内找到一同组队\n挑战多人对战间的训练家。\p仔细查看每个训练家的宝可梦和\n招式来选择您的最佳搭档。\p连续打败7组训练家后，\n您可以选择新的搭档。$"
+
+BattleFrontier_BattleTowerLobby_Text_ExplainMultiLinkRules:
+    .string "通过多人连线对战模式\n可以和朋友一起挑战。\p需要先和朋友通过无线适配器\n或GBA连接线进行连接，\p并在挑战申请处选好\n您要携带的宝可梦，\p这些宝可梦的种类要\n与您朋友的不同。\p同时，与其他模式不同，\n在这里您不可以暂停挑战。$"
