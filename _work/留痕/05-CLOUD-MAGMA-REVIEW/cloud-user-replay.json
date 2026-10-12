@@ -1,0 +1,127 @@
+{
+  "rom_sha256": "826eb52c39b5e0b7bc9e2c64cd74b1ef27f738a9a5349791888a688c0e13220f",
+  "save_sha256": "1af02ad2542285426c7cedac74662c66d07548cb96dcc776704cfd2fffbddd4b",
+  "method": "cold boot user ordinary save, normal walking and battle buttons; no warp/flag/party/pose edits",
+  "trace": [
+    {
+      "tag": "loaded",
+      "xy": [
+        11,
+        8
+      ],
+      "cb": "0x8190585",
+      "lock": 0,
+      "trainer": 0,
+      "ctx": "000000000000000000000000"
+    },
+    {
+      "tag": "stairs-start",
+      "xy": [
+        9,
+        11
+      ],
+      "cb": "0x8190585",
+      "lock": 0,
+      "trainer": 0,
+      "ctx": "000000000000000000000000"
+    },
+    {
+      "tag": "battle-finished-2",
+      "xy": [
+        9,
+        14
+      ],
+      "cb": "0x8190585",
+      "lock": 0,
+      "trainer": 720,
+      "ctx": "000000007d2d1f0800000000"
+    },
+    {
+      "tag": "lower",
+      "xy": [
+        9,
+        16
+      ],
+      "cb": "0x8190585",
+      "lock": 0,
+      "trainer": 720,
+      "ctx": "000000007d2d1f0800000000"
+    },
+    {
+      "tag": "battle-finished-4",
+      "xy": [
+        13,
+        16
+      ],
+      "cb": "0x8190585",
+      "lock": 0,
+      "trainer": 719,
+      "ctx": "000000007d2d1f0800000000"
+    },
+    {
+      "tag": "near-grunts",
+      "xy": [
+        13,
+        16
+      ],
+      "cb": "0x8190585",
+      "lock": 0,
+      "trainer": 719,
+      "ctx": "000000007d2d1f0800000000"
+    },
+    {
+      "tag": "waiting-position",
+      "xy": [
+        13,
+        14
+      ],
+      "cb": "0x8190585",
+      "lock": 0,
+      "trainer": 719,
+      "ctx": "000000007d2d1f0800000000"
+    },
+    {
+      "tag": "wait-0",
+      "xy": [
+        13,
+        14
+      ],
+      "cb": "0x8190585",
+      "lock": 0,
+      "trainer": 719,
+      "ctx": "000000007d2d1f0800000000"
+    },
+    {
+      "tag": "gloves-won-idle1200",
+      "xy": [
+        13,
+        14
+      ],
+      "cb": "0x8190585",
+      "lock": 0,
+      "trainer": 719,
+      "ctx": "000000007d2d1f0800000000"
+    }
+  ],
+  "flags": {
+    "719": true,
+    "720": true,
+    "729": false
+  },
+  "end_callback": "0x8190585",
+  "end_lock": 0,
+  "scope": "mGBA headless; MyBoy not verified",
+  "postbattle_start_menu_and_walk": {
+    "before": [
+      13,
+      14
+    ],
+    "after": [
+      12,
+      14
+    ],
+    "lock": 0,
+    "status": "PASS"
+  },
+  "github_base": "d1f7fa59ebf9ba3617b845bcee34991de91378d6"
+}

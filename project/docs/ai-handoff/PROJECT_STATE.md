@@ -1,15 +1,13 @@
 # 项目状态（实际核查）
 
-2026-10-11 / Codex。用户入口 E:\Pekemon Gba\project，原 AGENTS 的 D 盘入口不存在。无 Git/map/elf/完整构建缓存；E 盘源码与现用 ROM 不完整对应，不能全量重编发布。
+2026-10-12 / Codex。正本为 GitHub `https://github.com/Daoge622/Pokemon-gba` 的 main，工程在 project/。E/D 盘都是工作副本；开工先 pull，实质修改须 commit/push，重要改动经分支确认后再合并。ROM、存档与凭据不提交。
 
-IMPLEMENTED：此前五处图像字段源码同步；共享 multi_do 四入口选队/取消/战后队伍恢复；本轮 part55.inc 四入口补 cant_see_if_trainerflag_set，修复基地战后自动循环对话。无新增 Flag、剧情改写或防御性兜底。
+IMPLEMENTED：原有图像字段修复、共享 multi_do 四入口选队/取消/队伍恢复、四个包装入口的获胜后视线停止判断均在当前源码中。手套/便当小兵已有专用 _Defeated 战后入口，由地图 trainerbattle_single 第四参数引用；已存在于 main，本轮不重复改游戏代码。历史留痕 04-GLOVES-FIX.md 署名 Claude，DS 是否执行同一修复未确认。
 
-TESTED：此前送神火山组队选队/取消/胜败/六只恢复/保存冷启动通过，其它三入口为测试设置验证。本轮全游戏 550 个视线训练家入口核查，找到四个普通剧情包装缺陷全部覆盖；四场按键打赢、获胜标志、600帧无再触发、战后手动对话/关闭/行走通过。受控地图 warp/隔离标志，两名走动小兵仅测试副本固定姿势，不是全剧情或 MyBoy 验证。静态检查 543 地图、56332条脚本、711对战无已检错误，88个未知 native 后未覆盖。
+构建状态：原“源码缺文件、无工具链、不能构建”的结论已过时。此前已从分片恢复完整源码、配置 MSYS2/ARM GCC 并构建，见 _work/留痕/00-BASELINE.md、02-TOOLCHAIN.md、03-BUILD-OUTPUT.md、04-GLOVES-FIX.md。本轮比对30215个project文件与GitHub树：20327个字节相同、9888个仅CRLF/LF不同，无内容差异。核查的是既有构建产物，没有声称本轮重新构建。
 
-累计 ROM SHA256 5948b8fd044a7b07d4cb75ed7f2439f5607ea15065f161728218bf41fe644614；基于前次 8c3142dcf6678093913e9f572865272d46dbe9862f60d03f5f9d251259037e8d，前次修复逐字节保留。原 ROM cf9b34f57b57a71613e12fe078eba35835ec9e1283ac355b4436201bf854cbde 和原记录均未覆盖。
+TESTED：既有源码构建版 SHA256 826eb52c39b5e0b7bc9e2c64cd74b1ef27f738a9a5349791888a688c0e13220f，从用户桌面普通记录冷启动，正常走路触发并打赢手套/便当两场，原获胜标志置位，战后等待1200帧不自动重开对话，菜单及继续行走通过。保留NPC实际走动，未warp、改Flag/队伍/HP/姿势；使用本会话已授权无窗口mGBA，未开GUI。证据见 _work/留痕/05-CLOUD-MAGMA-REVIEW.md。
 
-情侣撕裂：用户本轮明确确认已修复，执行者/具体补丁未知，非本轮认领。守墓人重置此前自行恢复，根因未确认。全游戏未穷举验收。
+限制：用户报告旧Codex补丁版5948b8...在MyBoy手套战后卡死，同一桌面记录在mGBA未复现。不能把“缺trainerbattle第四参数”当作已动态证明的手机根因，不能把mGBA通过写成MyBoy验收。用户后称可能由DS修好，当前只能确认仓库已有修复，手机状态待反馈。情侣撕裂此前用户明确确认已修复，作者未知；守墓人重置自行恢复但根因未知。全游戏未穷举验收。
 
-当前报告：C:\Users\DaoGe\Documents\Codex\2026-10-11\zhe\outputs\战后对话修复与Claude接力记录.md；此前记录仍在 outputs/组队双打修复与接力记录.md、体检与接力记录.md。
-
-- 本轮女孩战后使用交付ROM游戏内普通记录，再新建核心冷启动读档：回到基地24/87，等待600帧无对话循环、锁为0；存档中的女孩脚本指针已更新为0x09B0046C。dialogue-coldboot-verification.json与截图已归档。
+旧补丁与源码不完整的历史调查仅作版本记录，见 harness/codex/2026-10-11-zhe/outputs/ 与 _work/留痕/。不得用旧地址即时状态验证新工具链构建的ROM。历史留痕只追加，不改写。

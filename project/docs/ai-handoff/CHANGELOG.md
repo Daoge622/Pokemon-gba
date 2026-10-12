@@ -27,3 +27,11 @@
 - 累计ROM SHA256 5948b8fd044a7b07d4cb75ed7f2439f5607ea15065f161728218bf41fe644614。原ROM和记录保留；BPS独立重建和CRC通过。报告：C:\Users\DaoGe\Documents\Codex\2026-10-11\zhe\outputs\战后对话修复与Claude接力记录.md。
 
 - 本轮女孩战后使用交付ROM游戏内普通记录，再新建核心冷启动读档：回到基地24/87，等待600帧无对话循环、锁为0；存档中的女孩脚本指针已更新为0x09B0046C。dialogue-coldboot-verification.json与截图已归档。
+
+## 2026-10-12 / Codex / GitHub正本与既有熔岩队修复核查
+
+- 先pull确认main基线d1f7fa5；核查文档修改走独立分支，未经确认不合并main。
+- main已包含手套/便当专用战后入口，既有留痕署名Claude，DS归属未确认；本轮不重复改游戏代码。
+- 纠正接力状态：完整源码与MSYS2工具链已恢复；30215个project文件与GitHub树无内容差异，仅部分CRLF/LF不同。
+- 既有构建版826eb52c...使用用户普通记录冷启动、实际NPC走动、正常按键打赢两场，获胜标志、等待1200帧、菜单/行走通过。未warp/改Flag/HP/固定姿势；MyBoy验收和根因仍未确认。
+- 新增 _work/留痕/05-CLOUD-MAGMA-REVIEW.md 及验证JSON；ROM、存档、DLL、凭据不提交，历史留痕不改写。

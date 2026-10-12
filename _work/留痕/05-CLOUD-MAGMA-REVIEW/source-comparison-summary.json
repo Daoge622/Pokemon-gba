@@ -1,0 +1,9 @@
+{
+  "github_base": "d1f7fa59ebf9ba3617b845bcee34991de91378d6",
+  "matched": 20327,
+  "missing": [],
+  "normalized_CRLF_matches": 9888,
+  "semantic_differences": [],
+  "tracked_project_files": 30215,
+  "comparison": "Git blob SHA1, then exact CRLF-to-LF normalization for mismatches"
+}
