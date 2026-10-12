@@ -2,6 +2,8 @@
 
 基于 pokeemerald-expansion 1.17.1 的中文剧情改版。本仓库收录源码工程与各 AI 协作留痕。
 
+仓库地址：https://github.com/Daoge622/Pokemon-gba （以 `main` 分支为准）
+
 ## 目录
 
 | 路径 | 内容 |
