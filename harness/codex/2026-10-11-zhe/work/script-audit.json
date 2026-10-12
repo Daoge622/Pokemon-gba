@@ -1,0 +1,6229 @@
+{
+  "sha256": "cf9b34f57b57a71613e12fe078eba35835ec9e1283ac355b4436201bf854cbde",
+  "root_count": 8410,
+  "decoded_commands": 56320,
+  "trainer_battles": 711,
+  "source_special_count": 677,
+  "actual_special_count": 682,
+  "errors": [],
+  "deferred": [
+    {
+      "address": "0x835e1fd",
+      "function": "0x818d3dd",
+      "origin": "PetalburgCity/0/5",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x82d5dc4",
+      "function": "0x81133c9",
+      "origin": "MauvilleCity/0/15",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x82d7c5f",
+      "function": "0x82358a9",
+      "origin": "LilycoveCity/0/15",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x82de62c",
+      "function": "0x822fe81",
+      "origin": "LavaridgeTown/0/11",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x83995af",
+      "function": "0x80da10d",
+      "origin": "LavaridgeTown/0/13",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x835daf8",
+      "function": "0x8144305",
+      "origin": "Route103/0/13",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x835dbc8",
+      "function": "0x8144305",
+      "origin": "Route111/0/14",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x82e5d50",
+      "function": "0x822fe81",
+      "origin": "Route113/0/17",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x82e5786",
+      "function": "0x81639e5",
+      "origin": "Route113/map script/5",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x82e5ee2",
+      "function": "0x82358a9",
+      "origin": "Route114/0/13",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x82e7738",
+      "function": "0x814f291",
+      "origin": "Route117/map script/3",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x82f5572",
+      "function": "0x81133c9",
+      "origin": "PacifidlogTown_House3/0/1",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x82f5f2e",
+      "function": "0x82761e5",
+      "origin": "PetalburgCity_Gym/0/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x82f9a85",
+      "function": "0x808eb29",
+      "origin": "SlateportCity_BattleTentBattleRoom/map table/2/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x82fb2b3",
+      "function": "0x813e57d",
+      "origin": "SlateportCity_OceanicMuseum_2F/0/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x83024c6",
+      "function": "0x81133c9",
+      "origin": "RustboroCity_House1/0/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8302b40",
+      "function": "0x81133c9",
+      "origin": "FortreeCity_House1/0/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x830f45f",
+      "function": "0x81133c9",
+      "origin": "SootopolisCity_LotadAndSeedotHouse/0/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x830f3cb",
+      "function": "0x81133c9",
+      "origin": "SootopolisCity_LotadAndSeedotHouse/0/1",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x83117f1",
+      "function": "0x82358a9",
+      "origin": "Route104_PrettyPetalFlowerShop/0/2",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8314740",
+      "function": "0x822fe81",
+      "origin": "GraniteCave_StevensRoom/0/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x83155ad",
+      "function": "0x822fe81",
+      "origin": "PetalburgWoods/0/13",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x838ed1e",
+      "function": "0x80da10d",
+      "origin": "MtPyre_Exterior/0/2",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x83315e6",
+      "function": "0x808e189",
+      "origin": "BattlePyramidSquare01/0/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x832280f",
+      "function": "0x813e5b5",
+      "origin": "BattleFrontier_BattleTowerLobby/0/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x832297d",
+      "function": "0x813e5b5",
+      "origin": "BattleFrontier_BattleTowerLobby/0/6",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8322aee",
+      "function": "0x813e5b5",
+      "origin": "BattleFrontier_BattleTowerLobby/0/7",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8322c5c",
+      "function": "0x813e5b5",
+      "origin": "BattleFrontier_BattleTowerLobby/0/8",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8322677",
+      "function": "0x813e57d",
+      "origin": "BattleFrontier_BattleTowerLobby/map table/2/4",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x832a738",
+      "function": "0x813e57d",
+      "origin": "BattleFrontier_BattleDomeLobby/map table/2/4",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x832fc7f",
+      "function": "0x813e5b5",
+      "origin": "BattleFrontier_BattlePyramidLobby/0/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x832fb89",
+      "function": "0x813e57d",
+      "origin": "BattleFrontier_BattlePyramidLobby/map table/2/4",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8333594",
+      "function": "0x813e5b5",
+      "origin": "BattleFrontier_BattleArenaLobby/0/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x83351f8",
+      "function": "0x813e57d",
+      "origin": "BattleFrontier_BattleFactoryLobby/map table/2/4",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x833703f",
+      "function": "0x808eb29",
+      "origin": "BattleFrontier_BattleFactoryBattleRoom/map table/2/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8337884",
+      "function": "0x813e5b5",
+      "origin": "BattleFrontier_BattlePikeLobby/0/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x83377ae",
+      "function": "0x813e57d",
+      "origin": "BattleFrontier_BattlePikeLobby/map table/2/3",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x833d79e",
+      "function": "0x81133c9",
+      "origin": "BattleFrontier_Lounge5/0/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x833db6a",
+      "function": "0x81133c9",
+      "origin": "BattleFrontier_Lounge6/0/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8346289",
+      "function": "0x82358a9",
+      "origin": "Route123_BerryMastersHouse/0/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x83832ca",
+      "function": "0x81133c9",
+      "origin": "MauvilleCity/0/9",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x82da30c",
+      "function": "0x82358a9",
+      "origin": "SootopolisCity/0/2",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x834c38f",
+      "function": "0x81bd4e5",
+      "origin": "Route102/0/6",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x83993a3",
+      "function": "0x80da10d",
+      "origin": "Route119/0/22",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x82ee30b",
+      "function": "0x8234af9",
+      "origin": "LittlerootTown_ProfessorBirchsLab/0/3",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x82ee3b0",
+      "function": "0x8234af9",
+      "origin": "LittlerootTown_ProfessorBirchsLab/0/4",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x82ee455",
+      "function": "0x8234af9",
+      "origin": "LittlerootTown_ProfessorBirchsLab/0/5",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8334b2c",
+      "function": "0x808eb29",
+      "origin": "FallarborTown_BattleTentBattleRoom/map table/2/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x832f3eb",
+      "function": "0x808eb29",
+      "origin": "VerdanturfTown_BattleTentBattleRoom/map table/2/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x82f9b4f",
+      "function": "0x81133c9",
+      "origin": "SlateportCity_NameRatersHouse/0/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8349f96",
+      "function": "0x813e57d",
+      "origin": "RustboroCity_DevonCorp_3F/map table/2/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8308f4f",
+      "function": "0x81133c9",
+      "origin": "LilycoveCity_MoveDeletersHouse/0/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x830bfbf",
+      "function": "0x8234af9",
+      "origin": "MossdeepCity_StevensHouse/0/1",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x835e86b",
+      "function": "0x81133c9",
+      "origin": "Route117_PokemonDayCare/0/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8322617",
+      "function": "0x813e57d",
+      "origin": "BattleFrontier_BattleTowerLobby/map table/2/3",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x832a8c0",
+      "function": "0x813e5b5",
+      "origin": "BattleFrontier_BattleDomeLobby/0/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x832a6dd",
+      "function": "0x813e57d",
+      "origin": "BattleFrontier_BattleDomeLobby/map table/2/3",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x832da14",
+      "function": "0x813e5b5",
+      "origin": "BattleFrontier_BattlePalaceLobby/0/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x832d883",
+      "function": "0x813e57d",
+      "origin": "BattleFrontier_BattlePalaceLobby/map table/2/4",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x832fb1d",
+      "function": "0x813e57d",
+      "origin": "BattleFrontier_BattlePyramidLobby/map table/2/3",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x833345a",
+      "function": "0x813e57d",
+      "origin": "BattleFrontier_BattleArenaLobby/map table/2/4",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x83351ca",
+      "function": "0x813e57d",
+      "origin": "BattleFrontier_BattleFactoryLobby/map table/2/3",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8337741",
+      "function": "0x813e57d",
+      "origin": "BattleFrontier_BattlePikeLobby/map table/2/2",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8338a14",
+      "function": "0x808eb29",
+      "origin": "BattleFrontier_BattlePikeRoomNormal/map table/2/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8338a82",
+      "function": "0x808eb29",
+      "origin": "BattleFrontier_BattlePikeRoomNormal/map table/2/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8338dd2",
+      "function": "0x808eb29",
+      "origin": "BattleFrontier_BattlePikeRoomNormal/map table/2/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8339bec",
+      "function": "0x81133c9",
+      "origin": "BattleFrontier_Lounge1/0/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8340067",
+      "function": "0x813e57d",
+      "origin": "TrainerHill_Entrance/map table/2/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x83469a3",
+      "function": "0x8234af9",
+      "origin": "Route119_WeatherInstitute_2F/0/4",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8349757",
+      "function": "0x81bd4e5",
+      "origin": "standard script",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x82f36ee",
+      "function": "0x822ff59",
+      "origin": "FallarborTown_MoveRelearnersHouse/0/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x834daec",
+      "function": "0x813e57d",
+      "origin": "SecretBase_RedCave1/0/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8383dce",
+      "function": "0x817e7bd",
+      "origin": "BattleFrontier_BattleTowerLobby/0/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8325085",
+      "function": "0x808eb29",
+      "origin": "BattleFrontier_BattleTowerBattleRoom/map table/2/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x832c89c",
+      "function": "0x808eb29",
+      "origin": "BattleFrontier_BattleDomeBattleRoom/map table/2/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8332ddf",
+      "function": "0x808eb29",
+      "origin": "BattleFrontier_BattlePyramidTop/2/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8335482",
+      "function": "0x813e57d",
+      "origin": "BattleFrontier_BattleFactoryLobby/0/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8337254",
+      "function": "0x808eb29",
+      "origin": "BattleFrontier_BattleFactoryBattleRoom/map table/2/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8338f99",
+      "function": "0x808eb29",
+      "origin": "BattleFrontier_BattlePikeRoomNormal/map table/2/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8340181",
+      "function": "0x813e57d",
+      "origin": "TrainerHill_Entrance/2/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8346378",
+      "function": "0x82358a9",
+      "origin": "Route123_BerryMastersHouse/0/1",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8349465",
+      "function": "0x813e57d",
+      "origin": "OldaleTown_PokemonCenter_1F/0/0",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x82ff7d2",
+      "function": "0x8234af9",
+      "origin": "RustboroCity_DevonCorp_2F/0/4",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x82ff879",
+      "function": "0x8234af9",
+      "origin": "RustboroCity_DevonCorp_2F/0/4",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x830d183",
+      "function": "0x80da10d",
+      "origin": "MossdeepCity_SpaceCenter_2F/0/3",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x8349677",
+      "function": "0x81bd4e5",
+      "origin": "standard script",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x833e189",
+      "function": "0x81133c9",
+      "origin": "BattleFrontier_Lounge7/0/1",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    },
+    {
+      "address": "0x82e3fe8",
+      "function": "0x822fe81",
+      "origin": "Route110/2/2",
+      "reason": "native may consume inline operands; stop instead of decoding operands as opcodes"
+    }
+  ],
+  "battles": {
+    "0x8386b80": {
+      "origin": "FortreeCity/0/13",
+      "flags": 36,
+      "trainers": [
+        117,
+        0
+      ]
+    },
+    "0x838cc13": {
+      "origin": "MossdeepCity/0/27",
+      "flags": 36,
+      "trainers": [
+        871,
+        0
+      ]
+    },
+    "0x838df3c": {
+      "origin": "MossdeepCity/0/30",
+      "flags": 37,
+      "trainers": [
+        915,
+        0
+      ]
+    },
+    "0x8390f49": {
+      "origin": "SootopolisCity/0/30",
+      "flags": 36,
+      "trainers": [
+        873,
+        0
+      ]
+    },
+    "0x8394df8": {
+      "origin": "EverGrandeCity/0/2",
+      "flags": 36,
+      "trainers": [
+        892,
+        0
+      ]
+    },
+    "0x8398bfa": {
+      "origin": "LavaridgeTown/0/15",
+      "flags": 148,
+      "trainers": [
+        908,
+        0
+      ]
+    },
+    "0x82df542": {
+      "origin": "Route102/0/1",
+      "flags": 36,
+      "trainers": [
+        318,
+        0
+      ]
+    },
+    "0x82df622": {
+      "origin": "Route102/0/2",
+      "flags": 36,
+      "trainers": [
+        615,
+        0
+      ]
+    },
+    "0x82df654": {
+      "origin": "Route102/0/3",
+      "flags": 36,
+      "trainers": [
+        603,
+        0
+      ]
+    },
+    "0x82df686": {
+      "origin": "Route102/0/8",
+      "flags": 36,
+      "trainers": [
+        333,
+        0
+      ]
+    },
+    "0x82df7e2": {
+      "origin": "Route102/0/9",
+      "flags": 36,
+      "trainers": [
+        855,
+        0
+      ]
+    },
+    "0x82dfd2a": {
+      "origin": "Route103/0/2",
+      "flags": 36,
+      "trainers": [
+        36,
+        0
+      ]
+    },
+    "0x82dfde9": {
+      "origin": "Route103/0/3",
+      "flags": 37,
+      "trainers": [
+        481,
+        0
+      ]
+    },
+    "0x82dfd5c": {
+      "origin": "Route103/0/4",
+      "flags": 37,
+      "trainers": [
+        481,
+        0
+      ]
+    },
+    "0x82dfe76": {
+      "origin": "Route103/0/5",
+      "flags": 36,
+      "trainers": [
+        336,
+        0
+      ]
+    },
+    "0x82dfea8": {
+      "origin": "Route103/0/11",
+      "flags": 36,
+      "trainers": [
+        293,
+        0
+      ]
+    },
+    "0x82dff6e": {
+      "origin": "Route103/0/15",
+      "flags": 36,
+      "trainers": [
+        703,
+        0
+      ]
+    },
+    "0x82dff3c": {
+      "origin": "Route103/0/16",
+      "flags": 36,
+      "trainers": [
+        702,
+        0
+      ]
+    },
+    "0x82dffd2": {
+      "origin": "Route103/0/17",
+      "flags": 36,
+      "trainers": [
+        736,
+        0
+      ]
+    },
+    "0x82dffa0": {
+      "origin": "Route103/0/18",
+      "flags": 36,
+      "trainers": [
+        735,
+        0
+      ]
+    },
+    "0x82e0b35": {
+      "origin": "Route104/0/2",
+      "flags": 36,
+      "trainers": [
+        604,
+        0
+      ]
+    },
+    "0x82e0ad1": {
+      "origin": "Route104/0/8",
+      "flags": 36,
+      "trainers": [
+        337,
+        0
+      ]
+    },
+    "0x82e0dd5": {
+      "origin": "Route104/0/22",
+      "flags": 37,
+      "trainers": [
+        483,
+        0
+      ]
+    },
+    "0x82e0e0b": {
+      "origin": "Route104/0/23",
+      "flags": 37,
+      "trainers": [
+        483,
+        0
+      ]
+    },
+    "0x82e0c15": {
+      "origin": "Route104/0/24",
+      "flags": 36,
+      "trainers": [
+        136,
+        0
+      ]
+    },
+    "0x82e0cf5": {
+      "origin": "Route104/0/25",
+      "flags": 36,
+      "trainers": [
+        114,
+        0
+      ]
+    },
+    "0x82e0b03": {
+      "origin": "Route104/0/27",
+      "flags": 36,
+      "trainers": [
+        319,
+        0
+      ]
+    },
+    "0x82e0e41": {
+      "origin": "Route104/0/32",
+      "flags": 36,
+      "trainers": [
+        696,
+        0
+      ]
+    },
+    "0x82e15dc": {
+      "origin": "Route104/0/34",
+      "flags": 36,
+      "trainers": [
+        856,
+        0
+      ]
+    },
+    "0x8398997": {
+      "origin": "Route104/0/35",
+      "flags": 148,
+      "trainers": [
+        906,
+        0
+      ]
+    },
+    "0x82e171f": {
+      "origin": "Route105/0/0",
+      "flags": 36,
+      "trainers": [
+        151,
+        0
+      ]
+    },
+    "0x82e1751": {
+      "origin": "Route105/0/1",
+      "flags": 36,
+      "trainers": [
+        152,
+        0
+      ]
+    },
+    "0x82e1783": {
+      "origin": "Route105/0/2",
+      "flags": 36,
+      "trainers": [
+        441,
+        0
+      ]
+    },
+    "0x82e17b5": {
+      "origin": "Route105/0/3",
+      "flags": 36,
+      "trainers": [
+        442,
+        0
+      ]
+    },
+    "0x82e16ed": {
+      "origin": "Route105/0/5",
+      "flags": 36,
+      "trainers": [
+        46,
+        0
+      ]
+    },
+    "0x82e17e7": {
+      "origin": "Route105/0/6",
+      "flags": 36,
+      "trainers": [
+        738,
+        0
+      ]
+    },
+    "0x82e1819": {
+      "origin": "Route105/0/7",
+      "flags": 36,
+      "trainers": [
+        737,
+        0
+      ]
+    },
+    "0x82e19b0": {
+      "origin": "Route106/0/0",
+      "flags": 36,
+      "trainers": [
+        153,
+        0
+      ]
+    },
+    "0x82e19e2": {
+      "origin": "Route106/0/1",
+      "flags": 36,
+      "trainers": [
+        443,
+        0
+      ]
+    },
+    "0x82e1a14": {
+      "origin": "Route106/0/2",
+      "flags": 36,
+      "trainers": [
+        339,
+        0
+      ]
+    },
+    "0x82e1aa8": {
+      "origin": "Route106/0/3",
+      "flags": 36,
+      "trainers": [
+        340,
+        0
+      ]
+    },
+    "0x82e1b0d": {
+      "origin": "Route107/0/0",
+      "flags": 36,
+      "trainers": [
+        154,
+        0
+      ]
+    },
+    "0x82e1b3f": {
+      "origin": "Route107/0/1",
+      "flags": 36,
+      "trainers": [
+        155,
+        0
+      ]
+    },
+    "0x82e1bd3": {
+      "origin": "Route107/0/2",
+      "flags": 36,
+      "trainers": [
+        444,
+        0
+      ]
+    },
+    "0x82e1c05": {
+      "origin": "Route107/0/3",
+      "flags": 36,
+      "trainers": [
+        445,
+        0
+      ]
+    },
+    "0x82e1c37": {
+      "origin": "Route107/0/4",
+      "flags": 37,
+      "trainers": [
+        692,
+        0
+      ]
+    },
+    "0x82e1c69": {
+      "origin": "Route107/0/5",
+      "flags": 37,
+      "trainers": [
+        692,
+        0
+      ]
+    },
+    "0x82e1c9b": {
+      "origin": "Route107/0/6",
+      "flags": 36,
+      "trainers": [
+        739,
+        0
+      ]
+    },
+    "0x82e1cce": {
+      "origin": "Route108/0/0",
+      "flags": 36,
+      "trainers": [
+        156,
+        0
+      ]
+    },
+    "0x82e1d32": {
+      "origin": "Route108/0/1",
+      "flags": 36,
+      "trainers": [
+        446,
+        0
+      ]
+    },
+    "0x82e1d00": {
+      "origin": "Route108/0/2",
+      "flags": 36,
+      "trainers": [
+        157,
+        0
+      ]
+    },
+    "0x82e1d64": {
+      "origin": "Route108/0/3",
+      "flags": 36,
+      "trainers": [
+        447,
+        0
+      ]
+    },
+    "0x82e1d96": {
+      "origin": "Route108/0/4",
+      "flags": 36,
+      "trainers": [
+        741,
+        0
+      ]
+    },
+    "0x82e1dc8": {
+      "origin": "Route108/0/5",
+      "flags": 36,
+      "trainers": [
+        740,
+        0
+      ]
+    },
+    "0x82e213a": {
+      "origin": "Route109/0/2",
+      "flags": 36,
+      "trainers": [
+        158,
+        0
+      ]
+    },
+    "0x82e216c": {
+      "origin": "Route109/0/3",
+      "flags": 36,
+      "trainers": [
+        448,
+        0
+      ]
+    },
+    "0x82e219e": {
+      "origin": "Route109/0/4",
+      "flags": 36,
+      "trainers": [
+        490,
+        0
+      ]
+    },
+    "0x82e21d0": {
+      "origin": "Route109/0/5",
+      "flags": 36,
+      "trainers": [
+        491,
+        0
+      ]
+    },
+    "0x82e2202": {
+      "origin": "Route109/0/6",
+      "flags": 36,
+      "trainers": [
+        64,
+        0
+      ]
+    },
+    "0x82e2296": {
+      "origin": "Route109/0/7",
+      "flags": 36,
+      "trainers": [
+        57,
+        0
+      ]
+    },
+    "0x82e235c": {
+      "origin": "Route109/0/10",
+      "flags": 36,
+      "trainers": [
+        59,
+        0
+      ]
+    },
+    "0x82e232a": {
+      "origin": "Route109/0/11",
+      "flags": 36,
+      "trainers": [
+        58,
+        0
+      ]
+    },
+    "0x82e238e": {
+      "origin": "Route109/0/12",
+      "flags": 36,
+      "trainers": [
+        345,
+        0
+      ]
+    },
+    "0x82e23f2": {
+      "origin": "Route109/0/16",
+      "flags": 37,
+      "trainers": [
+        680,
+        0
+      ]
+    },
+    "0x82e23c0": {
+      "origin": "Route109/0/17",
+      "flags": 37,
+      "trainers": [
+        680,
+        0
+      ]
+    },
+    "0x82e2456": {
+      "origin": "Route109/0/20",
+      "flags": 36,
+      "trainers": [
+        697,
+        0
+      ]
+    },
+    "0x82e2424": {
+      "origin": "Route109/0/21",
+      "flags": 36,
+      "trainers": [
+        698,
+        0
+      ]
+    },
+    "0x82e2488": {
+      "origin": "Route109/0/23",
+      "flags": 36,
+      "trainers": [
+        742,
+        0
+      ]
+    },
+    "0x82e2c39": {
+      "origin": "Route110/0/7",
+      "flags": 36,
+      "trainers": [
+        359,
+        0
+      ]
+    },
+    "0x82e2b73": {
+      "origin": "Route110/0/8",
+      "flags": 36,
+      "trainers": [
+        352,
+        0
+      ]
+    },
+    "0x82e2c6b": {
+      "origin": "Route110/0/9",
+      "flags": 36,
+      "trainers": [
+        358,
+        0
+      ]
+    },
+    "0x82e2ba5": {
+      "origin": "Route110/0/10",
+      "flags": 36,
+      "trainers": [
+        353,
+        0
+      ]
+    },
+    "0x82e2a17": {
+      "origin": "Route110/0/11",
+      "flags": 36,
+      "trainers": [
+        232,
+        0
+      ]
+    },
+    "0x82e2a49": {
+      "origin": "Route110/0/12",
+      "flags": 36,
+      "trainers": [
+        243,
+        0
+      ]
+    },
+    "0x82e2a7b": {
+      "origin": "Route110/0/13",
+      "flags": 36,
+      "trainers": [
+        512,
+        0
+      ]
+    },
+    "0x82e2b0f": {
+      "origin": "Route110/0/14",
+      "flags": 36,
+      "trainers": [
+        341,
+        0
+      ]
+    },
+    "0x82e2b41": {
+      "origin": "Route110/0/26",
+      "flags": 36,
+      "trainers": [
+        351,
+        0
+      ]
+    },
+    "0x82e2d93": {
+      "origin": "Route110/0/29",
+      "flags": 36,
+      "trainers": [
+        334,
+        0
+      ]
+    },
+    "0x82e2cff": {
+      "origin": "Route110/0/30",
+      "flags": 36,
+      "trainers": [
+        302,
+        0
+      ]
+    },
+    "0x82e2dc6": {
+      "origin": "Route110/0/31",
+      "flags": 36,
+      "trainers": [
+        699,
+        0
+      ]
+    },
+    "0x82e2e2a": {
+      "origin": "Route110/0/32",
+      "flags": 36,
+      "trainers": [
+        701,
+        0
+      ]
+    },
+    "0x82e2df8": {
+      "origin": "Route110/0/33",
+      "flags": 36,
+      "trainers": [
+        700,
+        0
+      ]
+    },
+    "0x8398a6d": {
+      "origin": "Route110/0/39",
+      "flags": 148,
+      "trainers": [
+        907,
+        0
+      ]
+    },
+    "0x82e4668": {
+      "origin": "Route111/0/4",
+      "flags": 36,
+      "trainers": [
+        469,
+        0
+      ]
+    },
+    "0x82e4636": {
+      "origin": "Route111/0/8",
+      "flags": 36,
+      "trainers": [
+        211,
+        0
+      ]
+    },
+    "0x82e46fe": {
+      "origin": "Route111/0/9",
+      "flags": 36,
+      "trainers": [
+        44,
+        0
+      ]
+    },
+    "0x82e469a": {
+      "origin": "Route111/0/10",
+      "flags": 36,
+      "trainers": [
+        212,
+        0
+      ]
+    },
+    "0x82e46cc": {
+      "origin": "Route111/0/11",
+      "flags": 36,
+      "trainers": [
+        470,
+        0
+      ]
+    },
+    "0x835b4df": {
+      "origin": "Route111/0/12",
+      "flags": 37,
+      "trainers": [
+        51,
+        0
+      ]
+    },
+    "0x835b4ac": {
+      "origin": "Route111/0/13",
+      "flags": 37,
+      "trainers": [
+        51,
+        0
+      ]
+    },
+    "0x835b5de": {
+      "origin": "Route111/0/20",
+      "flags": 37,
+      "trainers": [
+        54,
+        0
+      ]
+    },
+    "0x835b611": {
+      "origin": "Route111/0/21",
+      "flags": 37,
+      "trainers": [
+        54,
+        0
+      ]
+    },
+    "0x835b6aa": {
+      "origin": "Route111/0/22",
+      "flags": 37,
+      "trainers": [
+        56,
+        0
+      ]
+    },
+    "0x835b6dd": {
+      "origin": "Route111/0/23",
+      "flags": 37,
+      "trainers": [
+        56,
+        0
+      ]
+    },
+    "0x82e47c4": {
+      "origin": "Route111/0/27",
+      "flags": 36,
+      "trainers": [
+        476,
+        0
+      ]
+    },
+    "0x82e4792": {
+      "origin": "Route111/0/28",
+      "flags": 36,
+      "trainers": [
+        218,
+        0
+      ]
+    },
+    "0x82e47f6": {
+      "origin": "Route111/0/29",
+      "flags": 36,
+      "trainers": [
+        189,
+        0
+      ]
+    },
+    "0x82e48bc": {
+      "origin": "Route111/0/30",
+      "flags": 36,
+      "trainers": [
+        94,
+        0
+      ]
+    },
+    "0x82e4828": {
+      "origin": "Route111/0/31",
+      "flags": 36,
+      "trainers": [
+        78,
+        0
+      ]
+    },
+    "0x82e49b4": {
+      "origin": "Route111/0/34",
+      "flags": 36,
+      "trainers": [
+        704,
+        0
+      ]
+    },
+    "0x82e49e6": {
+      "origin": "Route111/0/35",
+      "flags": 36,
+      "trainers": [
+        705,
+        0
+      ]
+    },
+    "0x82e4982": {
+      "origin": "Route111/0/36",
+      "flags": 36,
+      "trainers": [
+        706,
+        0
+      ]
+    },
+    "0x82e4950": {
+      "origin": "Route111/0/37",
+      "flags": 36,
+      "trainers": [
+        707,
+        0
+      ]
+    },
+    "0x82e4a4a": {
+      "origin": "Route111/0/38",
+      "flags": 36,
+      "trainers": [
+        744,
+        0
+      ]
+    },
+    "0x82e4a18": {
+      "origin": "Route111/0/39",
+      "flags": 36,
+      "trainers": [
+        743,
+        0
+      ]
+    },
+    "0x82e4a7c": {
+      "origin": "Route111/0/40",
+      "flags": 36,
+      "trainers": [
+        745,
+        0
+      ]
+    },
+    "0x82e527f": {
+      "origin": "Route112/0/1",
+      "flags": 36,
+      "trainers": [
+        626,
+        0
+      ]
+    },
+    "0x82e5345": {
+      "origin": "Route112/0/2",
+      "flags": 36,
+      "trainers": [
+        213,
+        0
+      ]
+    },
+    "0x82e5377": {
+      "origin": "Route112/0/3",
+      "flags": 36,
+      "trainers": [
+        471,
+        0
+      ]
+    },
+    "0x82e52b1": {
+      "origin": "Route112/0/4",
+      "flags": 36,
+      "trainers": [
+        627,
+        0
+      ]
+    },
+    "0x82e53a9": {
+      "origin": "Route112/0/12",
+      "flags": 36,
+      "trainers": [
+        746,
+        0
+      ]
+    },
+    "0x82e53db": {
+      "origin": "Route112/0/13",
+      "flags": 36,
+      "trainers": [
+        747,
+        0
+      ]
+    },
+    "0x82e5549": {
+      "origin": "Route112/0/14",
+      "flags": 36,
+      "trainers": [
+        859,
+        0
+      ]
+    },
+    "0x82e57ed": {
+      "origin": "Route113/0/2",
+      "flags": 36,
+      "trainers": [
+        326,
+        0
+      ]
+    },
+    "0x82e581f": {
+      "origin": "Route113/0/3",
+      "flags": 36,
+      "trainers": [
+        327,
+        0
+      ]
+    },
+    "0x82e5851": {
+      "origin": "Route113/0/4",
+      "flags": 36,
+      "trainers": [
+        434,
+        0
+      ]
+    },
+    "0x82e58e5": {
+      "origin": "Route113/0/7",
+      "flags": 36,
+      "trainers": [
+        419,
+        0
+      ]
+    },
+    "0x82e5979": {
+      "origin": "Route113/0/8",
+      "flags": 36,
+      "trainers": [
+        420,
+        0
+      ]
+    },
+    "0x82e59ab": {
+      "origin": "Route113/0/9",
+      "flags": 37,
+      "trainers": [
+        677,
+        0
+      ]
+    },
+    "0x82e59dd": {
+      "origin": "Route113/0/10",
+      "flags": 37,
+      "trainers": [
+        677,
+        0
+      ]
+    },
+    "0x82e5aa5": {
+      "origin": "Route113/0/12",
+      "flags": 36,
+      "trainers": [
+        711,
+        0
+      ]
+    },
+    "0x82e5a73": {
+      "origin": "Route113/0/13",
+      "flags": 36,
+      "trainers": [
+        710,
+        0
+      ]
+    },
+    "0x82e5a0f": {
+      "origin": "Route113/0/14",
+      "flags": 36,
+      "trainers": [
+        708,
+        0
+      ]
+    },
+    "0x82e5a41": {
+      "origin": "Route113/0/15",
+      "flags": 36,
+      "trainers": [
+        709,
+        0
+      ]
+    },
+    "0x82e5f86": {
+      "origin": "Route114/0/2",
+      "flags": 36,
+      "trainers": [
+        628,
+        0
+      ]
+    },
+    "0x82e5fb8": {
+      "origin": "Route114/0/3",
+      "flags": 36,
+      "trainers": [
+        629,
+        0
+      ]
+    },
+    "0x82e5fea": {
+      "origin": "Route114/0/4",
+      "flags": 36,
+      "trainers": [
+        214,
+        0
+      ]
+    },
+    "0x82e601c": {
+      "origin": "Route114/0/5",
+      "flags": 36,
+      "trainers": [
+        472,
+        0
+      ]
+    },
+    "0x82e604e": {
+      "origin": "Route114/0/6",
+      "flags": 36,
+      "trainers": [
+        143,
+        0
+      ]
+    },
+    "0x82e61a8": {
+      "origin": "Route114/0/14",
+      "flags": 36,
+      "trainers": [
+        342,
+        0
+      ]
+    },
+    "0x82e6176": {
+      "origin": "Route114/0/15",
+      "flags": 36,
+      "trainers": [
+        338,
+        0
+      ]
+    },
+    "0x82e60e2": {
+      "origin": "Route114/0/16",
+      "flags": 36,
+      "trainers": [
+        206,
+        0
+      ]
+    },
+    "0x82e620c": {
+      "origin": "Route114/0/21",
+      "flags": 37,
+      "trainers": [
+        679,
+        0
+      ]
+    },
+    "0x82e61da": {
+      "origin": "Route114/0/22",
+      "flags": 37,
+      "trainers": [
+        679,
+        0
+      ]
+    },
+    "0x82e6270": {
+      "origin": "Route114/0/23",
+      "flags": 36,
+      "trainers": [
+        714,
+        0
+      ]
+    },
+    "0x82e623e": {
+      "origin": "Route114/0/24",
+      "flags": 36,
+      "trainers": [
+        712,
+        0
+      ]
+    },
+    "0x82e62a2": {
+      "origin": "Route114/0/26",
+      "flags": 36,
+      "trainers": [
+        713,
+        0
+      ]
+    },
+    "0x82e6460": {
+      "origin": "Route115/0/1",
+      "flags": 36,
+      "trainers": [
+        307,
+        0
+      ]
+    },
+    "0x82e6526": {
+      "origin": "Route115/0/2",
+      "flags": 36,
+      "trainers": [
+        183,
+        0
+      ]
+    },
+    "0x82e65ba": {
+      "origin": "Route115/0/6",
+      "flags": 36,
+      "trainers": [
+        427,
+        0
+      ]
+    },
+    "0x82e64f4": {
+      "origin": "Route115/0/7",
+      "flags": 36,
+      "trainers": [
+        182,
+        0
+      ]
+    },
+    "0x82e664e": {
+      "origin": "Route115/0/8",
+      "flags": 36,
+      "trainers": [
+        513,
+        0
+      ]
+    },
+    "0x82e6680": {
+      "origin": "Route115/0/16",
+      "flags": 36,
+      "trainers": [
+        748,
+        0
+      ]
+    },
+    "0x82e66b2": {
+      "origin": "Route115/0/17",
+      "flags": 36,
+      "trainers": [
+        749,
+        0
+      ]
+    },
+    "0x82e6716": {
+      "origin": "Route115/0/18",
+      "flags": 36,
+      "trainers": [
+        751,
+        0
+      ]
+    },
+    "0x82e66e4": {
+      "origin": "Route115/0/19",
+      "flags": 36,
+      "trainers": [
+        750,
+        0
+      ]
+    },
+    "0x82e6748": {
+      "origin": "Route115/0/20",
+      "flags": 36,
+      "trainers": [
+        752,
+        0
+      ]
+    },
+    "0x82e6a7d": {
+      "origin": "Route116/0/2",
+      "flags": 36,
+      "trainers": [
+        322,
+        0
+      ]
+    },
+    "0x82e6aaf": {
+      "origin": "Route116/0/5",
+      "flags": 36,
+      "trainers": [
+        617,
+        0
+      ]
+    },
+    "0x82e6bc1": {
+      "origin": "Route116/0/12",
+      "flags": 36,
+      "trainers": [
+        631,
+        0
+      ]
+    },
+    "0x82e6bf3": {
+      "origin": "Route116/0/15",
+      "flags": 36,
+      "trainers": [
+        605,
+        0
+      ]
+    },
+    "0x82e6c25": {
+      "origin": "Route116/0/16",
+      "flags": 36,
+      "trainers": [
+        280,
+        0
+      ]
+    },
+    "0x82e6ae1": {
+      "origin": "Route116/0/17",
+      "flags": 36,
+      "trainers": [
+        273,
+        0
+      ]
+    },
+    "0x82e6d05": {
+      "origin": "Route116/0/22",
+      "flags": 36,
+      "trainers": [
+        695,
+        0
+      ]
+    },
+    "0x82e6d37": {
+      "origin": "Route116/0/23",
+      "flags": 36,
+      "trainers": [
+        694,
+        0
+      ]
+    },
+    "0x82e6d9b": {
+      "origin": "Route116/0/26",
+      "flags": 36,
+      "trainers": [
+        754,
+        0
+      ]
+    },
+    "0x82e6d69": {
+      "origin": "Route116/0/27",
+      "flags": 36,
+      "trainers": [
+        753,
+        0
+      ]
+    },
+    "0x82e7916": {
+      "origin": "Route117/0/7",
+      "flags": 36,
+      "trainers": [
+        364,
+        0
+      ]
+    },
+    "0x82e7882": {
+      "origin": "Route117/0/8",
+      "flags": 36,
+      "trainers": [
+        545,
+        0
+      ]
+    },
+    "0x82e77ee": {
+      "origin": "Route117/0/9",
+      "flags": 36,
+      "trainers": [
+        538,
+        0
+      ]
+    },
+    "0x82e79aa": {
+      "origin": "Route117/0/16",
+      "flags": 36,
+      "trainers": [
+        369,
+        0
+      ]
+    },
+    "0x82e7a3e": {
+      "origin": "Route117/0/17",
+      "flags": 36,
+      "trainers": [
+        227,
+        0
+      ]
+    },
+    "0x82e7afe": {
+      "origin": "Route117/0/18",
+      "flags": 37,
+      "trainers": [
+        287,
+        0
+      ]
+    },
+    "0x82e7a70": {
+      "origin": "Route117/0/19",
+      "flags": 37,
+      "trainers": [
+        287,
+        0
+      ]
+    },
+    "0x82e7bbe": {
+      "origin": "Route117/0/21",
+      "flags": 36,
+      "trainers": [
+        756,
+        0
+      ]
+    },
+    "0x82e7bf0": {
+      "origin": "Route117/0/22",
+      "flags": 36,
+      "trainers": [
+        757,
+        0
+      ]
+    },
+    "0x82e7b8c": {
+      "origin": "Route117/0/23",
+      "flags": 36,
+      "trainers": [
+        755,
+        0
+      ]
+    },
+    "0x82e7d28": {
+      "origin": "Route117/0/26",
+      "flags": 36,
+      "trainers": [
+        857,
+        0
+      ]
+    },
+    "0x82e7d79": {
+      "origin": "Route117/0/27",
+      "flags": 37,
+      "trainers": [
+        858,
+        0
+      ]
+    },
+    "0x82e8300": {
+      "origin": "Route118/0/3",
+      "flags": 36,
+      "trainers": [
+        398,
+        0
+      ]
+    },
+    "0x835b512": {
+      "origin": "Route118/0/4",
+      "flags": 37,
+      "trainers": [
+        52,
+        0
+      ]
+    },
+    "0x835b545": {
+      "origin": "Route118/0/5",
+      "flags": 37,
+      "trainers": [
+        52,
+        0
+      ]
+    },
+    "0x835b644": {
+      "origin": "Route118/0/7",
+      "flags": 37,
+      "trainers": [
+        55,
+        0
+      ]
+    },
+    "0x835b677": {
+      "origin": "Route118/0/8",
+      "flags": 37,
+      "trainers": [
+        55,
+        0
+      ]
+    },
+    "0x82e8174": {
+      "origin": "Route118/0/13",
+      "flags": 36,
+      "trainers": [
+        37,
+        0
+      ]
+    },
+    "0x82e823a": {
+      "origin": "Route118/0/14",
+      "flags": 36,
+      "trainers": [
+        344,
+        0
+      ]
+    },
+    "0x82e8332": {
+      "origin": "Route118/0/15",
+      "flags": 36,
+      "trainers": [
+        408,
+        0
+      ]
+    },
+    "0x82e8208": {
+      "origin": "Route118/0/16",
+      "flags": 36,
+      "trainers": [
+        343,
+        0
+      ]
+    },
+    "0x82e826c": {
+      "origin": "Route118/0/17",
+      "flags": 36,
+      "trainers": [
+        196,
+        0
+      ]
+    },
+    "0x82e8364": {
+      "origin": "Route118/0/20",
+      "flags": 36,
+      "trainers": [
+        715,
+        0
+      ]
+    },
+    "0x8385218": {
+      "origin": "Route118/0/24",
+      "flags": 148,
+      "trainers": [
+        861,
+        0
+      ]
+    },
+    "0x8385275": {
+      "origin": "Route118/0/24",
+      "flags": 148,
+      "trainers": [
+        862,
+        0
+      ]
+    },
+    "0x82e8b12": {
+      "origin": "Route119/0/3",
+      "flags": 36,
+      "trainers": [
+        619,
+        0
+      ]
+    },
+    "0x82e8aae": {
+      "origin": "Route119/0/4",
+      "flags": 36,
+      "trainers": [
+        225,
+        0
+      ]
+    },
+    "0x82e8a7c": {
+      "origin": "Route119/0/5",
+      "flags": 36,
+      "trainers": [
+        224,
+        0
+      ]
+    },
+    "0x82e8b76": {
+      "origin": "Route119/0/6",
+      "flags": 36,
+      "trainers": [
+        552,
+        0
+      ]
+    },
+    "0x82e8a4a": {
+      "origin": "Route119/0/7",
+      "flags": 36,
+      "trainers": [
+        223,
+        0
+      ]
+    },
+    "0x82e8c0a": {
+      "origin": "Route119/0/8",
+      "flags": 36,
+      "trainers": [
+        559,
+        0
+      ]
+    },
+    "0x82e8ae0": {
+      "origin": "Route119/0/9",
+      "flags": 36,
+      "trainers": [
+        618,
+        0
+      ]
+    },
+    "0x82e8b44": {
+      "origin": "Route119/0/10",
+      "flags": 36,
+      "trainers": [
+        620,
+        0
+      ]
+    },
+    "0x82e8d02": {
+      "origin": "Route119/0/11",
+      "flags": 36,
+      "trainers": [
+        415,
+        0
+      ]
+    },
+    "0x82e8d34": {
+      "origin": "Route119/0/12",
+      "flags": 36,
+      "trainers": [
+        416,
+        0
+      ]
+    },
+    "0x82e8c9e": {
+      "origin": "Route119/0/13",
+      "flags": 36,
+      "trainers": [
+        399,
+        0
+      ]
+    },
+    "0x82e8cd0": {
+      "origin": "Route119/0/14",
+      "flags": 36,
+      "trainers": [
+        400,
+        0
+      ]
+    },
+    "0x82e8d66": {
+      "origin": "Route119/0/33",
+      "flags": 36,
+      "trainers": [
+        651,
+        0
+      ]
+    },
+    "0x82e8d98": {
+      "origin": "Route119/0/36",
+      "flags": 36,
+      "trainers": [
+        693,
+        0
+      ]
+    },
+    "0x82e8e2e": {
+      "origin": "Route119/0/37",
+      "flags": 36,
+      "trainers": [
+        761,
+        0
+      ]
+    },
+    "0x82e8dfc": {
+      "origin": "Route119/0/38",
+      "flags": 36,
+      "trainers": [
+        760,
+        0
+      ]
+    },
+    "0x82e8dca": {
+      "origin": "Route119/0/39",
+      "flags": 36,
+      "trainers": [
+        759,
+        0
+      ]
+    },
+    "0x83855c8": {
+      "origin": "Route119/0/45",
+      "flags": 36,
+      "trainers": [
+        863,
+        0
+      ]
+    },
+    "0x8385c02": {
+      "origin": "Route119/0/49",
+      "flags": 37,
+      "trainers": [
+        568,
+        0
+      ]
+    },
+    "0x839436c": {
+      "origin": "Route119/0/54",
+      "flags": 36,
+      "trainers": [
+        880,
+        0
+      ]
+    },
+    "0x839439e": {
+      "origin": "Route119/0/55",
+      "flags": 36,
+      "trainers": [
+        881,
+        0
+      ]
+    },
+    "0x83943d0": {
+      "origin": "Route119/0/56",
+      "flags": 36,
+      "trainers": [
+        882,
+        0
+      ]
+    },
+    "0x8394415": {
+      "origin": "Route119/0/57",
+      "flags": 148,
+      "trainers": [
+        883,
+        0
+      ]
+    },
+    "0x82e9906": {
+      "origin": "Route120/0/10",
+      "flags": 36,
+      "trainers": [
+        405,
+        0
+      ]
+    },
+    "0x82e9938": {
+      "origin": "Route120/0/11",
+      "flags": 36,
+      "trainers": [
+        406,
+        0
+      ]
+    },
+    "0x82e99cc": {
+      "origin": "Route120/0/12",
+      "flags": 36,
+      "trainers": [
+        553,
+        0
+      ]
+    },
+    "0x82e99fe": {
+      "origin": "Route120/0/13",
+      "flags": 36,
+      "trainers": [
+        560,
+        0
+      ]
+    },
+    "0x82e9a30": {
+      "origin": "Route120/0/14",
+      "flags": 36,
+      "trainers": [
+        226,
+        0
+      ]
+    },
+    "0x835b5ab": {
+      "origin": "Route120/0/16",
+      "flags": 37,
+      "trainers": [
+        53,
+        0
+      ]
+    },
+    "0x835b578": {
+      "origin": "Route120/0/17",
+      "flags": 37,
+      "trainers": [
+        53,
+        0
+      ]
+    },
+    "0x82e9ac4": {
+      "origin": "Route120/0/23",
+      "flags": 36,
+      "trainers": [
+        95,
+        0
+      ]
+    },
+    "0x82e9af6": {
+      "origin": "Route120/0/24",
+      "flags": 36,
+      "trainers": [
+        45,
+        0
+      ]
+    },
+    "0x82e9b2d": {
+      "origin": "Route120/0/25",
+      "flags": 36,
+      "trainers": [
+        435,
+        0
+      ]
+    },
+    "0x82e9b5f": {
+      "origin": "Route120/0/26",
+      "flags": 36,
+      "trainers": [
+        436,
+        0
+      ]
+    },
+    "0x82e9b91": {
+      "origin": "Route120/0/33",
+      "flags": 36,
+      "trainers": [
+        652,
+        0
+      ]
+    },
+    "0x82e9bc3": {
+      "origin": "Route120/0/34",
+      "flags": 36,
+      "trainers": [
+        653,
+        0
+      ]
+    },
+    "0x82e9c27": {
+      "origin": "Route120/0/41",
+      "flags": 36,
+      "trainers": [
+        763,
+        0
+      ]
+    },
+    "0x82e9bf5": {
+      "origin": "Route120/0/42",
+      "flags": 36,
+      "trainers": [
+        762,
+        0
+      ]
+    },
+    "0x8386502": {
+      "origin": "Route120/0/47",
+      "flags": 36,
+      "trainers": [
+        462,
+        0
+      ]
+    },
+    "0x8386646": {
+      "origin": "Route120/0/48",
+      "flags": 36,
+      "trainers": [
+        581,
+        0
+      ]
+    },
+    "0x82ea0de": {
+      "origin": "Route121/0/9",
+      "flags": 37,
+      "trainers": [
+        286,
+        0
+      ]
+    },
+    "0x82ea110": {
+      "origin": "Route121/0/10",
+      "flags": 37,
+      "trainers": [
+        286,
+        0
+      ]
+    },
+    "0x82e9fe6": {
+      "origin": "Route121/0/16",
+      "flags": 36,
+      "trainers": [
+        300,
+        0
+      ]
+    },
+    "0x82ea018": {
+      "origin": "Route121/0/17",
+      "flags": 36,
+      "trainers": [
+        254,
+        0
+      ]
+    },
+    "0x82ea0ac": {
+      "origin": "Route121/0/18",
+      "flags": 36,
+      "trainers": [
+        107,
+        0
+      ]
+    },
+    "0x82ea142": {
+      "origin": "Route121/0/19",
+      "flags": 36,
+      "trainers": [
+        127,
+        0
+      ]
+    },
+    "0x82ea1d6": {
+      "origin": "Route121/0/22",
+      "flags": 36,
+      "trainers": [
+        764,
+        0
+      ]
+    },
+    "0x82ea208": {
+      "origin": "Route121/0/23",
+      "flags": 36,
+      "trainers": [
+        765,
+        0
+      ]
+    },
+    "0x82ea23a": {
+      "origin": "Route121/0/24",
+      "flags": 36,
+      "trainers": [
+        766,
+        0
+      ]
+    },
+    "0x82ea26c": {
+      "origin": "Route121/0/25",
+      "flags": 36,
+      "trainers": [
+        11,
+        0
+      ]
+    },
+    "0x82ea29e": {
+      "origin": "Route121/0/26",
+      "flags": 36,
+      "trainers": [
+        767,
+        0
+      ]
+    },
+    "0x8386d45": {
+      "origin": "Route121/0/29",
+      "flags": 36,
+      "trainers": [
+        633,
+        0
+      ]
+    },
+    "0x8386d8b": {
+      "origin": "Route121/0/30",
+      "flags": 37,
+      "trainers": [
+        485,
+        0
+      ]
+    },
+    "0x82ea45d": {
+      "origin": "Route123/0/7",
+      "flags": 36,
+      "trainers": [
+        92,
+        0
+      ]
+    },
+    "0x82ea48f": {
+      "origin": "Route123/0/8",
+      "flags": 36,
+      "trainers": [
+        75,
+        0
+      ]
+    },
+    "0x82ea4c1": {
+      "origin": "Route123/0/25",
+      "flags": 36,
+      "trainers": [
+        39,
+        0
+      ]
+    },
+    "0x82ea64d": {
+      "origin": "Route123/0/26",
+      "flags": 37,
+      "trainers": [
+        484,
+        0
+      ]
+    },
+    "0x82ea61b": {
+      "origin": "Route123/0/27",
+      "flags": 37,
+      "trainers": [
+        484,
+        0
+      ]
+    },
+    "0x82ea4f3": {
+      "origin": "Route123/0/28",
+      "flags": 36,
+      "trainers": [
+        238,
+        0
+      ]
+    },
+    "0x82ea587": {
+      "origin": "Route123/0/29",
+      "flags": 36,
+      "trainers": [
+        249,
+        0
+      ]
+    },
+    "0x82ea67f": {
+      "origin": "Route123/0/30",
+      "flags": 36,
+      "trainers": [
+        106,
+        0
+      ]
+    },
+    "0x82ea779": {
+      "origin": "Route123/0/33",
+      "flags": 36,
+      "trainers": [
+        504,
+        0
+      ]
+    },
+    "0x82ea747": {
+      "origin": "Route123/0/34",
+      "flags": 36,
+      "trainers": [
+        505,
+        0
+      ]
+    },
+    "0x82ea715": {
+      "origin": "Route123/0/35",
+      "flags": 36,
+      "trainers": [
+        13,
+        0
+      ]
+    },
+    "0x82ea80f": {
+      "origin": "Route123/0/36",
+      "flags": 36,
+      "trainers": [
+        195,
+        0
+      ]
+    },
+    "0x82ea6e3": {
+      "origin": "Route123/0/37",
+      "flags": 36,
+      "trainers": [
+        12,
+        0
+      ]
+    },
+    "0x82ea6b1": {
+      "origin": "Route123/0/38",
+      "flags": 36,
+      "trainers": [
+        29,
+        0
+      ]
+    },
+    "0x82ea7ab": {
+      "origin": "Route123/0/40",
+      "flags": 36,
+      "trainers": [
+        503,
+        0
+      ]
+    },
+    "0x82ea7dd": {
+      "origin": "Route123/0/41",
+      "flags": 36,
+      "trainers": [
+        539,
+        0
+      ]
+    },
+    "0x82ea99f": {
+      "origin": "Route124/0/0",
+      "flags": 36,
+      "trainers": [
+        159,
+        0
+      ]
+    },
+    "0x82ea9d1": {
+      "origin": "Route124/0/1",
+      "flags": 36,
+      "trainers": [
+        160,
+        0
+      ]
+    },
+    "0x82eaa03": {
+      "origin": "Route124/0/2",
+      "flags": 36,
+      "trainers": [
+        449,
+        0
+      ]
+    },
+    "0x82eaa97": {
+      "origin": "Route124/0/3",
+      "flags": 36,
+      "trainers": [
+        450,
+        0
+      ]
+    },
+    "0x82eaac9": {
+      "origin": "Route124/0/4",
+      "flags": 36,
+      "trainers": [
+        174,
+        0
+      ]
+    },
+    "0x82eaafb": {
+      "origin": "Route124/0/8",
+      "flags": 37,
+      "trainers": [
+        687,
+        0
+      ]
+    },
+    "0x82eab89": {
+      "origin": "Route124/0/9",
+      "flags": 37,
+      "trainers": [
+        687,
+        0
+      ]
+    },
+    "0x82eac17": {
+      "origin": "Route124/0/10",
+      "flags": 36,
+      "trainers": [
+        15,
+        0
+      ]
+    },
+    "0x82eac49": {
+      "origin": "Route124/0/11",
+      "flags": 36,
+      "trainers": [
+        595,
+        0
+      ]
+    },
+    "0x838cd2a": {
+      "origin": "Route124/0/16",
+      "flags": 36,
+      "trainers": [
+        916,
+        0
+      ]
+    },
+    "0x82eace4": {
+      "origin": "Route125/0/0",
+      "flags": 36,
+      "trainers": [
+        161,
+        0
+      ]
+    },
+    "0x82ead16": {
+      "origin": "Route125/0/1",
+      "flags": 36,
+      "trainers": [
+        162,
+        0
+      ]
+    },
+    "0x82ead48": {
+      "origin": "Route125/0/2",
+      "flags": 36,
+      "trainers": [
+        451,
+        0
+      ]
+    },
+    "0x82ead7a": {
+      "origin": "Route125/0/3",
+      "flags": 36,
+      "trainers": [
+        452,
+        0
+      ]
+    },
+    "0x82eadac": {
+      "origin": "Route125/0/4",
+      "flags": 36,
+      "trainers": [
+        492,
+        0
+      ]
+    },
+    "0x82eae40": {
+      "origin": "Route125/0/5",
+      "flags": 37,
+      "trainers": [
+        678,
+        0
+      ]
+    },
+    "0x82eae72": {
+      "origin": "Route125/0/6",
+      "flags": 37,
+      "trainers": [
+        678,
+        0
+      ]
+    },
+    "0x82eaea4": {
+      "origin": "Route125/0/7",
+      "flags": 36,
+      "trainers": [
+        403,
+        0
+      ]
+    },
+    "0x82eaed6": {
+      "origin": "Route125/0/8",
+      "flags": 36,
+      "trainers": [
+        506,
+        0
+      ]
+    },
+    "0x82eaf18": {
+      "origin": "Route126/0/0",
+      "flags": 36,
+      "trainers": [
+        163,
+        0
+      ]
+    },
+    "0x82eaf4a": {
+      "origin": "Route126/0/1",
+      "flags": 36,
+      "trainers": [
+        164,
+        0
+      ]
+    },
+    "0x82eaf7c": {
+      "origin": "Route126/0/2",
+      "flags": 36,
+      "trainers": [
+        453,
+        0
+      ]
+    },
+    "0x82eafae": {
+      "origin": "Route126/0/3",
+      "flags": 36,
+      "trainers": [
+        454,
+        0
+      ]
+    },
+    "0x82eb044": {
+      "origin": "Route126/0/5",
+      "flags": 36,
+      "trainers": [
+        459,
+        0
+      ]
+    },
+    "0x82eb076": {
+      "origin": "Route126/0/6",
+      "flags": 36,
+      "trainers": [
+        377,
+        0
+      ]
+    },
+    "0x82eb012": {
+      "origin": "Route126/0/7",
+      "flags": 36,
+      "trainers": [
+        383,
+        0
+      ]
+    },
+    "0x82eafe0": {
+      "origin": "Route126/0/8",
+      "flags": 36,
+      "trainers": [
+        576,
+        0
+      ]
+    },
+    "0x82eb169": {
+      "origin": "Route127/0/0",
+      "flags": 36,
+      "trainers": [
+        374,
+        0
+      ]
+    },
+    "0x82eb19b": {
+      "origin": "Route127/0/1",
+      "flags": 36,
+      "trainers": [
+        384,
+        0
+      ]
+    },
+    "0x82eb1cd": {
+      "origin": "Route127/0/4",
+      "flags": 36,
+      "trainers": [
+        667,
+        0
+      ]
+    },
+    "0x82eb231": {
+      "origin": "Route127/0/5",
+      "flags": 36,
+      "trainers": [
+        669,
+        0
+      ]
+    },
+    "0x82eb1ff": {
+      "origin": "Route127/0/6",
+      "flags": 36,
+      "trainers": [
+        668,
+        0
+      ]
+    },
+    "0x82eb263": {
+      "origin": "Route127/0/7",
+      "flags": 36,
+      "trainers": [
+        674,
+        0
+      ]
+    },
+    "0x82eb2c7": {
+      "origin": "Route127/0/8",
+      "flags": 36,
+      "trainers": [
+        672,
+        0
+      ]
+    },
+    "0x82eb295": {
+      "origin": "Route127/0/9",
+      "flags": 36,
+      "trainers": [
+        577,
+        0
+      ]
+    },
+    "0x82eb4e7": {
+      "origin": "Route128/0/0",
+      "flags": 36,
+      "trainers": [
+        376,
+        0
+      ]
+    },
+    "0x82eb57b": {
+      "origin": "Route128/0/1",
+      "flags": 36,
+      "trainers": [
+        386,
+        0
+      ]
+    },
+    "0x82eb673": {
+      "origin": "Route128/0/5",
+      "flags": 36,
+      "trainers": [
+        673,
+        0
+      ]
+    },
+    "0x82eb641": {
+      "origin": "Route128/0/6",
+      "flags": 36,
+      "trainers": [
+        671,
+        0
+      ]
+    },
+    "0x82eb60f": {
+      "origin": "Route128/0/7",
+      "flags": 36,
+      "trainers": [
+        670,
+        0
+      ]
+    },
+    "0x82eb6d7": {
+      "origin": "Route128/0/8",
+      "flags": 36,
+      "trainers": [
+        464,
+        0
+      ]
+    },
+    "0x82eb6a5": {
+      "origin": "Route128/0/9",
+      "flags": 36,
+      "trainers": [
+        578,
+        0
+      ]
+    },
+    "0x8390775": {
+      "origin": "Route128/0/10",
+      "flags": 36,
+      "trainers": [
+        872,
+        0
+      ]
+    },
+    "0x839463c": {
+      "origin": "Route128/0/11",
+      "flags": 148,
+      "trainers": [
+        887,
+        0
+      ]
+    },
+    "0x82eba58": {
+      "origin": "Route129/0/0",
+      "flags": 36,
+      "trainers": [
+        378,
+        0
+      ]
+    },
+    "0x82eba8a": {
+      "origin": "Route129/0/1",
+      "flags": 36,
+      "trainers": [
+        387,
+        0
+      ]
+    },
+    "0x82ebaee": {
+      "origin": "Route129/0/2",
+      "flags": 36,
+      "trainers": [
+        676,
+        0
+      ]
+    },
+    "0x82ebabc": {
+      "origin": "Route129/0/3",
+      "flags": 36,
+      "trainers": [
+        675,
+        0
+      ]
+    },
+    "0x82ebb20": {
+      "origin": "Route129/0/4",
+      "flags": 36,
+      "trainers": [
+        580,
+        0
+      ]
+    },
+    "0x82ebbb2": {
+      "origin": "Route130/0/0",
+      "flags": 36,
+      "trainers": [
+        165,
+        0
+      ]
+    },
+    "0x82ebbe4": {
+      "origin": "Route130/0/1",
+      "flags": 36,
+      "trainers": [
+        455,
+        0
+      ]
+    },
+    "0x82ebc16": {
+      "origin": "Route130/0/3",
+      "flags": 36,
+      "trainers": [
+        168,
+        0
+      ]
+    },
+    "0x82ebc6d": {
+      "origin": "Route131/0/0",
+      "flags": 36,
+      "trainers": [
+        166,
+        0
+      ]
+    },
+    "0x82ebc9f": {
+      "origin": "Route131/0/1",
+      "flags": 36,
+      "trainers": [
+        167,
+        0
+      ]
+    },
+    "0x82ebcd1": {
+      "origin": "Route131/0/2",
+      "flags": 36,
+      "trainers": [
+        456,
+        0
+      ]
+    },
+    "0x82ebd03": {
+      "origin": "Route131/0/3",
+      "flags": 36,
+      "trainers": [
+        457,
+        0
+      ]
+    },
+    "0x82ebd35": {
+      "origin": "Route131/0/4",
+      "flags": 37,
+      "trainers": [
+        686,
+        0
+      ]
+    },
+    "0x82ebd67": {
+      "origin": "Route131/0/5",
+      "flags": 37,
+      "trainers": [
+        686,
+        0
+      ]
+    },
+    "0x82ebdcb": {
+      "origin": "Route131/0/6",
+      "flags": 36,
+      "trainers": [
+        171,
+        0
+      ]
+    },
+    "0x82ebd99": {
+      "origin": "Route131/0/7",
+      "flags": 36,
+      "trainers": [
+        385,
+        0
+      ]
+    },
+    "0x82ebdfe": {
+      "origin": "Route132/0/0",
+      "flags": 36,
+      "trainers": [
+        169,
+        0
+      ]
+    },
+    "0x82ebe30": {
+      "origin": "Route132/0/1",
+      "flags": 36,
+      "trainers": [
+        458,
+        0
+      ]
+    },
+    "0x82ebe94": {
+      "origin": "Route132/0/3",
+      "flags": 36,
+      "trainers": [
+        181,
+        0
+      ]
+    },
+    "0x82ebe62": {
+      "origin": "Route132/0/4",
+      "flags": 36,
+      "trainers": [
+        350,
+        0
+      ]
+    },
+    "0x82ebec6": {
+      "origin": "Route132/0/5",
+      "flags": 36,
+      "trainers": [
+        594,
+        0
+      ]
+    },
+    "0x82ebef8": {
+      "origin": "Route132/0/6",
+      "flags": 36,
+      "trainers": [
+        733,
+        0
+      ]
+    },
+    "0x82ebf5c": {
+      "origin": "Route132/0/7",
+      "flags": 36,
+      "trainers": [
+        758,
+        0
+      ]
+    },
+    "0x82ebf2a": {
+      "origin": "Route132/0/8",
+      "flags": 36,
+      "trainers": [
+        598,
+        0
+      ]
+    },
+    "0x8394c51": {
+      "origin": "Route132/0/11",
+      "flags": 36,
+      "trainers": [
+        890,
+        0
+      ]
+    },
+    "0x82ebf8f": {
+      "origin": "Route133/0/0",
+      "flags": 36,
+      "trainers": [
+        170,
+        0
+      ]
+    },
+    "0x82ebff3": {
+      "origin": "Route133/0/1",
+      "flags": 36,
+      "trainers": [
+        461,
+        0
+      ]
+    },
+    "0x82ebfc1": {
+      "origin": "Route133/0/2",
+      "flags": 36,
+      "trainers": [
+        460,
+        0
+      ]
+    },
+    "0x82ec057": {
+      "origin": "Route133/0/5",
+      "flags": 36,
+      "trainers": [
+        414,
+        0
+      ]
+    },
+    "0x82ec025": {
+      "origin": "Route133/0/6",
+      "flags": 36,
+      "trainers": [
+        88,
+        0
+      ]
+    },
+    "0x82ec089": {
+      "origin": "Route133/0/7",
+      "flags": 36,
+      "trainers": [
+        137,
+        0
+      ]
+    },
+    "0x82ec0bb": {
+      "origin": "Route133/0/8",
+      "flags": 36,
+      "trainers": [
+        511,
+        0
+      ]
+    },
+    "0x8394c83": {
+      "origin": "Route133/0/10",
+      "flags": 37,
+      "trainers": [
+        891,
+        0
+      ]
+    },
+    "0x82ec0fc": {
+      "origin": "Route134/0/0",
+      "flags": 36,
+      "trainers": [
+        172,
+        0
+      ]
+    },
+    "0x82ec12e": {
+      "origin": "Route134/0/1",
+      "flags": 36,
+      "trainers": [
+        463,
+        0
+      ]
+    },
+    "0x82ec192": {
+      "origin": "Route134/0/2",
+      "flags": 36,
+      "trainers": [
+        397,
+        0
+      ]
+    },
+    "0x82ec160": {
+      "origin": "Route134/0/3",
+      "flags": 36,
+      "trainers": [
+        413,
+        0
+      ]
+    },
+    "0x82ec1c4": {
+      "origin": "Route134/0/4",
+      "flags": 36,
+      "trainers": [
+        180,
+        0
+      ]
+    },
+    "0x82ec25a": {
+      "origin": "Route134/0/5",
+      "flags": 36,
+      "trainers": [
+        508,
+        0
+      ]
+    },
+    "0x82ec28c": {
+      "origin": "Route134/0/6",
+      "flags": 36,
+      "trainers": [
+        507,
+        0
+      ]
+    },
+    "0x82ec228": {
+      "origin": "Route134/0/7",
+      "flags": 36,
+      "trainers": [
+        509,
+        0
+      ]
+    },
+    "0x82ec1f6": {
+      "origin": "Route134/0/8",
+      "flags": 36,
+      "trainers": [
+        510,
+        0
+      ]
+    },
+    "0x82efe3f": {
+      "origin": "DewfordTown_Gym/0/0",
+      "flags": 36,
+      "trainers": [
+        266,
+        0
+      ]
+    },
+    "0x82eff62": {
+      "origin": "DewfordTown_Gym/0/1",
+      "flags": 36,
+      "trainers": [
+        179,
+        0
+      ]
+    },
+    "0x82eff9b": {
+      "origin": "DewfordTown_Gym/0/2",
+      "flags": 36,
+      "trainers": [
+        425,
+        0
+      ]
+    },
+    "0x82effd4": {
+      "origin": "DewfordTown_Gym/0/3",
+      "flags": 36,
+      "trainers": [
+        426,
+        0
+      ]
+    },
+    "0x82f0046": {
+      "origin": "DewfordTown_Gym/0/5",
+      "flags": 36,
+      "trainers": [
+        574,
+        0
+      ]
+    },
+    "0x82f007f": {
+      "origin": "DewfordTown_Gym/0/6",
+      "flags": 36,
+      "trainers": [
+        573,
+        0
+      ]
+    },
+    "0x82f000d": {
+      "origin": "DewfordTown_Gym/0/7",
+      "flags": 36,
+      "trainers": [
+        572,
+        0
+      ]
+    },
+    "0x82f1536": {
+      "origin": "LavaridgeTown_Gym_1F/0/0",
+      "flags": 36,
+      "trainers": [
+        268,
+        0
+      ]
+    },
+    "0x82f1657": {
+      "origin": "LavaridgeTown_Gym_1F/0/1",
+      "flags": 36,
+      "trainers": [
+        201,
+        0
+      ]
+    },
+    "0x82f172c": {
+      "origin": "LavaridgeTown_Gym_1F/0/2",
+      "flags": 36,
+      "trainers": [
+        648,
+        0
+      ]
+    },
+    "0x82f1696": {
+      "origin": "LavaridgeTown_Gym_1F/0/3",
+      "flags": 36,
+      "trainers": [
+        203,
+        0
+      ]
+    },
+    "0x82f16fa": {
+      "origin": "LavaridgeTown_Gym_1F/0/4",
+      "flags": 36,
+      "trainers": [
+        650,
+        0
+      ]
+    },
+    "0x82f175e": {
+      "origin": "LavaridgeTown_Gym_B1F/0/0",
+      "flags": 36,
+      "trainers": [
+        204,
+        0
+      ]
+    },
+    "0x82f16c8": {
+      "origin": "LavaridgeTown_Gym_B1F/0/1",
+      "flags": 36,
+      "trainers": [
+        205,
+        0
+      ]
+    },
+    "0x82f1790": {
+      "origin": "LavaridgeTown_Gym_B1F/0/2",
+      "flags": 36,
+      "trainers": [
+        202,
+        0
+      ]
+    },
+    "0x82f17c2": {
+      "origin": "LavaridgeTown_Gym_B1F/0/3",
+      "flags": 36,
+      "trainers": [
+        501,
+        0
+      ]
+    },
+    "0x82f6a89": {
+      "origin": "PetalburgCity_Gym/0/1",
+      "flags": 36,
+      "trainers": [
+        89,
+        0
+      ]
+    },
+    "0x82f693d": {
+      "origin": "PetalburgCity_Gym/0/2",
+      "flags": 36,
+      "trainers": [
+        71,
+        0
+      ]
+    },
+    "0x82f6990": {
+      "origin": "PetalburgCity_Gym/0/3",
+      "flags": 36,
+      "trainers": [
+        72,
+        0
+      ]
+    },
+    "0x82f6adc": {
+      "origin": "PetalburgCity_Gym/0/4",
+      "flags": 36,
+      "trainers": [
+        90,
+        0
+      ]
+    },
+    "0x82f69e3": {
+      "origin": "PetalburgCity_Gym/0/5",
+      "flags": 36,
+      "trainers": [
+        73,
+        0
+      ]
+    },
+    "0x82f6b2f": {
+      "origin": "PetalburgCity_Gym/0/6",
+      "flags": 36,
+      "trainers": [
+        91,
+        0
+      ]
+    },
+    "0x82f6a36": {
+      "origin": "PetalburgCity_Gym/0/7",
+      "flags": 36,
+      "trainers": [
+        74,
+        0
+      ]
+    },
+    "0x82fb171": {
+      "origin": "SlateportCity_OceanicMuseum_2F/0/0",
+      "flags": 148,
+      "trainers": [
+        20,
+        0
+      ]
+    },
+    "0x82fb1bf": {
+      "origin": "SlateportCity_OceanicMuseum_2F/0/0",
+      "flags": 148,
+      "trainers": [
+        21,
+        0
+      ]
+    },
+    "0x82fcae8": {
+      "origin": "MauvilleCity_Gym/0/0",
+      "flags": 36,
+      "trainers": [
+        267,
+        0
+      ]
+    },
+    "0x82fcd16": {
+      "origin": "MauvilleCity_Gym/0/1",
+      "flags": 36,
+      "trainers": [
+        194,
+        0
+      ]
+    },
+    "0x82fcd7a": {
+      "origin": "MauvilleCity_Gym/0/2",
+      "flags": 36,
+      "trainers": [
+        649,
+        0
+      ]
+    },
+    "0x82fcd48": {
+      "origin": "MauvilleCity_Gym/0/3",
+      "flags": 36,
+      "trainers": [
+        323,
+        0
+      ]
+    },
+    "0x82fcce4": {
+      "origin": "MauvilleCity_Gym/0/4",
+      "flags": 36,
+      "trainers": [
+        191,
+        0
+      ]
+    },
+    "0x82fcdac": {
+      "origin": "MauvilleCity_Gym/0/6",
+      "flags": 36,
+      "trainers": [
+        802,
+        0
+      ]
+    },
+    "0x83006c3": {
+      "origin": "RustboroCity_Gym/0/1",
+      "flags": 36,
+      "trainers": [
+        320,
+        0
+      ]
+    },
+    "0x83006f5": {
+      "origin": "RustboroCity_Gym/0/2",
+      "flags": 36,
+      "trainers": [
+        321,
+        0
+      ]
+    },
+    "0x8300727": {
+      "origin": "RustboroCity_Gym/0/4",
+      "flags": 36,
+      "trainers": [
+        571,
+        0
+      ]
+    },
+    "0x8302d76": {
+      "origin": "FortreeCity_Gym/0/0",
+      "flags": 36,
+      "trainers": [
+        270,
+        0
+      ]
+    },
+    "0x8302e89": {
+      "origin": "FortreeCity_Gym/0/1",
+      "flags": 36,
+      "trainers": [
+        401,
+        0
+      ]
+    },
+    "0x8302eed": {
+      "origin": "FortreeCity_Gym/0/2",
+      "flags": 36,
+      "trainers": [
+        654,
+        0
+      ]
+    },
+    "0x8302f1f": {
+      "origin": "FortreeCity_Gym/0/3",
+      "flags": 36,
+      "trainers": [
+        655,
+        0
+      ]
+    },
+    "0x8302ebb": {
+      "origin": "FortreeCity_Gym/0/4",
+      "flags": 36,
+      "trainers": [
+        404,
+        0
+      ]
+    },
+    "0x8302f51": {
+      "origin": "FortreeCity_Gym/0/6",
+      "flags": 36,
+      "trainers": [
+        402,
+        0
+      ]
+    },
+    "0x8302f83": {
+      "origin": "FortreeCity_Gym/0/7",
+      "flags": 36,
+      "trainers": [
+        803,
+        0
+      ]
+    },
+    "0x838ad80": {
+      "origin": "LilycoveCity_DepartmentStore_3F/0/11",
+      "flags": 37,
+      "trainers": [
+        913,
+        0
+      ]
+    },
+    "0x838adb4": {
+      "origin": "LilycoveCity_DepartmentStore_3F/0/12",
+      "flags": 37,
+      "trainers": [
+        913,
+        0
+      ]
+    },
+    "0x838bdc3": {
+      "origin": "ArcheCampus_TrainingHall/0/4",
+      "flags": 36,
+      "trainers": [
+        870,
+        0
+      ]
+    },
+    "0x838ba68": {
+      "origin": "ArcheCampus_ExchangeHall/0/7",
+      "flags": 36,
+      "trainers": [
+        917,
+        0
+      ]
+    },
+    "0x830a74d": {
+      "origin": "MossdeepCity_Gym/0/0",
+      "flags": 33,
+      "trainers": [
+        271,
+        0
+      ]
+    },
+    "0x830a9dc": {
+      "origin": "MossdeepCity_Gym/0/1",
+      "flags": 36,
+      "trainers": [
+        233,
+        0
+      ]
+    },
+    "0x830aa40": {
+      "origin": "MossdeepCity_Gym/0/2",
+      "flags": 36,
+      "trainers": [
+        235,
+        0
+      ]
+    },
+    "0x830aad6": {
+      "origin": "MossdeepCity_Gym/0/3",
+      "flags": 36,
+      "trainers": [
+        246,
+        0
+      ]
+    },
+    "0x830aaa4": {
+      "origin": "MossdeepCity_Gym/0/4",
+      "flags": 36,
+      "trainers": [
+        245,
+        0
+      ]
+    },
+    "0x830aa0e": {
+      "origin": "MossdeepCity_Gym/0/5",
+      "flags": 36,
+      "trainers": [
+        234,
+        0
+      ]
+    },
+    "0x830aa72": {
+      "origin": "MossdeepCity_Gym/0/6",
+      "flags": 36,
+      "trainers": [
+        244,
+        0
+      ]
+    },
+    "0x830ab3a": {
+      "origin": "MossdeepCity_Gym/0/16",
+      "flags": 36,
+      "trainers": [
+        582,
+        0
+      ]
+    },
+    "0x830ab08": {
+      "origin": "MossdeepCity_Gym/0/17",
+      "flags": 36,
+      "trainers": [
+        575,
+        0
+      ]
+    },
+    "0x830ab9e": {
+      "origin": "MossdeepCity_Gym/0/24",
+      "flags": 36,
+      "trainers": [
+        584,
+        0
+      ]
+    },
+    "0x830ab6c": {
+      "origin": "MossdeepCity_Gym/0/26",
+      "flags": 36,
+      "trainers": [
+        591,
+        0
+      ]
+    },
+    "0x830ac02": {
+      "origin": "MossdeepCity_Gym/0/27",
+      "flags": 36,
+      "trainers": [
+        583,
+        0
+      ]
+    },
+    "0x830abd0": {
+      "origin": "MossdeepCity_Gym/0/31",
+      "flags": 36,
+      "trainers": [
+        585,
+        0
+      ]
+    },
+    "0x830c689": {
+      "origin": "MossdeepCity_SpaceCenter_1F/0/5",
+      "flags": 36,
+      "trainers": [
+        586,
+        0
+      ]
+    },
+    "0x830c6bb": {
+      "origin": "MossdeepCity_SpaceCenter_1F/0/6",
+      "flags": 36,
+      "trainers": [
+        22,
+        0
+      ]
+    },
+    "0x830c6ed": {
+      "origin": "MossdeepCity_SpaceCenter_1F/0/7",
+      "flags": 36,
+      "trainers": [
+        587,
+        0
+      ]
+    },
+    "0x830c732": {
+      "origin": "MossdeepCity_SpaceCenter_1F/0/8",
+      "flags": 148,
+      "trainers": [
+        116,
+        0
+      ]
+    },
+    "0x830dbbb": {
+      "origin": "SootopolisCity_Gym_1F/0/0",
+      "flags": 36,
+      "trainers": [
+        272,
+        0
+      ]
+    },
+    "0x830e432": {
+      "origin": "SootopolisCity_Gym_B1F/0/0",
+      "flags": 36,
+      "trainers": [
+        613,
+        0
+      ]
+    },
+    "0x830e4c8": {
+      "origin": "SootopolisCity_Gym_B1F/0/1",
+      "flags": 36,
+      "trainers": [
+        128,
+        0
+      ]
+    },
+    "0x830e496": {
+      "origin": "SootopolisCity_Gym_B1F/0/2",
+      "flags": 36,
+      "trainers": [
+        118,
+        0
+      ]
+    },
+    "0x830e4fa": {
+      "origin": "SootopolisCity_Gym_B1F/0/3",
+      "flags": 36,
+      "trainers": [
+        129,
+        0
+      ]
+    },
+    "0x830e55e": {
+      "origin": "SootopolisCity_Gym_B1F/0/4",
+      "flags": 36,
+      "trainers": [
+        131,
+        0
+      ]
+    },
+    "0x830e590": {
+      "origin": "SootopolisCity_Gym_B1F/0/5",
+      "flags": 36,
+      "trainers": [
+        301,
+        0
+      ]
+    },
+    "0x830e464": {
+      "origin": "SootopolisCity_Gym_B1F/0/6",
+      "flags": 36,
+      "trainers": [
+        614,
+        0
+      ]
+    },
+    "0x830e52c": {
+      "origin": "SootopolisCity_Gym_B1F/0/7",
+      "flags": 36,
+      "trainers": [
+        130,
+        0
+      ]
+    },
+    "0x830e5f4": {
+      "origin": "SootopolisCity_Gym_B1F/0/8",
+      "flags": 36,
+      "trainers": [
+        115,
+        0
+      ]
+    },
+    "0x830e5c2": {
+      "origin": "SootopolisCity_Gym_B1F/0/9",
+      "flags": 36,
+      "trainers": [
+        502,
+        0
+      ]
+    },
+    "0x830fe15": {
+      "origin": "EverGrandeCity_SidneysRoom/0/0",
+      "flags": 148,
+      "trainers": [
+        261,
+        0
+      ]
+    },
+    "0x830ffaf": {
+      "origin": "EverGrandeCity_PhoebesRoom/0/0",
+      "flags": 148,
+      "trainers": [
+        262,
+        0
+      ]
+    },
+    "0x83101c6": {
+      "origin": "EverGrandeCity_GlaciasRoom/0/0",
+      "flags": 148,
+      "trainers": [
+        263,
+        0
+      ]
+    },
+    "0x83103d7": {
+      "origin": "EverGrandeCity_DrakesRoom/0/0",
+      "flags": 148,
+      "trainers": [
+        264,
+        0
+      ]
+    },
+    "0x838d748": {
+      "origin": "Route121_SafariZoneEntrance/0/6",
+      "flags": 36,
+      "trainers": [
+        869,
+        0
+      ]
+    },
+    "0x8313308": {
+      "origin": "MeteorFalls_1F_2R/0/0",
+      "flags": 36,
+      "trainers": [
+        392,
+        0
+      ]
+    },
+    "0x831339c": {
+      "origin": "MeteorFalls_1F_2R/0/1",
+      "flags": 37,
+      "trainers": [
+        681,
+        0
+      ]
+    },
+    "0x831342a": {
+      "origin": "MeteorFalls_1F_2R/0/2",
+      "flags": 37,
+      "trainers": [
+        681,
+        0
+      ]
+    },
+    "0x8313c6a": {
+      "origin": "RusturfTunnel/0/5",
+      "flags": 148,
+      "trainers": [
+        16,
+        0
+      ]
+    },
+    "0x8313d83": {
+      "origin": "RusturfTunnel/0/8",
+      "flags": 36,
+      "trainers": [
+        635,
+        0
+      ]
+    },
+    "0x8314d53": {
+      "origin": "PetalburgWoods/0/8",
+      "flags": 36,
+      "trainers": [
+        616,
+        0
+      ]
+    },
+    "0x8314d85": {
+      "origin": "PetalburgWoods/0/9",
+      "flags": 36,
+      "trainers": [
+        621,
+        0
+      ]
+    },
+    "0x8314af1": {
+      "origin": "PetalburgWoods/2/0",
+      "flags": 148,
+      "trainers": [
+        10,
+        0
+      ]
+    },
+    "0x8314bbb": {
+      "origin": "PetalburgWoods/2/1",
+      "flags": 148,
+      "trainers": [
+        10,
+        0
+      ]
+    },
+    "0x831583d": {
+      "origin": "MtChimney/0/1",
+      "flags": 148,
+      "trainers": [
+        602,
+        0
+      ]
+    },
+    "0x8315a82": {
+      "origin": "MtChimney/0/2",
+      "flags": 36,
+      "trainers": [
+        597,
+        0
+      ]
+    },
+    "0x8315ab4": {
+      "origin": "MtChimney/0/21",
+      "flags": 36,
+      "trainers": [
+        579,
+        0
+      ]
+    },
+    "0x8315b9f": {
+      "origin": "MtChimney/0/24",
+      "flags": 36,
+      "trainers": [
+        313,
+        0
+      ]
+    },
+    "0x8315c33": {
+      "origin": "MtChimney/0/25",
+      "flags": 36,
+      "trainers": [
+        124,
+        0
+      ]
+    },
+    "0x8315c65": {
+      "origin": "MtChimney/0/26",
+      "flags": 36,
+      "trainers": [
+        125,
+        0
+      ]
+    },
+    "0x8315c97": {
+      "origin": "MtChimney/0/27",
+      "flags": 36,
+      "trainers": [
+        126,
+        0
+      ]
+    },
+    "0x8315cc9": {
+      "origin": "MtChimney/0/28",
+      "flags": 36,
+      "trainers": [
+        146,
+        0
+      ]
+    },
+    "0x8315cfb": {
+      "origin": "MtChimney/0/29",
+      "flags": 36,
+      "trainers": [
+        1,
+        0
+      ]
+    },
+    "0x8316a92": {
+      "origin": "MtChimney/0/30",
+      "flags": 148,
+      "trainers": [
+        860,
+        0
+      ]
+    },
+    "0x8316f40": {
+      "origin": "JaggedPass/0/0",
+      "flags": 36,
+      "trainers": [
+        632,
+        0
+      ]
+    },
+    "0x8317003": {
+      "origin": "JaggedPass/0/1",
+      "flags": 36,
+      "trainers": [
+        216,
+        0
+      ]
+    },
+    "0x8316f72": {
+      "origin": "JaggedPass/0/3",
+      "flags": 36,
+      "trainers": [
+        474,
+        0
+      ]
+    },
+    "0x8316ee9": {
+      "origin": "JaggedPass/0/4",
+      "flags": 148,
+      "trainers": [
+        570,
+        0
+      ]
+    },
+    "0x83170c6": {
+      "origin": "JaggedPass/0/5",
+      "flags": 36,
+      "trainers": [
+        217,
+        0
+      ]
+    },
+    "0x8317094": {
+      "origin": "JaggedPass/0/6",
+      "flags": 36,
+      "trainers": [
+        566,
+        0
+      ]
+    },
+    "0x8394505": {
+      "origin": "JaggedPass/0/8",
+      "flags": 148,
+      "trainers": [
+        884,
+        0
+      ]
+    },
+    "0x8394536": {
+      "origin": "JaggedPass/0/8",
+      "flags": 148,
+      "trainers": [
+        885,
+        0
+      ]
+    },
+    "0x8394567": {
+      "origin": "JaggedPass/0/8",
+      "flags": 148,
+      "trainers": [
+        886,
+        0
+      ]
+    },
+    "0x838f057": {
+      "origin": "MtPyre_1F/0/6",
+      "flags": 36,
+      "trainers": [
+        914,
+        0
+      ]
+    },
+    "0x8317a7b": {
+      "origin": "MtPyre_2F/0/0",
+      "flags": 36,
+      "trainers": [
+        145,
+        0
+      ]
+    },
+    "0x8317adf": {
+      "origin": "MtPyre_2F/0/4",
+      "flags": 37,
+      "trainers": [
+        640,
+        0
+      ]
+    },
+    "0x8317aad": {
+      "origin": "MtPyre_2F/0/5",
+      "flags": 37,
+      "trainers": [
+        640,
+        0
+      ]
+    },
+    "0x8317b43": {
+      "origin": "MtPyre_2F/0/6",
+      "flags": 36,
+      "trainers": [
+        31,
+        0
+      ]
+    },
+    "0x8317b11": {
+      "origin": "MtPyre_2F/0/7",
+      "flags": 36,
+      "trainers": [
+        35,
+        0
+      ]
+    },
+    "0x8317f34": {
+      "origin": "MtPyre_3F/0/0",
+      "flags": 36,
+      "trainers": [
+        236,
+        0
+      ]
+    },
+    "0x8317f66": {
+      "origin": "MtPyre_3F/0/1",
+      "flags": 36,
+      "trainers": [
+        247,
+        0
+      ]
+    },
+    "0x8317f98": {
+      "origin": "MtPyre_3F/0/3",
+      "flags": 36,
+      "trainers": [
+        9,
+        0
+      ]
+    },
+    "0x8318373": {
+      "origin": "MtPyre_4F/0/0",
+      "flags": 36,
+      "trainers": [
+        109,
+        0
+      ]
+    },
+    "0x83182e3": {
+      "origin": "MtPyre_5F/0/0",
+      "flags": 36,
+      "trainers": [
+        190,
+        0
+      ]
+    },
+    "0x831842e": {
+      "origin": "MtPyre_6F/0/0",
+      "flags": 36,
+      "trainers": [
+        108,
+        0
+      ]
+    },
+    "0x83184c2": {
+      "origin": "MtPyre_6F/0/2",
+      "flags": 36,
+      "trainers": [
+        475,
+        0
+      ]
+    },
+    "0x8318b1a": {
+      "origin": "MtPyre_Summit/0/3",
+      "flags": 36,
+      "trainers": [
+        23,
+        0
+      ]
+    },
+    "0x8318b4c": {
+      "origin": "MtPyre_Summit/0/4",
+      "flags": 36,
+      "trainers": [
+        24,
+        0
+      ]
+    },
+    "0x8318b7e": {
+      "origin": "MtPyre_Summit/0/5",
+      "flags": 36,
+      "trainers": [
+        25,
+        0
+      ]
+    },
+    "0x8318bb0": {
+      "origin": "MtPyre_Summit/0/6",
+      "flags": 36,
+      "trainers": [
+        569,
+        0
+      ]
+    },
+    "0x83879be": {
+      "origin": "AquaHideout_1F/0/2",
+      "flags": 36,
+      "trainers": [
+        2,
+        0
+      ]
+    },
+    "0x8319b4a": {
+      "origin": "AquaHideout_B1F/0/1",
+      "flags": 36,
+      "trainers": [
+        4,
+        0
+      ]
+    },
+    "0x8319b86": {
+      "origin": "AquaHideout_B1F/0/3",
+      "flags": 36,
+      "trainers": [
+        27,
+        0
+      ]
+    },
+    "0x8319bb8": {
+      "origin": "AquaHideout_B1F/0/8",
+      "flags": 36,
+      "trainers": [
+        192,
+        0
+      ]
+    },
+    "0x8319e03": {
+      "origin": "AquaHideout_B2F/0/0",
+      "flags": 36,
+      "trainers": [
+        30,
+        0
+      ]
+    },
+    "0x8319ea3": {
+      "origin": "AquaHideout_B2F/0/1",
+      "flags": 36,
+      "trainers": [
+        5,
+        0
+      ]
+    },
+    "0x8319edf": {
+      "origin": "AquaHideout_B2F/0/4",
+      "flags": 36,
+      "trainers": [
+        28,
+        0
+      ]
+    },
+    "0x8319f11": {
+      "origin": "AquaHideout_B2F/0/5",
+      "flags": 36,
+      "trainers": [
+        193,
+        0
+      ]
+    },
+    "0x831a5b6": {
+      "origin": "SeafloorCavern_Room1/0/3",
+      "flags": 36,
+      "trainers": [
+        6,
+        0
+      ]
+    },
+    "0x831a5e8": {
+      "origin": "SeafloorCavern_Room1/0/4",
+      "flags": 36,
+      "trainers": [
+        7,
+        0
+      ]
+    },
+    "0x831a6d3": {
+      "origin": "SeafloorCavern_Room3/0/7",
+      "flags": 36,
+      "trainers": [
+        33,
+        0
+      ]
+    },
+    "0x831a705": {
+      "origin": "SeafloorCavern_Room3/0/8",
+      "flags": 36,
+      "trainers": [
+        567,
+        0
+      ]
+    },
+    "0x831a946": {
+      "origin": "SeafloorCavern_Room4/0/0",
+      "flags": 36,
+      "trainers": [
+        8,
+        0
+      ]
+    },
+    "0x831a978": {
+      "origin": "SeafloorCavern_Room4/0/1",
+      "flags": 36,
+      "trainers": [
+        14,
+        0
+      ]
+    },
+    "0x831aad0": {
+      "origin": "SeafloorCavern_Room9/2/0",
+      "flags": 148,
+      "trainers": [
+        34,
+        0
+      ]
+    },
+    "0x831b7b5": {
+      "origin": "VictoryRoad_1F/0/0",
+      "flags": 36,
+      "trainers": [
+        79,
+        0
+      ]
+    },
+    "0x831b819": {
+      "origin": "VictoryRoad_1F/0/1",
+      "flags": 36,
+      "trainers": [
+        96,
+        0
+      ]
+    },
+    "0x831b7e7": {
+      "origin": "VictoryRoad_1F/0/2",
+      "flags": 36,
+      "trainers": [
+        80,
+        0
+      ]
+    },
+    "0x831b6e4": {
+      "origin": "VictoryRoad_1F/0/6",
+      "flags": 36,
+      "trainers": [
+        657,
+        0
+      ]
+    },
+    "0x831b87d": {
+      "origin": "VictoryRoad_1F/0/7",
+      "flags": 36,
+      "trainers": [
+        325,
+        0
+      ]
+    },
+    "0x831b84b": {
+      "origin": "VictoryRoad_1F/0/8",
+      "flags": 36,
+      "trainers": [
+        324,
+        0
+      ]
+    },
+    "0x831bc24": {
+      "origin": "VictoryRoad_B1F/0/13",
+      "flags": 36,
+      "trainers": [
+        81,
+        0
+      ]
+    },
+    "0x831bc56": {
+      "origin": "VictoryRoad_B1F/0/14",
+      "flags": 36,
+      "trainers": [
+        97,
+        0
+      ]
+    },
+    "0x831bc88": {
+      "origin": "VictoryRoad_B1F/0/15",
+      "flags": 36,
+      "trainers": [
+        98,
+        0
+      ]
+    },
+    "0x831bcba": {
+      "origin": "VictoryRoad_B1F/0/19",
+      "flags": 36,
+      "trainers": [
+        540,
+        0
+      ]
+    },
+    "0x831bcec": {
+      "origin": "VictoryRoad_B1F/0/20",
+      "flags": 36,
+      "trainers": [
+        546,
+        0
+      ]
+    },
+    "0x831bf96": {
+      "origin": "VictoryRoad_B2F/0/0",
+      "flags": 36,
+      "trainers": [
+        82,
+        0
+      ]
+    },
+    "0x831bfc8": {
+      "origin": "VictoryRoad_B2F/0/1",
+      "flags": 36,
+      "trainers": [
+        83,
+        0
+      ]
+    },
+    "0x831bffa": {
+      "origin": "VictoryRoad_B2F/0/2",
+      "flags": 36,
+      "trainers": [
+        99,
+        0
+      ]
+    },
+    "0x831c02c": {
+      "origin": "VictoryRoad_B2F/0/3",
+      "flags": 36,
+      "trainers": [
+        100,
+        0
+      ]
+    },
+    "0x831c090": {
+      "origin": "VictoryRoad_B2F/0/5",
+      "flags": 36,
+      "trainers": [
+        417,
+        0
+      ]
+    },
+    "0x831c05e": {
+      "origin": "VictoryRoad_B2F/0/6",
+      "flags": 36,
+      "trainers": [
+        38,
+        0
+      ]
+    },
+    "0x8395104": {
+      "origin": "VictoryRoad_B2F/0/12",
+      "flags": 36,
+      "trainers": [
+        893,
+        0
+      ]
+    },
+    "0x8395154": {
+      "origin": "VictoryRoad_B2F/0/13",
+      "flags": 148,
+      "trainers": [
+        894,
+        0
+      ]
+    },
+    "0x831ce99": {
+      "origin": "AbandonedShip_Corridors_1F/0/1",
+      "flags": 36,
+      "trainers": [
+        66,
+        0
+      ]
+    },
+    "0x831cf74": {
+      "origin": "AbandonedShip_Rooms_1F/0/2",
+      "flags": 36,
+      "trainers": [
+        144,
+        0
+      ]
+    },
+    "0x831cf42": {
+      "origin": "AbandonedShip_Rooms_1F/0/3",
+      "flags": 36,
+      "trainers": [
+        375,
+        0
+      ]
+    },
+    "0x831d217": {
+      "origin": "AbandonedShip_Corridors_B1F/0/1",
+      "flags": 36,
+      "trainers": [
+        496,
+        0
+      ]
+    },
+    "0x831d3d1": {
+      "origin": "AbandonedShip_Rooms2_1F/0/0",
+      "flags": 37,
+      "trainers": [
+        642,
+        0
+      ]
+    },
+    "0x831d45f": {
+      "origin": "AbandonedShip_Rooms2_1F/0/1",
+      "flags": 37,
+      "trainers": [
+        642,
+        0
+      ]
+    },
+    "0x831d51f": {
+      "origin": "AbandonedShip_Rooms2_1F/0/3",
+      "flags": 36,
+      "trainers": [
+        547,
+        0
+      ]
+    },
+    "0x831d4ed": {
+      "origin": "AbandonedShip_Rooms2_1F/0/4",
+      "flags": 36,
+      "trainers": [
+        418,
+        0
+      ]
+    },
+    "0x839135b": {
+      "origin": "SkyPillar_Entrance/0/0",
+      "flags": 36,
+      "trainers": [
+        874,
+        0
+      ]
+    },
+    "0x8391392": {
+      "origin": "SkyPillar_1F/0/0",
+      "flags": 36,
+      "trainers": [
+        875,
+        0
+      ]
+    },
+    "0x83913c4": {
+      "origin": "SkyPillar_3F/0/0",
+      "flags": 36,
+      "trainers": [
+        876,
+        0
+      ]
+    },
+    "0x83913f6": {
+      "origin": "SkyPillar_5F/0/0",
+      "flags": 37,
+      "trainers": [
+        877,
+        0
+      ]
+    },
+    "0x8391431": {
+      "origin": "SkyPillar_5F/0/2",
+      "flags": 36,
+      "trainers": [
+        878,
+        0
+      ]
+    },
+    "0x8391552": {
+      "origin": "SkyPillar_Top/0/2",
+      "flags": 36,
+      "trainers": [
+        879,
+        0
+      ]
+    },
+    "0x831e7e7": {
+      "origin": "MagmaHideout_1F/0/0",
+      "flags": 36,
+      "trainers": [
+        716,
+        0
+      ]
+    },
+    "0x831e819": {
+      "origin": "MagmaHideout_1F/0/2",
+      "flags": 36,
+      "trainers": [
+        717,
+        0
+      ]
+    },
+    "0x831ea23": {
+      "origin": "MagmaHideout_2F_1R/0/3",
+      "flags": 36,
+      "trainers": [
+        718,
+        0
+      ]
+    },
+    "0x831eccf": {
+      "origin": "MagmaHideout_2F_2R/0/0",
+      "flags": 36,
+      "trainers": [
+        723,
+        0
+      ]
+    },
+    "0x831ec9d": {
+      "origin": "MagmaHideout_2F_2R/0/1",
+      "flags": 36,
+      "trainers": [
+        722,
+        0
+      ]
+    },
+    "0x831ec6b": {
+      "origin": "MagmaHideout_2F_2R/0/3",
+      "flags": 36,
+      "trainers": [
+        721,
+        0
+      ]
+    },
+    "0x831ec39": {
+      "origin": "MagmaHideout_2F_2R/0/4",
+      "flags": 36,
+      "trainers": [
+        730,
+        0
+      ]
+    },
+    "0x831ef09": {
+      "origin": "MagmaHideout_3F_1R/0/0",
+      "flags": 36,
+      "trainers": [
+        724,
+        0
+      ]
+    },
+    "0x831ef3b": {
+      "origin": "MagmaHideout_3F_1R/0/1",
+      "flags": 36,
+      "trainers": [
+        731,
+        0
+      ]
+    },
+    "0x831f095": {
+      "origin": "MagmaHideout_3F_2R/0/0",
+      "flags": 36,
+      "trainers": [
+        725,
+        0
+      ]
+    },
+    "0x831f2df": {
+      "origin": "MagmaHideout_4F/0/1",
+      "flags": 36,
+      "trainers": [
+        726,
+        0
+      ]
+    },
+    "0x831f311": {
+      "origin": "MagmaHideout_4F/0/2",
+      "flags": 36,
+      "trainers": [
+        727,
+        0
+      ]
+    },
+    "0x831f343": {
+      "origin": "MagmaHideout_4F/0/3",
+      "flags": 36,
+      "trainers": [
+        728,
+        0
+      ]
+    },
+    "0x831f375": {
+      "origin": "MagmaHideout_4F/0/4",
+      "flags": 36,
+      "trainers": [
+        732,
+        0
+      ]
+    },
+    "0x831f260": {
+      "origin": "MagmaHideout_4F/0/5",
+      "flags": 148,
+      "trainers": [
+        601,
+        0
+      ]
+    },
+    "0x831fba2": {
+      "origin": "MeteorFalls_StevensCave/0/0",
+      "flags": 148,
+      "trainers": [
+        804,
+        0
+      ]
+    },
+    "0x8394a7d": {
+      "origin": "MeteorFalls_DragonNest/0/2",
+      "flags": 148,
+      "trainers": [
+        888,
+        0
+      ]
+    },
+    "0x8320e2d": {
+      "origin": "SSTidalLowerDeck/0/0",
+      "flags": 36,
+      "trainers": [
+        494,
+        0
+      ]
+    },
+    "0x8320e5f": {
+      "origin": "SSTidalLowerDeck/0/1",
+      "flags": 36,
+      "trainers": [
+        495,
+        0
+      ]
+    },
+    "0x8320fd5": {
+      "origin": "SSTidalRooms/0/0",
+      "flags": 36,
+      "trainers": [
+        294,
+        0
+      ]
+    },
+    "0x8321007": {
+      "origin": "SSTidalRooms/0/1",
+      "flags": 36,
+      "trainers": [
+        255,
+        0
+      ]
+    },
+    "0x8321039": {
+      "origin": "SSTidalRooms/0/2",
+      "flags": 36,
+      "trainers": [
+        256,
+        0
+      ]
+    },
+    "0x832106b": {
+      "origin": "SSTidalRooms/0/3",
+      "flags": 37,
+      "trainers": [
+        641,
+        0
+      ]
+    },
+    "0x832109d": {
+      "origin": "SSTidalRooms/0/4",
+      "flags": 37,
+      "trainers": [
+        641,
+        0
+      ]
+    },
+    "0x83210cf": {
+      "origin": "SSTidalRooms/0/5",
+      "flags": 36,
+      "trainers": [
+        138,
+        0
+      ]
+    },
+    "0x8321101": {
+      "origin": "SSTidalRooms/0/6",
+      "flags": 36,
+      "trainers": [
+        119,
+        0
+      ]
+    },
+    "0x8340f0a": {
+      "origin": "Route109_SeashoreHouse/0/1",
+      "flags": 36,
+      "trainers": [
+        493,
+        0
+      ]
+    },
+    "0x8340f6e": {
+      "origin": "Route109_SeashoreHouse/0/2",
+      "flags": 36,
+      "trainers": [
+        65,
+        0
+      ]
+    },
+    "0x8340f3c": {
+      "origin": "Route109_SeashoreHouse/0/3",
+      "flags": 36,
+      "trainers": [
+        647,
+        0
+      ]
+    },
+    "0x8342bb1": {
+      "origin": "Route110_TrickHousePuzzle1/0/0",
+      "flags": 36,
+      "trainers": [
+        611,
+        0
+      ]
+    },
+    "0x8342be3": {
+      "origin": "Route110_TrickHousePuzzle1/0/1",
+      "flags": 36,
+      "trainers": [
+        332,
+        0
+      ]
+    },
+    "0x8342c15": {
+      "origin": "Route110_TrickHousePuzzle1/0/2",
+      "flags": 36,
+      "trainers": [
+        612,
+        0
+      ]
+    },
+    "0x8342e7e": {
+      "origin": "Route110_TrickHousePuzzle2/0/0",
+      "flags": 36,
+      "trainers": [
+        274,
+        0
+      ]
+    },
+    "0x8342eb0": {
+      "origin": "Route110_TrickHousePuzzle2/0/1",
+      "flags": 36,
+      "trainers": [
+        275,
+        0
+      ]
+    },
+    "0x8342ee2": {
+      "origin": "Route110_TrickHousePuzzle2/0/2",
+      "flags": 36,
+      "trainers": [
+        281,
+        0
+      ]
+    },
+    "0x8343764": {
+      "origin": "Route110_TrickHousePuzzle3/0/0",
+      "flags": 36,
+      "trainers": [
+        215,
+        0
+      ]
+    },
+    "0x8343796": {
+      "origin": "Route110_TrickHousePuzzle3/0/1",
+      "flags": 36,
+      "trainers": [
+        473,
+        0
+      ]
+    },
+    "0x83437c8": {
+      "origin": "Route110_TrickHousePuzzle3/0/2",
+      "flags": 36,
+      "trainers": [
+        630,
+        0
+      ]
+    },
+    "0x83439a6": {
+      "origin": "Route110_TrickHousePuzzle4/0/0",
+      "flags": 36,
+      "trainers": [
+        428,
+        0
+      ]
+    },
+    "0x8343a0a": {
+      "origin": "Route110_TrickHousePuzzle4/0/1",
+      "flags": 36,
+      "trainers": [
+        429,
+        0
+      ]
+    },
+    "0x83439d8": {
+      "origin": "Route110_TrickHousePuzzle4/0/2",
+      "flags": 36,
+      "trainers": [
+        188,
+        0
+      ]
+    },
+    "0x8344c11": {
+      "origin": "Route110_TrickHousePuzzle6/0/0",
+      "flags": 36,
+      "trainers": [
+        561,
+        0
+      ]
+    },
+    "0x8344c43": {
+      "origin": "Route110_TrickHousePuzzle6/0/1",
+      "flags": 36,
+      "trainers": [
+        407,
+        0
+      ]
+    },
+    "0x8344c75": {
+      "origin": "Route110_TrickHousePuzzle6/0/2",
+      "flags": 36,
+      "trainers": [
+        554,
+        0
+      ]
+    },
+    "0x8345139": {
+      "origin": "Route110_TrickHousePuzzle7/0/0",
+      "flags": 36,
+      "trainers": [
+        237,
+        0
+      ]
+    },
+    "0x834519d": {
+      "origin": "Route110_TrickHousePuzzle7/0/1",
+      "flags": 36,
+      "trainers": [
+        248,
+        0
+      ]
+    },
+    "0x834516b": {
+      "origin": "Route110_TrickHousePuzzle7/0/2",
+      "flags": 36,
+      "trainers": [
+        105,
+        0
+      ]
+    },
+    "0x8345201": {
+      "origin": "Route110_TrickHousePuzzle7/0/4",
+      "flags": 36,
+      "trainers": [
+        849,
+        0
+      ]
+    },
+    "0x83451cf": {
+      "origin": "Route110_TrickHousePuzzle7/0/5",
+      "flags": 36,
+      "trainers": [
+        848,
+        0
+      ]
+    },
+    "0x8345233": {
+      "origin": "Route110_TrickHousePuzzle7/0/6",
+      "flags": 36,
+      "trainers": [
+        850,
+        0
+      ]
+    },
+    "0x8345526": {
+      "origin": "Route110_TrickHousePuzzle8/0/0",
+      "flags": 36,
+      "trainers": [
+        76,
+        0
+      ]
+    },
+    "0x834558a": {
+      "origin": "Route110_TrickHousePuzzle8/0/1",
+      "flags": 36,
+      "trainers": [
+        77,
+        0
+      ]
+    },
+    "0x8345558": {
+      "origin": "Route110_TrickHousePuzzle8/0/2",
+      "flags": 36,
+      "trainers": [
+        93,
+        0
+      ]
+    },
+    "0x834654c": {
+      "origin": "Route119_WeatherInstitute_1F/0/0",
+      "flags": 36,
+      "trainers": [
+        17,
+        0
+      ]
+    },
+    "0x834657e": {
+      "origin": "Route119_WeatherInstitute_1F/0/1",
+      "flags": 36,
+      "trainers": [
+        26,
+        0
+      ]
+    },
+    "0x834687b": {
+      "origin": "Route119_WeatherInstitute_2F/0/0",
+      "flags": 36,
+      "trainers": [
+        18,
+        0
+      ]
+    },
+    "0x83468ad": {
+      "origin": "Route119_WeatherInstitute_2F/0/1",
+      "flags": 36,
+      "trainers": [
+        19,
+        0
+      ]
+    },
+    "0x83468df": {
+      "origin": "Route119_WeatherInstitute_2F/0/2",
+      "flags": 36,
+      "trainers": [
+        32,
+        0
+      ]
+    },
+    "0x8346849": {
+      "origin": "Route119_WeatherInstitute_2F/0/7",
+      "flags": 36,
+      "trainers": [
+        596,
+        0
+      ]
+    },
+    "0x82df5f0": {
+      "origin": "Route102/0/1",
+      "flags": 38,
+      "trainers": [
+        318,
+        0
+      ]
+    },
+    "0x82dfe44": {
+      "origin": "Route103/0/3",
+      "flags": 38,
+      "trainers": [
+        481,
+        0
+      ]
+    },
+    "0x82dfdb7": {
+      "origin": "Route103/0/4",
+      "flags": 38,
+      "trainers": [
+        481,
+        0
+      ]
+    },
+    "0x82dff0a": {
+      "origin": "Route103/0/11",
+      "flags": 38,
+      "trainers": [
+        293,
+        0
+      ]
+    },
+    "0x82e0be3": {
+      "origin": "Route104/0/2",
+      "flags": 38,
+      "trainers": [
+        604,
+        0
+      ]
+    },
+    "0x82e0cc3": {
+      "origin": "Route104/0/24",
+      "flags": 38,
+      "trainers": [
+        136,
+        0
+      ]
+    },
+    "0x82e0da3": {
+      "origin": "Route104/0/25",
+      "flags": 38,
+      "trainers": [
+        114,
+        0
+      ]
+    },
+    "0x82e187b": {
+      "origin": "Route105/0/7",
+      "flags": 38,
+      "trainers": [
+        737,
+        0
+      ]
+    },
+    "0x82e1a76": {
+      "origin": "Route106/0/2",
+      "flags": 38,
+      "trainers": [
+        339,
+        0
+      ]
+    },
+    "0x82e1ba1": {
+      "origin": "Route107/0/1",
+      "flags": 38,
+      "trainers": [
+        155,
+        0
+      ]
+    },
+    "0x82e1e2a": {
+      "origin": "Route108/0/5",
+      "flags": 38,
+      "trainers": [
+        740,
+        0
+      ]
+    },
+    "0x82e2264": {
+      "origin": "Route109/0/6",
+      "flags": 38,
+      "trainers": [
+        64,
+        0
+      ]
+    },
+    "0x82e22f8": {
+      "origin": "Route109/0/7",
+      "flags": 38,
+      "trainers": [
+        57,
+        0
+      ]
+    },
+    "0x82e2ccd": {
+      "origin": "Route110/0/9",
+      "flags": 38,
+      "trainers": [
+        358,
+        0
+      ]
+    },
+    "0x82e2c07": {
+      "origin": "Route110/0/10",
+      "flags": 38,
+      "trainers": [
+        353,
+        0
+      ]
+    },
+    "0x82e2add": {
+      "origin": "Route110/0/13",
+      "flags": 38,
+      "trainers": [
+        512,
+        0
+      ]
+    },
+    "0x82e2d61": {
+      "origin": "Route110/0/30",
+      "flags": 38,
+      "trainers": [
+        302,
+        0
+      ]
+    },
+    "0x82e43a5": {
+      "origin": "Route111/0/0",
+      "flags": 148,
+      "trainers": [
+        292,
+        0
+      ]
+    },
+    "0x82e4421": {
+      "origin": "Route111/0/0",
+      "flags": 148,
+      "trainers": [
+        299,
+        0
+      ]
+    },
+    "0x82e449d": {
+      "origin": "Route111/0/0",
+      "flags": 148,
+      "trainers": [
+        606,
+        0
+      ]
+    },
+    "0x82e4519": {
+      "origin": "Route111/0/0",
+      "flags": 148,
+      "trainers": [
+        312,
+        0
+      ]
+    },
+    "0x82e4760": {
+      "origin": "Route111/0/9",
+      "flags": 38,
+      "trainers": [
+        44,
+        0
+      ]
+    },
+    "0x82e491e": {
+      "origin": "Route111/0/30",
+      "flags": 38,
+      "trainers": [
+        94,
+        0
+      ]
+    },
+    "0x82e488a": {
+      "origin": "Route111/0/31",
+      "flags": 38,
+      "trainers": [
+        78,
+        0
+      ]
+    },
+    "0x82e5313": {
+      "origin": "Route112/0/4",
+      "flags": 38,
+      "trainers": [
+        627,
+        0
+      ]
+    },
+    "0x82e58b3": {
+      "origin": "Route113/0/4",
+      "flags": 38,
+      "trainers": [
+        434,
+        0
+      ]
+    },
+    "0x82e5947": {
+      "origin": "Route113/0/7",
+      "flags": 38,
+      "trainers": [
+        419,
+        0
+      ]
+    },
+    "0x82e60b0": {
+      "origin": "Route114/0/6",
+      "flags": 38,
+      "trainers": [
+        143,
+        0
+      ]
+    },
+    "0x82e6144": {
+      "origin": "Route114/0/16",
+      "flags": 38,
+      "trainers": [
+        206,
+        0
+      ]
+    },
+    "0x82e64c2": {
+      "origin": "Route115/0/1",
+      "flags": 38,
+      "trainers": [
+        307,
+        0
+      ]
+    },
+    "0x82e6588": {
+      "origin": "Route115/0/2",
+      "flags": 38,
+      "trainers": [
+        183,
+        0
+      ]
+    },
+    "0x82e661c": {
+      "origin": "Route115/0/6",
+      "flags": 38,
+      "trainers": [
+        427,
+        0
+      ]
+    },
+    "0x82e6cd3": {
+      "origin": "Route116/0/16",
+      "flags": 38,
+      "trainers": [
+        280,
+        0
+      ]
+    },
+    "0x82e6b8f": {
+      "origin": "Route116/0/17",
+      "flags": 38,
+      "trainers": [
+        273,
+        0
+      ]
+    },
+    "0x82e7978": {
+      "origin": "Route117/0/7",
+      "flags": 38,
+      "trainers": [
+        364,
+        0
+      ]
+    },
+    "0x82e78e4": {
+      "origin": "Route117/0/8",
+      "flags": 38,
+      "trainers": [
+        545,
+        0
+      ]
+    },
+    "0x82e7850": {
+      "origin": "Route117/0/9",
+      "flags": 38,
+      "trainers": [
+        538,
+        0
+      ]
+    },
+    "0x82e7a0c": {
+      "origin": "Route117/0/16",
+      "flags": 38,
+      "trainers": [
+        369,
+        0
+      ]
+    },
+    "0x82e7b5a": {
+      "origin": "Route117/0/18",
+      "flags": 38,
+      "trainers": [
+        287,
+        0
+      ]
+    },
+    "0x82e7acc": {
+      "origin": "Route117/0/19",
+      "flags": 38,
+      "trainers": [
+        287,
+        0
+      ]
+    },
+    "0x82e81d6": {
+      "origin": "Route118/0/13",
+      "flags": 38,
+      "trainers": [
+        37,
+        0
+      ]
+    },
+    "0x82e82ce": {
+      "origin": "Route118/0/17",
+      "flags": 38,
+      "trainers": [
+        196,
+        0
+      ]
+    },
+    "0x82e8bd8": {
+      "origin": "Route119/0/6",
+      "flags": 38,
+      "trainers": [
+        552,
+        0
+      ]
+    },
+    "0x82e8c6c": {
+      "origin": "Route119/0/8",
+      "flags": 38,
+      "trainers": [
+        559,
+        0
+      ]
+    },
+    "0x82e999a": {
+      "origin": "Route120/0/11",
+      "flags": 38,
+      "trainers": [
+        406,
+        0
+      ]
+    },
+    "0x82e9a92": {
+      "origin": "Route120/0/14",
+      "flags": 38,
+      "trainers": [
+        226,
+        0
+      ]
+    },
+    "0x83863d9": {
+      "origin": "Route120/0/46",
+      "flags": 36,
+      "trainers": [
+        173,
+        0
+      ]
+    },
+    "0x82ea07a": {
+      "origin": "Route121/0/17",
+      "flags": 38,
+      "trainers": [
+        254,
+        0
+      ]
+    },
+    "0x82ea1a4": {
+      "origin": "Route121/0/19",
+      "flags": 38,
+      "trainers": [
+        127,
+        0
+      ]
+    },
+    "0x82ea300": {
+      "origin": "Route121/0/26",
+      "flags": 38,
+      "trainers": [
+        767,
+        0
+      ]
+    },
+    "0x82ea555": {
+      "origin": "Route123/0/28",
+      "flags": 38,
+      "trainers": [
+        238,
+        0
+      ]
+    },
+    "0x82ea5e9": {
+      "origin": "Route123/0/29",
+      "flags": 38,
+      "trainers": [
+        249,
+        0
+      ]
+    },
+    "0x82ea871": {
+      "origin": "Route123/0/36",
+      "flags": 38,
+      "trainers": [
+        195,
+        0
+      ]
+    },
+    "0x82eaa65": {
+      "origin": "Route124/0/2",
+      "flags": 38,
+      "trainers": [
+        449,
+        0
+      ]
+    },
+    "0x82eab57": {
+      "origin": "Route124/0/8",
+      "flags": 38,
+      "trainers": [
+        687,
+        0
+      ]
+    },
+    "0x82eabe5": {
+      "origin": "Route124/0/9",
+      "flags": 38,
+      "trainers": [
+        687,
+        0
+      ]
+    },
+    "0x82eae0e": {
+      "origin": "Route125/0/4",
+      "flags": 38,
+      "trainers": [
+        492,
+        0
+      ]
+    },
+    "0x82eb0d8": {
+      "origin": "Route126/0/6",
+      "flags": 38,
+      "trainers": [
+        377,
+        0
+      ]
+    },
+    "0x82eb329": {
+      "origin": "Route127/0/8",
+      "flags": 38,
+      "trainers": [
+        672,
+        0
+      ]
+    },
+    "0x82eb549": {
+      "origin": "Route128/0/0",
+      "flags": 38,
+      "trainers": [
+        376,
+        0
+      ]
+    },
+    "0x82eb5dd": {
+      "origin": "Route128/0/1",
+      "flags": 38,
+      "trainers": [
+        386,
+        0
+      ]
+    },
+    "0x82eff30": {
+      "origin": "DewfordTown_Gym/0/0",
+      "flags": 38,
+      "trainers": [
+        266,
+        0
+      ]
+    },
+    "0x82f1625": {
+      "origin": "LavaridgeTown_Gym_1F/0/0",
+      "flags": 38,
+      "trainers": [
+        268,
+        0
+      ]
+    },
+    "0x82fcbf2": {
+      "origin": "MauvilleCity_Gym/0/0",
+      "flags": 38,
+      "trainers": [
+        267,
+        0
+      ]
+    },
+    "0x83005e3": {
+      "origin": "RustboroCity_Gym/0/0",
+      "flags": 36,
+      "trainers": [
+        265,
+        0
+      ]
+    },
+    "0x8302e57": {
+      "origin": "FortreeCity_Gym/0/0",
+      "flags": 38,
+      "trainers": [
+        270,
+        0
+      ]
+    },
+    "0x83981a5": {
+      "origin": "ArcheCampus_TrainingHall/0/5",
+      "flags": 148,
+      "trainers": [
+        903,
+        0
+      ]
+    },
+    "0x830a846": {
+      "origin": "MossdeepCity_Gym/0/0",
+      "flags": 38,
+      "trainers": [
+        271,
+        0
+      ]
+    },
+    "0x830cf02": {
+      "origin": "MossdeepCity_SpaceCenter_2F/map table/2/0",
+      "flags": 148,
+      "trainers": [
+        588,
+        0
+      ]
+    },
+    "0x830cf47": {
+      "origin": "MossdeepCity_SpaceCenter_2F/map table/2/0",
+      "flags": 148,
+      "trainers": [
+        589,
+        0
+      ]
+    },
+    "0x830cf8c": {
+      "origin": "MossdeepCity_SpaceCenter_2F/map table/2/0",
+      "flags": 148,
+      "trainers": [
+        590,
+        0
+      ]
+    },
+    "0x830dcb3": {
+      "origin": "SootopolisCity_Gym_1F/0/0",
+      "flags": 38,
+      "trainers": [
+        272,
+        0
+      ]
+    },
+    "0x83953dc": {
+      "origin": "EverGrandeCity_SidneysRoom/0/0",
+      "flags": 148,
+      "trainers": [
+        896,
+        0
+      ]
+    },
+    "0x839540a": {
+      "origin": "EverGrandeCity_PhoebesRoom/0/0",
+      "flags": 148,
+      "trainers": [
+        897,
+        0
+      ]
+    },
+    "0x8395438": {
+      "origin": "EverGrandeCity_GlaciasRoom/0/0",
+      "flags": 148,
+      "trainers": [
+        898,
+        0
+      ]
+    },
+    "0x8395466": {
+      "origin": "EverGrandeCity_DrakesRoom/0/0",
+      "flags": 148,
+      "trainers": [
+        899,
+        0
+      ]
+    },
+    "0x83106ad": {
+      "origin": "EverGrandeCity_ChampionsRoom/map table/2/0",
+      "flags": 148,
+      "trainers": [
+        335,
+        0
+      ]
+    },
+    "0x831336a": {
+      "origin": "MeteorFalls_1F_2R/0/0",
+      "flags": 38,
+      "trainers": [
+        392,
+        0
+      ]
+    },
+    "0x83133f8": {
+      "origin": "MeteorFalls_1F_2R/0/1",
+      "flags": 38,
+      "trainers": [
+        681,
+        0
+      ]
+    },
+    "0x8313486": {
+      "origin": "MeteorFalls_1F_2R/0/2",
+      "flags": 38,
+      "trainers": [
+        681,
+        0
+      ]
+    },
+    "0x8314e33": {
+      "origin": "PetalburgWoods/0/9",
+      "flags": 38,
+      "trainers": [
+        621,
+        0
+      ]
+    },
+    "0x8315c01": {
+      "origin": "MtChimney/0/24",
+      "flags": 38,
+      "trainers": [
+        313,
+        0
+      ]
+    },
+    "0x8315d5d": {
+      "origin": "MtChimney/0/29",
+      "flags": 38,
+      "trainers": [
+        1,
+        0
+      ]
+    },
+    "0x8317062": {
+      "origin": "JaggedPass/0/1",
+      "flags": 38,
+      "trainers": [
+        216,
+        0
+      ]
+    },
+    "0x8316fd1": {
+      "origin": "JaggedPass/0/3",
+      "flags": 38,
+      "trainers": [
+        474,
+        0
+      ]
+    },
+    "0x8317ffa": {
+      "origin": "MtPyre_3F/0/3",
+      "flags": 38,
+      "trainers": [
+        9,
+        0
+      ]
+    },
+    "0x8318490": {
+      "origin": "MtPyre_6F/0/0",
+      "flags": 38,
+      "trainers": [
+        108,
+        0
+      ]
+    },
+    "0x8319b08": {
+      "origin": "AquaHideout_B1F/0/0",
+      "flags": 36,
+      "trainers": [
+        3,
+        0
+      ]
+    },
+    "0x831b726": {
+      "origin": "VictoryRoad_1F/0/6",
+      "flags": 38,
+      "trainers": [
+        657,
+        0
+      ]
+    },
+    "0x839523d": {
+      "origin": "VictoryRoad_1F/0/11",
+      "flags": 148,
+      "trainers": [
+        895,
+        0
+      ]
+    },
+    "0x831b683": {
+      "origin": "VictoryRoad_1F/2/0",
+      "flags": 148,
+      "trainers": [
+        519,
+        0
+      ]
+    },
+    "0x831cfd6": {
+      "origin": "AbandonedShip_Rooms_1F/0/2",
+      "flags": 38,
+      "trainers": [
+        144,
+        0
+      ]
+    },
+    "0x831d42d": {
+      "origin": "AbandonedShip_Rooms2_1F/0/0",
+      "flags": 38,
+      "trainers": [
+        642,
+        0
+      ]
+    },
+    "0x831d4bb": {
+      "origin": "AbandonedShip_Rooms2_1F/0/1",
+      "flags": 38,
+      "trainers": [
+        642,
+        0
+      ]
+    },
+    "0x831ea55": {
+      "origin": "MagmaHideout_2F_1R/0/0",
+      "flags": 36,
+      "trainers": [
+        719,
+        0
+      ]
+    },
+    "0x831ea87": {
+      "origin": "MagmaHideout_2F_1R/0/1",
+      "flags": 36,
+      "trainers": [
+        720,
+        0
+      ]
+    },
+    "0x8387913": {
+      "origin": "MagmaHideout_2F_1R/0/2",
+      "flags": 36,
+      "trainers": [
+        729,
+        0
+      ]
+    },
+    "0x82d50db": {
+      "origin": "MauvilleCity/0/5",
+      "flags": 148,
+      "trainers": [
+        656,
+        0
+      ]
+    },
+    "0x82d7f50": {
+      "origin": "LilycoveCity/0/16",
+      "flags": 148,
+      "trainers": [
+        665,
+        0
+      ]
+    },
+    "0x82d7f7f": {
+      "origin": "LilycoveCity/0/16",
+      "flags": 148,
+      "trainers": [
+        666,
+        0
+      ]
+    },
+    "0x82d7fae": {
+      "origin": "LilycoveCity/0/16",
+      "flags": 148,
+      "trainers": [
+        664,
+        0
+      ]
+    },
+    "0x82d7fdd": {
+      "origin": "LilycoveCity/0/16",
+      "flags": 148,
+      "trainers": [
+        662,
+        0
+      ]
+    },
+    "0x82d800c": {
+      "origin": "LilycoveCity/0/16",
+      "flags": 148,
+      "trainers": [
+        663,
+        0
+      ]
+    },
+    "0x82d803b": {
+      "origin": "LilycoveCity/0/16",
+      "flags": 148,
+      "trainers": [
+        661,
+        0
+      ]
+    },
+    "0x839808d": {
+      "origin": "PacifidlogTown/0/3",
+      "flags": 148,
+      "trainers": [
+        902,
+        0
+      ]
+    },
+    "0x82dfb0a": {
+      "origin": "Route103/0/1",
+      "flags": 148,
+      "trainers": [
+        532,
+        0
+      ]
+    },
+    "0x82dfb39": {
+      "origin": "Route103/0/1",
+      "flags": 148,
+      "trainers": [
+        535,
+        0
+      ]
+    },
+    "0x82dfb68": {
+      "origin": "Route103/0/1",
+      "flags": 148,
+      "trainers": [
+        529,
+        0
+      ]
+    },
+    "0x82dfb97": {
+      "origin": "Route103/0/1",
+      "flags": 148,
+      "trainers": [
+        523,
+        0
+      ]
+    },
+    "0x82dfbc6": {
+      "origin": "Route103/0/1",
+      "flags": 148,
+      "trainers": [
+        526,
+        0
+      ]
+    },
+    "0x82dfbf5": {
+      "origin": "Route103/0/1",
+      "flags": 148,
+      "trainers": [
+        520,
+        0
+      ]
+    },
+    "0x839591b": {
+      "origin": "Route120/0/48",
+      "flags": 148,
+      "trainers": [
+        901,
+        0
+      ]
+    },
+    "0x8300691": {
+      "origin": "RustboroCity_Gym/0/0",
+      "flags": 38,
+      "trainers": [
+        265,
+        0
+      ]
+    },
+    "0x83997e7": {
+      "origin": "ArcheCampus_TrainingHall/0/5",
+      "flags": 36,
+      "trainers": [
+        918,
+        0
+      ]
+    },
+    "0x8395494": {
+      "origin": "EverGrandeCity_ChampionsRoom/map table/2/0",
+      "flags": 148,
+      "trainers": [
+        900,
+        0
+      ]
+    },
+    "0x8394ad9": {
+      "origin": "MeteorFalls_DragonNest/0/2",
+      "flags": 148,
+      "trainers": [
+        889,
+        0
+      ]
+    },
+    "0x82e3015": {
+      "origin": "Route110/2/2",
+      "flags": 148,
+      "trainers": [
+        533,
+        0
+      ]
+    },
+    "0x82e3044": {
+      "origin": "Route110/2/2",
+      "flags": 148,
+      "trainers": [
+        536,
+        0
+      ]
+    },
+    "0x82e3073": {
+      "origin": "Route110/2/2",
+      "flags": 148,
+      "trainers": [
+        530,
+        0
+      ]
+    },
+    "0x82e30f1": {
+      "origin": "Route110/2/2",
+      "flags": 148,
+      "trainers": [
+        524,
+        0
+      ]
+    },
+    "0x82e3120": {
+      "origin": "Route110/2/2",
+      "flags": 148,
+      "trainers": [
+        527,
+        0
+      ]
+    },
+    "0x82e314f": {
+      "origin": "Route110/2/2",
+      "flags": 148,
+      "trainers": [
+        521,
+        0
+      ]
+    },
+    "0x82e86e4": {
+      "origin": "Route119/2/0",
+      "flags": 148,
+      "trainers": [
+        534,
+        0
+      ]
+    },
+    "0x82e8724": {
+      "origin": "Route119/2/0",
+      "flags": 148,
+      "trainers": [
+        537,
+        0
+      ]
+    },
+    "0x82e8764": {
+      "origin": "Route119/2/0",
+      "flags": 148,
+      "trainers": [
+        531,
+        0
+      ]
+    },
+    "0x82e87ee": {
+      "origin": "Route119/2/0",
+      "flags": 148,
+      "trainers": [
+        525,
+        0
+      ]
+    },
+    "0x82e882e": {
+      "origin": "Route119/2/0",
+      "flags": 148,
+      "trainers": [
+        528,
+        0
+      ]
+    },
+    "0x82e886e": {
+      "origin": "Route119/2/0",
+      "flags": 148,
+      "trainers": [
+        522,
+        0
+      ]
+    },
+    "0x8387629": {
+      "origin": "ArcheCampus_TrainingHall/0/0",
+      "flags": 36,
+      "trainers": [
+        486,
+        0
+      ]
+    },
+    "0x838765f": {
+      "origin": "ArcheCampus_TrainingHall/0/0",
+      "flags": 36,
+      "trainers": [
+        853,
+        0
+      ]
+    },
+    "0x8387695": {
+      "origin": "ArcheCampus_TrainingHall/0/0",
+      "flags": 36,
+      "trainers": [
+        854,
+        0
+      ]
+    },
+    "0x8386e82": {
+      "origin": "Route121_SafariZoneEntrance/0/3",
+      "flags": 36,
+      "trainers": [
+        852,
+        0
+      ]
+    },
+    "0x82d691a": {
+      "origin": "RustboroCity/0/13",
+      "flags": 148,
+      "trainers": [
+        768,
+        0
+      ]
+    },
+    "0x82d694c": {
+      "origin": "RustboroCity/0/13",
+      "flags": 148,
+      "trainers": [
+        769,
+        0
+      ]
+    },
+    "0x82d697e": {
+      "origin": "RustboroCity/0/13",
+      "flags": 148,
+      "trainers": [
+        600,
+        0
+      ]
+    },
+    "0x82d6a71": {
+      "origin": "RustboroCity/0/13",
+      "flags": 148,
+      "trainers": [
+        592,
+        0
+      ]
+    },
+    "0x82d6aa3": {
+      "origin": "RustboroCity/0/13",
+      "flags": 148,
+      "trainers": [
+        599,
+        0
+      ]
+    },
+    "0x82d6ad5": {
+      "origin": "RustboroCity/0/13",
+      "flags": 148,
+      "trainers": [
+        593,
+        0
+      ]
+    },
+    "0x82e04ee": {
+      "origin": "Route104/0/33",
+      "flags": 148,
+      "trainers": [
+        768,
+        0
+      ]
+    },
+    "0x82e0520": {
+      "origin": "Route104/0/33",
+      "flags": 148,
+      "trainers": [
+        769,
+        0
+      ]
+    },
+    "0x82e0552": {
+      "origin": "Route104/0/33",
+      "flags": 148,
+      "trainers": [
+        600,
+        0
+      ]
+    },
+    "0x82e0662": {
+      "origin": "Route104/0/33",
+      "flags": 148,
+      "trainers": [
+        592,
+        0
+      ]
+    },
+    "0x82e0694": {
+      "origin": "Route104/0/33",
+      "flags": 148,
+      "trainers": [
+        599,
+        0
+      ]
+    },
+    "0x82e06c6": {
+      "origin": "Route104/0/33",
+      "flags": 148,
+      "trainers": [
+        593,
+        0
+      ]
+    }
+  }
+}

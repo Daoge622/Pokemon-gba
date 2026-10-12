@@ -1,0 +1,49 @@
+{
+  "fixture": true,
+  "setup": "engine warp, set battle flags, clear hide flags, static face-down for test target",
+  "source_rom_sha256": "8c3142dcf6678093913e9f572865272d46dbe9862f60d03f5f9d251259037e8d",
+  "site": {
+    "map": "MagmaHideout_2F_1R",
+    "local_id": 2,
+    "type": 1,
+    "sight": 3,
+    "object_offset": 15537096,
+    "script": "0x838ee5d",
+    "label": "Part55_MagmaGloves",
+    "hex": "6a5a60d002060176ee38080f0042f3380809046c0587ea31080f0061f3380809046c026a5a600300060199ee38080f0089f3380809046c05089b31080f00aff3380809046c020f00d5f338080902020f0009f438080902020f003af4380809020269217c",
+    "trainer": 720,
+    "wrapper": "0x9b0045c"
+  },
+  "log": [
+    {
+      "tag": "arrival",
+      "xy": [
+        12,
+        15
+      ],
+      "map": [
+        24,
+        87
+      ],
+      "ctx": "01020100",
+      "script": "0x0",
+      "lock": 1,
+      "cb": "0x81b9521"
+    },
+    {
+      "tag": "after-close",
+      "xy": [
+        12,
+        15
+      ],
+      "map": [
+        24,
+        87
+      ],
+      "ctx": "01020100",
+      "script": "0x0",
+      "lock": 1,
+      "cb": "0x81b9521"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+--- a/data/scripts/part55.inc
++++ b/data/scripts/part55.inc
+@@ -2901,6 +2901,7 @@
+ 
+ 
+ Part55_RookieFormal::
++	cant_see_if_trainerflag_set TRAINER_GRUNT_MAGMA_HIDEOUT_14
+ 	lock
+ 	faceplayer
+ 	goto_if_defeated TRAINER_GRUNT_MAGMA_HIDEOUT_14, Part5_MagmaRookie_After
+@@ -2937,6 +2938,7 @@
+ 
+ 
+ Part55_MagmaBento::
++	cant_see_if_trainerflag_set TRAINER_GRUNT_MAGMA_HIDEOUT_4
+ 	lock
+ 	faceplayer
+ 	goto_if_defeated TRAINER_GRUNT_MAGMA_HIDEOUT_4, Part55_MagmaBento_After
+@@ -2952,6 +2954,7 @@
+ 
+ 
+ Part55_MagmaGloves::
++	cant_see_if_trainerflag_set TRAINER_GRUNT_MAGMA_HIDEOUT_5
+ 	lock
+ 	faceplayer
+ 	goto_if_defeated TRAINER_GRUNT_MAGMA_HIDEOUT_5, Part55_MagmaGloves_After
+@@ -2967,6 +2970,7 @@
+ 
+ 
+ Part55_Seasick::
++	cant_see_if_trainerflag_set TRAINER_GRUNT_AQUA_HIDEOUT_2
+ 	lock
+ 	faceplayer
+ 	goto_if_defeated TRAINER_GRUNT_AQUA_HIDEOUT_2, Part55_Seasick_After

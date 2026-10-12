@@ -1,0 +1,124 @@
+{
+  "base": "C:\\Users\\DaoGe\\Documents\\Codex\\2026-10-11\\zhe\\outputs\\EmeraldStory-一周目完整版-组队选宝可梦修复.gba",
+  "base_sha256": "8c3142dcf6678093913e9f572865272d46dbe9862f60d03f5f9d251259037e8d",
+  "output": "C:\\Users\\DaoGe\\Documents\\Codex\\2026-10-11\\zhe\\outputs\\EmeraldStory-一周目完整版-组队与战后对话修复.gba",
+  "output_sha256": "5948b8fd044a7b07d4cb75ed7f2439f5607ea15065f161728218bf41fe644614",
+  "sites": [
+    {
+      "map": "AquaHideout_B1F",
+      "local_id": 1,
+      "type": 1,
+      "sight": 4,
+      "object_offset": 15527864,
+      "script": "0x838ee80",
+      "label": "Part55_Seasick",
+      "hex": "6a5a600300060199ee38080f0089f3380809046c05089b31080f00aff3380809046c020f00d5f338080902020f0009f438080902020f003af4380809020269217c400100060432ef38080f0070f438080905210d800100060105ef38080f009cf4380809",
+      "trainer": 3,
+      "wrapper": "0x9b0043c"
+    },
+    {
+      "map": "MagmaHideout_2F_1R",
+      "local_id": 1,
+      "type": 1,
+      "sight": 1,
+      "object_offset": 15537072,
+      "script": "0x838ee3a",
+      "label": "Part55_MagmaBento",
+      "hex": "6a5a60cf02060153ee38080f00ecf2380809046c0555ea31080f001cf3380809046c026a5a60d002060176ee38080f0042f3380809046c0587ea31080f0061f3380809046c026a5a600300060199ee38080f0089f3380809046c05089b31080f00aff338",
+      "trainer": 719,
+      "wrapper": "0x9b0044c"
+    },
+    {
+      "map": "MagmaHideout_2F_1R",
+      "local_id": 2,
+      "type": 1,
+      "sight": 3,
+      "object_offset": 15537096,
+      "script": "0x838ee5d",
+      "label": "Part55_MagmaGloves",
+      "hex": "6a5a60d002060176ee38080f0042f3380809046c0587ea31080f0061f3380809046c026a5a600300060199ee38080f0089f3380809046c05089b31080f00aff3380809046c020f00d5f338080902020f0009f438080902020f003af4380809020269217c",
+      "trainer": 720,
+      "wrapper": "0x9b0045c"
+    },
+    {
+      "map": "MagmaHideout_2F_1R",
+      "local_id": 3,
+      "type": 1,
+      "sight": 7,
+      "object_offset": 15537120,
+      "script": "0x838ede9",
+      "label": "Part55_RookieFormal",
+      "hex": "6a5a60d9020601567938082bec04070103ee38086c05137938080f002ef238080904036a5aa127000000c560d902060127ee38080f0067f2380809046c020f008ef2380809046c020f00aff238080902026a5a60cf02060153ee38080f00ecf238080904",
+      "trainer": 729,
+      "wrapper": "0x9b0046c"
+    }
+  ],
+  "changes": [
+    {
+      "offset": "0x1b00400",
+      "address": "0x9b00400",
+      "before": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "after": "81680a7801318160c178c9070ad593189b1882789b1804a1c95c012902d1002141708160704700bf010000000100000001010100000101010001",
+      "reason": "Script_EndTrainerCanSeeIf equivalent; all comparison conditions"
+    },
+    {
+      "offset": "0x1b0043c",
+      "address": "0x9b0043c",
+      "before": "ffffffffffffffffffffffffffff",
+      "after": "600300230104b00b010580ee3808",
+      "reason": "Part55_Seasick sight condition before lock"
+    },
+    {
+      "offset": "0xecefc8",
+      "address": "0x8ecefc8",
+      "before": "80ee3808",
+      "after": "3c04b009",
+      "reason": "AquaHideout_B1F object 1 script pointer"
+    },
+    {
+      "offset": "0x1b0044c",
+      "address": "0x9b0044c",
+      "before": "ffffffffffffffffffffffffffff",
+      "after": "60cf02230104b00b01053aee3808",
+      "reason": "Part55_MagmaBento sight condition before lock"
+    },
+    {
+      "offset": "0xed13c0",
+      "address": "0x8ed13c0",
+      "before": "3aee3808",
+      "after": "4c04b009",
+      "reason": "MagmaHideout_2F_1R object 1 script pointer"
+    },
+    {
+      "offset": "0x1b0045c",
+      "address": "0x9b0045c",
+      "before": "ffffffffffffffffffffffffffff",
+      "after": "60d002230104b00b01055dee3808",
+      "reason": "Part55_MagmaGloves sight condition before lock"
+    },
+    {
+      "offset": "0xed13d8",
+      "address": "0x8ed13d8",
+      "before": "5dee3808",
+      "after": "5c04b009",
+      "reason": "MagmaHideout_2F_1R object 2 script pointer"
+    },
+    {
+      "offset": "0x1b0046c",
+      "address": "0x9b0046c",
+      "before": "ffffffffffffffffffffffffffff",
+      "after": "60d902230104b00b0105e9ed3808",
+      "reason": "Part55_RookieFormal sight condition before lock"
+    },
+    {
+      "offset": "0xed13f0",
+      "address": "0x8ed13f0",
+      "before": "e9ed3808",
+      "after": "6c04b009",
+      "reason": "MagmaHideout_2F_1R object 3 script pointer"
+    }
+  ],
+  "audit_trainer_objects": 550,
+  "audit_wrapped_objects": 68,
+  "excluded": "64 BattlePyramid objects: independent facility trainer flags"
+}

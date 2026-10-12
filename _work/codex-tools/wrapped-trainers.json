@@ -1,0 +1,685 @@
+{
+  "trainer_objects": 550,
+  "wrapped": [
+    {
+      "map": "AquaHideout_B1F",
+      "local_id": 1,
+      "type": 1,
+      "sight": 4,
+      "object_offset": 15527864,
+      "script": "0x838ee80",
+      "label": "Part55_Seasick",
+      "hex": "6a5a600300060199ee38080f0089f3380809046c05089b31080f00aff3380809046c020f00d5f338080902020f0009f438080902020f003af4380809020269217c400100060432ef38080f0070f438080905210d800100060105ef38080f009cf4380809"
+    },
+    {
+      "map": "MagmaHideout_2F_1R",
+      "local_id": 1,
+      "type": 1,
+      "sight": 1,
+      "object_offset": 15537072,
+      "script": "0x838ee3a",
+      "label": "Part55_MagmaBento",
+      "hex": "6a5a60cf02060153ee38080f00ecf2380809046c0555ea31080f001cf3380809046c026a5a60d002060176ee38080f0042f3380809046c0587ea31080f0061f3380809046c026a5a600300060199ee38080f0089f3380809046c05089b31080f00aff338"
+    },
+    {
+      "map": "MagmaHideout_2F_1R",
+      "local_id": 2,
+      "type": 1,
+      "sight": 3,
+      "object_offset": 15537096,
+      "script": "0x838ee5d",
+      "label": "Part55_MagmaGloves",
+      "hex": "6a5a60d002060176ee38080f0042f3380809046c0587ea31080f0061f3380809046c026a5a600300060199ee38080f0089f3380809046c05089b31080f00aff3380809046c020f00d5f338080902020f0009f438080902020f003af4380809020269217c"
+    },
+    {
+      "map": "MagmaHideout_2F_1R",
+      "local_id": 3,
+      "type": 1,
+      "sight": 7,
+      "object_offset": 15537120,
+      "script": "0x838ede9",
+      "label": "Part55_RookieFormal",
+      "hex": "6a5a60d9020601567938082bec04070103ee38086c05137938080f002ef238080904036a5aa127000000c560d902060127ee38080f0067f2380809046c020f008ef2380809046c020f00aff238080902026a5a60cf02060153ee38080f00ecf238080904"
+    },
+    {
+      "map": "BattlePyramidSquare01",
+      "local_id": 1,
+      "type": 1,
+      "sight": 3,
+      "object_offset": 15550968,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare01",
+      "local_id": 2,
+      "type": 1,
+      "sight": 3,
+      "object_offset": 15550992,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare01",
+      "local_id": 3,
+      "type": 1,
+      "sight": 5,
+      "object_offset": 15551016,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare01",
+      "local_id": 4,
+      "type": 1,
+      "sight": 4,
+      "object_offset": 15551040,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare02",
+      "local_id": 1,
+      "type": 1,
+      "sight": 5,
+      "object_offset": 15551156,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare02",
+      "local_id": 2,
+      "type": 1,
+      "sight": 5,
+      "object_offset": 15551180,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare02",
+      "local_id": 3,
+      "type": 1,
+      "sight": 5,
+      "object_offset": 15551204,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare02",
+      "local_id": 4,
+      "type": 1,
+      "sight": 5,
+      "object_offset": 15551228,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare03",
+      "local_id": 1,
+      "type": 1,
+      "sight": 5,
+      "object_offset": 15551344,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare03",
+      "local_id": 2,
+      "type": 1,
+      "sight": 4,
+      "object_offset": 15551368,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare03",
+      "local_id": 3,
+      "type": 1,
+      "sight": 3,
+      "object_offset": 15551392,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare03",
+      "local_id": 4,
+      "type": 1,
+      "sight": 4,
+      "object_offset": 15551416,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare04",
+      "local_id": 1,
+      "type": 1,
+      "sight": 5,
+      "object_offset": 15551532,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare04",
+      "local_id": 2,
+      "type": 1,
+      "sight": 5,
+      "object_offset": 15551556,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare04",
+      "local_id": 3,
+      "type": 1,
+      "sight": 6,
+      "object_offset": 15551580,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare04",
+      "local_id": 4,
+      "type": 1,
+      "sight": 6,
+      "object_offset": 15551604,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare05",
+      "local_id": 1,
+      "type": 1,
+      "sight": 3,
+      "object_offset": 15551720,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare05",
+      "local_id": 2,
+      "type": 1,
+      "sight": 5,
+      "object_offset": 15551744,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare05",
+      "local_id": 3,
+      "type": 1,
+      "sight": 5,
+      "object_offset": 15551768,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare05",
+      "local_id": 4,
+      "type": 1,
+      "sight": 3,
+      "object_offset": 15551792,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare06",
+      "local_id": 1,
+      "type": 1,
+      "sight": 3,
+      "object_offset": 15551908,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare06",
+      "local_id": 2,
+      "type": 1,
+      "sight": 3,
+      "object_offset": 15551932,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare06",
+      "local_id": 3,
+      "type": 1,
+      "sight": 3,
+      "object_offset": 15551956,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare06",
+      "local_id": 4,
+      "type": 1,
+      "sight": 3,
+      "object_offset": 15551980,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare07",
+      "local_id": 1,
+      "type": 1,
+      "sight": 6,
+      "object_offset": 15552096,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare07",
+      "local_id": 2,
+      "type": 1,
+      "sight": 4,
+      "object_offset": 15552120,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare07",
+      "local_id": 3,
+      "type": 1,
+      "sight": 3,
+      "object_offset": 15552144,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare07",
+      "local_id": 4,
+      "type": 1,
+      "sight": 4,
+      "object_offset": 15552168,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare08",
+      "local_id": 1,
+      "type": 1,
+      "sight": 5,
+      "object_offset": 15552284,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare08",
+      "local_id": 2,
+      "type": 1,
+      "sight": 5,
+      "object_offset": 15552308,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare08",
+      "local_id": 3,
+      "type": 1,
+      "sight": 5,
+      "object_offset": 15552332,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare08",
+      "local_id": 4,
+      "type": 1,
+      "sight": 5,
+      "object_offset": 15552356,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare09",
+      "local_id": 1,
+      "type": 1,
+      "sight": 5,
+      "object_offset": 15552472,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare09",
+      "local_id": 2,
+      "type": 1,
+      "sight": 4,
+      "object_offset": 15552496,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare09",
+      "local_id": 3,
+      "type": 1,
+      "sight": 4,
+      "object_offset": 15552520,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare09",
+      "local_id": 4,
+      "type": 1,
+      "sight": 5,
+      "object_offset": 15552544,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare10",
+      "local_id": 1,
+      "type": 1,
+      "sight": 3,
+      "object_offset": 15552660,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare10",
+      "local_id": 2,
+      "type": 1,
+      "sight": 3,
+      "object_offset": 15552684,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare10",
+      "local_id": 3,
+      "type": 1,
+      "sight": 6,
+      "object_offset": 15552708,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare10",
+      "local_id": 4,
+      "type": 1,
+      "sight": 7,
+      "object_offset": 15552732,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare11",
+      "local_id": 1,
+      "type": 1,
+      "sight": 5,
+      "object_offset": 15552848,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare11",
+      "local_id": 2,
+      "type": 1,
+      "sight": 4,
+      "object_offset": 15552872,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare11",
+      "local_id": 3,
+      "type": 1,
+      "sight": 3,
+      "object_offset": 15552896,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare11",
+      "local_id": 4,
+      "type": 1,
+      "sight": 3,
+      "object_offset": 15552920,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare12",
+      "local_id": 1,
+      "type": 1,
+      "sight": 7,
+      "object_offset": 15553036,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare12",
+      "local_id": 2,
+      "type": 1,
+      "sight": 7,
+      "object_offset": 15553060,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare12",
+      "local_id": 3,
+      "type": 1,
+      "sight": 6,
+      "object_offset": 15553084,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare12",
+      "local_id": 4,
+      "type": 1,
+      "sight": 3,
+      "object_offset": 15553108,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare13",
+      "local_id": 1,
+      "type": 1,
+      "sight": 6,
+      "object_offset": 15553224,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare13",
+      "local_id": 2,
+      "type": 1,
+      "sight": 6,
+      "object_offset": 15553248,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare13",
+      "local_id": 3,
+      "type": 1,
+      "sight": 6,
+      "object_offset": 15553272,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare13",
+      "local_id": 4,
+      "type": 1,
+      "sight": 6,
+      "object_offset": 15553296,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare14",
+      "local_id": 1,
+      "type": 1,
+      "sight": 7,
+      "object_offset": 15553412,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare14",
+      "local_id": 2,
+      "type": 1,
+      "sight": 6,
+      "object_offset": 15553436,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare14",
+      "local_id": 3,
+      "type": 1,
+      "sight": 6,
+      "object_offset": 15553460,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare14",
+      "local_id": 4,
+      "type": 1,
+      "sight": 7,
+      "object_offset": 15553484,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare15",
+      "local_id": 1,
+      "type": 1,
+      "sight": 5,
+      "object_offset": 15553600,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare15",
+      "local_id": 2,
+      "type": 1,
+      "sight": 6,
+      "object_offset": 15553624,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare15",
+      "local_id": 3,
+      "type": 1,
+      "sight": 4,
+      "object_offset": 15553648,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare15",
+      "local_id": 4,
+      "type": 1,
+      "sight": 4,
+      "object_offset": 15553672,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare16",
+      "local_id": 1,
+      "type": 1,
+      "sight": 6,
+      "object_offset": 15553788,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare16",
+      "local_id": 2,
+      "type": 1,
+      "sight": 6,
+      "object_offset": 15553812,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare16",
+      "local_id": 3,
+      "type": 1,
+      "sight": 6,
+      "object_offset": 15553836,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    },
+    {
+      "map": "BattlePyramidSquare16",
+      "local_id": 4,
+      "type": 1,
+      "sight": 6,
+      "object_offset": 15553860,
+      "script": "0x83315e6",
+      "label": "BattlePyramid_TrainerBattle",
+      "hex": "2389e10808071604800a0025f100666d686b02160480070025f10009012107800000060116163308160480080025f1000205d914330802060c190e500dc637ff0ef10fe90d0b037910300742110e0ca1030b0cbe0c9afe0e730ef10dec0e3f0b6b05b208"
+    }
+  ]
+}

@@ -1,0 +1,2790 @@
+{
+  "0": {
+    "macro": "nop",
+    "fields": [],
+    "size": 1
+  },
+  "1": {
+    "macro": "nop1",
+    "fields": [],
+    "size": 1
+  },
+  "2": {
+    "macro": "end",
+    "fields": [],
+    "size": 1
+  },
+  "3": {
+    "macro": "return",
+    "fields": [],
+    "size": 1
+  },
+  "4": {
+    "macro": "call",
+    "fields": [
+      [
+        4,
+        "\\destination"
+      ]
+    ],
+    "size": 5
+  },
+  "5": {
+    "macro": "goto",
+    "fields": [
+      [
+        4,
+        "\\destination"
+      ]
+    ],
+    "size": 5
+  },
+  "6": {
+    "macro": "goto_if",
+    "fields": [
+      [
+        1,
+        "\\condition"
+      ],
+      [
+        4,
+        "\\destination"
+      ]
+    ],
+    "size": 6
+  },
+  "7": {
+    "macro": "call_if",
+    "fields": [
+      [
+        1,
+        "\\condition"
+      ],
+      [
+        4,
+        "\\destination"
+      ]
+    ],
+    "size": 6
+  },
+  "8": {
+    "macro": "gotostd",
+    "fields": [
+      [
+        1,
+        "\\function"
+      ]
+    ],
+    "size": 2
+  },
+  "9": {
+    "macro": "callstd",
+    "fields": [
+      [
+        1,
+        "\\function"
+      ]
+    ],
+    "size": 2
+  },
+  "10": {
+    "macro": "gotostd_if",
+    "fields": [
+      [
+        1,
+        "\\condition"
+      ],
+      [
+        1,
+        "\\function"
+      ]
+    ],
+    "size": 3
+  },
+  "11": {
+    "macro": "callstd_if",
+    "fields": [
+      [
+        1,
+        "\\condition"
+      ],
+      [
+        1,
+        "\\function"
+      ]
+    ],
+    "size": 3
+  },
+  "12": {
+    "macro": "returnram",
+    "fields": [],
+    "size": 1
+  },
+  "13": {
+    "macro": "endram",
+    "fields": [],
+    "size": 1
+  },
+  "14": {
+    "macro": "setmysteryeventstatus",
+    "fields": [
+      [
+        1,
+        "\\value"
+      ]
+    ],
+    "size": 2
+  },
+  "15": {
+    "macro": "loadword",
+    "fields": [
+      [
+        1,
+        "\\destIndex"
+      ],
+      [
+        4,
+        "\\value"
+      ]
+    ],
+    "size": 6
+  },
+  "16": {
+    "macro": "loadbyte",
+    "fields": [
+      [
+        1,
+        "\\destIndex"
+      ],
+      [
+        1,
+        "\\value"
+      ]
+    ],
+    "size": 3
+  },
+  "17": {
+    "macro": "setptr",
+    "fields": [
+      [
+        1,
+        "\\value"
+      ],
+      [
+        4,
+        "\\ptr"
+      ]
+    ],
+    "size": 6
+  },
+  "18": {
+    "macro": "loadbytefromptr",
+    "fields": [
+      [
+        1,
+        "\\destIndex"
+      ],
+      [
+        4,
+        "\\source"
+      ]
+    ],
+    "size": 6
+  },
+  "19": {
+    "macro": "setptrbyte",
+    "fields": [
+      [
+        1,
+        "\\srcIndex"
+      ],
+      [
+        4,
+        "\\destination"
+      ]
+    ],
+    "size": 6
+  },
+  "20": {
+    "macro": "copylocal",
+    "fields": [
+      [
+        1,
+        "\\destIndex"
+      ],
+      [
+        1,
+        "\\srcIndex"
+      ]
+    ],
+    "size": 3
+  },
+  "21": {
+    "macro": "copybyte",
+    "fields": [
+      [
+        4,
+        "\\destination"
+      ],
+      [
+        4,
+        "\\source"
+      ]
+    ],
+    "size": 9
+  },
+  "22": {
+    "macro": "setvar",
+    "fields": [
+      [
+        2,
+        "\\destination"
+      ],
+      [
+        2,
+        "\\value"
+      ]
+    ],
+    "size": 5
+  },
+  "23": {
+    "macro": "addvar",
+    "fields": [
+      [
+        2,
+        "\\destination"
+      ],
+      [
+        2,
+        "\\value"
+      ]
+    ],
+    "size": 5
+  },
+  "24": {
+    "macro": "subvar",
+    "fields": [
+      [
+        2,
+        "\\destination"
+      ],
+      [
+        2,
+        "\\value"
+      ]
+    ],
+    "size": 5
+  },
+  "25": {
+    "macro": "copyvar",
+    "fields": [
+      [
+        2,
+        "\\destination"
+      ],
+      [
+        2,
+        "\\source"
+      ]
+    ],
+    "size": 5
+  },
+  "26": {
+    "macro": "setorcopyvar",
+    "fields": [
+      [
+        2,
+        "\\destination"
+      ],
+      [
+        2,
+        "\\source"
+      ]
+    ],
+    "size": 5
+  },
+  "27": {
+    "macro": "compare_local_to_local",
+    "fields": [
+      [
+        1,
+        "\\local1"
+      ],
+      [
+        1,
+        "\\local2"
+      ]
+    ],
+    "size": 3
+  },
+  "28": {
+    "macro": "compare_local_to_value",
+    "fields": [
+      [
+        1,
+        "\\local"
+      ],
+      [
+        1,
+        "\\value"
+      ]
+    ],
+    "size": 3
+  },
+  "29": {
+    "macro": "compare_local_to_ptr",
+    "fields": [
+      [
+        1,
+        "\\local"
+      ],
+      [
+        4,
+        "\\ptr"
+      ]
+    ],
+    "size": 6
+  },
+  "30": {
+    "macro": "compare_ptr_to_local",
+    "fields": [
+      [
+        4,
+        "\\ptr"
+      ],
+      [
+        1,
+        "\\local"
+      ]
+    ],
+    "size": 6
+  },
+  "31": {
+    "macro": "compare_ptr_to_value",
+    "fields": [
+      [
+        4,
+        "\\ptr"
+      ],
+      [
+        1,
+        "\\value"
+      ]
+    ],
+    "size": 6
+  },
+  "32": {
+    "macro": "compare_ptr_to_ptr",
+    "fields": [
+      [
+        4,
+        "\\ptr1"
+      ],
+      [
+        4,
+        "\\ptr2"
+      ]
+    ],
+    "size": 9
+  },
+  "33": {
+    "macro": "compare_var_to_value",
+    "fields": [
+      [
+        2,
+        "\\var"
+      ],
+      [
+        2,
+        "\\value"
+      ]
+    ],
+    "size": 5
+  },
+  "34": {
+    "macro": "compare_var_to_var",
+    "fields": [
+      [
+        2,
+        "\\var1"
+      ],
+      [
+        2,
+        "\\var2"
+      ]
+    ],
+    "size": 5
+  },
+  "35": {
+    "macro": "callnative",
+    "fields": [
+      [
+        4,
+        "\\func"
+      ]
+    ],
+    "size": 5
+  },
+  "36": {
+    "macro": "gotonative",
+    "fields": [
+      [
+        4,
+        "\\func"
+      ]
+    ],
+    "size": 5
+  },
+  "39": {
+    "macro": "waitstate",
+    "fields": [],
+    "size": 1
+  },
+  "40": {
+    "macro": "delay",
+    "fields": [
+      [
+        2,
+        "\\frames"
+      ]
+    ],
+    "size": 3
+  },
+  "41": {
+    "macro": "setflag",
+    "fields": [
+      [
+        2,
+        "\\flag"
+      ]
+    ],
+    "size": 3
+  },
+  "42": {
+    "macro": "clearflag",
+    "fields": [
+      [
+        2,
+        "\\flag"
+      ]
+    ],
+    "size": 3
+  },
+  "43": {
+    "macro": "checkflag",
+    "fields": [
+      [
+        2,
+        "\\flag"
+      ]
+    ],
+    "size": 3
+  },
+  "44": {
+    "macro": "initclock",
+    "fields": [
+      [
+        2,
+        "\\hour"
+      ],
+      [
+        2,
+        "\\minute"
+      ]
+    ],
+    "size": 5
+  },
+  "45": {
+    "macro": "dotimebasedevents",
+    "fields": [],
+    "size": 1
+  },
+  "46": {
+    "macro": "gettime",
+    "fields": [],
+    "size": 1
+  },
+  "47": {
+    "macro": "playse",
+    "fields": [
+      [
+        2,
+        "\\song"
+      ]
+    ],
+    "size": 3
+  },
+  "48": {
+    "macro": "waitse",
+    "fields": [],
+    "size": 1
+  },
+  "49": {
+    "macro": "playfanfare",
+    "fields": [
+      [
+        2,
+        "\\song"
+      ]
+    ],
+    "size": 3
+  },
+  "50": {
+    "macro": "waitfanfare",
+    "fields": [],
+    "size": 1
+  },
+  "51": {
+    "macro": "playbgm",
+    "fields": [
+      [
+        2,
+        "\\song"
+      ],
+      [
+        1,
+        "\\save_song"
+      ]
+    ],
+    "size": 4
+  },
+  "52": {
+    "macro": "savebgm",
+    "fields": [
+      [
+        2,
+        "\\song"
+      ]
+    ],
+    "size": 3
+  },
+  "53": {
+    "macro": "fadedefaultbgm",
+    "fields": [],
+    "size": 1
+  },
+  "54": {
+    "macro": "fadenewbgm",
+    "fields": [
+      [
+        2,
+        "\\song"
+      ]
+    ],
+    "size": 3
+  },
+  "55": {
+    "macro": "fadeoutbgm",
+    "fields": [
+      [
+        1,
+        "\\speed"
+      ]
+    ],
+    "size": 2
+  },
+  "56": {
+    "macro": "fadeinbgm",
+    "fields": [
+      [
+        1,
+        "\\speed"
+      ]
+    ],
+    "size": 2
+  },
+  "57": {
+    "macro": "warp",
+    "fields": [
+      [
+        1,
+        "mapGroup"
+      ],
+      [
+        1,
+        "mapNum"
+      ],
+      [
+        1,
+        "warpId"
+      ],
+      [
+        2,
+        "x"
+      ],
+      [
+        2,
+        "y"
+      ]
+    ],
+    "size": 8
+  },
+  "58": {
+    "macro": "warpsilent",
+    "fields": [
+      [
+        1,
+        "mapGroup"
+      ],
+      [
+        1,
+        "mapNum"
+      ],
+      [
+        1,
+        "warpId"
+      ],
+      [
+        2,
+        "x"
+      ],
+      [
+        2,
+        "y"
+      ]
+    ],
+    "size": 8
+  },
+  "59": {
+    "macro": "warpdoor",
+    "fields": [
+      [
+        1,
+        "mapGroup"
+      ],
+      [
+        1,
+        "mapNum"
+      ],
+      [
+        1,
+        "warpId"
+      ],
+      [
+        2,
+        "x"
+      ],
+      [
+        2,
+        "y"
+      ]
+    ],
+    "size": 8
+  },
+  "60": {
+    "macro": "warphole",
+    "fields": [
+      [
+        1,
+        "mapGroup"
+      ],
+      [
+        1,
+        "mapNum"
+      ]
+    ],
+    "size": 3
+  },
+  "61": {
+    "macro": "warpteleport",
+    "fields": [
+      [
+        1,
+        "mapGroup"
+      ],
+      [
+        1,
+        "mapNum"
+      ],
+      [
+        1,
+        "warpId"
+      ],
+      [
+        2,
+        "x"
+      ],
+      [
+        2,
+        "y"
+      ]
+    ],
+    "size": 8
+  },
+  "62": {
+    "macro": "setwarp",
+    "fields": [
+      [
+        1,
+        "mapGroup"
+      ],
+      [
+        1,
+        "mapNum"
+      ],
+      [
+        1,
+        "warpId"
+      ],
+      [
+        2,
+        "x"
+      ],
+      [
+        2,
+        "y"
+      ]
+    ],
+    "size": 8
+  },
+  "63": {
+    "macro": "setdynamicwarp",
+    "fields": [
+      [
+        1,
+        "mapGroup"
+      ],
+      [
+        1,
+        "mapNum"
+      ],
+      [
+        1,
+        "warpId"
+      ],
+      [
+        2,
+        "x"
+      ],
+      [
+        2,
+        "y"
+      ]
+    ],
+    "size": 8
+  },
+  "64": {
+    "macro": "setdivewarp",
+    "fields": [
+      [
+        1,
+        "mapGroup"
+      ],
+      [
+        1,
+        "mapNum"
+      ],
+      [
+        1,
+        "warpId"
+      ],
+      [
+        2,
+        "x"
+      ],
+      [
+        2,
+        "y"
+      ]
+    ],
+    "size": 8
+  },
+  "65": {
+    "macro": "setholewarp",
+    "fields": [
+      [
+        1,
+        "mapGroup"
+      ],
+      [
+        1,
+        "mapNum"
+      ],
+      [
+        1,
+        "warpId"
+      ],
+      [
+        2,
+        "x"
+      ],
+      [
+        2,
+        "y"
+      ]
+    ],
+    "size": 8
+  },
+  "66": {
+    "macro": "getplayerxy",
+    "fields": [
+      [
+        2,
+        "\\x"
+      ],
+      [
+        2,
+        "\\y"
+      ]
+    ],
+    "size": 5
+  },
+  "67": {
+    "macro": "getpartysize",
+    "fields": [],
+    "size": 1
+  },
+  "68": {
+    "macro": "additem",
+    "fields": [
+      [
+        2,
+        "\\itemId"
+      ],
+      [
+        2,
+        "\\quantity"
+      ]
+    ],
+    "size": 5
+  },
+  "69": {
+    "macro": "removeitem",
+    "fields": [
+      [
+        2,
+        "\\itemId"
+      ],
+      [
+        2,
+        "\\quantity"
+      ]
+    ],
+    "size": 5
+  },
+  "70": {
+    "macro": "checkitemspace",
+    "fields": [
+      [
+        2,
+        "\\itemId"
+      ],
+      [
+        2,
+        "\\quantity"
+      ]
+    ],
+    "size": 5
+  },
+  "71": {
+    "macro": "checkitem",
+    "fields": [
+      [
+        2,
+        "\\itemId"
+      ],
+      [
+        2,
+        "\\quantity"
+      ]
+    ],
+    "size": 5
+  },
+  "72": {
+    "macro": "checkitemtype",
+    "fields": [
+      [
+        2,
+        "\\itemId"
+      ]
+    ],
+    "size": 3
+  },
+  "73": {
+    "macro": "addpcitem",
+    "fields": [
+      [
+        2,
+        "\\itemId"
+      ],
+      [
+        2,
+        "\\quantity"
+      ]
+    ],
+    "size": 5
+  },
+  "74": {
+    "macro": "checkpcitem",
+    "fields": [
+      [
+        2,
+        "\\itemId"
+      ],
+      [
+        2,
+        "\\quantity"
+      ]
+    ],
+    "size": 5
+  },
+  "75": {
+    "macro": "adddecoration",
+    "fields": [
+      [
+        2,
+        "\\decoration"
+      ]
+    ],
+    "size": 3
+  },
+  "76": {
+    "macro": "removedecoration",
+    "fields": [
+      [
+        2,
+        "\\decoration"
+      ]
+    ],
+    "size": 3
+  },
+  "77": {
+    "macro": "checkdecor",
+    "fields": [
+      [
+        2,
+        "\\decoration"
+      ]
+    ],
+    "size": 3
+  },
+  "78": {
+    "macro": "checkdecorspace",
+    "fields": [
+      [
+        2,
+        "\\decoration"
+      ]
+    ],
+    "size": 3
+  },
+  "79": {
+    "macro": "applymovement",
+    "fields": [
+      [
+        2,
+        "\\localId"
+      ],
+      [
+        4,
+        "\\movements"
+      ]
+    ],
+    "size": 7
+  },
+  "80": {
+    "macro": "applymovement",
+    "fields": [
+      [
+        2,
+        "\\localId"
+      ],
+      [
+        4,
+        "\\movements"
+      ],
+      [
+        1,
+        "mapGroup"
+      ],
+      [
+        1,
+        "mapNum"
+      ]
+    ],
+    "size": 9
+  },
+  "81": {
+    "macro": "waitmovement",
+    "fields": [
+      [
+        2,
+        "\\localId"
+      ]
+    ],
+    "size": 3
+  },
+  "82": {
+    "macro": "waitmovement",
+    "fields": [
+      [
+        2,
+        "\\localId"
+      ],
+      [
+        1,
+        "mapGroup"
+      ],
+      [
+        1,
+        "mapNum"
+      ]
+    ],
+    "size": 5
+  },
+  "83": {
+    "macro": "removeobject",
+    "fields": [
+      [
+        2,
+        "\\localId"
+      ]
+    ],
+    "size": 3
+  },
+  "84": {
+    "macro": "removeobject",
+    "fields": [
+      [
+        2,
+        "\\localId"
+      ],
+      [
+        1,
+        "mapGroup"
+      ],
+      [
+        1,
+        "mapNum"
+      ]
+    ],
+    "size": 5
+  },
+  "85": {
+    "macro": "addobject",
+    "fields": [
+      [
+        2,
+        "\\localId"
+      ]
+    ],
+    "size": 3
+  },
+  "86": {
+    "macro": "addobject",
+    "fields": [
+      [
+        2,
+        "\\localId"
+      ],
+      [
+        1,
+        "mapGroup"
+      ],
+      [
+        1,
+        "mapNum"
+      ]
+    ],
+    "size": 5
+  },
+  "87": {
+    "macro": "setobjectxy",
+    "fields": [
+      [
+        2,
+        "\\localId"
+      ],
+      [
+        2,
+        "\\x"
+      ],
+      [
+        2,
+        "\\y"
+      ]
+    ],
+    "size": 7
+  },
+  "88": {
+    "macro": "showplayer",
+    "fields": [
+      [
+        2,
+        "LOCALID_PLAYER"
+      ],
+      [
+        1,
+        "0"
+      ],
+      [
+        1,
+        "0"
+      ]
+    ],
+    "size": 5
+  },
+  "89": {
+    "macro": "hideplayer",
+    "fields": [
+      [
+        2,
+        "LOCALID_PLAYER"
+      ],
+      [
+        1,
+        "0"
+      ],
+      [
+        1,
+        "0"
+      ]
+    ],
+    "size": 5
+  },
+  "90": {
+    "macro": "faceplayer",
+    "fields": [],
+    "size": 1
+  },
+  "91": {
+    "macro": "turnobject",
+    "fields": [
+      [
+        2,
+        "\\localId"
+      ],
+      [
+        1,
+        "\\direction"
+      ]
+    ],
+    "size": 4
+  },
+  "92": {
+    "macro": "trainerbattle",
+    "fields": [
+      [
+        1,
+        "trainerbattle_flags"
+      ],
+      [
+        1,
+        "\\localIdA"
+      ],
+      [
+        2,
+        "\\trainer_a"
+      ],
+      [
+        4,
+        "\\intro_text_a"
+      ],
+      [
+        4,
+        "\\lose_text_a"
+      ],
+      [
+        4,
+        "\\event_script_a"
+      ],
+      [
+        1,
+        "\\localIdB"
+      ],
+      [
+        2,
+        "\\trainer_b"
+      ],
+      [
+        4,
+        "\\intro_text_b"
+      ],
+      [
+        4,
+        "\\lose_text_b"
+      ],
+      [
+        4,
+        "\\event_script_b"
+      ],
+      [
+        4,
+        "\\victory_text"
+      ],
+      [
+        4,
+        "\\cannot_battle"
+      ],
+      [
+        1,
+        "\\rival_battle_flags"
+      ]
+    ],
+    "size": 41
+  },
+  "93": {
+    "macro": "dotrainerbattle",
+    "fields": [],
+    "size": 1
+  },
+  "94": {
+    "macro": "gotopostbattlescript",
+    "fields": [],
+    "size": 1
+  },
+  "95": {
+    "macro": "gotobeatenscript",
+    "fields": [],
+    "size": 1
+  },
+  "96": {
+    "macro": "checktrainerflag",
+    "fields": [
+      [
+        2,
+        "\\trainer"
+      ]
+    ],
+    "size": 3
+  },
+  "97": {
+    "macro": "settrainerflag",
+    "fields": [
+      [
+        2,
+        "\\trainer"
+      ]
+    ],
+    "size": 3
+  },
+  "98": {
+    "macro": "cleartrainerflag",
+    "fields": [
+      [
+        2,
+        "\\trainer"
+      ]
+    ],
+    "size": 3
+  },
+  "99": {
+    "macro": "setobjectxyperm",
+    "fields": [
+      [
+        2,
+        "\\localId"
+      ],
+      [
+        2,
+        "\\x"
+      ],
+      [
+        2,
+        "\\y"
+      ]
+    ],
+    "size": 7
+  },
+  "100": {
+    "macro": "copyobjectxytoperm",
+    "fields": [
+      [
+        2,
+        "\\localId"
+      ]
+    ],
+    "size": 3
+  },
+  "101": {
+    "macro": "setobjectmovementtype",
+    "fields": [
+      [
+        2,
+        "\\localId"
+      ],
+      [
+        1,
+        "\\movementType"
+      ]
+    ],
+    "size": 4
+  },
+  "102": {
+    "macro": "waitmessage",
+    "fields": [],
+    "size": 1
+  },
+  "103": {
+    "macro": "message",
+    "fields": [
+      [
+        4,
+        "\\text"
+      ]
+    ],
+    "size": 5
+  },
+  "104": {
+    "macro": "closemessage",
+    "fields": [],
+    "size": 1
+  },
+  "105": {
+    "macro": "lockall",
+    "fields": [],
+    "size": 1
+  },
+  "106": {
+    "macro": "lock",
+    "fields": [],
+    "size": 1
+  },
+  "107": {
+    "macro": "releaseall",
+    "fields": [],
+    "size": 1
+  },
+  "108": {
+    "macro": "release",
+    "fields": [],
+    "size": 1
+  },
+  "109": {
+    "macro": "waitbuttonpress",
+    "fields": [],
+    "size": 1
+  },
+  "110": {
+    "macro": "yesnobox",
+    "fields": [
+      [
+        1,
+        "\\x"
+      ],
+      [
+        1,
+        "\\y"
+      ]
+    ],
+    "size": 3
+  },
+  "111": {
+    "macro": "multichoice",
+    "fields": [
+      [
+        1,
+        "\\x"
+      ],
+      [
+        1,
+        "\\y"
+      ],
+      [
+        1,
+        "\\multichoiceId"
+      ],
+      [
+        1,
+        "\\ignoreBPress"
+      ]
+    ],
+    "size": 5
+  },
+  "112": {
+    "macro": "multichoicedefault",
+    "fields": [
+      [
+        1,
+        "\\x"
+      ],
+      [
+        1,
+        "\\y"
+      ],
+      [
+        1,
+        "\\multichoiceId"
+      ],
+      [
+        1,
+        "\\default"
+      ],
+      [
+        1,
+        "\\ignoreBPress"
+      ]
+    ],
+    "size": 6
+  },
+  "113": {
+    "macro": "multichoicegrid",
+    "fields": [
+      [
+        1,
+        "\\x"
+      ],
+      [
+        1,
+        "\\y"
+      ],
+      [
+        1,
+        "\\multichoiceId"
+      ],
+      [
+        1,
+        "\\per_row"
+      ],
+      [
+        1,
+        "\\ignoreBPress"
+      ]
+    ],
+    "size": 6
+  },
+  "114": {
+    "macro": "drawbox",
+    "fields": [],
+    "size": 1
+  },
+  "115": {
+    "macro": "erasebox",
+    "fields": [
+      [
+        1,
+        "\\left"
+      ],
+      [
+        1,
+        "\\top"
+      ],
+      [
+        1,
+        "\\right"
+      ],
+      [
+        1,
+        "\\bottom"
+      ]
+    ],
+    "size": 5
+  },
+  "116": {
+    "macro": "drawboxtext",
+    "fields": [
+      [
+        1,
+        "\\left"
+      ],
+      [
+        1,
+        "\\top"
+      ],
+      [
+        1,
+        "\\multichoiceId"
+      ],
+      [
+        1,
+        "\\ignoreBPress"
+      ]
+    ],
+    "size": 5
+  },
+  "117": {
+    "macro": "showmonpic",
+    "fields": [
+      [
+        2,
+        "\\species"
+      ],
+      [
+        1,
+        "\\x"
+      ],
+      [
+        1,
+        "\\y"
+      ]
+    ],
+    "size": 5
+  },
+  "118": {
+    "macro": "hidemonpic",
+    "fields": [],
+    "size": 1
+  },
+  "119": {
+    "macro": "showcontestpainting",
+    "fields": [
+      [
+        1,
+        "\\winnerId"
+      ]
+    ],
+    "size": 2
+  },
+  "120": {
+    "macro": "braillemessage",
+    "fields": [
+      [
+        4,
+        "\\text"
+      ]
+    ],
+    "size": 5
+  },
+  "122": {
+    "macro": "giveegg",
+    "fields": [
+      [
+        2,
+        "\\species"
+      ]
+    ],
+    "size": 3
+  },
+  "123": {
+    "macro": "setmonmove",
+    "fields": [
+      [
+        1,
+        "\\partyIndex"
+      ],
+      [
+        1,
+        "\\slot"
+      ],
+      [
+        2,
+        "\\move"
+      ]
+    ],
+    "size": 5
+  },
+  "124": {
+    "macro": "checkfieldmove",
+    "fields": [
+      [
+        1,
+        "\\fieldMove"
+      ],
+      [
+        1,
+        "\\checkUnlocked"
+      ]
+    ],
+    "size": 3
+  },
+  "125": {
+    "macro": "bufferspeciesname",
+    "fields": [
+      [
+        1,
+        "stringVarId"
+      ],
+      [
+        2,
+        "\\species"
+      ]
+    ],
+    "size": 4
+  },
+  "126": {
+    "macro": "bufferleadmonspeciesname",
+    "fields": [
+      [
+        1,
+        "stringVarId"
+      ]
+    ],
+    "size": 2
+  },
+  "127": {
+    "macro": "bufferpartymonnick",
+    "fields": [
+      [
+        1,
+        "stringVarId"
+      ],
+      [
+        2,
+        "\\slot"
+      ]
+    ],
+    "size": 4
+  },
+  "128": {
+    "macro": "bufferitemname",
+    "fields": [
+      [
+        1,
+        "stringVarId"
+      ],
+      [
+        2,
+        "\\item"
+      ]
+    ],
+    "size": 4
+  },
+  "129": {
+    "macro": "bufferdecorationname",
+    "fields": [
+      [
+        1,
+        "stringVarId"
+      ],
+      [
+        2,
+        "\\decoration"
+      ]
+    ],
+    "size": 4
+  },
+  "130": {
+    "macro": "buffermovename",
+    "fields": [
+      [
+        1,
+        "stringVarId"
+      ],
+      [
+        2,
+        "\\move"
+      ]
+    ],
+    "size": 4
+  },
+  "131": {
+    "macro": "buffernumberstring",
+    "fields": [
+      [
+        1,
+        "stringVarId"
+      ],
+      [
+        2,
+        "\\input"
+      ]
+    ],
+    "size": 4
+  },
+  "132": {
+    "macro": "bufferstdstring",
+    "fields": [
+      [
+        1,
+        "stringVarId"
+      ],
+      [
+        2,
+        "\\index"
+      ]
+    ],
+    "size": 4
+  },
+  "133": {
+    "macro": "bufferstring",
+    "fields": [
+      [
+        1,
+        "stringVarId"
+      ],
+      [
+        4,
+        "\\text"
+      ]
+    ],
+    "size": 6
+  },
+  "134": {
+    "macro": "pokemart",
+    "fields": [
+      [
+        4,
+        "\\products"
+      ]
+    ],
+    "size": 5
+  },
+  "135": {
+    "macro": "pokemartdecoration",
+    "fields": [
+      [
+        4,
+        "\\products"
+      ]
+    ],
+    "size": 5
+  },
+  "136": {
+    "macro": "pokemartdecoration2",
+    "fields": [
+      [
+        4,
+        "\\products"
+      ]
+    ],
+    "size": 5
+  },
+  "137": {
+    "macro": "playslotmachine",
+    "fields": [
+      [
+        2,
+        "\\id"
+      ]
+    ],
+    "size": 3
+  },
+  "138": {
+    "macro": "setberrytree",
+    "fields": [
+      [
+        1,
+        "\\treeId"
+      ],
+      [
+        1,
+        "\\berryId"
+      ],
+      [
+        1,
+        "\\growthStage"
+      ]
+    ],
+    "size": 4
+  },
+  "139": {
+    "macro": "choosecontestmon",
+    "fields": [],
+    "size": 1
+  },
+  "140": {
+    "macro": "startcontest",
+    "fields": [],
+    "size": 1
+  },
+  "141": {
+    "macro": "showcontestresults",
+    "fields": [],
+    "size": 1
+  },
+  "142": {
+    "macro": "contestlinktransfer",
+    "fields": [],
+    "size": 1
+  },
+  "143": {
+    "macro": "random",
+    "fields": [
+      [
+        2,
+        "\\limit"
+      ]
+    ],
+    "size": 3
+  },
+  "144": {
+    "macro": "addmoney",
+    "fields": [
+      [
+        4,
+        "\\value"
+      ]
+    ],
+    "size": 5
+  },
+  "145": {
+    "macro": "removemoney",
+    "fields": [
+      [
+        4,
+        "\\value"
+      ]
+    ],
+    "size": 5
+  },
+  "146": {
+    "macro": "checkmoney",
+    "fields": [
+      [
+        4,
+        "\\value"
+      ]
+    ],
+    "size": 5
+  },
+  "147": {
+    "macro": "showmoneybox",
+    "fields": [
+      [
+        1,
+        "\\x"
+      ],
+      [
+        1,
+        "\\y"
+      ]
+    ],
+    "size": 3
+  },
+  "148": {
+    "macro": "hidemoneybox",
+    "fields": [],
+    "size": 1
+  },
+  "149": {
+    "macro": "updatemoneybox",
+    "fields": [],
+    "size": 1
+  },
+  "150": {
+    "macro": "getpokenewsactive",
+    "fields": [
+      [
+        2,
+        "\\newsKind"
+      ]
+    ],
+    "size": 3
+  },
+  "151": {
+    "macro": "fadescreen",
+    "fields": [
+      [
+        1,
+        "\\mode"
+      ]
+    ],
+    "size": 2
+  },
+  "152": {
+    "macro": "fadescreenspeed",
+    "fields": [
+      [
+        1,
+        "\\mode"
+      ],
+      [
+        1,
+        "\\speed"
+      ]
+    ],
+    "size": 3
+  },
+  "153": {
+    "macro": "setflashlevel",
+    "fields": [
+      [
+        2,
+        "\\level"
+      ]
+    ],
+    "size": 3
+  },
+  "154": {
+    "macro": "animateflash",
+    "fields": [
+      [
+        1,
+        "\\level"
+      ]
+    ],
+    "size": 2
+  },
+  "155": {
+    "macro": "messageautoscroll",
+    "fields": [
+      [
+        4,
+        "\\text"
+      ]
+    ],
+    "size": 5
+  },
+  "156": {
+    "macro": "dofieldeffect",
+    "fields": [
+      [
+        2,
+        "\\animation"
+      ]
+    ],
+    "size": 3
+  },
+  "157": {
+    "macro": "setfieldeffectargument",
+    "fields": [
+      [
+        1,
+        "\\argNum"
+      ],
+      [
+        2,
+        "\\value"
+      ]
+    ],
+    "size": 4
+  },
+  "158": {
+    "macro": "waitfieldeffect",
+    "fields": [
+      [
+        2,
+        "\\animation"
+      ]
+    ],
+    "size": 3
+  },
+  "159": {
+    "macro": "setrespawn",
+    "fields": [
+      [
+        2,
+        "\\heallocation"
+      ]
+    ],
+    "size": 3
+  },
+  "160": {
+    "macro": "checkplayergender",
+    "fields": [],
+    "size": 1
+  },
+  "161": {
+    "macro": "playmoncry",
+    "fields": [
+      [
+        2,
+        "\\species"
+      ],
+      [
+        2,
+        "\\mode"
+      ]
+    ],
+    "size": 5
+  },
+  "162": {
+    "macro": "setmetatile",
+    "fields": [
+      [
+        2,
+        "\\x"
+      ],
+      [
+        2,
+        "\\y"
+      ],
+      [
+        2,
+        "\\metatileId"
+      ],
+      [
+        2,
+        "\\impassable"
+      ]
+    ],
+    "size": 9
+  },
+  "163": {
+    "macro": "resetweather",
+    "fields": [],
+    "size": 1
+  },
+  "164": {
+    "macro": "setweather",
+    "fields": [
+      [
+        2,
+        "\\type"
+      ]
+    ],
+    "size": 3
+  },
+  "165": {
+    "macro": "doweather",
+    "fields": [],
+    "size": 1
+  },
+  "166": {
+    "macro": "setstepcallback",
+    "fields": [
+      [
+        1,
+        "\\stepCbId"
+      ]
+    ],
+    "size": 2
+  },
+  "167": {
+    "macro": "setmaplayoutindex",
+    "fields": [
+      [
+        2,
+        "\\index"
+      ]
+    ],
+    "size": 3
+  },
+  "168": {
+    "macro": "setobjectsubpriority",
+    "fields": [
+      [
+        2,
+        "\\localId"
+      ],
+      [
+        1,
+        "mapGroup"
+      ],
+      [
+        1,
+        "mapNum"
+      ],
+      [
+        1,
+        "\\subpriority"
+      ]
+    ],
+    "size": 6
+  },
+  "169": {
+    "macro": "resetobjectsubpriority",
+    "fields": [
+      [
+        2,
+        "\\localId"
+      ],
+      [
+        1,
+        "mapGroup"
+      ],
+      [
+        1,
+        "mapNum"
+      ]
+    ],
+    "size": 5
+  },
+  "170": {
+    "macro": "createvobject",
+    "fields": [
+      [
+        2,
+        "\\graphicsId"
+      ],
+      [
+        1,
+        "\\id"
+      ],
+      [
+        2,
+        "\\x"
+      ],
+      [
+        2,
+        "\\y"
+      ],
+      [
+        1,
+        "\\elevation"
+      ],
+      [
+        1,
+        "\\direction"
+      ]
+    ],
+    "size": 10
+  },
+  "171": {
+    "macro": "turnvobject",
+    "fields": [
+      [
+        1,
+        "\\id"
+      ],
+      [
+        1,
+        "\\direction"
+      ]
+    ],
+    "size": 3
+  },
+  "172": {
+    "macro": "opendoor",
+    "fields": [
+      [
+        2,
+        "\\x"
+      ],
+      [
+        2,
+        "\\y"
+      ]
+    ],
+    "size": 5
+  },
+  "173": {
+    "macro": "closedoor",
+    "fields": [
+      [
+        2,
+        "\\x"
+      ],
+      [
+        2,
+        "\\y"
+      ]
+    ],
+    "size": 5
+  },
+  "174": {
+    "macro": "waitdooranim",
+    "fields": [],
+    "size": 1
+  },
+  "175": {
+    "macro": "setdooropen",
+    "fields": [
+      [
+        2,
+        "\\x"
+      ],
+      [
+        2,
+        "\\y"
+      ]
+    ],
+    "size": 5
+  },
+  "176": {
+    "macro": "setdoorclosed",
+    "fields": [
+      [
+        2,
+        "\\x"
+      ],
+      [
+        2,
+        "\\y"
+      ]
+    ],
+    "size": 5
+  },
+  "177": {
+    "macro": "addelevmenuitem",
+    "fields": [
+      [
+        1,
+        "\\a"
+      ],
+      [
+        2,
+        "\\b"
+      ],
+      [
+        2,
+        "\\c"
+      ],
+      [
+        2,
+        "\\d"
+      ]
+    ],
+    "size": 8
+  },
+  "178": {
+    "macro": "showelevmenu",
+    "fields": [],
+    "size": 1
+  },
+  "179": {
+    "macro": "checkcoins",
+    "fields": [
+      [
+        2,
+        "\\out"
+      ]
+    ],
+    "size": 3
+  },
+  "180": {
+    "macro": "addcoins",
+    "fields": [
+      [
+        2,
+        "\\count"
+      ]
+    ],
+    "size": 3
+  },
+  "181": {
+    "macro": "removecoins",
+    "fields": [
+      [
+        2,
+        "\\count"
+      ]
+    ],
+    "size": 3
+  },
+  "182": {
+    "macro": "setwildbattle",
+    "fields": [
+      [
+        2,
+        "\\species"
+      ],
+      [
+        1,
+        "\\level"
+      ],
+      [
+        2,
+        "\\item"
+      ],
+      [
+        2,
+        "\\species2"
+      ],
+      [
+        1,
+        "\\level2"
+      ],
+      [
+        2,
+        "\\item2"
+      ]
+    ],
+    "size": 11
+  },
+  "183": {
+    "macro": "dowildbattle",
+    "fields": [],
+    "size": 1
+  },
+  "184": {
+    "macro": "setvaddress",
+    "fields": [
+      [
+        4,
+        "\\pointer"
+      ]
+    ],
+    "size": 5
+  },
+  "185": {
+    "macro": "vgoto",
+    "fields": [
+      [
+        4,
+        "\\destination"
+      ]
+    ],
+    "size": 5
+  },
+  "186": {
+    "macro": "vcall",
+    "fields": [
+      [
+        4,
+        "\\destination"
+      ]
+    ],
+    "size": 5
+  },
+  "187": {
+    "macro": "vgoto_if",
+    "fields": [
+      [
+        1,
+        "\\condition"
+      ],
+      [
+        4,
+        "\\destination"
+      ]
+    ],
+    "size": 6
+  },
+  "188": {
+    "macro": "vcall_if",
+    "fields": [
+      [
+        1,
+        "\\condition"
+      ],
+      [
+        4,
+        "\\destination"
+      ]
+    ],
+    "size": 6
+  },
+  "189": {
+    "macro": "vmessage",
+    "fields": [
+      [
+        4,
+        "\\text"
+      ]
+    ],
+    "size": 5
+  },
+  "190": {
+    "macro": "vbuffermessage",
+    "fields": [
+      [
+        4,
+        "\\text"
+      ]
+    ],
+    "size": 5
+  },
+  "191": {
+    "macro": "vbufferstring",
+    "fields": [
+      [
+        1,
+        "stringVarId"
+      ],
+      [
+        4,
+        "\\text"
+      ]
+    ],
+    "size": 6
+  },
+  "192": {
+    "macro": "showcoinsbox",
+    "fields": [
+      [
+        1,
+        "\\x"
+      ],
+      [
+        1,
+        "\\y"
+      ]
+    ],
+    "size": 3
+  },
+  "193": {
+    "macro": "hidecoinsbox",
+    "fields": [],
+    "size": 1
+  },
+  "194": {
+    "macro": "updatecoinsbox",
+    "fields": [],
+    "size": 1
+  },
+  "195": {
+    "macro": "incrementgamestat",
+    "fields": [
+      [
+        1,
+        "\\stat"
+      ]
+    ],
+    "size": 2
+  },
+  "196": {
+    "macro": "setescapewarp",
+    "fields": [
+      [
+        1,
+        "mapGroup"
+      ],
+      [
+        1,
+        "mapNum"
+      ],
+      [
+        1,
+        "warpId"
+      ],
+      [
+        2,
+        "x"
+      ],
+      [
+        2,
+        "y"
+      ]
+    ],
+    "size": 8
+  },
+  "197": {
+    "macro": "waitmoncry",
+    "fields": [],
+    "size": 1
+  },
+  "198": {
+    "macro": "bufferboxname",
+    "fields": [
+      [
+        1,
+        "stringVarId"
+      ],
+      [
+        2,
+        "\\box"
+      ]
+    ],
+    "size": 4
+  },
+  "199": {
+    "macro": "textcolor",
+    "fields": [
+      [
+        1,
+        "\\color"
+      ]
+    ],
+    "size": 2
+  },
+  "200": {
+    "macro": "loadhelp",
+    "fields": [
+      [
+        4,
+        "\\text"
+      ]
+    ],
+    "size": 5
+  },
+  "201": {
+    "macro": "unloadhelp",
+    "fields": [],
+    "size": 1
+  },
+  "202": {
+    "macro": "signmsg",
+    "fields": [],
+    "size": 1
+  },
+  "203": {
+    "macro": "normalmsg",
+    "fields": [],
+    "size": 1
+  },
+  "204": {
+    "macro": "comparehiddenvar",
+    "fields": [
+      [
+        1,
+        "\\a"
+      ],
+      [
+        4,
+        "\\value"
+      ]
+    ],
+    "size": 6
+  },
+  "205": {
+    "macro": "setmodernfatefulencounter",
+    "fields": [
+      [
+        2,
+        "\\slot"
+      ]
+    ],
+    "size": 3
+  },
+  "206": {
+    "macro": "checkmodernfatefulencounter",
+    "fields": [
+      [
+        2,
+        "\\slot"
+      ]
+    ],
+    "size": 3
+  },
+  "207": {
+    "macro": "trywondercardscript",
+    "fields": [],
+    "size": 1
+  },
+  "208": {
+    "macro": "setworldmapflag",
+    "fields": [
+      [
+        2,
+        "\\worldmapflag"
+      ]
+    ],
+    "size": 3
+  },
+  "209": {
+    "macro": "warpspinenter",
+    "fields": [
+      [
+        1,
+        "mapGroup"
+      ],
+      [
+        1,
+        "mapNum"
+      ],
+      [
+        1,
+        "warpId"
+      ],
+      [
+        2,
+        "x"
+      ],
+      [
+        2,
+        "y"
+      ]
+    ],
+    "size": 8
+  },
+  "210": {
+    "macro": "setmonmetlocation",
+    "fields": [
+      [
+        2,
+        "\\slot"
+      ],
+      [
+        1,
+        "\\location"
+      ]
+    ],
+    "size": 4
+  },
+  "211": {
+    "macro": "moverotatingtileobjects",
+    "fields": [
+      [
+        2,
+        "\\puzzleNumber"
+      ]
+    ],
+    "size": 3
+  },
+  "212": {
+    "macro": "turnrotatingtileobjects",
+    "fields": [],
+    "size": 1
+  },
+  "213": {
+    "macro": "initrotatingtilepuzzle",
+    "fields": [
+      [
+        2,
+        "\\isTrickHouse"
+      ]
+    ],
+    "size": 3
+  },
+  "214": {
+    "macro": "freerotatingtilepuzzle",
+    "fields": [],
+    "size": 1
+  },
+  "215": {
+    "macro": "warpmossdeepgym",
+    "fields": [
+      [
+        1,
+        "mapGroup"
+      ],
+      [
+        1,
+        "mapNum"
+      ],
+      [
+        1,
+        "warpId"
+      ],
+      [
+        2,
+        "x"
+      ],
+      [
+        2,
+        "y"
+      ]
+    ],
+    "size": 8
+  },
+  "216": {
+    "macro": "selectapproachingtrainer",
+    "fields": [],
+    "size": 1
+  },
+  "217": {
+    "macro": "lockfortrainer",
+    "fields": [],
+    "size": 1
+  },
+  "218": {
+    "macro": "closebraillemessage",
+    "fields": [],
+    "size": 1
+  },
+  "219": {
+    "macro": "messageinstant",
+    "fields": [
+      [
+        4,
+        "\\text"
+      ]
+    ],
+    "size": 5
+  },
+  "220": {
+    "macro": "fadescreenswapbuffers",
+    "fields": [
+      [
+        1,
+        "\\mode"
+      ],
+      [
+        1,
+        "\\nowait"
+      ]
+    ],
+    "size": 3
+  },
+  "221": {
+    "macro": "buffertrainerclassname",
+    "fields": [
+      [
+        1,
+        "stringVarId"
+      ],
+      [
+        2,
+        "\\trainerId"
+      ]
+    ],
+    "size": 4
+  },
+  "222": {
+    "macro": "buffertrainername",
+    "fields": [
+      [
+        1,
+        "stringVarId"
+      ],
+      [
+        2,
+        "\\trainerId"
+      ]
+    ],
+    "size": 4
+  },
+  "223": {
+    "macro": "pokenavcall",
+    "fields": [
+      [
+        4,
+        "\\text"
+      ]
+    ],
+    "size": 5
+  },
+  "224": {
+    "macro": "warpwhitefade",
+    "fields": [
+      [
+        1,
+        "mapGroup"
+      ],
+      [
+        1,
+        "mapNum"
+      ],
+      [
+        1,
+        "warpId"
+      ],
+      [
+        2,
+        "x"
+      ],
+      [
+        2,
+        "y"
+      ]
+    ],
+    "size": 8
+  },
+  "225": {
+    "macro": "buffercontestname",
+    "fields": [
+      [
+        1,
+        "stringVarId"
+      ],
+      [
+        2,
+        "\\category"
+      ]
+    ],
+    "size": 4
+  },
+  "226": {
+    "macro": "bufferitemnameplural",
+    "fields": [
+      [
+        1,
+        "stringVarId"
+      ],
+      [
+        2,
+        "\\item"
+      ],
+      [
+        2,
+        "\\quantity"
+      ]
+    ],
+    "size": 6
+  },
+  "228": {
+    "macro": "dynmultipush",
+    "fields": [
+      [
+        4,
+        "\\name"
+      ],
+      [
+        2,
+        "\\id"
+      ]
+    ],
+    "size": 7
+  },
+  "230": {
+    "macro": "getbraillestringwidth",
+    "fields": [
+      [
+        4,
+        "\\msg"
+      ]
+    ],
+    "size": 5
+  },
+  "229": {
+    "macro": "hidefollower",
+    "fields": [
+      [
+        2,
+        "\\wait"
+      ]
+    ],
+    "size": 3
+  }
+}

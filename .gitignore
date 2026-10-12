@@ -1,0 +1,26 @@
+# ROM 与构建产物（版权 + 体积，不入库；见 README-REPO.md）
+*.gba
+!project/data/*.gba
+*.elf
+*.map
+*.sav
+*.sa1
+*.ss[0-9]
+
+# 分片包 / 本地备份 / 第三方下载（可重新获取或已在提交历史中）
+project.tgz.part*
+r_aa
+r_ab
+_backup/
+_work/dl/
+_work/mgba/
+_work/artifacts/
+_work/codex-tools/mgba/
+*.dll
+
+# 杂项
+__pycache__/
+*.pyc
+*.full.log
+Thumbs.db
+.DS_Store

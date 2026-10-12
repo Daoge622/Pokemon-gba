@@ -1,0 +1,9 @@
+{
+  "index": 0,
+  "cycles": 52,
+  "field": "0x81b9521",
+  "lock": 0,
+  "trainer_defeated": true,
+  "fixture": true,
+  "description": "normal buttons through battle; fixture warp/flags/pose only, no enemy/player HP edits"
+}

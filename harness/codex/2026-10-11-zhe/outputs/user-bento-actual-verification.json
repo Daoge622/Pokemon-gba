@@ -1,0 +1,60 @@
+{
+  "trace": [
+    {
+      "cycle": 0,
+      "cb": "0x81b9521",
+      "trainer": 0,
+      "lock": 1
+    },
+    {
+      "cycle": 2,
+      "cb": "0x81b9515",
+      "trainer": 719,
+      "lock": 1
+    },
+    {
+      "cycle": 4,
+      "cb": "0x80966a5",
+      "trainer": 719,
+      "lock": 1
+    },
+    {
+      "cycle": 5,
+      "cb": "0x809718d",
+      "trainer": 719,
+      "lock": 1
+    },
+    {
+      "cycle": 34,
+      "cb": "0x81be4f9",
+      "trainer": 719,
+      "lock": 1
+    },
+    {
+      "cycle": 35,
+      "cb": "0x809718d",
+      "trainer": 719,
+      "lock": 1
+    },
+    {
+      "cycle": 61,
+      "cb": "0x81b9521",
+      "trainer": 719,
+      "lock": 0
+    }
+  ],
+  "inbattle": true,
+  "callback": "0x81b9521",
+  "lock": 0,
+  "ctx": "000000009d6c220800000000",
+  "flags": {
+    "719": true,
+    "720": false,
+    "729": false
+  },
+  "xy": [
+    18,
+    15
+  ],
+  "test": "user desktop save, actual delivered ROM, normal input, no warp/flag/party/pose edits"
+}

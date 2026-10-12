@@ -1,0 +1,57 @@
+[
+  {
+    "path": "E:\\Pekemon Gba\\project\\data\\maps\\Route120\\map.json",
+    "relative_path": "data/maps/Route120/map.json",
+    "object_index": 47,
+    "local_id": "LOCALID_PART4_FORESTACE",
+    "before": "OBJ_EVENT_GFX_COOLTRAINER_F",
+    "after": "OBJ_EVENT_GFX_WOMAN_5",
+    "sha256_before": "e367b973d71b077ff846fbfe542a74f806506810ca75af2dccf8fa2453616999",
+    "sha256_after": "3d24fa09909b670e7069f97882aa26913d3cab5484fe6bd76c89d4883ffddf26",
+    "backup": "C:\\Users\\DaoGe\\Documents\\Codex\\2026-10-11\\zhe\\work\\backups\\graphics\\data\\maps\\Route120\\map.json"
+  },
+  {
+    "path": "E:\\Pekemon Gba\\project\\data\\maps\\Route124\\map.json",
+    "relative_path": "data/maps/Route124/map.json",
+    "object_index": 13,
+    "local_id": "LOCALID_PART5_R124_DIVER",
+    "before": "OBJ_EVENT_GFX_SWIMMER_M_LAND",
+    "after": "OBJ_EVENT_GFX_RUNNING_TRIATHLETE_M",
+    "sha256_before": "c8d6a1901f8e365e4ab76acd066bdf219a46d9c6720281e189a06b45edfc375f",
+    "sha256_after": "3961628c22f377ec527ba89e869bccbccc22d2c0b1e03d81d71a7aa81cad19a9",
+    "backup": "C:\\Users\\DaoGe\\Documents\\Codex\\2026-10-11\\zhe\\work\\backups\\graphics\\data\\maps\\Route124\\map.json"
+  },
+  {
+    "path": "E:\\Pekemon Gba\\project\\data\\maps\\Route126\\map.json",
+    "relative_path": "data/maps/Route126/map.json",
+    "object_index": 9,
+    "local_id": "LOCALID_PART6_R126_DIVER",
+    "before": "OBJ_EVENT_GFX_SWIMMER_M_LAND",
+    "after": "OBJ_EVENT_GFX_RUNNING_TRIATHLETE_M",
+    "sha256_before": "ad5dec0a2bfeeb645f41b136ac503c7fe27d76add44f21d24ced0ee441f6be17",
+    "sha256_after": "c95d6d0312cd8d4b9fb4b0e613ed36a275f84a8417b7536a0bd24f287ce7bec5",
+    "backup": "C:\\Users\\DaoGe\\Documents\\Codex\\2026-10-11\\zhe\\work\\backups\\graphics\\data\\maps\\Route126\\map.json"
+  },
+  {
+    "path": "E:\\Pekemon Gba\\project\\data\\maps\\ScorchedGrotto\\map.json",
+    "relative_path": "data/maps/ScorchedGrotto/map.json",
+    "object_index": 0,
+    "local_id": "LOCALID_PART3_ENTEI",
+    "before": "OBJ_EVENT_GFX_ENTEI",
+    "after": "OBJ_EVENT_GFX_SPECIES(ENTEI)",
+    "sha256_before": "11383b7777d7ed54b5bb7ada6d0358abf31a0266013b001520e0b8db0b342cab",
+    "sha256_after": "7462a79ed1b2980afc021033220e176ee2b72f82aef474478e822ba1553136af",
+    "backup": "C:\\Users\\DaoGe\\Documents\\Codex\\2026-10-11\\zhe\\work\\backups\\graphics\\data\\maps\\ScorchedGrotto\\map.json"
+  },
+  {
+    "path": "E:\\Pekemon Gba\\project\\data\\maps\\Route126_StillWaterCave\\map.json",
+    "relative_path": "data/maps/Route126_StillWaterCave/map.json",
+    "object_index": 0,
+    "local_id": "LOCALID_PART6_SUICUNE",
+    "before": "OBJ_EVENT_GFX_SUICUNE",
+    "after": "OBJ_EVENT_GFX_SPECIES(SUICUNE)",
+    "sha256_before": "96857b02c72608bb1727c26eb130c6625fee858a055e264788568c60baa25a31",
+    "sha256_after": "f343132031f8318958b1b981a6af85ae5d59a7830491e5710fe2d4fc6bbd1c2b",
+    "backup": "C:\\Users\\DaoGe\\Documents\\Codex\\2026-10-11\\zhe\\work\\backups\\graphics\\data\\maps\\Route126_StillWaterCave\\map.json"
+  }
+]

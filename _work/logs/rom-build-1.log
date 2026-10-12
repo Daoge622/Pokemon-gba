@@ -1,0 +1,23 @@
+nproc=20
+start: 2026年10月11日 15:52:25
+make_exit=2
+elapsed=3s
+--- last 60 lines ---
+bash: 行 1: cmp: 未找到命令
+bash: 行 1: python3: 未找到命令
+bash: 行 1: tools/mapjson/mapjson.exe: Argument list too long
+make[1]: *** [Makefile:254：src/data/wild_encounters.h] 错误 127
+make[1]: *** 正在等待未完成的任务....
+make[1]: *** [map_data_rules.mk:33：include/constants/map_groups.h] 错误 126
+bash: 行 1: tools/mapjson/mapjson.exe: Argument list too long
+make[1]: *** [map_data_rules.mk:42：include/constants/map_event_ids.h] 错误 126
+arm-none-eabi-cpp -iquote include -Wno-trigraphs -DMODERN=1 -DTESTING=0 -DEMERALD -std=gnu17 -traditional-cpp - < src/data/trainers.party | tools/trainerproc/trainerproc.exe -o src/data/trainers.h -i src/data/trainers.party -
+arm-none-eabi-cpp -iquote include -Wno-trigraphs -DMODERN=1 -DTESTING=0 -DEMERALD -std=gnu17 -traditional-cpp - < src/data/trainers_frlg.party | tools/trainerproc/trainerproc.exe -o src/data/trainers_frlg.h -i src/data/trainers_frlg.party -
+arm-none-eabi-cpp -iquote include -Wno-trigraphs -DMODERN=1 -DTESTING=0 -DEMERALD -std=gnu17 -traditional-cpp - < src/data/battle_partners.party | tools/trainerproc/trainerproc.exe -o src/data/battle_partners.h -i src/data/battle_partners.party -
+arm-none-eabi-cpp -iquote include -Wno-trigraphs -DMODERN=1 -DTESTING=0 -DEMERALD -std=gnu17 -traditional-cpp - < test/battle/trainer_control.party | tools/trainerproc/trainerproc.exe -o test/battle/trainer_control.h -i test/battle/trainer_control.party -
+arm-none-eabi-cpp -iquote include -Wno-trigraphs -DMODERN=1 -DTESTING=0 -DEMERALD -std=gnu17 -traditional-cpp - < test/battle/partner_control.party | tools/trainerproc/trainerproc.exe -o test/battle/partner_control.h -i test/battle/partner_control.party -
+arm-none-eabi-cpp -iquote include -Wno-trigraphs -DMODERN=1 -DTESTING=0 -DEMERALD -std=gnu17 -traditional-cpp - < src/data/debug_trainers.party | tools/trainerproc/trainerproc.exe -o src/data/debug_trainers.h -i src/data/debug_trainers.party -
+python3 tools/wild_encounters/wild_encounters_to_header.py
+tools/mapjson/mapjson.exe layouts emerald data/layouts/layouts.json data/layouts include/constants
+tools/jsonproc/jsonproc.exe src/data/wild_encounters.json src/data/wild_encounters.constants.json.txt include/constants/wild_encounter.h
+Makefile:301: *** Errors occurred while generating map-related sources. See error messages above for more details。 停止。

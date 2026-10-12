@@ -222,6 +222,7 @@ Part6_DiveLampSpot::
 	giveitem ITEM_OLD_DIVE_LAMP, 1
 	goto_if_eq VAR_RESULT, FALSE, Part6_BagFullAll
 	setflag FLAG_PART6_DIVE_LAMP_TAKEN
+	special StoryRefreshPickupMarkers
 	releaseall
 	end
 
@@ -262,6 +263,7 @@ Part6_TideRecorderSpot::
 	giveitem ITEM_TIDE_RECORDER, 1
 	goto_if_eq VAR_RESULT, FALSE, Part6_BagFullAll
 	setflag FLAG_PART6_TIDE_RECORDER_TAKEN
+	special StoryRefreshPickupMarkers
 	releaseall
 	end
 
@@ -313,6 +315,7 @@ Part6_ToolboxSpot::
 	giveitem ITEM_WATERPROOF_TOOLBOX, 1
 	goto_if_eq VAR_RESULT, FALSE, Part6_BagFullAll
 	setflag FLAG_PART6_TOOLBOX_TAKEN
+	special StoryRefreshPickupMarkers
 	releaseall
 	end
 
@@ -905,6 +908,7 @@ Part6_AidKitSpot::
 	giveitem ITEM_FIRST_AID_KIT, 1
 	goto_if_eq VAR_RESULT, FALSE, Part6_BagFullAll
 	setflag FLAG_PART6_AID_KIT_TAKEN
+	special StoryRefreshPickupMarkers
 	releaseall
 	end
 
@@ -998,6 +1002,7 @@ Part6_CameraSpot::
 	giveitem ITEM_WATERPROOF_CAMERA, 1
 	goto_if_eq VAR_RESULT, FALSE, Part6_BagFullAll
 	setflag FLAG_PART6_CAMERA_TAKEN
+	special StoryRefreshPickupMarkers
 	releaseall
 	end
 
@@ -1149,6 +1154,7 @@ Part6_Plank0::
 	giveitem ITEM_DRIFT_PLANK, 1
 	goto_if_eq VAR_RESULT, FALSE, Part6_BagFullAll
 	setflag FLAG_PART6_PLANK_1
+	special StoryRefreshPickupMarkers
 	releaseall
 	end
 
@@ -1159,6 +1165,7 @@ Part6_Plank1::
 	giveitem ITEM_DRIFT_PLANK, 1
 	goto_if_eq VAR_RESULT, FALSE, Part6_BagFullAll
 	setflag FLAG_PART6_PLANK_2
+	special StoryRefreshPickupMarkers
 	releaseall
 	end
 
@@ -1169,6 +1176,7 @@ Part6_Plank2::
 	giveitem ITEM_DRIFT_PLANK, 1
 	goto_if_eq VAR_RESULT, FALSE, Part6_BagFullAll
 	setflag FLAG_PART6_PLANK_3
+	special StoryRefreshPickupMarkers
 	releaseall
 	end
 

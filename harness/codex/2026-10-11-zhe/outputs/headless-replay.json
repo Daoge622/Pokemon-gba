@@ -1,0 +1,903 @@
+{
+  "rom_sha256": "cf9b34f57b57a71613e12fe078eba35835ec9e1283ac355b4436201bf854cbde",
+  "initial_checkpoint_sha256": "b8508a4161e367687cbf5b758075d93452a4758f5b893271544a9c2a9bcf836c",
+  "note": "Checkpoint obtained from imported MyBoy mid-battle state during earlier normal input replay. ROM and battle HP/outcome were not patched. MyBoy BIOS, audio/timer internals are not fully imported. This is mGBA evidence, not a MyBoy reproduction.",
+  "trace": [
+    {
+      "label": "Vaporeon selected",
+      "frame": 650,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 0",
+      "frame": 724,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 1",
+      "frame": 798,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 2",
+      "frame": 872,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 3",
+      "frame": 946,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 4",
+      "frame": 1020,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 5",
+      "frame": 1094,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 6",
+      "frame": 1168,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 7",
+      "frame": 1242,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 8",
+      "frame": 1316,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 9",
+      "frame": 1390,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 10",
+      "frame": 1464,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 11",
+      "frame": 1538,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 12",
+      "frame": 1612,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 13",
+      "frame": 1686,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 14",
+      "frame": 1760,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 15",
+      "frame": 1834,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 16",
+      "frame": 1908,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 17",
+      "frame": 1982,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 18",
+      "frame": 2056,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 19",
+      "frame": 2130,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 20",
+      "frame": 2204,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 21",
+      "frame": 2278,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 22",
+      "frame": 2352,
+      "callback2": "0x81be4f9",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 23",
+      "frame": 2648,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 24",
+      "frame": 2722,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 25",
+      "frame": 2796,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 26",
+      "frame": 2870,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 27",
+      "frame": 2944,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 28",
+      "frame": 3018,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 29",
+      "frame": 3092,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 30",
+      "frame": 3166,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 31",
+      "frame": 3240,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 32",
+      "frame": 3314,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 33",
+      "frame": 3388,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 34",
+      "frame": 3462,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 35",
+      "frame": 3536,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 36",
+      "frame": 3610,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 37",
+      "frame": 3684,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 38",
+      "frame": 3758,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 39",
+      "frame": 3832,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 40",
+      "frame": 3906,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 41",
+      "frame": 3980,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 42",
+      "frame": 4054,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 43",
+      "frame": 4128,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 44",
+      "frame": 4202,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 45",
+      "frame": 4276,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 46",
+      "frame": 4350,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 47",
+      "frame": 4424,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 48",
+      "frame": 4498,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 49",
+      "frame": 4572,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 50",
+      "frame": 4646,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 51",
+      "frame": 4720,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 52",
+      "frame": 4794,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 53",
+      "frame": 4868,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 54",
+      "frame": 4942,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 55",
+      "frame": 5016,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 56",
+      "frame": 5090,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 57",
+      "frame": 5164,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 58",
+      "frame": 5238,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 59",
+      "frame": 5312,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 60",
+      "frame": 5386,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 61",
+      "frame": 5460,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 62",
+      "frame": 5534,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 63",
+      "frame": 5608,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 64",
+      "frame": 5682,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 65",
+      "frame": 5756,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 66",
+      "frame": 5830,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 67",
+      "frame": 5904,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 68",
+      "frame": 5978,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 69",
+      "frame": 6052,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 70",
+      "frame": 6126,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 71",
+      "frame": 6200,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 72",
+      "frame": 6274,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 73",
+      "frame": 6348,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 74",
+      "frame": 6422,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 75",
+      "frame": 6496,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 76",
+      "frame": 6570,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 77",
+      "frame": 6644,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 78",
+      "frame": 6718,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 79",
+      "frame": 6792,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 80",
+      "frame": 6866,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 81",
+      "frame": 6940,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 82",
+      "frame": 7014,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 83",
+      "frame": 7088,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 84",
+      "frame": 7162,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 85",
+      "frame": 7236,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 86",
+      "frame": 7310,
+      "callback2": "0x81fd40d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 87",
+      "frame": 7384,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 88",
+      "frame": 7458,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 89",
+      "frame": 7532,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 90",
+      "frame": 7606,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 91",
+      "frame": 7680,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 92",
+      "frame": 7754,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 93",
+      "frame": 7828,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 94",
+      "frame": 7902,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 95",
+      "frame": 7976,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 96",
+      "frame": 8050,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 97",
+      "frame": 8124,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 98",
+      "frame": 8198,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 99",
+      "frame": 8272,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 100",
+      "frame": 8346,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 101",
+      "frame": 8420,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 102",
+      "frame": 8494,
+      "callback2": "0x809718d",
+      "pc": "0x1f8",
+      "grave_worker_won": false
+    },
+    {
+      "label": "A cycle 103",
+      "frame": 8568,
+      "callback2": "0x81b9521",
+      "pc": "0x1f8",
+      "grave_worker_won": true
+    },
+    {
+      "label": "A cycle 104",
+      "frame": 8642,
+      "callback2": "0x81b9521",
+      "pc": "0x1f8",
+      "grave_worker_won": true
+    },
+    {
+      "label": "A cycle 105",
+      "frame": 8716,
+      "callback2": "0x81b9521",
+      "pc": "0x1f8",
+      "grave_worker_won": true
+    },
+    {
+      "label": "A cycle 106",
+      "frame": 8790,
+      "callback2": "0x81b9521",
+      "pc": "0x1f8",
+      "grave_worker_won": true
+    },
+    {
+      "label": "A cycle 107",
+      "frame": 8864,
+      "callback2": "0x81b9521",
+      "pc": "0x1f8",
+      "grave_worker_won": true
+    },
+    {
+      "label": "A cycle 108",
+      "frame": 8938,
+      "callback2": "0x81b9521",
+      "pc": "0x1f8",
+      "grave_worker_won": true
+    },
+    {
+      "label": "A cycle 109",
+      "frame": 9012,
+      "callback2": "0x81b9521",
+      "pc": "0x1f8",
+      "grave_worker_won": true
+    },
+    {
+      "label": "A cycle 110",
+      "frame": 9086,
+      "callback2": "0x81b9521",
+      "pc": "0x1f8",
+      "grave_worker_won": true
+    },
+    {
+      "label": "A cycle 111",
+      "frame": 9160,
+      "callback2": "0x81b9521",
+      "pc": "0x1f8",
+      "grave_worker_won": true
+    },
+    {
+      "label": "A cycle 112",
+      "frame": 9234,
+      "callback2": "0x81b9521",
+      "pc": "0x1f8",
+      "grave_worker_won": true
+    },
+    {
+      "label": "A cycle 113",
+      "frame": 9308,
+      "callback2": "0x81b9521",
+      "pc": "0x1f8",
+      "grave_worker_won": true
+    },
+    {
+      "label": "A cycle 114",
+      "frame": 9382,
+      "callback2": "0x81b9521",
+      "pc": "0x1f8",
+      "grave_worker_won": true
+    },
+    {
+      "label": "A cycle 115",
+      "frame": 9456,
+      "callback2": "0x81b9521",
+      "pc": "0x1f8",
+      "grave_worker_won": true
+    },
+    {
+      "label": "A cycle 116",
+      "frame": 9530,
+      "callback2": "0x81b9521",
+      "pc": "0x1f8",
+      "grave_worker_won": true
+    },
+    {
+      "label": "A cycle 117",
+      "frame": 9604,
+      "callback2": "0x81b9521",
+      "pc": "0x1f8",
+      "grave_worker_won": true
+    },
+    {
+      "label": "A cycle 118",
+      "frame": 9678,
+      "callback2": "0x81b9521",
+      "pc": "0x1f8",
+      "grave_worker_won": true
+    },
+    {
+      "label": "A cycle 119",
+      "frame": 9752,
+      "callback2": "0x81b9521",
+      "pc": "0x1f8",
+      "grave_worker_won": true
+    },
+    {
+      "label": "A cycle 120",
+      "frame": 9826,
+      "callback2": "0x81b9521",
+      "pc": "0x1f8",
+      "grave_worker_won": true
+    },
+    {
+      "label": "A cycle 121",
+      "frame": 9900,
+      "callback2": "0x81b9521",
+      "pc": "0x1f8",
+      "grave_worker_won": true
+    },
+    {
+      "label": "A cycle 122",
+      "frame": 9974,
+      "callback2": "0x81b9521",
+      "pc": "0x1f8",
+      "grave_worker_won": true
+    },
+    {
+      "label": "A cycle 123",
+      "frame": 10048,
+      "callback2": "0x81b9521",
+      "pc": "0x1f8",
+      "grave_worker_won": true
+    },
+    {
+      "label": "A cycle 124",
+      "frame": 10122,
+      "callback2": "0x81b9521",
+      "pc": "0x1f8",
+      "grave_worker_won": true
+    },
+    {
+      "label": "dialogue dismissed",
+      "frame": 10802,
+      "callback2": "0x81b9521",
+      "pc": "0x1f8",
+      "grave_worker_won": true
+    },
+    {
+      "label": "walking after battle",
+      "frame": 10902,
+      "callback2": "0x81b9521",
+      "pc": "0x1f8",
+      "grave_worker_won": true
+    }
+  ]
+}

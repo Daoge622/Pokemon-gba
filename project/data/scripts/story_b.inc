@@ -556,7 +556,7 @@ StoryB_RookieCivilian::
 	waitmovement 0
 	msgbox StoryB_Text_RookieLava_Grunt, MSGBOX_DEFAULT
 	msgbox StoryB_Text_RookieLava_Refuse, MSGBOX_DEFAULT
-	multi_2_vs_2 TRAINER_KAYLEE, StoryB_Text_RookieLava_GruntALose, TRAINER_TERRY, StoryB_Text_RookieLava_GruntBLose, PARTNER_STORY_B_SPARE3, cancelScript=StoryB_RookieLava_Cancel
+	multi_2_vs_2 TRAINER_STORY_A_SPARE1, StoryB_Text_RookieLava_GruntALose, TRAINER_STORY_A_SPARE2, StoryB_Text_RookieLava_GruntBLose, PARTNER_STORY_B_SPARE3, cancelScript=StoryB_RookieLava_Cancel
 	specialvar VAR_RESULT, GetBattleOutcome
 	goto_if_eq VAR_RESULT, B_OUTCOME_WON, StoryB_RookieLava_Win
 	fadescreen FADE_TO_BLACK
@@ -575,11 +575,13 @@ StoryB_RookieLava_Cancel::
 StoryB_RookieLava_Win::
 	msgbox StoryB_Text_RookieLava_GruntLeave, MSGBOX_DEFAULT
 	closemessage
-	fadescreen FADE_TO_BLACK
-	removeobject LOCALID_STORYB_LAVA_GRUNT_A
-	removeobject LOCALID_STORYB_LAVA_GRUNT_B
+	setvar VAR_0x8000, LOCALID_STORYB_LAVA_GRUNT_A
+	setvar VAR_0x8001, 7
+	call Story_WalkAwayAndRemove
+	setvar VAR_0x8000, LOCALID_STORYB_LAVA_GRUNT_B
+	setvar VAR_0x8001, 7
+	call Story_WalkAwayAndRemove
 	setflag FLAG_STORY_B_13
-	fadescreen FADE_FROM_BLACK
 	applymovement LOCALID_PART6_ROOKIE_CIVILIAN, Common_Movement_FacePlayer
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0

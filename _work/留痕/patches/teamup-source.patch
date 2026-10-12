@@ -1,0 +1,157 @@
+--- a/asm/macros/battle_frontier/battle_tower.inc
++++ b/asm/macros/battle_frontier/battle_tower.inc
+@@ -97,44 +97,61 @@
+ 	special ChooseHalfPartyForBattle @ choose 3 mons for battle
+ 	.endm
+ 
+-	.macro multi_do type:req
++	.macro multi_do type:req, cancelScript, chooseParty=TRUE
+ 	callnative AreMultiPartiesFullTeams
+ 	goto_if_eq VAR_RESULT, TRUE, 1f
++	.if \chooseParty
++	choose_mons
++	goto_if_eq VAR_RESULT, FALSE, 5f
++	.endif
+ 	special ReducePlayerPartyToSelectedMons
+-	1:
+ 	setvar VAR_0x8004, FRONTIER_UTIL_FUNC_SET_DATA
+ 	setvar VAR_0x8005, FRONTIER_DATA_SELECTED_MON_ORDER
+ 	special CallFrontierUtilFunc @ saves the mon order, so the non-selected mons get restored afterwards
+-	goto_if_eq VAR_RESULT, TRUE, 2f
+ 	setvar VAR_0x8005, \type | MULTI_BATTLE_CHOOSE_MONS
+-	goto 3f
+-	2:
+-	setvar VAR_0x8005, \type 
+-	3:
+ 	callnative BattleSetup_StartMultiBattle
+ 	waitstate
+ 	setvar VAR_0x8004, FRONTIER_UTIL_FUNC_SAVE_PARTY
+ 	special CallFrontierUtilFunc
+ 	special LoadPlayerParty
++	goto 4f
++	1:
++	setvar VAR_0x8005, \type
++	callnative BattleSetup_StartMultiBattle
++	waitstate
++	special SavePlayerParty
++	special LoadPlayerParty
++	4:
++	specialvar VAR_RESULT, GetBattleOutcome
++	goto 6f
++	5:
++	special LoadPlayerParty
++	.ifb \cancelScript
++	releaseall
++	end
++	.else
++	goto \cancelScript
++	.endif
++	6:
+ 	.endm
+ 
+-	.macro multi_2_vs_2 trainer1Id:req, trainer1LoseText:req, trainer2Id:req, trainer2LoseText:req, partnerId:req
++	.macro multi_2_vs_2 trainer1Id:req, trainer1LoseText:req, trainer2Id:req, trainer2LoseText:req, partnerId:req, cancelScript, chooseParty=TRUE
+ 	special SavePlayerParty
+ 	setmultitrainerbattle \trainer1Id, \trainer1LoseText, \trainer2Id, \trainer2LoseText, \partnerId
+-	multi_do MULTI_BATTLE_2_VS_2
++	multi_do MULTI_BATTLE_2_VS_2, \cancelScript, \chooseParty
+ 	.endm
+ 
+-	.macro multi_2_vs_1 trainer1Id:req, trainer1LoseText:req, partnerId:req
++	.macro multi_2_vs_1 trainer1Id:req, trainer1LoseText:req, partnerId:req, cancelScript
+ 	special SavePlayerParty
+ 	setmultitrainerbattle \trainer1Id, \trainer1LoseText, TRAINER_NONE, NULL, \partnerId
+-	multi_do MULTI_BATTLE_2_VS_1
++	multi_do MULTI_BATTLE_2_VS_1, \cancelScript
+ 	.endm
+ 
+ 	@ Wild mons need to be assigned to opponent parties (1 and 3), other slots need to be cleared out.
+-	.macro multi_wild partnerId:req
++	.macro multi_wild partnerId:req, cancelScript
+ 	special SavePlayerParty
+ 	setmultitrainerbattle TRAINER_NONE, NULL, TRAINER_NONE, NULL, \partnerId
+-	multi_do MULTI_BATTLE_2_VS_WILD
++	multi_do MULTI_BATTLE_2_VS_WILD, \cancelScript
+ 	.endm
+ 
+ 	.macro multi_do_fixed type:req
+--- a/data/scripts/part55.inc
++++ b/data/scripts/part55.inc
+@@ -2849,13 +2849,17 @@
+ 	lockall
+ 	goto_if_set FLAG_PART55_ROOKIE_TEAMUP_DONE, Part55_RookieTeamup_After
+ 	msgbox Part55_Text_0244, MSGBOX_DEFAULT
+-	multi_2_vs_2 TRAINER_PART55_AQUA_OBSERVER_A, Part55_Text_0245, TRAINER_PART55_AQUA_OBSERVER_B, Part55_Text_0246, PARTNER_PART55_ROOKIE
++	multi_2_vs_2 TRAINER_PART55_AQUA_OBSERVER_A, Part55_Text_0245, TRAINER_PART55_AQUA_OBSERVER_B, Part55_Text_0246, PARTNER_PART55_ROOKIE, cancelScript=Part55_RookieTeamup_Cancel
+ 	specialvar VAR_RESULT, GetBattleOutcome
+ 	goto_if_eq VAR_RESULT, B_OUTCOME_WON, Part55_RookieTeamup_Win
+ 	fadescreen FADE_TO_BLACK
+ 	special SetCB2WhiteOut
+ 	end
+ 
++
++Part55_RookieTeamup_Cancel::
++	releaseall
++	end
+ 
+ Part55_TeamupPuff::
+ 	lock
+--- a/data/scripts/story_b.inc
++++ b/data/scripts/story_b.inc
+@@ -474,11 +474,22 @@
+ 	applymovement LOCALID_STORYB_119_SHARED, StoryB_Movement_Rookie119Arrive
+ 	waitmovement 0
+ 	msgbox StoryB_Text_Rookie119_Intro, MSGBOX_DEFAULT
+-	multi_2_vs_2 TRAINER_STORY_B_SPARE1, StoryB_Text_Rookie119_AquaALose, TRAINER_STORY_B_SPARE2, StoryB_Text_Rookie119_AquaBLose, PARTNER_PART55_ROOKIE
++	multi_2_vs_2 TRAINER_STORY_B_SPARE1, StoryB_Text_Rookie119_AquaALose, TRAINER_STORY_B_SPARE2, StoryB_Text_Rookie119_AquaBLose, PARTNER_PART55_ROOKIE, cancelScript=StoryB_Rookie119_Cancel
+ 	specialvar VAR_RESULT, GetBattleOutcome
+ 	goto_if_eq VAR_RESULT, B_OUTCOME_WON, StoryB_Rookie119_Win
+ 	fadescreen FADE_TO_BLACK
+ 	special SetCB2WhiteOut
++	end
++
++StoryB_Rookie119_Cancel::
++	fadescreen FADE_TO_BLACK
++	removeobject LOCALID_STORYB_119_SHARED
++	setflag FLAG_TEMP_1F
++	call_if_unset FLAG_STORY_B_11, StoryB_Rookie119_RestoreSaori
++	fadescreen FADE_FROM_BLACK
++	applymovement VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
++	waitmovement 0
++	releaseall
+ 	end
+ 
+ StoryB_Rookie119_Win::
+@@ -545,11 +556,20 @@
+ 	waitmovement 0
+ 	msgbox StoryB_Text_RookieLava_Grunt, MSGBOX_DEFAULT
+ 	msgbox StoryB_Text_RookieLava_Refuse, MSGBOX_DEFAULT
+-	multi_2_vs_2 TRAINER_KAYLEE, StoryB_Text_RookieLava_GruntALose, TRAINER_TERRY, StoryB_Text_RookieLava_GruntBLose, PARTNER_STORY_B_SPARE3
++	multi_2_vs_2 TRAINER_KAYLEE, StoryB_Text_RookieLava_GruntALose, TRAINER_TERRY, StoryB_Text_RookieLava_GruntBLose, PARTNER_STORY_B_SPARE3, cancelScript=StoryB_RookieLava_Cancel
+ 	specialvar VAR_RESULT, GetBattleOutcome
+ 	goto_if_eq VAR_RESULT, B_OUTCOME_WON, StoryB_RookieLava_Win
+ 	fadescreen FADE_TO_BLACK
+ 	special SetCB2WhiteOut
++	end
++
++StoryB_RookieLava_Cancel::
++	fadescreen FADE_TO_BLACK
++	removeobject LOCALID_STORYB_LAVA_GRUNT_A
++	removeobject LOCALID_STORYB_LAVA_GRUNT_B
++	setflag FLAG_TEMP_1E
++	fadescreen FADE_FROM_BLACK
++	releaseall
+ 	end
+ 
+ StoryB_RookieLava_Win::
+--- a/data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc
++++ b/data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc
+@@ -245,7 +245,7 @@
+ 	goto MossdeepCity_SpaceCenter_2F_EventScript_ReadyForBattlePrompt
+ 
+ MossdeepCity_SpaceCenter_2F_EventScript_DoStevenMultiBattle::
+-	multi_2_vs_2 TRAINER_MAXIE_MOSSDEEP, MossdeepCity_SpaceCenter_2F_Text_JustWantToExpandLand, TRAINER_TABITHA_MOSSDEEP, MossdeepCity_SpaceCenter_Text_TabithaDefeat, PARTNER_STEVEN
++	multi_2_vs_2 TRAINER_MAXIE_MOSSDEEP, MossdeepCity_SpaceCenter_2F_Text_JustWantToExpandLand, TRAINER_TABITHA_MOSSDEEP, MossdeepCity_SpaceCenter_Text_TabithaDefeat, PARTNER_STEVEN, chooseParty=FALSE
+ 	switch VAR_RESULT
+ 	case 1, MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha
+ 	fadescreen FADE_TO_BLACK

@@ -284,7 +284,10 @@ Part5_ShoppingList::
 	giveitem ITEM_SHOPPING_LIST, 1
 	goto_if_eq VAR_RESULT, FALSE, Part5_BagFull
 	setflag FLAG_PART5_SHOPPING_LIST_TAKEN
-	removeobject VAR_LAST_TALKED
+	closemessage
+	copyvar VAR_0x8000, VAR_LAST_TALKED
+	setvar VAR_0x8001, 6
+	call Story_WalkAwayAndRemove
 	release
 	end
 

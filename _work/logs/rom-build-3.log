@@ -1,0 +1,34 @@
+start: 2026年10月11日 16:21:27
+make_exit=0
+elapsed=264s
+--- error lines ---
+--- last 25 lines ---
+E:/msys64/ucrt64/bin/../lib/gcc/arm-none-eabi/16.1.0/cc1.exe -quiet <flags> -o build/emerald/src/pokenav_ribbons_list.o src/pokenav_ribbons_list.c
+E:/msys64/ucrt64/bin/../lib/gcc/arm-none-eabi/16.1.0/cc1.exe -quiet <flags> -o build/emerald/src/pokenav_ribbons_summary.o src/pokenav_ribbons_summary.c
+E:/msys64/ucrt64/bin/../lib/gcc/arm-none-eabi/16.1.0/cc1.exe -quiet <flags> -o build/emerald/src/quickstart.o src/quickstart.c
+E:/msys64/ucrt64/bin/../lib/gcc/arm-none-eabi/16.1.0/cc1.exe -quiet <flags> -o build/emerald/src/region_map.o src/region_map.c
+E:/msys64/ucrt64/bin/../lib/gcc/arm-none-eabi/16.1.0/cc1.exe -quiet <flags> -o build/emerald/src/roulette.o src/roulette.c
+E:/msys64/ucrt64/bin/../lib/gcc/arm-none-eabi/16.1.0/cc1.exe -quiet <flags> -o build/emerald/src/save_failed_screen.o src/save_failed_screen.c
+E:/msys64/ucrt64/bin/../lib/gcc/arm-none-eabi/16.1.0/cc1.exe -quiet <flags> -o build/emerald/src/starter_choose.o src/starter_choose.c
+E:/msys64/ucrt64/bin/../lib/gcc/arm-none-eabi/16.1.0/cc1.exe -quiet <flags> -o build/emerald/src/tilesets.o src/tilesets.c
+E:/msys64/ucrt64/bin/../lib/gcc/arm-none-eabi/16.1.0/cc1.exe -quiet <flags> -o build/emerald/src/title_screen.o src/title_screen.c
+E:/msys64/ucrt64/bin/../lib/gcc/arm-none-eabi/16.1.0/cc1.exe -quiet <flags> -o build/emerald/src/title_screen_frlg.o src/title_screen_frlg.c
+E:/msys64/ucrt64/bin/../lib/gcc/arm-none-eabi/16.1.0/cc1.exe -quiet <flags> -o build/emerald/src/trade.o src/trade.c
+E:/msys64/ucrt64/bin/../lib/gcc/arm-none-eabi/16.1.0/cc1.exe -quiet <flags> -o build/emerald/src/trainer_card.o src/trainer_card.c
+E:/msys64/ucrt64/bin/../lib/gcc/arm-none-eabi/16.1.0/cc1.exe -quiet <flags> -o build/emerald/src/union_room_chat.o src/union_room_chat.c
+E:/msys64/ucrt64/bin/../lib/gcc/arm-none-eabi/16.1.0/cc1.exe -quiet <flags> -o build/emerald/src/wallclock.o src/wallclock.c
+E:/msys64/ucrt64/bin/../lib/gcc/arm-none-eabi/16.1.0/cc1.exe -quiet <flags> -o build/emerald/src/wireless_communication_status_screen.o src/wireless_communication_status_screen.c
+E:/msys64/ucrt64/bin/../lib/gcc/arm-none-eabi/16.1.0/cc1.exe -quiet <flags> -o build/emerald/src/move_relearner.o src/move_relearner.c
+E:\msys64\ucrt64\bin\arm-none-eabi-ld.exe: warning: ../../pokeemerald.elf has a LOAD segment with RWX permissions
+Memory region         Used Size  Region Size  %age Used
+           EWRAM:      231240 B       256 KB     88.21%
+           IWRAM:       28388 B        32 KB     86.63%
+             ROM:    27495828 B        32 MB     81.94%
+cd build/emerald && arm-none-eabi-ld -Map ../../pokeemerald.map --print-memory-usage --gc-sections -T ../../ld_script_modern.ld -o ../../pokeemerald.elf <objs> <libs> | cat
+tools/gbafix/gbafix.exe pokeemerald.elf -t"POKEMON EMER" -cBPEE -m01 -r0 --silent
+arm-none-eabi-objcopy -O binary pokeemerald.elf pokeemerald.gba
+tools/gbafix/gbafix.exe pokeemerald.gba -p --silent
+--- /e/es/pokeemerald.gba ---
+size=33554432
+sha1=b526d5a36d589ed14b9238ae32c416c8dac25b89
+sha256=6ff9ee5bc9f9c976a37d2a6c7b3adea2dcfb51967992b1c0cee5e7aa702b952f

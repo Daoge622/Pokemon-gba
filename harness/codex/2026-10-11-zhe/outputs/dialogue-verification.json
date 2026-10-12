@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "output_sha256": "5948b8fd044a7b07d4cb75ed7f2439f5607ea15065f161728218bf41fe644614",
+  "changed_bytes_from_teamup": 130,
+  "changed_regions": 9,
+  "old_teamup_fix_preserved": true,
+  "both_BPS_independent_apply_and_CRC": "PASS",
+  "runtime": "4 original post-win sight loops reproduced; 4 fixed pre-win sight battles completed with actual buttons; victory flags, no automatic dialogue for 600 frames, manual post-win talk/close/walk PASS",
+  "setup": "controlled map warp; naturally healed party from prior loss state; isolated trainer flags; two walking grunts fixed in place only in fixture ROM; no combat HP edits",
+  "limitations": "mGBA headless authorized; no MyBoy core; 88 unknown native call sites remain outside static decoding; not an all-story playthrough"
+}

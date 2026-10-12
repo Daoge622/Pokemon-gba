@@ -1648,6 +1648,7 @@ Part55_FrozenStone::
 	giveitem ITEM_FROZEN_STONE, 1
 	goto_if_eq VAR_RESULT, FALSE, Part55_BagFull
 	setvar VAR_PART55_FROZEN_STONE, 1
+	special StoryRefreshPickupMarkers
 	releaseall
 	end
 
@@ -2782,8 +2783,13 @@ Part55_ExitRescueDepart::
 	msgbox Part55_Text_0299, MSGBOX_DEFAULT
 	setflag FLAG_PART55_RESCUED_MAGMA_LEFT
 	setflag FLAG_PART55_HIDE_RESCUED_MAGMA
-	removeobject LOCALID_PART55_RescuedMagmaExit
-	removeobject LOCALID_PART55_RescuedHoundourExit
+	closemessage
+	setvar VAR_0x8000, LOCALID_PART55_RescuedMagmaExit
+	setvar VAR_0x8001, 6
+	call Story_WalkAwayAndRemove
+	setvar VAR_0x8000, LOCALID_PART55_RescuedHoundourExit
+	setvar VAR_0x8001, 6
+	call Story_WalkAwayAndRemove
 	release
 	end
 
@@ -2883,8 +2889,13 @@ Part55_TeamupAquaB::
 Part55_RookieTeamup_Win::
 	setflag FLAG_PART55_ROOKIE_TEAMUP_DONE
 	msgbox Part55_Text_0249, MSGBOX_DEFAULT
-	removeobject LOCALID_PART55_TeamupAquaA
-	removeobject LOCALID_PART55_TeamupAquaB
+	closemessage
+	setvar VAR_0x8000, LOCALID_PART55_TeamupAquaA
+	setvar VAR_0x8001, 7
+	call Story_WalkAwayAndRemove
+	setvar VAR_0x8000, LOCALID_PART55_TeamupAquaB
+	setvar VAR_0x8001, 7
+	call Story_WalkAwayAndRemove
 	releaseall
 	end
 
@@ -2953,6 +2964,15 @@ Part55_MagmaBento_After::
 	end
 
 
+@ 战斗胜利后的入口（由 MagmaHideout_2F_1R_EventScript_Grunt4 的 trainerbattle_single
+@ 第 4 参跳入）。战斗结束时玩家未处于脚本锁内，所以这里必须自带 lock/release 配对。
+Part55_MagmaBento_Defeated::
+	lock
+	msgbox Part55_Text_0256, MSGBOX_DEFAULT
+	release
+	end
+
+
 Part55_MagmaGloves::
 	cant_see_if_trainerflag_set TRAINER_GRUNT_MAGMA_HIDEOUT_5
 	lock
@@ -2964,6 +2984,14 @@ Part55_MagmaGloves::
 
 
 Part55_MagmaGloves_After::
+	msgbox Part55_Text_0258, MSGBOX_DEFAULT
+	release
+	end
+
+
+@ 同上，手套小兵战斗胜利后的入口（MagmaHideout_2F_1R_EventScript_Grunt5 的第 4 参）。
+Part55_MagmaGloves_Defeated::
+	lock
 	msgbox Part55_Text_0258, MSGBOX_DEFAULT
 	release
 	end

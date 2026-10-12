@@ -3218,9 +3218,19 @@ const struct ObjectEventGraphicsInfo *GetObjectEventGraphicsInfo(u16 graphicsId)
         return gMauvilleOldManGraphicsInfoPointers[GetCurrentMauvilleOldMan()];
 
     if (graphicsId & OBJ_EVENT_MON)
-        return SpeciesToGraphicsInfo(graphicsId & OBJ_EVENT_MON_SPECIES_MASK, graphicsId & OBJ_EVENT_MON_SHINY, graphicsId & OBJ_EVENT_MON_FEMALE);
+    {
+        const struct ObjectEventGraphicsInfo *monInfo = SpeciesToGraphicsInfo(graphicsId & OBJ_EVENT_MON_SPECIES_MASK, graphicsId & OBJ_EVENT_MON_SHINY, graphicsId & OBJ_EVENT_MON_FEMALE);
+        if (monInfo != NULL)
+            return monInfo;
+        graphicsId = OBJ_EVENT_GFX_NINJA_BOY;
+    }
 
     if (graphicsId >= NUM_OBJ_EVENT_GFX)
+        graphicsId = OBJ_EVENT_GFX_NINJA_BOY;
+
+    // Graphics IDs that are not compiled into this game (e.g. FRLG-only ones) have a
+    // NULL entry; using it creates a sprite from garbage data and crashes later.
+    if (gObjectEventGraphicsInfoPointers[graphicsId] == NULL)
         graphicsId = OBJ_EVENT_GFX_NINJA_BOY;
 
     return gObjectEventGraphicsInfoPointers[graphicsId];

@@ -2031,3 +2031,55 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Helping Hand
 - Sing
 
+=== PARTNER_STORY_A_SPARE1 ===
+Name: 队员
+Class: Team Magma
+Pic: Magma Grunt M
+Gender: Male
+Music: Magma
+Double Battle: No
+AI: Check Bad Move / Try To Faint
+Multi Party: Half
+
+Mightyena
+Level: 50
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Crunch
+- Play Rough
+- Sucker Punch
+- Swagger
+
+Camerupt
+Level: 51
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Lava Plume
+- Earth Power
+- Rock Slide
+- Yawn
+
+=== PARTNER_STORY_A_SPARE2 ===
+Name: 队员
+Class: Team Magma
+Pic: Magma Grunt M
+Gender: Male
+Music: Magma
+Double Battle: No
+AI: Check Bad Move / Try To Faint
+Multi Party: Half
+
+Crobat
+Level: 50
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Cross Poison
+- Air Slash
+- Confuse Ray
+- Bite
+
+Houndoom
+Level: 51
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Flamethrower
+- Dark Pulse
+- Will-O-Wisp
+- Snarl
+

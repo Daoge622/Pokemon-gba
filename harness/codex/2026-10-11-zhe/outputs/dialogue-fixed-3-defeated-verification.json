@@ -1,0 +1,94 @@
+{
+  "fixture": true,
+  "setup": "engine warp, set battle flags, clear hide flags, static face-down for test target",
+  "source_rom_sha256": "5948b8fd044a7b07d4cb75ed7f2439f5607ea15065f161728218bf41fe644614",
+  "site": {
+    "map": "MagmaHideout_2F_1R",
+    "local_id": 3,
+    "type": 1,
+    "sight": 7,
+    "object_offset": 15537120,
+    "script": "0x838ede9",
+    "label": "Part55_RookieFormal",
+    "hex": "6a5a60d9020601567938082bec04070103ee38086c05137938080f002ef238080904036a5aa127000000c560d902060127ee38080f0067f2380809046c020f008ef2380809046c020f00aff238080902026a5a60cf02060153ee38080f00ecf238080904",
+    "trainer": 729,
+    "wrapper": "0x9b0046c"
+  },
+  "log": [
+    {
+      "tag": "arrival",
+      "xy": [
+        9,
+        8
+      ],
+      "map": [
+        24,
+        87
+      ],
+      "ctx": "00000000",
+      "script": "0x0",
+      "lock": 0,
+      "cb": "0x81b9521"
+    },
+    {
+      "tag": "after-close",
+      "xy": [
+        9,
+        8
+      ],
+      "map": [
+        24,
+        87
+      ],
+      "ctx": "00000000",
+      "script": "0x0",
+      "lock": 0,
+      "cb": "0x81b9521"
+    },
+    {
+      "tag": "manual-dialogue",
+      "xy": [
+        9,
+        8
+      ],
+      "map": [
+        24,
+        87
+      ],
+      "ctx": "01020000",
+      "script": "0x0",
+      "lock": 1,
+      "cb": "0x81b9521"
+    },
+    {
+      "tag": "manual-closed",
+      "xy": [
+        9,
+        8
+      ],
+      "map": [
+        24,
+        87
+      ],
+      "ctx": "00000000",
+      "script": "0x0",
+      "lock": 0,
+      "cb": "0x81b9521"
+    },
+    {
+      "tag": "walk",
+      "xy": [
+        9,
+        9
+      ],
+      "map": [
+        24,
+        87
+      ],
+      "ctx": "00000000",
+      "script": "0x0",
+      "lock": 0,
+      "cb": "0x81b9521"
+    }
+  ]
+}

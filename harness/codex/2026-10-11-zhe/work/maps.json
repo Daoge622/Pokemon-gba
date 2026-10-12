@@ -1,0 +1,10862 @@
+{
+  "PetalburgCity": {
+    "group": 0,
+    "num": 0,
+    "header": 150480188,
+    "events": 149666620,
+    "counts": [
+      11,
+      6,
+      8,
+      8
+    ],
+    "pointers": [
+      149666084,
+      149666348,
+      149666396,
+      149666524
+    ],
+    "scripts": 137176216,
+    "layout": 149789624
+  },
+  "SlateportCity": {
+    "group": 0,
+    "num": 1,
+    "header": 150480216,
+    "events": 149667980,
+    "counts": [
+      44,
+      11,
+      1,
+      15
+    ],
+    "pointers": [
+      149666640,
+      149667696,
+      149667784,
+      149667800
+    ],
+    "scripts": 137178695,
+    "layout": 149794460
+  },
+  "MauvilleCity": {
+    "group": 0,
+    "num": 2,
+    "header": 150480244,
+    "events": 149668560,
+    "counts": [
+      17,
+      7,
+      0,
+      8
+    ],
+    "pointers": [
+      149668000,
+      149668408,
+      0,
+      149668464
+    ],
+    "scripts": 137186846,
+    "layout": 149796096
+  },
+  "RustboroCity": {
+    "group": 0,
+    "num": 3,
+    "header": 150480272,
+    "events": 149669604,
+    "counts": [
+      19,
+      12,
+      22,
+      10
+    ],
+    "pointers": [
+      149668580,
+      149669036,
+      149669132,
+      149669484
+    ],
+    "scripts": 137191150,
+    "layout": 149800932
+  },
+  "FortreeCity": {
+    "group": 0,
+    "num": 4,
+    "header": 150480300,
+    "events": 149670176,
+    "counts": [
+      16,
+      9,
+      0,
+      8
+    ],
+    "pointers": [
+      149669624,
+      149670008,
+      0,
+      149670080
+    ],
+    "scripts": 137197488,
+    "layout": 149802568
+  },
+  "LilycoveCity": {
+    "group": 0,
+    "num": 5,
+    "header": 150480328,
+    "events": 149671288,
+    "counts": [
+      32,
+      15,
+      0,
+      17
+    ],
+    "pointers": [
+      149670196,
+      149670964,
+      0,
+      149671084
+    ],
+    "scripts": 137198500,
+    "layout": 149809004
+  },
+  "MossdeepCity": {
+    "group": 0,
+    "num": 6,
+    "header": 150480356,
+    "events": 149672520,
+    "counts": [
+      35,
+      10,
+      10,
+      11
+    ],
+    "pointers": [
+      149671308,
+      149672148,
+      149672228,
+      149672388
+    ],
+    "scripts": 137204155,
+    "layout": 149815440
+  },
+  "SootopolisCity": {
+    "group": 0,
+    "num": 7,
+    "header": 150480384,
+    "events": 149673544,
+    "counts": [
+      34,
+      13,
+      0,
+      7
+    ],
+    "pointers": [
+      149672540,
+      149673356,
+      0,
+      149673460
+    ],
+    "scripts": 137206315,
+    "layout": 149822676
+  },
+  "EverGrandeCity": {
+    "group": 0,
+    "num": 8,
+    "header": 150480412,
+    "events": 149674084,
+    "counts": [
+      10,
+      4,
+      11,
+      6
+    ],
+    "pointers": [
+      149673564,
+      149673804,
+      149673836,
+      149674012
+    ],
+    "scripts": 137214063,
+    "layout": 149829112
+  },
+  "LittlerootTown": {
+    "group": 0,
+    "num": 9,
+    "header": 150480440,
+    "events": 149674536,
+    "counts": [
+      9,
+      3,
+      9,
+      4
+    ],
+    "pointers": [
+      149674104,
+      149674320,
+      149674344,
+      149674488
+    ],
+    "scripts": 137214201,
+    "layout": 149829948
+  },
+  "OldaleTown": {
+    "group": 0,
+    "num": 10,
+    "header": 150480468,
+    "events": 149674808,
+    "counts": [
+      4,
+      4,
+      4,
+      5
+    ],
+    "pointers": [
+      149674556,
+      149674652,
+      149674684,
+      149674748
+    ],
+    "scripts": 137218266,
+    "layout": 149830784
+  },
+  "DewfordTown": {
+    "group": 0,
+    "num": 11,
+    "header": 150480496,
+    "events": 149675120,
+    "counts": [
+      8,
+      5,
+      0,
+      5
+    ],
+    "pointers": [
+      149674828,
+      149675020,
+      0,
+      149675060
+    ],
+    "scripts": 137219665,
+    "layout": 149831620
+  },
+  "LavaridgeTown": {
+    "group": 0,
+    "num": 12,
+    "header": 150480524,
+    "events": 149675744,
+    "counts": [
+      18,
+      6,
+      1,
+      9
+    ],
+    "pointers": [
+      149675140,
+      149675572,
+      149675620,
+      149675636
+    ],
+    "scripts": 137223019,
+    "layout": 149832456
+  },
+  "FallarborTown": {
+    "group": 0,
+    "num": 13,
+    "header": 150480552,
+    "events": 149676068,
+    "counts": [
+      7,
+      5,
+      0,
+      8
+    ],
+    "pointers": [
+      149675764,
+      149675932,
+      0,
+      149675972
+    ],
+    "scripts": 137226132,
+    "layout": 149833292
+  },
+  "VerdanturfTown": {
+    "group": 0,
+    "num": 14,
+    "header": 150480580,
+    "events": 149676384,
+    "counts": [
+      6,
+      7,
+      0,
+      8
+    ],
+    "pointers": [
+      149676088,
+      149676232,
+      0,
+      149676288
+    ],
+    "scripts": 137227136,
+    "layout": 149834128
+  },
+  "PacifidlogTown": {
+    "group": 0,
+    "num": 15,
+    "header": 150480608,
+    "events": 149676704,
+    "counts": [
+      8,
+      6,
+      0,
+      5
+    ],
+    "pointers": [
+      149676404,
+      149676596,
+      0,
+      149676644
+    ],
+    "scripts": 137228304,
+    "layout": 149835764
+  },
+  "Route101": {
+    "group": 0,
+    "num": 16,
+    "header": 150480636,
+    "events": 149677024,
+    "counts": [
+      6,
+      0,
+      9,
+      1
+    ],
+    "pointers": [
+      149676724,
+      0,
+      149676868,
+      149677012
+    ],
+    "scripts": 137228710,
+    "layout": 149836600
+  },
+  "Route102": {
+    "group": 0,
+    "num": 17,
+    "header": 150480664,
+    "events": 149677308,
+    "counts": [
+      10,
+      0,
+      0,
+      2
+    ],
+    "pointers": [
+      149677044,
+      0,
+      0,
+      149677284
+    ],
+    "scripts": 137229597,
+    "layout": 149838636
+  },
+  "Route103": {
+    "group": 0,
+    "num": 18,
+    "header": 150480692,
+    "events": 149677852,
+    "counts": [
+      21,
+      1,
+      0,
+      1
+    ],
+    "pointers": [
+      149677328,
+      149677832,
+      0,
+      149677840
+    ],
+    "scripts": 137230858,
+    "layout": 149842192
+  },
+  "Route104": {
+    "group": 0,
+    "num": 19,
+    "header": 150480720,
+    "events": 149678936,
+    "counts": [
+      36,
+      8,
+      1,
+      10
+    ],
+    "pointers": [
+      149677872,
+      149678736,
+      149678800,
+      149678816
+    ],
+    "scripts": 137233125,
+    "layout": 149848628
+  },
+  "Route105": {
+    "group": 0,
+    "num": 20,
+    "header": 150480748,
+    "events": 149679180,
+    "counts": [
+      8,
+      1,
+      0,
+      2
+    ],
+    "pointers": [
+      149678956,
+      149679148,
+      0,
+      149679156
+    ],
+    "scripts": 137238142,
+    "layout": 149855064
+  },
+  "Route106": {
+    "group": 0,
+    "num": 21,
+    "header": 150480776,
+    "events": 149679376,
+    "counts": [
+      5,
+      1,
+      0,
+      4
+    ],
+    "pointers": [
+      149679200,
+      149679320,
+      0,
+      149679328
+    ],
+    "scripts": 137238950,
+    "layout": 149858300
+  },
+  "Route107": {
+    "group": 0,
+    "num": 22,
+    "header": 150480804,
+    "events": 149679564,
+    "counts": [
+      7,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149679396,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137239308,
+    "layout": 149860736
+  },
+  "Route108": {
+    "group": 0,
+    "num": 23,
+    "header": 150480832,
+    "events": 149679808,
+    "counts": [
+      8,
+      1,
+      0,
+      2
+    ],
+    "pointers": [
+      149679584,
+      149679776,
+      0,
+      149679784
+    ],
+    "scripts": 137239757,
+    "layout": 149863172
+  },
+  "Route109": {
+    "group": 0,
+    "num": 24,
+    "header": 150480860,
+    "events": 149680508,
+    "counts": [
+      24,
+      1,
+      0,
+      8
+    ],
+    "pointers": [
+      149679828,
+      149680404,
+      0,
+      149680412
+    ],
+    "scripts": 137240156,
+    "layout": 149868248
+  },
+  "Route110": {
+    "group": 0,
+    "num": 25,
+    "header": 150480888,
+    "events": 149681896,
+    "counts": [
+      40,
+      6,
+      9,
+      18
+    ],
+    "pointers": [
+      149680528,
+      149681488,
+      149681536,
+      149681680
+    ],
+    "scripts": 137242766,
+    "layout": 149876284
+  },
+  "Route111": {
+    "group": 0,
+    "num": 26,
+    "header": 150480916,
+    "events": 149684168,
+    "counts": [
+      59,
+      5,
+      34,
+      21
+    ],
+    "pointers": [
+      149681916,
+      149683332,
+      149683372,
+      149683916
+    ],
+    "scripts": 137248861,
+    "layout": 149887520
+  },
+  "Route112": {
+    "group": 0,
+    "num": 27,
+    "header": 150480944,
+    "events": 149684704,
+    "counts": [
+      18,
+      6,
+      0,
+      3
+    ],
+    "pointers": [
+      149684188,
+      149684620,
+      0,
+      149684668
+    ],
+    "scripts": 137253309,
+    "layout": 149892356
+  },
+  "Route113": {
+    "group": 0,
+    "num": 28,
+    "header": 150480972,
+    "events": 149685712,
+    "counts": [
+      22,
+      3,
+      19,
+      11
+    ],
+    "pointers": [
+      149684724,
+      149685252,
+      149685276,
+      149685580
+    ],
+    "scripts": 137254779,
+    "layout": 149896392
+  },
+  "Route114": {
+    "group": 0,
+    "num": 29,
+    "header": 150481000,
+    "events": 149686636,
+    "counts": [
+      30,
+      5,
+      0,
+      12
+    ],
+    "pointers": [
+      149685732,
+      149686452,
+      0,
+      149686492
+    ],
+    "scripts": 137256571,
+    "layout": 149902828
+  },
+  "Route115": {
+    "group": 0,
+    "num": 30,
+    "header": 150481028,
+    "events": 149687424,
+    "counts": [
+      24,
+      3,
+      0,
+      14
+    ],
+    "pointers": [
+      149686656,
+      149687232,
+      0,
+      149687256
+    ],
+    "scripts": 137257970,
+    "layout": 149909264
+  },
+  "Route116": {
+    "group": 0,
+    "num": 31,
+    "header": 150481056,
+    "events": 149688424,
+    "counts": [
+      33,
+      5,
+      1,
+      11
+    ],
+    "pointers": [
+      149687444,
+      149688236,
+      149688276,
+      149688292
+    ],
+    "scripts": 137259008,
+    "layout": 149913300
+  },
+  "Route117": {
+    "group": 0,
+    "num": 32,
+    "header": 150481084,
+    "events": 149689256,
+    "counts": [
+      31,
+      1,
+      0,
+      5
+    ],
+    "pointers": [
+      149688444,
+      149689188,
+      0,
+      149689196
+    ],
+    "scripts": 137262887,
+    "layout": 149915736
+  },
+  "Route118": {
+    "group": 0,
+    "num": 33,
+    "header": 150481112,
+    "events": 149693468,
+    "counts": [
+      31,
+      2,
+      207,
+      10
+    ],
+    "pointers": [
+      149689276,
+      149690020,
+      149690036,
+      149693348
+    ],
+    "scripts": 137265051,
+    "layout": 149918972
+  },
+  "Route119": {
+    "group": 0,
+    "num": 34,
+    "header": 150481140,
+    "events": 149695708,
+    "counts": [
+      64,
+      2,
+      23,
+      25
+    ],
+    "pointers": [
+      149693488,
+      149695024,
+      149695040,
+      149695408
+    ],
+    "scripts": 137266608,
+    "layout": 149930208
+  },
+  "Route120": {
+    "group": 0,
+    "num": 35,
+    "header": 150481168,
+    "events": 149697452,
+    "counts": [
+      50,
+      2,
+      19,
+      17
+    ],
+    "pointers": [
+      149695728,
+      149696928,
+      149696944,
+      149697248
+    ],
+    "scripts": 137270532,
+    "layout": 149938244
+  },
+  "Route121": {
+    "group": 0,
+    "num": 36,
+    "header": 150481196,
+    "events": 149698528,
+    "counts": [
+      36,
+      1,
+      4,
+      10
+    ],
+    "pointers": [
+      149697472,
+      149698336,
+      149698344,
+      149698408
+    ],
+    "scripts": 137273198,
+    "layout": 149941480
+  },
+  "Route122": {
+    "group": 0,
+    "num": 37,
+    "header": 150481224,
+    "events": 149698580,
+    "counts": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149698548,
+      149698572,
+      0,
+      0
+    ],
+    "scripts": 137274334,
+    "layout": 149944716
+  },
+  "Route123": {
+    "group": 0,
+    "num": 38,
+    "header": 150481252,
+    "events": 149700148,
+    "counts": [
+      44,
+      1,
+      22,
+      11
+    ],
+    "pointers": [
+      149698600,
+      149699656,
+      149699664,
+      149700016
+    ],
+    "scripts": 137274335,
+    "layout": 149950352
+  },
+  "Route124": {
+    "group": 0,
+    "num": 39,
+    "header": 150481280,
+    "events": 149700632,
+    "counts": [
+      18,
+      1,
+      0,
+      2
+    ],
+    "pointers": [
+      149700168,
+      149700600,
+      0,
+      149700608
+    ],
+    "scripts": 137275768,
+    "layout": 149963188
+  },
+  "Route125": {
+    "group": 0,
+    "num": 40,
+    "header": 150481308,
+    "events": 149701008,
+    "counts": [
+      12,
+      1,
+      0,
+      5
+    ],
+    "pointers": [
+      149700652,
+      149700940,
+      0,
+      149700948
+    ],
+    "scripts": 137276552,
+    "layout": 149969624
+  },
+  "Route126": {
+    "group": 0,
+    "num": 41,
+    "header": 150481336,
+    "events": 149701268,
+    "counts": [
+      10,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149701028,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137277192,
+    "layout": 149982460
+  },
+  "Route127": {
+    "group": 0,
+    "num": 42,
+    "header": 150481364,
+    "events": 149701828,
+    "counts": [
+      20,
+      0,
+      0,
+      5
+    ],
+    "pointers": [
+      149701288,
+      0,
+      0,
+      149701768
+    ],
+    "scripts": 137277706,
+    "layout": 149995296
+  },
+  "Route128": {
+    "group": 0,
+    "num": 43,
+    "header": 150481392,
+    "events": 149702172,
+    "counts": [
+      12,
+      0,
+      0,
+      3
+    ],
+    "pointers": [
+      149701848,
+      0,
+      0,
+      149702136
+    ],
+    "scripts": 137278299,
+    "layout": 150004932
+  },
+  "Route129": {
+    "group": 0,
+    "num": 44,
+    "header": 150481420,
+    "events": 149702336,
+    "counts": [
+      6,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149702192,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137279984,
+    "layout": 150011368
+  },
+  "Route130": {
+    "group": 0,
+    "num": 45,
+    "header": 150481448,
+    "events": 149702464,
+    "counts": [
+      4,
+      0,
+      0,
+      1
+    ],
+    "pointers": [
+      149702356,
+      0,
+      0,
+      149702452
+    ],
+    "scripts": 137280338,
+    "layout": 150227188
+  },
+  "Route131": {
+    "group": 0,
+    "num": 46,
+    "header": 150481476,
+    "events": 149702768,
+    "counts": [
+      10,
+      1,
+      0,
+      3
+    ],
+    "pointers": [
+      149702484,
+      149702724,
+      0,
+      149702732
+    ],
+    "scripts": 137280584,
+    "layout": 150022640
+  },
+  "Route132": {
+    "group": 0,
+    "num": 47,
+    "header": 150481504,
+    "events": 149703088,
+    "counts": [
+      12,
+      0,
+      0,
+      1
+    ],
+    "pointers": [
+      149702788,
+      0,
+      0,
+      149703076
+    ],
+    "scripts": 137281021,
+    "layout": 150029076
+  },
+  "Route133": {
+    "group": 0,
+    "num": 48,
+    "header": 150481532,
+    "events": 149703464,
+    "counts": [
+      13,
+      1,
+      0,
+      3
+    ],
+    "pointers": [
+      149703108,
+      149703420,
+      0,
+      149703428
+    ],
+    "scripts": 137281422,
+    "layout": 150035512
+  },
+  "Route134": {
+    "group": 0,
+    "num": 49,
+    "header": 150481560,
+    "events": 149703784,
+    "counts": [
+      12,
+      0,
+      0,
+      1
+    ],
+    "pointers": [
+      149703484,
+      0,
+      0,
+      149703772
+    ],
+    "scripts": 137281773,
+    "layout": 150041948
+  },
+  "Underwater_Route124": {
+    "group": 0,
+    "num": 50,
+    "header": 150481588,
+    "events": 149703912,
+    "counts": [
+      0,
+      0,
+      0,
+      9
+    ],
+    "pointers": [
+      0,
+      0,
+      0,
+      149703804
+    ],
+    "scripts": 137282238,
+    "layout": 150251192
+  },
+  "Underwater_Route126": {
+    "group": 0,
+    "num": 51,
+    "header": 150481616,
+    "events": 149704096,
+    "counts": [
+      0,
+      1,
+      0,
+      13
+    ],
+    "pointers": [
+      0,
+      149703932,
+      0,
+      149703940
+    ],
+    "scripts": 137282239,
+    "layout": 150054784
+  },
+  "Underwater_Route127": {
+    "group": 0,
+    "num": 52,
+    "header": 150481644,
+    "events": 149704360,
+    "counts": [
+      2,
+      2,
+      0,
+      15
+    ],
+    "pointers": [
+      149704116,
+      149704164,
+      0,
+      149704180
+    ],
+    "scripts": 137282240,
+    "layout": 150067620
+  },
+  "Underwater_Route128": {
+    "group": 0,
+    "num": 53,
+    "header": 150481672,
+    "events": 149704448,
+    "counts": [
+      0,
+      1,
+      0,
+      5
+    ],
+    "pointers": [
+      0,
+      149704380,
+      0,
+      149704388
+    ],
+    "scripts": 137282252,
+    "layout": 150077256
+  },
+  "Underwater_Route129": {
+    "group": 0,
+    "num": 54,
+    "header": 150481700,
+    "events": 149704532,
+    "counts": [
+      1,
+      2,
+      0,
+      2
+    ],
+    "pointers": [
+      149704468,
+      149704492,
+      0,
+      149704508
+    ],
+    "scripts": 137282253,
+    "layout": 150428184
+  },
+  "Underwater_Route105": {
+    "group": 0,
+    "num": 55,
+    "header": 150481728,
+    "events": 149704568,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149704552,
+      0,
+      0
+    ],
+    "scripts": 137282265,
+    "layout": 150415312
+  },
+  "Underwater_Route125": {
+    "group": 0,
+    "num": 56,
+    "header": 150481756,
+    "events": 149704604,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149704588,
+      0,
+      0
+    ],
+    "scripts": 137282277,
+    "layout": 150421748
+  },
+  "LittlerootTown_BrendansHouse_1F": {
+    "group": 1,
+    "num": 0,
+    "header": 150481784,
+    "events": 149704880,
+    "counts": [
+      7,
+      3,
+      4,
+      0
+    ],
+    "pointers": [
+      149704624,
+      149704792,
+      149704816,
+      0
+    ],
+    "scripts": 137282289,
+    "layout": 150077492
+  },
+  "LittlerootTown_BrendansHouse_2F": {
+    "group": 1,
+    "num": 1,
+    "header": 150481812,
+    "events": 149705340,
+    "counts": [
+      16,
+      1,
+      0,
+      4
+    ],
+    "pointers": [
+      149704900,
+      149705284,
+      0,
+      149705292
+    ],
+    "scripts": 137284646,
+    "layout": 150077672
+  },
+  "LittlerootTown_MaysHouse_1F": {
+    "group": 1,
+    "num": 2,
+    "header": 150481840,
+    "events": 149705616,
+    "counts": [
+      7,
+      3,
+      4,
+      0
+    ],
+    "pointers": [
+      149705360,
+      149705528,
+      149705552,
+      0
+    ],
+    "scripts": 137285621,
+    "layout": 150077908
+  },
+  "LittlerootTown_MaysHouse_2F": {
+    "group": 1,
+    "num": 3,
+    "header": 150481868,
+    "events": 149706076,
+    "counts": [
+      16,
+      1,
+      0,
+      4
+    ],
+    "pointers": [
+      149705636,
+      149706020,
+      0,
+      149706028
+    ],
+    "scripts": 137287569,
+    "layout": 150078088
+  },
+  "LittlerootTown_ProfessorBirchsLab": {
+    "group": 1,
+    "num": 4,
+    "header": 150481896,
+    "events": 149706448,
+    "counts": [
+      6,
+      2,
+      0,
+      16
+    ],
+    "pointers": [
+      149706096,
+      149706240,
+      0,
+      149706256
+    ],
+    "scripts": 137289511,
+    "layout": 150078464
+  },
+  "OldaleTown_House1": {
+    "group": 2,
+    "num": 0,
+    "header": 150481924,
+    "events": 149706508,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149706468,
+      149706492,
+      0,
+      0
+    ],
+    "scripts": 137295794,
+    "layout": 150078680
+  },
+  "OldaleTown_House2": {
+    "group": 2,
+    "num": 1,
+    "header": 150481952,
+    "events": 149706592,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149706528,
+      149706576,
+      0,
+      0
+    ],
+    "scripts": 137295928,
+    "layout": 150078892
+  },
+  "OldaleTown_PokemonCenter_1F": {
+    "group": 2,
+    "num": 2,
+    "header": 150481980,
+    "events": 149706732,
+    "counts": [
+      4,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149706612,
+      149706708,
+      0,
+      0
+    ],
+    "scripts": 137296021,
+    "layout": 150079180
+  },
+  "OldaleTown_PokemonCenter_2F": {
+    "group": 2,
+    "num": 3,
+    "header": 150482008,
+    "events": 149706872,
+    "counts": [
+      4,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149706752,
+      149706848,
+      0,
+      0
+    ],
+    "scripts": 137296374,
+    "layout": 150079496
+  },
+  "OldaleTown_Mart": {
+    "group": 2,
+    "num": 4,
+    "header": 150482036,
+    "events": 149706980,
+    "counts": [
+      3,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149706892,
+      149706964,
+      0,
+      0
+    ],
+    "scripts": 137296413,
+    "layout": 150079708
+  },
+  "DewfordTown_House1": {
+    "group": 3,
+    "num": 0,
+    "header": 150482064,
+    "events": 149707088,
+    "counts": [
+      3,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149707000,
+      149707072,
+      0,
+      0
+    ],
+    "scripts": 137296687,
+    "layout": 150079904
+  },
+  "DewfordTown_PokemonCenter_1F": {
+    "group": 3,
+    "num": 1,
+    "header": 150482092,
+    "events": 149707204,
+    "counts": [
+      3,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149707108,
+      149707180,
+      0,
+      0
+    ],
+    "scripts": 137296891,
+    "layout": 150079180
+  },
+  "DewfordTown_PokemonCenter_2F": {
+    "group": 3,
+    "num": 2,
+    "header": 150482120,
+    "events": 149707344,
+    "counts": [
+      4,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149707224,
+      149707320,
+      0,
+      0
+    ],
+    "scripts": 137297042,
+    "layout": 150079496
+  },
+  "DewfordTown_Gym": {
+    "group": 3,
+    "num": 3,
+    "header": 150482148,
+    "events": 149707620,
+    "counts": [
+      8,
+      2,
+      0,
+      4
+    ],
+    "pointers": [
+      149707364,
+      149707556,
+      0,
+      149707572
+    ],
+    "scripts": 137297081,
+    "layout": 150080948
+  },
+  "DewfordTown_Hall": {
+    "group": 3,
+    "num": 4,
+    "header": 150482176,
+    "events": 149707896,
+    "counts": [
+      9,
+      2,
+      0,
+      2
+    ],
+    "pointers": [
+      149707640,
+      149707856,
+      0,
+      149707872
+    ],
+    "scripts": 137299968,
+    "layout": 150081292
+  },
+  "DewfordTown_House2": {
+    "group": 3,
+    "num": 5,
+    "header": 150482204,
+    "events": 149707980,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149707916,
+      149707964,
+      0,
+      0
+    ],
+    "scripts": 137302411,
+    "layout": 150081508
+  },
+  "LavaridgeTown_HerbShop": {
+    "group": 4,
+    "num": 0,
+    "header": 150482232,
+    "events": 149708088,
+    "counts": [
+      3,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149708000,
+      149708072,
+      0,
+      0
+    ],
+    "scripts": 137302849,
+    "layout": 150081720
+  },
+  "LavaridgeTown_Gym_1F": {
+    "group": 4,
+    "num": 1,
+    "header": 150482260,
+    "events": 149708548,
+    "counts": [
+      6,
+      26,
+      4,
+      2
+    ],
+    "pointers": [
+      149708108,
+      149708252,
+      149708460,
+      149708524
+    ],
+    "scripts": 137303193,
+    "layout": 150082404
+  },
+  "LavaridgeTown_Gym_B1F": {
+    "group": 4,
+    "num": 2,
+    "header": 150482288,
+    "events": 149708856,
+    "counts": [
+      4,
+      24,
+      0,
+      0
+    ],
+    "pointers": [
+      149708568,
+      149708664,
+      0,
+      0
+    ],
+    "scripts": 137306370,
+    "layout": 150083088
+  },
+  "LavaridgeTown_House": {
+    "group": 4,
+    "num": 3,
+    "header": 150482316,
+    "events": 149708964,
+    "counts": [
+      3,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149708876,
+      149708948,
+      0,
+      0
+    ],
+    "scripts": 137306517,
+    "layout": 150079904
+  },
+  "LavaridgeTown_Mart": {
+    "group": 4,
+    "num": 4,
+    "header": 150482344,
+    "events": 149709072,
+    "counts": [
+      3,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149708984,
+      149709056,
+      0,
+      0
+    ],
+    "scripts": 137306634,
+    "layout": 150079708
+  },
+  "LavaridgeTown_PokemonCenter_1F": {
+    "group": 4,
+    "num": 5,
+    "header": 150482372,
+    "events": 149709244,
+    "counts": [
+      5,
+      4,
+      0,
+      0
+    ],
+    "pointers": [
+      149709092,
+      149709212,
+      0,
+      0
+    ],
+    "scripts": 137306853,
+    "layout": 150083376
+  },
+  "LavaridgeTown_PokemonCenter_2F": {
+    "group": 4,
+    "num": 6,
+    "header": 150482400,
+    "events": 149709384,
+    "counts": [
+      4,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149709264,
+      149709360,
+      0,
+      0
+    ],
+    "scripts": 137307148,
+    "layout": 150079496
+  },
+  "FallarborTown_Mart": {
+    "group": 5,
+    "num": 0,
+    "header": 150482428,
+    "events": 149709540,
+    "counts": [
+      5,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149709404,
+      149709524,
+      0,
+      0
+    ],
+    "scripts": 137307187,
+    "layout": 150079708
+  },
+  "FallarborTown_BattleTentLobby": {
+    "group": 5,
+    "num": 1,
+    "header": 150482456,
+    "events": 149709708,
+    "counts": [
+      5,
+      2,
+      0,
+      1
+    ],
+    "pointers": [
+      149709560,
+      149709680,
+      0,
+      149709696
+    ],
+    "scripts": 137307474,
+    "layout": 150363284
+  },
+  "FallarborTown_BattleTentCorridor": {
+    "group": 5,
+    "num": 2,
+    "header": 150482484,
+    "events": 149709752,
+    "counts": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149709728,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137309233,
+    "layout": 150363400
+  },
+  "FallarborTown_BattleTentBattleRoom": {
+    "group": 5,
+    "num": 3,
+    "header": 150482512,
+    "events": 149709844,
+    "counts": [
+      3,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149709772,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137309628,
+    "layout": 150363616
+  },
+  "FallarborTown_PokemonCenter_1F": {
+    "group": 5,
+    "num": 4,
+    "header": 150482540,
+    "events": 149710008,
+    "counts": [
+      5,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149709864,
+      149709984,
+      0,
+      0
+    ],
+    "scripts": 137310448,
+    "layout": 150079180
+  },
+  "FallarborTown_PokemonCenter_2F": {
+    "group": 5,
+    "num": 5,
+    "header": 150482568,
+    "events": 149710148,
+    "counts": [
+      4,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149710028,
+      149710124,
+      0,
+      0
+    ],
+    "scripts": 137311028,
+    "layout": 150079496
+  },
+  "FallarborTown_CozmosHouse": {
+    "group": 5,
+    "num": 6,
+    "header": 150482596,
+    "events": 149710232,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149710168,
+      149710216,
+      0,
+      0
+    ],
+    "scripts": 137311067,
+    "layout": 150078680
+  },
+  "FallarborTown_MoveRelearnersHouse": {
+    "group": 5,
+    "num": 7,
+    "header": 150482624,
+    "events": 149710292,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149710252,
+      149710276,
+      0,
+      0
+    ],
+    "scripts": 137311886,
+    "layout": 150078892
+  },
+  "VerdanturfTown_BattleTentLobby": {
+    "group": 6,
+    "num": 0,
+    "header": 150482652,
+    "events": 149710484,
+    "counts": [
+      6,
+      2,
+      0,
+      1
+    ],
+    "pointers": [
+      149710312,
+      149710456,
+      0,
+      149710472
+    ],
+    "scripts": 137312701,
+    "layout": 150363284
+  },
+  "VerdanturfTown_BattleTentCorridor": {
+    "group": 6,
+    "num": 1,
+    "header": 150482680,
+    "events": 149710528,
+    "counts": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149710504,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137314868,
+    "layout": 150363400
+  },
+  "VerdanturfTown_BattleTentBattleRoom": {
+    "group": 6,
+    "num": 2,
+    "header": 150482708,
+    "events": 149710620,
+    "counts": [
+      3,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149710548,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137315306,
+    "layout": 150363888
+  },
+  "VerdanturfTown_Mart": {
+    "group": 6,
+    "num": 3,
+    "header": 150482736,
+    "events": 149710752,
+    "counts": [
+      4,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149710640,
+      149710736,
+      0,
+      0
+    ],
+    "scripts": 137315961,
+    "layout": 150079708
+  },
+  "VerdanturfTown_PokemonCenter_1F": {
+    "group": 6,
+    "num": 4,
+    "header": 150482764,
+    "events": 149710892,
+    "counts": [
+      4,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149710772,
+      149710868,
+      0,
+      0
+    ],
+    "scripts": 137316255,
+    "layout": 150079180
+  },
+  "VerdanturfTown_PokemonCenter_2F": {
+    "group": 6,
+    "num": 5,
+    "header": 150482792,
+    "events": 149711032,
+    "counts": [
+      4,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149710912,
+      149711008,
+      0,
+      0
+    ],
+    "scripts": 137316468,
+    "layout": 150079496
+  },
+  "VerdanturfTown_WandasHouse": {
+    "group": 6,
+    "num": 6,
+    "header": 150482820,
+    "events": 149711188,
+    "counts": [
+      5,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149711052,
+      149711172,
+      0,
+      0
+    ],
+    "scripts": 137316507,
+    "layout": 150084928
+  },
+  "VerdanturfTown_FriendshipRatersHouse": {
+    "group": 6,
+    "num": 7,
+    "header": 150482848,
+    "events": 149711272,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149711208,
+      149711256,
+      0,
+      0
+    ],
+    "scripts": 137317626,
+    "layout": 150078892
+  },
+  "VerdanturfTown_House": {
+    "group": 6,
+    "num": 8,
+    "header": 150482876,
+    "events": 149711356,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149711292,
+      149711340,
+      0,
+      0
+    ],
+    "scripts": 137318200,
+    "layout": 150078680
+  },
+  "PacifidlogTown_PokemonCenter_1F": {
+    "group": 7,
+    "num": 0,
+    "header": 150482904,
+    "events": 149711520,
+    "counts": [
+      5,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149711376,
+      149711496,
+      0,
+      0
+    ],
+    "scripts": 137318378,
+    "layout": 150079180
+  },
+  "PacifidlogTown_PokemonCenter_2F": {
+    "group": 7,
+    "num": 1,
+    "header": 150482932,
+    "events": 149711660,
+    "counts": [
+      4,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149711540,
+      149711636,
+      0,
+      0
+    ],
+    "scripts": 137318638,
+    "layout": 150079496
+  },
+  "PacifidlogTown_House1": {
+    "group": 7,
+    "num": 2,
+    "header": 150482960,
+    "events": 149711744,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149711680,
+      149711728,
+      0,
+      0
+    ],
+    "scripts": 137318677,
+    "layout": 150085144
+  },
+  "PacifidlogTown_House2": {
+    "group": 7,
+    "num": 3,
+    "header": 150482988,
+    "events": 149711852,
+    "counts": [
+      3,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149711764,
+      149711836,
+      0,
+      0
+    ],
+    "scripts": 137318863,
+    "layout": 150085360
+  },
+  "PacifidlogTown_House3": {
+    "group": 7,
+    "num": 4,
+    "header": 150483016,
+    "events": 149711936,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149711872,
+      149711920,
+      0,
+      0
+    ],
+    "scripts": 137319753,
+    "layout": 150085144
+  },
+  "PacifidlogTown_House4": {
+    "group": 7,
+    "num": 5,
+    "header": 150483044,
+    "events": 149712044,
+    "counts": [
+      3,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149711956,
+      149712028,
+      0,
+      0
+    ],
+    "scripts": 137320311,
+    "layout": 150085360
+  },
+  "PacifidlogTown_House5": {
+    "group": 7,
+    "num": 6,
+    "header": 150483072,
+    "events": 149712128,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149712064,
+      149712112,
+      0,
+      0
+    ],
+    "scripts": 137320612,
+    "layout": 150085144
+  },
+  "PetalburgCity_WallysHouse": {
+    "group": 8,
+    "num": 0,
+    "header": 150483100,
+    "events": 149712212,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149712148,
+      149712196,
+      0,
+      0
+    ],
+    "scripts": 137320790,
+    "layout": 150078892
+  },
+  "PetalburgCity_Gym": {
+    "group": 8,
+    "num": 1,
+    "header": 150483128,
+    "events": 149712968,
+    "counts": [
+      11,
+      38,
+      0,
+      14
+    ],
+    "pointers": [
+      149712232,
+      149712496,
+      0,
+      149712800
+    ],
+    "scripts": 137321926,
+    "layout": 150087412
+  },
+  "PetalburgCity_House1": {
+    "group": 8,
+    "num": 2,
+    "header": 150483156,
+    "events": 149713052,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149712988,
+      149713036,
+      0,
+      0
+    ],
+    "scripts": 137330967,
+    "layout": 150078680
+  },
+  "PetalburgCity_House2": {
+    "group": 8,
+    "num": 3,
+    "header": 150483184,
+    "events": 149713136,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149713072,
+      149713120,
+      0,
+      0
+    ],
+    "scripts": 137331185,
+    "layout": 150087608
+  },
+  "PetalburgCity_PokemonCenter_1F": {
+    "group": 8,
+    "num": 4,
+    "header": 150483212,
+    "events": 149713324,
+    "counts": [
+      6,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149713156,
+      149713300,
+      0,
+      0
+    ],
+    "scripts": 137331339,
+    "layout": 150079180
+  },
+  "PetalburgCity_PokemonCenter_2F": {
+    "group": 8,
+    "num": 5,
+    "header": 150483240,
+    "events": 149713464,
+    "counts": [
+      4,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149713344,
+      149713440,
+      0,
+      0
+    ],
+    "scripts": 137331966,
+    "layout": 150079496
+  },
+  "PetalburgCity_Mart": {
+    "group": 8,
+    "num": 6,
+    "header": 150483268,
+    "events": 149713596,
+    "counts": [
+      4,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149713484,
+      149713580,
+      0,
+      0
+    ],
+    "scripts": 137332005,
+    "layout": 150079708
+  },
+  "SlateportCity_SternsShipyard_1F": {
+    "group": 9,
+    "num": 0,
+    "header": 150483296,
+    "events": 149713760,
+    "counts": [
+      5,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149713616,
+      149713736,
+      0,
+      0
+    ],
+    "scripts": 137332369,
+    "layout": 150088276
+  },
+  "SlateportCity_SternsShipyard_2F": {
+    "group": 9,
+    "num": 1,
+    "header": 150483324,
+    "events": 149713860,
+    "counts": [
+      3,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149713780,
+      149713852,
+      0,
+      0
+    ],
+    "scripts": 137333551,
+    "layout": 150088824
+  },
+  "SlateportCity_BattleTentLobby": {
+    "group": 9,
+    "num": 2,
+    "header": 150483352,
+    "events": 149714028,
+    "counts": [
+      5,
+      2,
+      0,
+      1
+    ],
+    "pointers": [
+      149713880,
+      149714000,
+      0,
+      149714016
+    ],
+    "scripts": 137333691,
+    "layout": 150363284
+  },
+  "SlateportCity_BattleTentCorridor": {
+    "group": 9,
+    "num": 3,
+    "header": 150483380,
+    "events": 149714072,
+    "counts": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149714048,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137335210,
+    "layout": 150363400
+  },
+  "SlateportCity_BattleTentBattleRoom": {
+    "group": 9,
+    "num": 4,
+    "header": 150483408,
+    "events": 149714164,
+    "counts": [
+      3,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149714092,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137337317,
+    "layout": 150363616
+  },
+  "SlateportCity_NameRatersHouse": {
+    "group": 9,
+    "num": 5,
+    "header": 150483436,
+    "events": 149714224,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149714184,
+      149714208,
+      0,
+      0
+    ],
+    "scripts": 137337637,
+    "layout": 150087608
+  },
+  "SlateportCity_PokemonFanClub": {
+    "group": 9,
+    "num": 6,
+    "header": 150483464,
+    "events": 149714476,
+    "counts": [
+      9,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149714244,
+      149714460,
+      0,
+      0
+    ],
+    "scripts": 137338373,
+    "layout": 150089248
+  },
+  "SlateportCity_OceanicMuseum_1F": {
+    "group": 9,
+    "num": 7,
+    "header": 150483492,
+    "events": 149715068,
+    "counts": [
+      15,
+      3,
+      2,
+      13
+    ],
+    "pointers": [
+      149714496,
+      149714856,
+      149714880,
+      149714912
+    ],
+    "scripts": 137341104,
+    "layout": 150089644
+  },
+  "SlateportCity_OceanicMuseum_2F": {
+    "group": 9,
+    "num": 8,
+    "header": 150483520,
+    "events": 149715540,
+    "counts": [
+      8,
+      1,
+      0,
+      21
+    ],
+    "pointers": [
+      149715088,
+      149715280,
+      0,
+      149715288
+    ],
+    "scripts": 137343187,
+    "layout": 150090040
+  },
+  "SlateportCity_Harbor": {
+    "group": 9,
+    "num": 9,
+    "header": 150483548,
+    "events": 149715896,
+    "counts": [
+      10,
+      4,
+      4,
+      0
+    ],
+    "pointers": [
+      149715560,
+      149715800,
+      149715832,
+      0
+    ],
+    "scripts": 137345793,
+    "layout": 150090796
+  },
+  "SlateportCity_House": {
+    "group": 9,
+    "num": 10,
+    "header": 150483576,
+    "events": 149715980,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149715916,
+      149715964,
+      0,
+      0
+    ],
+    "scripts": 137348821,
+    "layout": 150078892
+  },
+  "SlateportCity_PokemonCenter_1F": {
+    "group": 9,
+    "num": 11,
+    "header": 150483604,
+    "events": 149716096,
+    "counts": [
+      3,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149716000,
+      149716072,
+      0,
+      0
+    ],
+    "scripts": 137348986,
+    "layout": 150079180
+  },
+  "SlateportCity_PokemonCenter_2F": {
+    "group": 9,
+    "num": 12,
+    "header": 150483632,
+    "events": 149716236,
+    "counts": [
+      4,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149716116,
+      149716212,
+      0,
+      0
+    ],
+    "scripts": 137349244,
+    "layout": 150079496
+  },
+  "SlateportCity_Mart": {
+    "group": 9,
+    "num": 13,
+    "header": 150483660,
+    "events": 149716344,
+    "counts": [
+      3,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149716256,
+      149716328,
+      0,
+      0
+    ],
+    "scripts": 137349283,
+    "layout": 150079708
+  },
+  "MauvilleCity_Gym": {
+    "group": 10,
+    "num": 0,
+    "header": 150483688,
+    "events": 149716636,
+    "counts": [
+      7,
+      2,
+      4,
+      2
+    ],
+    "pointers": [
+      149716364,
+      149716532,
+      149716548,
+      149716612
+    ],
+    "scripts": 137349483,
+    "layout": 150091252
+  },
+  "MauvilleCity_BikeShop": {
+    "group": 10,
+    "num": 1,
+    "header": 150483716,
+    "events": 149716744,
+    "counts": [
+      2,
+      2,
+      0,
+      2
+    ],
+    "pointers": [
+      149716656,
+      149716704,
+      0,
+      149716720
+    ],
+    "scripts": 137352337,
+    "layout": 150091504
+  },
+  "MauvilleCity_House1": {
+    "group": 10,
+    "num": 2,
+    "header": 150483744,
+    "events": 149716804,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149716764,
+      149716788,
+      0,
+      0
+    ],
+    "scripts": 137354743,
+    "layout": 150078892
+  },
+  "MauvilleCity_GameCorner": {
+    "group": 10,
+    "num": 3,
+    "header": 150483772,
+    "events": 149717416,
+    "counts": [
+      12,
+      2,
+      0,
+      24
+    ],
+    "pointers": [
+      149716824,
+      149717112,
+      0,
+      149717128
+    ],
+    "scripts": 137355141,
+    "layout": 150092024
+  },
+  "MauvilleCity_House2": {
+    "group": 10,
+    "num": 4,
+    "header": 150483800,
+    "events": 149717476,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149717436,
+      149717460,
+      0,
+      0
+    ],
+    "scripts": 137358547,
+    "layout": 150078680
+  },
+  "MauvilleCity_PokemonCenter_1F": {
+    "group": 10,
+    "num": 5,
+    "header": 150483828,
+    "events": 149717640,
+    "counts": [
+      5,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149717496,
+      149717616,
+      0,
+      0
+    ],
+    "scripts": 137358942,
+    "layout": 150079180
+  },
+  "MauvilleCity_PokemonCenter_2F": {
+    "group": 10,
+    "num": 6,
+    "header": 150483856,
+    "events": 149717804,
+    "counts": [
+      5,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149717660,
+      149717780,
+      0,
+      0
+    ],
+    "scripts": 137359248,
+    "layout": 150079496
+  },
+  "MauvilleCity_Mart": {
+    "group": 10,
+    "num": 7,
+    "header": 150483884,
+    "events": 149717912,
+    "counts": [
+      3,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149717824,
+      149717896,
+      0,
+      0
+    ],
+    "scripts": 137359417,
+    "layout": 150079708
+  },
+  "RustboroCity_DevonCorp_1F": {
+    "group": 11,
+    "num": 0,
+    "header": 150483912,
+    "events": 149718100,
+    "counts": [
+      5,
+      3,
+      0,
+      2
+    ],
+    "pointers": [
+      149717932,
+      149718052,
+      0,
+      149718076
+    ],
+    "scripts": 137359671,
+    "layout": 150092404
+  },
+  "RustboroCity_DevonCorp_2F": {
+    "group": 11,
+    "num": 1,
+    "header": 150483940,
+    "events": 149718280,
+    "counts": [
+      6,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149718120,
+      149718264,
+      0,
+      0
+    ],
+    "scripts": 137360870,
+    "layout": 150092784
+  },
+  "RustboroCity_DevonCorp_3F": {
+    "group": 11,
+    "num": 2,
+    "header": 150483968,
+    "events": 149718404,
+    "counts": [
+      3,
+      1,
+      0,
+      2
+    ],
+    "pointers": [
+      149718300,
+      149718372,
+      0,
+      149718380
+    ],
+    "scripts": 137363031,
+    "layout": 150236736
+  },
+  "RustboroCity_Gym": {
+    "group": 11,
+    "num": 3,
+    "header": 150483996,
+    "events": 149718584,
+    "counts": [
+      5,
+      2,
+      0,
+      2
+    ],
+    "pointers": [
+      149718424,
+      149718544,
+      0,
+      149718560
+    ],
+    "scripts": 137364925,
+    "layout": 150093260
+  },
+  "RustboroCity_PokemonSchool": {
+    "group": 11,
+    "num": 4,
+    "header": 150484024,
+    "events": 149718872,
+    "counts": [
+      8,
+      2,
+      0,
+      5
+    ],
+    "pointers": [
+      149718604,
+      149718796,
+      0,
+      149718812
+    ],
+    "scripts": 137367726,
+    "layout": 150093560
+  },
+  "RustboroCity_PokemonCenter_1F": {
+    "group": 11,
+    "num": 5,
+    "header": 150484052,
+    "events": 149719012,
+    "counts": [
+      4,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149718892,
+      149718988,
+      0,
+      0
+    ],
+    "scripts": 137370800,
+    "layout": 150079180
+  },
+  "RustboroCity_PokemonCenter_2F": {
+    "group": 11,
+    "num": 6,
+    "header": 150484080,
+    "events": 149719152,
+    "counts": [
+      4,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149719032,
+      149719128,
+      0,
+      0
+    ],
+    "scripts": 137371064,
+    "layout": 150079496
+  },
+  "RustboroCity_Mart": {
+    "group": 11,
+    "num": 7,
+    "header": 150484108,
+    "events": 149719284,
+    "counts": [
+      4,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149719172,
+      149719268,
+      0,
+      0
+    ],
+    "scripts": 137371103,
+    "layout": 150079708
+  },
+  "RustboroCity_Flat1_1F": {
+    "group": 11,
+    "num": 8,
+    "header": 150484136,
+    "events": 149719376,
+    "counts": [
+      2,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149719304,
+      149719352,
+      0,
+      0
+    ],
+    "scripts": 137371431,
+    "layout": 150290440
+  },
+  "RustboroCity_Flat1_2F": {
+    "group": 11,
+    "num": 9,
+    "header": 150484164,
+    "events": 149719596,
+    "counts": [
+      8,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149719396,
+      149719588,
+      0,
+      0
+    ],
+    "scripts": 137371509,
+    "layout": 150290700
+  },
+  "RustboroCity_House1": {
+    "group": 11,
+    "num": 10,
+    "header": 150484192,
+    "events": 149719680,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149719616,
+      149719664,
+      0,
+      0
+    ],
+    "scripts": 137372829,
+    "layout": 150094056
+  },
+  "RustboroCity_CuttersHouse": {
+    "group": 11,
+    "num": 11,
+    "header": 150484220,
+    "events": 149719764,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149719700,
+      149719748,
+      0,
+      0
+    ],
+    "scripts": 137373302,
+    "layout": 150094292
+  },
+  "RustboroCity_House2": {
+    "group": 11,
+    "num": 12,
+    "header": 150484248,
+    "events": 149719848,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149719784,
+      149719832,
+      0,
+      0
+    ],
+    "scripts": 137373808,
+    "layout": 150093812
+  },
+  "RustboroCity_Flat2_1F": {
+    "group": 11,
+    "num": 13,
+    "header": 150484276,
+    "events": 149719940,
+    "counts": [
+      2,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149719868,
+      149719916,
+      0,
+      0
+    ],
+    "scripts": 137373938,
+    "layout": 150275812
+  },
+  "RustboroCity_Flat2_2F": {
+    "group": 11,
+    "num": 14,
+    "header": 150484304,
+    "events": 149720024,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149719960,
+      149720008,
+      0,
+      0
+    ],
+    "scripts": 137374011,
+    "layout": 150276100
+  },
+  "RustboroCity_Flat2_3F": {
+    "group": 11,
+    "num": 15,
+    "header": 150484332,
+    "events": 149720100,
+    "counts": [
+      2,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149720044,
+      149720092,
+      0,
+      0
+    ],
+    "scripts": 137374219,
+    "layout": 150276388
+  },
+  "RustboroCity_House3": {
+    "group": 11,
+    "num": 16,
+    "header": 150484360,
+    "events": 149720208,
+    "counts": [
+      3,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149720120,
+      149720192,
+      0,
+      0
+    ],
+    "scripts": 137374304,
+    "layout": 150093812
+  },
+  "FortreeCity_House1": {
+    "group": 12,
+    "num": 0,
+    "header": 150484388,
+    "events": 149720328,
+    "counts": [
+      3,
+      2,
+      0,
+      1
+    ],
+    "pointers": [
+      149720228,
+      149720300,
+      0,
+      149720316
+    ],
+    "scripts": 137374487,
+    "layout": 150094424
+  },
+  "FortreeCity_Gym": {
+    "group": 12,
+    "num": 1,
+    "header": 150484416,
+    "events": 149720580,
+    "counts": [
+      8,
+      2,
+      0,
+      2
+    ],
+    "pointers": [
+      149720348,
+      149720540,
+      0,
+      149720556
+    ],
+    "scripts": 137375062,
+    "layout": 150095460
+  },
+  "FortreeCity_PokemonCenter_1F": {
+    "group": 12,
+    "num": 2,
+    "header": 150484444,
+    "events": 149720720,
+    "counts": [
+      4,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149720600,
+      149720696,
+      0,
+      0
+    ],
+    "scripts": 137377755,
+    "layout": 150079180
+  },
+  "FortreeCity_PokemonCenter_2F": {
+    "group": 12,
+    "num": 3,
+    "header": 150484472,
+    "events": 149720860,
+    "counts": [
+      4,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149720740,
+      149720836,
+      0,
+      0
+    ],
+    "scripts": 137378137,
+    "layout": 150079496
+  },
+  "FortreeCity_Mart": {
+    "group": 12,
+    "num": 4,
+    "header": 150484500,
+    "events": 149720992,
+    "counts": [
+      4,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149720880,
+      149720976,
+      0,
+      0
+    ],
+    "scripts": 137378176,
+    "layout": 150079708
+  },
+  "FortreeCity_House2": {
+    "group": 12,
+    "num": 5,
+    "header": 150484528,
+    "events": 149721076,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149721012,
+      149721060,
+      0,
+      0
+    ],
+    "scripts": 137378429,
+    "layout": 150095592
+  },
+  "FortreeCity_House3": {
+    "group": 12,
+    "num": 6,
+    "header": 150484556,
+    "events": 149721160,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149721096,
+      149721144,
+      0,
+      0
+    ],
+    "scripts": 137379033,
+    "layout": 150094424
+  },
+  "FortreeCity_House4": {
+    "group": 12,
+    "num": 7,
+    "header": 150484584,
+    "events": 149721268,
+    "counts": [
+      3,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149721180,
+      149721252,
+      0,
+      0
+    ],
+    "scripts": 137379283,
+    "layout": 150095592
+  },
+  "FortreeCity_House5": {
+    "group": 12,
+    "num": 8,
+    "header": 150484612,
+    "events": 149721376,
+    "counts": [
+      3,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149721288,
+      149721360,
+      0,
+      0
+    ],
+    "scripts": 137379773,
+    "layout": 150094424
+  },
+  "FortreeCity_DecorationShop": {
+    "group": 12,
+    "num": 9,
+    "header": 150484640,
+    "events": 149721508,
+    "counts": [
+      4,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149721396,
+      149721492,
+      0,
+      0
+    ],
+    "scripts": 137379956,
+    "layout": 150218448
+  },
+  "LilycoveCity_CoveLilyMotel_1F": {
+    "group": 13,
+    "num": 0,
+    "header": 150484668,
+    "events": 149721640,
+    "counts": [
+      3,
+      3,
+      1,
+      0
+    ],
+    "pointers": [
+      149721528,
+      149721600,
+      149721624,
+      0
+    ],
+    "scripts": 137380239,
+    "layout": 150277336
+  },
+  "LilycoveCity_CoveLilyMotel_2F": {
+    "group": 13,
+    "num": 1,
+    "header": 150484696,
+    "events": 149721908,
+    "counts": [
+      10,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149721660,
+      149721900,
+      0,
+      0
+    ],
+    "scripts": 137381175,
+    "layout": 150277588
+  },
+  "LilycoveCity_LilycoveMuseum_1F": {
+    "group": 13,
+    "num": 2,
+    "header": 150484724,
+    "events": 149722408,
+    "counts": [
+      11,
+      3,
+      0,
+      16
+    ],
+    "pointers": [
+      149721928,
+      149722192,
+      0,
+      149722216
+    ],
+    "scripts": 137382284,
+    "layout": 150096468
+  },
+  "LilycoveCity_LilycoveMuseum_2F": {
+    "group": 13,
+    "num": 3,
+    "header": 150484752,
+    "events": 149722700,
+    "counts": [
+      5,
+      1,
+      0,
+      12
+    ],
+    "pointers": [
+      149722428,
+      149722548,
+      0,
+      149722556
+    ],
+    "scripts": 137384027,
+    "layout": 150097076
+  },
+  "LilycoveCity_ContestLobby": {
+    "group": 13,
+    "num": 4,
+    "header": 150484780,
+    "events": 149723568,
+    "counts": [
+      28,
+      4,
+      0,
+      12
+    ],
+    "pointers": [
+      149722720,
+      149723392,
+      0,
+      149723424
+    ],
+    "scripts": 137385881,
+    "layout": 150097856
+  },
+  "LilycoveCity_ContestHall": {
+    "group": 13,
+    "num": 5,
+    "header": 150484808,
+    "events": 149724460,
+    "counts": [
+      32,
+      4,
+      0,
+      6
+    ],
+    "pointers": [
+      149723588,
+      149724356,
+      0,
+      149724388
+    ],
+    "scripts": 137389895,
+    "layout": 150101260
+  },
+  "LilycoveCity_PokemonCenter_1F": {
+    "group": 13,
+    "num": 6,
+    "header": 150484836,
+    "events": 149724624,
+    "counts": [
+      5,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149724480,
+      149724600,
+      0,
+      0
+    ],
+    "scripts": 137392997,
+    "layout": 150079180
+  },
+  "LilycoveCity_PokemonCenter_2F": {
+    "group": 13,
+    "num": 7,
+    "header": 150484864,
+    "events": 149724764,
+    "counts": [
+      4,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149724644,
+      149724740,
+      0,
+      0
+    ],
+    "scripts": 137393269,
+    "layout": 150079496
+  },
+  "LilycoveCity_UnusedMart": {
+    "group": 13,
+    "num": 8,
+    "header": 150484892,
+    "events": 149724800,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149724784,
+      0,
+      0
+    ],
+    "scripts": 137393308,
+    "layout": 150079708
+  },
+  "LilycoveCity_PokemonTrainerFanClub": {
+    "group": 13,
+    "num": 9,
+    "header": 150484920,
+    "events": 149725052,
+    "counts": [
+      9,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149724820,
+      149725036,
+      0,
+      0
+    ],
+    "scripts": 137393309,
+    "layout": 150101632
+  },
+  "LilycoveCity_Harbor": {
+    "group": 13,
+    "num": 10,
+    "header": 150484948,
+    "events": 149725340,
+    "counts": [
+      10,
+      2,
+      0,
+      1
+    ],
+    "pointers": [
+      149725072,
+      149725312,
+      0,
+      149725328
+    ],
+    "scripts": 137397867,
+    "layout": 150090796
+  },
+  "LilycoveCity_MoveDeletersHouse": {
+    "group": 13,
+    "num": 11,
+    "header": 150484976,
+    "events": 149725400,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149725360,
+      149725384,
+      0,
+      0
+    ],
+    "scripts": 137400086,
+    "layout": 150078892
+  },
+  "LilycoveCity_House1": {
+    "group": 13,
+    "num": 12,
+    "header": 150485004,
+    "events": 149725484,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149725420,
+      149725468,
+      0,
+      0
+    ],
+    "scripts": 137400642,
+    "layout": 150078680
+  },
+  "LilycoveCity_House2": {
+    "group": 13,
+    "num": 13,
+    "header": 150485032,
+    "events": 149725544,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149725504,
+      149725528,
+      0,
+      0
+    ],
+    "scripts": 137400749,
+    "layout": 150084580
+  },
+  "LilycoveCity_House3": {
+    "group": 13,
+    "num": 14,
+    "header": 150485060,
+    "events": 149725724,
+    "counts": [
+      6,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149725564,
+      149725708,
+      0,
+      0
+    ],
+    "scripts": 137400900,
+    "layout": 150078892
+  },
+  "LilycoveCity_House4": {
+    "group": 13,
+    "num": 15,
+    "header": 150485088,
+    "events": 149725808,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149725744,
+      149725792,
+      0,
+      0
+    ],
+    "scripts": 137402325,
+    "layout": 150078680
+  },
+  "LilycoveCity_DepartmentStore_1F": {
+    "group": 13,
+    "num": 16,
+    "header": 150485116,
+    "events": 149726088,
+    "counts": [
+      9,
+      4,
+      0,
+      1
+    ],
+    "pointers": [
+      149725828,
+      149726044,
+      0,
+      149726076
+    ],
+    "scripts": 137402460,
+    "layout": 150218988
+  },
+  "LilycoveCity_DepartmentStore_2F": {
+    "group": 13,
+    "num": 17,
+    "header": 150485144,
+    "events": 149726348,
+    "counts": [
+      9,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149726108,
+      149726324,
+      0,
+      0
+    ],
+    "scripts": 137403376,
+    "layout": 150219312
+  },
+  "LilycoveCity_DepartmentStore_3F": {
+    "group": 13,
+    "num": 18,
+    "header": 150485172,
+    "events": 149726716,
+    "counts": [
+      13,
+      3,
+      0,
+      1
+    ],
+    "pointers": [
+      149726368,
+      149726680,
+      0,
+      149726704
+    ],
+    "scripts": 137403642,
+    "layout": 150219636
+  },
+  "LilycoveCity_DepartmentStore_4F": {
+    "group": 13,
+    "num": 19,
+    "header": 150485200,
+    "events": 149726928,
+    "counts": [
+      7,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149726736,
+      149726904,
+      0,
+      0
+    ],
+    "scripts": 137403961,
+    "layout": 150219960
+  },
+  "LilycoveCity_DepartmentStore_5F": {
+    "group": 13,
+    "num": 20,
+    "header": 150485228,
+    "events": 149727188,
+    "counts": [
+      9,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149726948,
+      149727164,
+      0,
+      0
+    ],
+    "scripts": 137404244,
+    "layout": 150220284
+  },
+  "LilycoveCity_DepartmentStoreRooftop": {
+    "group": 13,
+    "num": 21,
+    "header": 150485256,
+    "events": 149727384,
+    "counts": [
+      6,
+      1,
+      0,
+      2
+    ],
+    "pointers": [
+      149727208,
+      149727352,
+      0,
+      149727360
+    ],
+    "scripts": 137404781,
+    "layout": 150220752
+  },
+  "LilycoveCity_DepartmentStoreElevator": {
+    "group": 13,
+    "num": 22,
+    "header": 150485284,
+    "events": 149727444,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149727404,
+      149727428,
+      0,
+      0
+    ],
+    "scripts": 137405642,
+    "layout": 150238356
+  },
+  "LilycoveCity_SeasideAvenue": {
+    "group": 13,
+    "num": 23,
+    "header": 150485312,
+    "events": 149727928,
+    "counts": [
+      17,
+      1,
+      0,
+      4
+    ],
+    "pointers": [
+      149727464,
+      149727872,
+      0,
+      149727880
+    ],
+    "scripts": 137996313,
+    "layout": 150456400
+  },
+  "ArcheCampus": {
+    "group": 13,
+    "num": 24,
+    "header": 150485340,
+    "events": 149728700,
+    "counts": [
+      20,
+      13,
+      0,
+      14
+    ],
+    "pointers": [
+      149727948,
+      149728428,
+      0,
+      149728532
+    ],
+    "scripts": 137996314,
+    "layout": 150464500
+  },
+  "ArcheCampus_TrainingHall": {
+    "group": 13,
+    "num": 25,
+    "header": 150485368,
+    "events": 149729024,
+    "counts": [
+      9,
+      2,
+      0,
+      6
+    ],
+    "pointers": [
+      149728720,
+      149728936,
+      0,
+      149728952
+    ],
+    "scripts": 137996315,
+    "layout": 150472368
+  },
+  "ArcheCampus_Apartment": {
+    "group": 13,
+    "num": 26,
+    "header": 150485396,
+    "events": 149729324,
+    "counts": [
+      8,
+      2,
+      0,
+      6
+    ],
+    "pointers": [
+      149729044,
+      149729236,
+      0,
+      149729252
+    ],
+    "scripts": 137996327,
+    "layout": 150475484
+  },
+  "ArcheCampus_Mart": {
+    "group": 13,
+    "num": 27,
+    "header": 150485424,
+    "events": 149729408,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149729344,
+      149729392,
+      0,
+      0
+    ],
+    "scripts": 137996348,
+    "layout": 150079708
+  },
+  "ArcheCampus_PokemonCenter_1F": {
+    "group": 13,
+    "num": 28,
+    "header": 150485452,
+    "events": 149729564,
+    "counts": [
+      5,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149729428,
+      149729548,
+      0,
+      0
+    ],
+    "scripts": 137996349,
+    "layout": 150079180
+  },
+  "ArcheCampus_ExchangeHall": {
+    "group": 13,
+    "num": 29,
+    "header": 150485480,
+    "events": 149730068,
+    "counts": [
+      11,
+      2,
+      0,
+      17
+    ],
+    "pointers": [
+      149729584,
+      149729848,
+      0,
+      149729864
+    ],
+    "scripts": 137996360,
+    "layout": 150474460
+  },
+  "ArcheCampus_HQ_1F": {
+    "group": 13,
+    "num": 30,
+    "header": 150485508,
+    "events": 149730556,
+    "counts": [
+      13,
+      3,
+      0,
+      11
+    ],
+    "pointers": [
+      149730088,
+      149730400,
+      0,
+      149730424
+    ],
+    "scripts": 137996361,
+    "layout": 150473156
+  },
+  "ArcheCampus_SeasideHouse": {
+    "group": 13,
+    "num": 31,
+    "header": 150485536,
+    "events": 149730664,
+    "counts": [
+      3,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149730576,
+      149730648,
+      0,
+      0
+    ],
+    "scripts": 137996393,
+    "layout": 150476928
+  },
+  "ArcheCampus_Logistics": {
+    "group": 13,
+    "num": 32,
+    "header": 150485564,
+    "events": 149731020,
+    "counts": [
+      7,
+      3,
+      0,
+      12
+    ],
+    "pointers": [
+      149730684,
+      149730852,
+      0,
+      149730876
+    ],
+    "scripts": 137996394,
+    "layout": 150476136
+  },
+  "ArcheCampus_House": {
+    "group": 13,
+    "num": 33,
+    "header": 150485592,
+    "events": 149731104,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149731040,
+      149731088,
+      0,
+      0
+    ],
+    "scripts": 137996395,
+    "layout": 150476388
+  },
+  "ArcheCampus_Cafe": {
+    "group": 13,
+    "num": 34,
+    "header": 150485620,
+    "events": 149731356,
+    "counts": [
+      8,
+      2,
+      0,
+      2
+    ],
+    "pointers": [
+      149731124,
+      149731316,
+      0,
+      149731332
+    ],
+    "scripts": 137996396,
+    "layout": 150475016
+  },
+  "ArcheCampus_FamilyHouse": {
+    "group": 13,
+    "num": 35,
+    "header": 150485648,
+    "events": 149731464,
+    "counts": [
+      3,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149731376,
+      149731448,
+      0,
+      0
+    ],
+    "scripts": 137996397,
+    "layout": 150476676
+  },
+  "ArcheCampus_HQ_2F": {
+    "group": 13,
+    "num": 36,
+    "header": 150485676,
+    "events": 149731948,
+    "counts": [
+      11,
+      1,
+      0,
+      16
+    ],
+    "pointers": [
+      149731484,
+      149731748,
+      0,
+      149731756
+    ],
+    "scripts": 137996398,
+    "layout": 150473852
+  },
+  "MossdeepCity_Gym": {
+    "group": 14,
+    "num": 0,
+    "header": 150485704,
+    "events": 149733112,
+    "counts": [
+      36,
+      14,
+      9,
+      2
+    ],
+    "pointers": [
+      149731968,
+      149732832,
+      149732944,
+      149733088
+    ],
+    "scripts": 137406119,
+    "layout": 150103540
+  },
+  "MossdeepCity_House1": {
+    "group": 14,
+    "num": 1,
+    "header": 150485732,
+    "events": 149733196,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149733132,
+      149733180,
+      0,
+      0
+    ],
+    "scripts": 137410883,
+    "layout": 150078892
+  },
+  "MossdeepCity_House2": {
+    "group": 14,
+    "num": 2,
+    "header": 150485760,
+    "events": 149733304,
+    "counts": [
+      3,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149733216,
+      149733288,
+      0,
+      0
+    ],
+    "scripts": 137411077,
+    "layout": 150078680
+  },
+  "MossdeepCity_PokemonCenter_1F": {
+    "group": 14,
+    "num": 3,
+    "header": 150485788,
+    "events": 149733444,
+    "counts": [
+      4,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149733324,
+      149733420,
+      0,
+      0
+    ],
+    "scripts": 137411350,
+    "layout": 150079180
+  },
+  "MossdeepCity_PokemonCenter_2F": {
+    "group": 14,
+    "num": 4,
+    "header": 150485816,
+    "events": 149733608,
+    "counts": [
+      5,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149733464,
+      149733584,
+      0,
+      0
+    ],
+    "scripts": 137411525,
+    "layout": 150079496
+  },
+  "MossdeepCity_Mart": {
+    "group": 14,
+    "num": 5,
+    "header": 150485844,
+    "events": 149733740,
+    "counts": [
+      4,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149733628,
+      149733724,
+      0,
+      0
+    ],
+    "scripts": 137411629,
+    "layout": 150079708
+  },
+  "MossdeepCity_House3": {
+    "group": 14,
+    "num": 6,
+    "header": 150485872,
+    "events": 149733800,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149733760,
+      149733784,
+      0,
+      0
+    ],
+    "scripts": 137411988,
+    "layout": 150078892
+  },
+  "MossdeepCity_StevensHouse": {
+    "group": 14,
+    "num": 7,
+    "header": 150485900,
+    "events": 149733956,
+    "counts": [
+      3,
+      2,
+      0,
+      4
+    ],
+    "pointers": [
+      149733820,
+      149733892,
+      0,
+      149733908
+    ],
+    "scripts": 137412313,
+    "layout": 150309168
+  },
+  "MossdeepCity_House4": {
+    "group": 14,
+    "num": 8,
+    "header": 150485928,
+    "events": 149734064,
+    "counts": [
+      3,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149733976,
+      149734048,
+      0,
+      0
+    ],
+    "scripts": 137413369,
+    "layout": 150087608
+  },
+  "MossdeepCity_SpaceCenter_1F": {
+    "group": 14,
+    "num": 9,
+    "header": 150485956,
+    "events": 149734528,
+    "counts": [
+      16,
+      3,
+      0,
+      3
+    ],
+    "pointers": [
+      149734084,
+      149734468,
+      0,
+      149734492
+    ],
+    "scripts": 137413613,
+    "layout": 150251548
+  },
+  "MossdeepCity_SpaceCenter_2F": {
+    "group": 14,
+    "num": 10,
+    "header": 150485984,
+    "events": 149734772,
+    "counts": [
+      9,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149734548,
+      149734764,
+      0,
+      0
+    ],
+    "scripts": 137416265,
+    "layout": 150251904
+  },
+  "MossdeepCity_GameCorner_1F": {
+    "group": 14,
+    "num": 11,
+    "header": 150486012,
+    "events": 149734900,
+    "counts": [
+      2,
+      3,
+      0,
+      3
+    ],
+    "pointers": [
+      149734792,
+      149734840,
+      0,
+      149734864
+    ],
+    "scripts": 137418933,
+    "layout": 150286732
+  },
+  "MossdeepCity_GameCorner_B1F": {
+    "group": 14,
+    "num": 12,
+    "header": 150486040,
+    "events": 149734952,
+    "counts": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149734920,
+      149734944,
+      0,
+      0
+    ],
+    "scripts": 137419458,
+    "layout": 150286984
+  },
+  "SootopolisCity_Gym_1F": {
+    "group": 15,
+    "num": 0,
+    "header": 150486068,
+    "events": 149735068,
+    "counts": [
+      2,
+      3,
+      0,
+      2
+    ],
+    "pointers": [
+      149734972,
+      149735020,
+      0,
+      149735044
+    ],
+    "scripts": 137419459,
+    "layout": 150104460
+  },
+  "SootopolisCity_Gym_B1F": {
+    "group": 15,
+    "num": 1,
+    "header": 150486096,
+    "events": 149735336,
+    "counts": [
+      10,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149735088,
+      149735328,
+      0,
+      0
+    ],
+    "scripts": 137421873,
+    "layout": 150105380
+  },
+  "SootopolisCity_PokemonCenter_1F": {
+    "group": 15,
+    "num": 2,
+    "header": 150486124,
+    "events": 149735476,
+    "counts": [
+      4,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149735356,
+      149735452,
+      0,
+      0
+    ],
+    "scripts": 137423534,
+    "layout": 150079180
+  },
+  "SootopolisCity_PokemonCenter_2F": {
+    "group": 15,
+    "num": 3,
+    "header": 150486152,
+    "events": 149735616,
+    "counts": [
+      4,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149735496,
+      149735592,
+      0,
+      0
+    ],
+    "scripts": 137423963,
+    "layout": 150079496
+  },
+  "SootopolisCity_Mart": {
+    "group": 15,
+    "num": 4,
+    "header": 150486180,
+    "events": 149735724,
+    "counts": [
+      3,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149735636,
+      149735708,
+      0,
+      0
+    ],
+    "scripts": 137424002,
+    "layout": 150079708
+  },
+  "SootopolisCity_House1": {
+    "group": 15,
+    "num": 5,
+    "header": 150486208,
+    "events": 149735808,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149735744,
+      149735792,
+      0,
+      0
+    ],
+    "scripts": 137424317,
+    "layout": 150287132
+  },
+  "SootopolisCity_House2": {
+    "group": 15,
+    "num": 6,
+    "header": 150486236,
+    "events": 149735868,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149735828,
+      149735852,
+      0,
+      0
+    ],
+    "scripts": 137424540,
+    "layout": 150287280
+  },
+  "SootopolisCity_House3": {
+    "group": 15,
+    "num": 7,
+    "header": 150486264,
+    "events": 149735952,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149735888,
+      149735936,
+      0,
+      0
+    ],
+    "scripts": 137424717,
+    "layout": 150287428
+  },
+  "SootopolisCity_House4": {
+    "group": 15,
+    "num": 8,
+    "header": 150486292,
+    "events": 149736060,
+    "counts": [
+      3,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149735972,
+      149736044,
+      0,
+      0
+    ],
+    "scripts": 137425034,
+    "layout": 150287132
+  },
+  "SootopolisCity_House5": {
+    "group": 15,
+    "num": 9,
+    "header": 150486320,
+    "events": 149736144,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149736080,
+      149736128,
+      0,
+      0
+    ],
+    "scripts": 137425261,
+    "layout": 150287280
+  },
+  "SootopolisCity_House6": {
+    "group": 15,
+    "num": 10,
+    "header": 150486348,
+    "events": 149736204,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149736164,
+      149736188,
+      0,
+      0
+    ],
+    "scripts": 137425390,
+    "layout": 150287428
+  },
+  "SootopolisCity_House7": {
+    "group": 15,
+    "num": 11,
+    "header": 150486376,
+    "events": 149736288,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149736224,
+      149736272,
+      0,
+      0
+    ],
+    "scripts": 137425661,
+    "layout": 150287132
+  },
+  "SootopolisCity_LotadAndSeedotHouse": {
+    "group": 15,
+    "num": 12,
+    "header": 150486404,
+    "events": 149736396,
+    "counts": [
+      2,
+      2,
+      0,
+      2
+    ],
+    "pointers": [
+      149736308,
+      149736356,
+      0,
+      149736372
+    ],
+    "scripts": 137425848,
+    "layout": 150276536
+  },
+  "SootopolisCity_MysteryEventsHouse_1F": {
+    "group": 15,
+    "num": 13,
+    "header": 150486432,
+    "events": 149736464,
+    "counts": [
+      1,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149736416,
+      149736440,
+      0,
+      0
+    ],
+    "scripts": 137427199,
+    "layout": 150452576
+  },
+  "SootopolisCity_MysteryEventsHouse_B1F": {
+    "group": 15,
+    "num": 14,
+    "header": 150486460,
+    "events": 149736516,
+    "counts": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149736484,
+      149736508,
+      0,
+      0
+    ],
+    "scripts": 137428192,
+    "layout": 150452828
+  },
+  "EverGrandeCity_SidneysRoom": {
+    "group": 16,
+    "num": 0,
+    "header": 150486488,
+    "events": 149736576,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149736536,
+      149736560,
+      0,
+      0
+    ],
+    "scripts": 137428370,
+    "layout": 150105780
+  },
+  "EverGrandeCity_PhoebesRoom": {
+    "group": 16,
+    "num": 1,
+    "header": 150486516,
+    "events": 149736636,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149736596,
+      149736620,
+      0,
+      0
+    ],
+    "scripts": 137428792,
+    "layout": 150106180
+  },
+  "EverGrandeCity_GlaciasRoom": {
+    "group": 16,
+    "num": 2,
+    "header": 150486544,
+    "events": 149736696,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149736656,
+      149736680,
+      0,
+      0
+    ],
+    "scripts": 137429327,
+    "layout": 150106580
+  },
+  "EverGrandeCity_DrakesRoom": {
+    "group": 16,
+    "num": 3,
+    "header": 150486572,
+    "events": 149736756,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149736716,
+      149736740,
+      0,
+      0
+    ],
+    "scripts": 137429856,
+    "layout": 150106980
+  },
+  "EverGrandeCity_ChampionsRoom": {
+    "group": 16,
+    "num": 4,
+    "header": 150486600,
+    "events": 149736864,
+    "counts": [
+      3,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149736776,
+      149736848,
+      0,
+      0
+    ],
+    "scripts": 137430594,
+    "layout": 150107356
+  },
+  "EverGrandeCity_Hall1": {
+    "group": 16,
+    "num": 5,
+    "header": 150486628,
+    "events": 149736916,
+    "counts": [
+      0,
+      4,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149736884,
+      0,
+      0
+    ],
+    "scripts": 137432173,
+    "layout": 150107680
+  },
+  "EverGrandeCity_Hall2": {
+    "group": 16,
+    "num": 6,
+    "header": 150486656,
+    "events": 149736968,
+    "counts": [
+      0,
+      4,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149736936,
+      0,
+      0
+    ],
+    "scripts": 137432194,
+    "layout": 150107680
+  },
+  "EverGrandeCity_Hall3": {
+    "group": 16,
+    "num": 7,
+    "header": 150486684,
+    "events": 149737020,
+    "counts": [
+      0,
+      4,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149736988,
+      0,
+      0
+    ],
+    "scripts": 137432215,
+    "layout": 150107680
+  },
+  "EverGrandeCity_Hall4": {
+    "group": 16,
+    "num": 8,
+    "header": 150486712,
+    "events": 149737056,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149737040,
+      0,
+      0
+    ],
+    "scripts": 137432236,
+    "layout": 150291484
+  },
+  "EverGrandeCity_Hall5": {
+    "group": 16,
+    "num": 9,
+    "header": 150486740,
+    "events": 149737108,
+    "counts": [
+      0,
+      4,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149737076,
+      0,
+      0
+    ],
+    "scripts": 137432257,
+    "layout": 150107680
+  },
+  "EverGrandeCity_PokemonLeague_1F": {
+    "group": 16,
+    "num": 10,
+    "header": 150486768,
+    "events": 149737288,
+    "counts": [
+      5,
+      5,
+      0,
+      0
+    ],
+    "pointers": [
+      149737128,
+      149737248,
+      0,
+      0
+    ],
+    "scripts": 137432278,
+    "layout": 150237228
+  },
+  "EverGrandeCity_HallOfFame": {
+    "group": 16,
+    "num": 11,
+    "header": 150486796,
+    "events": 149737340,
+    "counts": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149737308,
+      149737332,
+      0,
+      0
+    ],
+    "scripts": 137432764,
+    "layout": 150277084
+  },
+  "EverGrandeCity_PokemonCenter_1F": {
+    "group": 16,
+    "num": 12,
+    "header": 150486824,
+    "events": 149737552,
+    "counts": [
+      7,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149737360,
+      149737528,
+      0,
+      0
+    ],
+    "scripts": 137433172,
+    "layout": 150079180
+  },
+  "EverGrandeCity_PokemonCenter_2F": {
+    "group": 16,
+    "num": 13,
+    "header": 150486852,
+    "events": 149737692,
+    "counts": [
+      4,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149737572,
+      149737668,
+      0,
+      0
+    ],
+    "scripts": 137433658,
+    "layout": 150079496
+  },
+  "EverGrandeCity_PokemonLeague_2F": {
+    "group": 16,
+    "num": 14,
+    "header": 150486880,
+    "events": 149737832,
+    "counts": [
+      4,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149737712,
+      149737808,
+      0,
+      0
+    ],
+    "scripts": 137433697,
+    "layout": 150079496
+  },
+  "Route104_MrBrineysHouse": {
+    "group": 17,
+    "num": 0,
+    "header": 150486908,
+    "events": 149737928,
+    "counts": [
+      2,
+      2,
+      0,
+      1
+    ],
+    "pointers": [
+      149737852,
+      149737900,
+      0,
+      149737916
+    ],
+    "scripts": 137433736,
+    "layout": 150095844
+  },
+  "Route104_PrettyPetalFlowerShop": {
+    "group": 17,
+    "num": 1,
+    "header": 150486936,
+    "events": 149738060,
+    "counts": [
+      4,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149737948,
+      149738044,
+      0,
+      0
+    ],
+    "scripts": 137434844,
+    "layout": 150107988
+  },
+  "Route111_WinstrateFamilysHouse": {
+    "group": 18,
+    "num": 0,
+    "header": 150486964,
+    "events": 149738192,
+    "counts": [
+      4,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149738080,
+      149738176,
+      0,
+      0
+    ],
+    "scripts": 137435567,
+    "layout": 150078892
+  },
+  "Route111_OldLadysRestStop": {
+    "group": 18,
+    "num": 1,
+    "header": 150486992,
+    "events": 149738252,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149738212,
+      149738236,
+      0,
+      0
+    ],
+    "scripts": 137436321,
+    "layout": 150079904
+  },
+  "Route112_CableCarStation": {
+    "group": 19,
+    "num": 0,
+    "header": 150487020,
+    "events": 149738360,
+    "counts": [
+      3,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149738272,
+      149738344,
+      0,
+      0
+    ],
+    "scripts": 137436627,
+    "layout": 150108336
+  },
+  "MtChimney_CableCarStation": {
+    "group": 19,
+    "num": 1,
+    "header": 150487048,
+    "events": 149738444,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149738380,
+      149738428,
+      0,
+      0
+    ],
+    "scripts": 137437066,
+    "layout": 150108336
+  },
+  "Route114_FossilManiacsHouse": {
+    "group": 20,
+    "num": 0,
+    "header": 150487076,
+    "events": 149738560,
+    "counts": [
+      1,
+      3,
+      0,
+      4
+    ],
+    "pointers": [
+      149738464,
+      149738488,
+      0,
+      149738512
+    ],
+    "scripts": 137437309,
+    "layout": 150108532
+  },
+  "Route114_FossilManiacsTunnel": {
+    "group": 20,
+    "num": 1,
+    "header": 150487104,
+    "events": 149738660,
+    "counts": [
+      1,
+      3,
+      2,
+      0
+    ],
+    "pointers": [
+      149738580,
+      149738604,
+      149738628,
+      0
+    ],
+    "scripts": 137437660,
+    "layout": 150109244
+  },
+  "Route114_LanettesHouse": {
+    "group": 20,
+    "num": 2,
+    "header": 150487132,
+    "events": 149738756,
+    "counts": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "pointers": [
+      149738680,
+      149738704,
+      0,
+      149738720
+    ],
+    "scripts": 137438295,
+    "layout": 150109456
+  },
+  "Route116_TunnelersRestHouse": {
+    "group": 21,
+    "num": 0,
+    "header": 150487160,
+    "events": 149738864,
+    "counts": [
+      3,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149738776,
+      149738848,
+      0,
+      0
+    ],
+    "scripts": 137439416,
+    "layout": 150109672
+  },
+  "Route117_PokemonDayCare": {
+    "group": 22,
+    "num": 0,
+    "header": 150487188,
+    "events": 149738924,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149738884,
+      149738908,
+      0,
+      0
+    ],
+    "scripts": 137439940,
+    "layout": 150109924
+  },
+  "Route121_SafariZoneEntrance": {
+    "group": 23,
+    "num": 0,
+    "header": 150487216,
+    "events": 149739220,
+    "counts": [
+      9,
+      4,
+      1,
+      1
+    ],
+    "pointers": [
+      149738944,
+      149739160,
+      149739192,
+      149739208
+    ],
+    "scripts": 137439950,
+    "layout": 150110464
+  },
+  "MeteorFalls_1F_1R": {
+    "group": 24,
+    "num": 0,
+    "header": 150487244,
+    "events": 149739616,
+    "counts": [
+      12,
+      6,
+      1,
+      2
+    ],
+    "pointers": [
+      149739240,
+      149739528,
+      149739576,
+      149739592
+    ],
+    "scripts": 137440327,
+    "layout": 150113020
+  },
+  "MeteorFalls_1F_2R": {
+    "group": 24,
+    "num": 1,
+    "header": 150487272,
+    "events": 149739764,
+    "counts": [
+      3,
+      4,
+      0,
+      2
+    ],
+    "pointers": [
+      149739636,
+      149739708,
+      0,
+      149739740
+    ],
+    "scripts": 137442055,
+    "layout": 150114976
+  },
+  "MeteorFalls_B1F_1R": {
+    "group": 24,
+    "num": 2,
+    "header": 150487300,
+    "events": 149739832,
+    "counts": [
+      0,
+      6,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149739784,
+      0,
+      0
+    ],
+    "scripts": 137443760,
+    "layout": 150117216
+  },
+  "MeteorFalls_B1F_2R": {
+    "group": 24,
+    "num": 3,
+    "header": 150487328,
+    "events": 149739884,
+    "counts": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149739852,
+      149739876,
+      0,
+      0
+    ],
+    "scripts": 137443761,
+    "layout": 150117648
+  },
+  "RusturfTunnel": {
+    "group": 24,
+    "num": 4,
+    "header": 150487356,
+    "events": 149740392,
+    "counts": [
+      16,
+      3,
+      5,
+      0
+    ],
+    "pointers": [
+      149739904,
+      149740288,
+      149740312,
+      0
+    ],
+    "scripts": 137443762,
+    "layout": 150119412
+  },
+  "Underwater_SootopolisCity": {
+    "group": 24,
+    "num": 5,
+    "header": 150487384,
+    "events": 149740500,
+    "counts": [
+      2,
+      2,
+      0,
+      2
+    ],
+    "pointers": [
+      149740412,
+      149740460,
+      0,
+      149740476
+    ],
+    "scripts": 137446375,
+    "layout": 150119848
+  },
+  "DesertRuins": {
+    "group": 24,
+    "num": 6,
+    "header": 150487412,
+    "events": 149740604,
+    "counts": [
+      1,
+      3,
+      0,
+      3
+    ],
+    "pointers": [
+      149740520,
+      149740544,
+      0,
+      149740568
+    ],
+    "scripts": 137446390,
+    "layout": 150121008
+  },
+  "GraniteCave_1F": {
+    "group": 24,
+    "num": 7,
+    "header": 150487440,
+    "events": 149740740,
+    "counts": [
+      3,
+      4,
+      0,
+      1
+    ],
+    "pointers": [
+      149740624,
+      149740696,
+      0,
+      149740728
+    ],
+    "scripts": 137446653,
+    "layout": 150122304
+  },
+  "GraniteCave_B1F": {
+    "group": 24,
+    "num": 8,
+    "header": 150487468,
+    "events": 149740864,
+    "counts": [
+      2,
+      7,
+      0,
+      0
+    ],
+    "pointers": [
+      149740760,
+      149740808,
+      0,
+      0
+    ],
+    "scripts": 137447078,
+    "layout": 150124004
+  },
+  "GraniteCave_B2F": {
+    "group": 24,
+    "num": 9,
+    "header": 150487496,
+    "events": 149741164,
+    "counts": [
+      9,
+      5,
+      0,
+      2
+    ],
+    "pointers": [
+      149740884,
+      149741100,
+      0,
+      149741140
+    ],
+    "scripts": 137447211,
+    "layout": 150125704
+  },
+  "GraniteCave_StevensRoom": {
+    "group": 24,
+    "num": 10,
+    "header": 150487524,
+    "events": 149741216,
+    "counts": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149741184,
+      149741208,
+      0,
+      0
+    ],
+    "scripts": 137447212,
+    "layout": 150266360
+  },
+  "PetalburgWoods": {
+    "group": 24,
+    "num": 11,
+    "header": 150487552,
+    "events": 149741844,
+    "counts": [
+      19,
+      6,
+      2,
+      6
+    ],
+    "pointers": [
+      149741236,
+      149741692,
+      149741740,
+      149741772
+    ],
+    "scripts": 137448057,
+    "layout": 150129964
+  },
+  "MtChimney": {
+    "group": 24,
+    "num": 12,
+    "header": 150487580,
+    "events": 149742692,
+    "counts": [
+      31,
+      4,
+      1,
+      3
+    ],
+    "pointers": [
+      149741864,
+      149742608,
+      149742640,
+      149742656
+    ],
+    "scripts": 137451444,
+    "layout": 150133760
+  },
+  "JaggedPass": {
+    "group": 24,
+    "num": 13,
+    "header": 150487608,
+    "events": 149743236,
+    "counts": [
+      11,
+      5,
+      10,
+      5
+    ],
+    "pointers": [
+      149742712,
+      149742976,
+      149743016,
+      149743176
+    ],
+    "scripts": 137457126,
+    "layout": 150272828
+  },
+  "FieryPath": {
+    "group": 24,
+    "num": 14,
+    "header": 150487636,
+    "events": 149743556,
+    "counts": [
+      11,
+      3,
+      0,
+      1
+    ],
+    "pointers": [
+      149743256,
+      149743520,
+      0,
+      149743544
+    ],
+    "scripts": 137459562,
+    "layout": 150275524
+  },
+  "MtPyre_1F": {
+    "group": 24,
+    "num": 15,
+    "header": 150487664,
+    "events": 149743804,
+    "counts": [
+      7,
+      6,
+      0,
+      1
+    ],
+    "pointers": [
+      149743576,
+      149743744,
+      0,
+      149743792
+    ],
+    "scripts": 137459994,
+    "layout": 150134632
+  },
+  "MtPyre_2F": {
+    "group": 24,
+    "num": 16,
+    "header": 150487692,
+    "events": 149744092,
+    "counts": [
+      8,
+      5,
+      0,
+      3
+    ],
+    "pointers": [
+      149743824,
+      149744016,
+      0,
+      149744056
+    ],
+    "scripts": 137460302,
+    "layout": 150135008
+  },
+  "MtPyre_3F": {
+    "group": 24,
+    "num": 17,
+    "header": 150487720,
+    "events": 149744256,
+    "counts": [
+      4,
+      6,
+      0,
+      0
+    ],
+    "pointers": [
+      149744112,
+      149744208,
+      0,
+      0
+    ],
+    "scripts": 137461555,
+    "layout": 150135384
+  },
+  "MtPyre_4F": {
+    "group": 24,
+    "num": 18,
+    "header": 150487748,
+    "events": 149744372,
+    "counts": [
+      2,
+      6,
+      0,
+      0
+    ],
+    "pointers": [
+      149744276,
+      149744324,
+      0,
+      0
+    ],
+    "scripts": 137462498,
+    "layout": 150135760
+  },
+  "MtPyre_5F": {
+    "group": 24,
+    "num": 19,
+    "header": 150487776,
+    "events": 149744480,
+    "counts": [
+      2,
+      5,
+      0,
+      0
+    ],
+    "pointers": [
+      149744392,
+      149744440,
+      0,
+      0
+    ],
+    "scripts": 137462642,
+    "layout": 150136136
+  },
+  "MtPyre_6F": {
+    "group": 24,
+    "num": 20,
+    "header": 150487804,
+    "events": 149744600,
+    "counts": [
+      3,
+      2,
+      0,
+      1
+    ],
+    "pointers": [
+      149744500,
+      149744572,
+      0,
+      149744588
+    ],
+    "scripts": 137462829,
+    "layout": 150136512
+  },
+  "MtPyre_Exterior": {
+    "group": 24,
+    "num": 21,
+    "header": 150487832,
+    "events": 149744892,
+    "counts": [
+      6,
+      3,
+      5,
+      2
+    ],
+    "pointers": [
+      149744620,
+      149744764,
+      149744788,
+      149744868
+    ],
+    "scripts": 137463422,
+    "layout": 150281716
+  },
+  "MtPyre_Summit": {
+    "group": 24,
+    "num": 22,
+    "header": 150487860,
+    "events": 149745456,
+    "counts": [
+      14,
+      3,
+      7,
+      6
+    ],
+    "pointers": [
+      149744912,
+      149745248,
+      149745272,
+      149745384
+    ],
+    "scripts": 137463549,
+    "layout": 150285452
+  },
+  "AquaHideout_1F": {
+    "group": 24,
+    "num": 23,
+    "header": 150487888,
+    "events": 149745572,
+    "counts": [
+      3,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149745476,
+      149745548,
+      0,
+      0
+    ],
+    "scripts": 137467493,
+    "layout": 150138228
+  },
+  "AquaHideout_B1F": {
+    "group": 24,
+    "num": 24,
+    "header": 150487916,
+    "events": 149746104,
+    "counts": [
+      10,
+      25,
+      0,
+      6
+    ],
+    "pointers": [
+      149745592,
+      149745832,
+      0,
+      149746032
+    ],
+    "scripts": 137468448,
+    "layout": 150140712
+  },
+  "AquaHideout_B2F": {
+    "group": 24,
+    "num": 25,
+    "header": 150487944,
+    "events": 149746380,
+    "counts": [
+      6,
+      10,
+      2,
+      0
+    ],
+    "pointers": [
+      149746124,
+      149746268,
+      149746348,
+      0
+    ],
+    "scripts": 137469385,
+    "layout": 150142380
+  },
+  "Underwater_SeafloorCavern": {
+    "group": 24,
+    "num": 26,
+    "header": 150487972,
+    "events": 149746504,
+    "counts": [
+      4,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149746400,
+      149746496,
+      0,
+      0
+    ],
+    "scripts": 137470491,
+    "layout": 150142668
+  },
+  "SeafloorCavern_Entrance": {
+    "group": 24,
+    "num": 27,
+    "header": 150488000,
+    "events": 149746564,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149746524,
+      149746548,
+      0,
+      0
+    ],
+    "scripts": 137470759,
+    "layout": 150143504
+  },
+  "SeafloorCavern_Room1": {
+    "group": 24,
+    "num": 28,
+    "header": 150488028,
+    "events": 149746740,
+    "counts": [
+      5,
+      3,
+      0,
+      1
+    ],
+    "pointers": [
+      149746584,
+      149746704,
+      0,
+      149746728
+    ],
+    "scripts": 137471413,
+    "layout": 150144380
+  },
+  "SeafloorCavern_Room2": {
+    "group": 24,
+    "num": 29,
+    "header": 150488056,
+    "events": 149746984,
+    "counts": [
+      8,
+      4,
+      0,
+      0
+    ],
+    "pointers": [
+      149746760,
+      149746952,
+      0,
+      0
+    ],
+    "scripts": 137471697,
+    "layout": 150144848
+  },
+  "SeafloorCavern_Room3": {
+    "group": 24,
+    "num": 30,
+    "header": 150488084,
+    "events": 149747256,
+    "counts": [
+      9,
+      3,
+      0,
+      1
+    ],
+    "pointers": [
+      149747004,
+      149747220,
+      0,
+      149747244
+    ],
+    "scripts": 137471698,
+    "layout": 150145428
+  },
+  "SeafloorCavern_Room4": {
+    "group": 24,
+    "num": 31,
+    "header": 150488112,
+    "events": 149747356,
+    "counts": [
+      2,
+      4,
+      0,
+      0
+    ],
+    "pointers": [
+      149747276,
+      149747324,
+      0,
+      0
+    ],
+    "scripts": 137472325,
+    "layout": 150146148
+  },
+  "SeafloorCavern_Room5": {
+    "group": 24,
+    "num": 32,
+    "header": 150488140,
+    "events": 149747544,
+    "counts": [
+      6,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149747376,
+      149747520,
+      0,
+      0
+    ],
+    "scripts": 137472594,
+    "layout": 150146984
+  },
+  "SeafloorCavern_Room6": {
+    "group": 24,
+    "num": 33,
+    "header": 150488168,
+    "events": 149747588,
+    "counts": [
+      0,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149747564,
+      0,
+      0
+    ],
+    "scripts": 137472595,
+    "layout": 150148124
+  },
+  "SeafloorCavern_Room7": {
+    "group": 24,
+    "num": 34,
+    "header": 150488196,
+    "events": 149747624,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149747608,
+      0,
+      0
+    ],
+    "scripts": 137472596,
+    "layout": 150149312
+  },
+  "SeafloorCavern_Room8": {
+    "group": 24,
+    "num": 35,
+    "header": 150488224,
+    "events": 149747960,
+    "counts": [
+      12,
+      2,
+      0,
+      1
+    ],
+    "pointers": [
+      149747644,
+      149747932,
+      0,
+      149747948
+    ],
+    "scripts": 137472597,
+    "layout": 150149656
+  },
+  "SeafloorCavern_Room9": {
+    "group": 24,
+    "num": 36,
+    "header": 150488252,
+    "events": 149748172,
+    "counts": [
+      7,
+      1,
+      1,
+      0
+    ],
+    "pointers": [
+      149747980,
+      149748148,
+      149748156,
+      0
+    ],
+    "scripts": 137472598,
+    "layout": 150152176
+  },
+  "CaveOfOrigin_Entrance": {
+    "group": 24,
+    "num": 37,
+    "header": 150488280,
+    "events": 149748220,
+    "counts": [
+      0,
+      2,
+      0,
+      1
+    ],
+    "pointers": [
+      0,
+      149748192,
+      0,
+      149748208
+    ],
+    "scripts": 137474486,
+    "layout": 150153200
+  },
+  "CaveOfOrigin_1F": {
+    "group": 24,
+    "num": 38,
+    "header": 150488308,
+    "events": 149748280,
+    "counts": [
+      0,
+      2,
+      0,
+      2
+    ],
+    "pointers": [
+      0,
+      149748240,
+      0,
+      149748256
+    ],
+    "scripts": 137474501,
+    "layout": 150154296
+  },
+  "CaveOfOrigin_UnusedRubySapphireMap1": {
+    "group": 24,
+    "num": 39,
+    "header": 150488336,
+    "events": 149748316,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149748300,
+      0,
+      0
+    ],
+    "scripts": 137474517,
+    "layout": 150155392
+  },
+  "CaveOfOrigin_UnusedRubySapphireMap2": {
+    "group": 24,
+    "num": 40,
+    "header": 150488364,
+    "events": 149748352,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149748336,
+      0,
+      0
+    ],
+    "scripts": 137474533,
+    "layout": 150156312
+  },
+  "CaveOfOrigin_UnusedRubySapphireMap3": {
+    "group": 24,
+    "num": 41,
+    "header": 150488392,
+    "events": 149748388,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149748372,
+      0,
+      0
+    ],
+    "scripts": 137474549,
+    "layout": 150157148
+  },
+  "CaveOfOrigin_B1F": {
+    "group": 24,
+    "num": 42,
+    "header": 150488420,
+    "events": 149748440,
+    "counts": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149748408,
+      149748432,
+      0,
+      0
+    ],
+    "scripts": 137474565,
+    "layout": 150157908
+  },
+  "VictoryRoad_1F": {
+    "group": 24,
+    "num": 43,
+    "header": 150488448,
+    "events": 149748868,
+    "counts": [
+      12,
+      5,
+      2,
+      4
+    ],
+    "pointers": [
+      149748460,
+      149748748,
+      149748788,
+      149748820
+    ],
+    "scripts": 137475594,
+    "layout": 150162084
+  },
+  "VictoryRoad_B1F": {
+    "group": 24,
+    "num": 44,
+    "header": 150488476,
+    "events": 149749448,
+    "counts": [
+      21,
+      7,
+      0,
+      0
+    ],
+    "pointers": [
+      149748888,
+      149749392,
+      0,
+      0
+    ],
+    "scripts": 137477155,
+    "layout": 150262976
+  },
+  "VictoryRoad_B2F": {
+    "group": 24,
+    "num": 45,
+    "header": 150488504,
+    "events": 149749872,
+    "counts": [
+      14,
+      4,
+      0,
+      3
+    ],
+    "pointers": [
+      149749468,
+      149749804,
+      0,
+      149749836
+    ],
+    "scripts": 137478032,
+    "layout": 150265864
+  },
+  "ShoalCave_LowTideEntranceRoom": {
+    "group": 24,
+    "num": 46,
+    "header": 150488532,
+    "events": 149749972,
+    "counts": [
+      2,
+      4,
+      0,
+      0
+    ],
+    "pointers": [
+      149749892,
+      149749940,
+      0,
+      0
+    ],
+    "scripts": 137479027,
+    "layout": 150164572
+  },
+  "ShoalCave_LowTideInnerRoom": {
+    "group": 24,
+    "num": 47,
+    "header": 150488560,
+    "events": 149750152,
+    "counts": [
+      1,
+      8,
+      0,
+      6
+    ],
+    "pointers": [
+      149749992,
+      149750016,
+      0,
+      149750080
+    ],
+    "scripts": 137479345,
+    "layout": 150168104
+  },
+  "ShoalCave_LowTideStairsRoom": {
+    "group": 24,
+    "num": 48,
+    "header": 150488588,
+    "events": 149750224,
+    "counts": [
+      1,
+      2,
+      0,
+      1
+    ],
+    "pointers": [
+      149750172,
+      149750196,
+      0,
+      149750212
+    ],
+    "scripts": 137479862,
+    "layout": 150168772
+  },
+  "ShoalCave_LowTideLowerRoom": {
+    "group": 24,
+    "num": 49,
+    "header": 150488616,
+    "events": 149750336,
+    "counts": [
+      2,
+      4,
+      0,
+      1
+    ],
+    "pointers": [
+      149750244,
+      149750292,
+      0,
+      149750324
+    ],
+    "scripts": 137479954,
+    "layout": 150169676
+  },
+  "ShoalCave_HighTideEntranceRoom": {
+    "group": 24,
+    "num": 50,
+    "header": 150488644,
+    "events": 149750356,
+    "counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137480216,
+    "layout": 150172164
+  },
+  "ShoalCave_HighTideInnerRoom": {
+    "group": 24,
+    "num": 51,
+    "header": 150488672,
+    "events": 149750376,
+    "counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137480217,
+    "layout": 150175696
+  },
+  "NewMauville_Entrance": {
+    "group": 24,
+    "num": 52,
+    "header": 150488700,
+    "events": 149750452,
+    "counts": [
+      1,
+      2,
+      1,
+      0
+    ],
+    "pointers": [
+      149750396,
+      149750420,
+      149750436,
+      0
+    ],
+    "scripts": 137480218,
+    "layout": 150176456
+  },
+  "NewMauville_Inside": {
+    "group": 24,
+    "num": 53,
+    "header": 150488728,
+    "events": 149750948,
+    "counts": [
+      8,
+      2,
+      10,
+      9
+    ],
+    "pointers": [
+      149750472,
+      149750664,
+      149750680,
+      149750840
+    ],
+    "scripts": 137480485,
+    "layout": 150179856
+  },
+  "AbandonedShip_Deck": {
+    "group": 24,
+    "num": 54,
+    "header": 150488756,
+    "events": 149751008,
+    "counts": [
+      0,
+      5,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149750968,
+      0,
+      0
+    ],
+    "scripts": 137481861,
+    "layout": 150180860
+  },
+  "AbandonedShip_Corridors_1F": {
+    "group": 24,
+    "num": 55,
+    "header": 150488784,
+    "events": 149751172,
+    "counts": [
+      2,
+      12,
+      0,
+      0
+    ],
+    "pointers": [
+      149751028,
+      149751076,
+      0,
+      0
+    ],
+    "scripts": 137481871,
+    "layout": 150181328
+  },
+  "AbandonedShip_Rooms_1F": {
+    "group": 24,
+    "num": 56,
+    "header": 150488812,
+    "events": 149751396,
+    "counts": [
+      5,
+      6,
+      0,
+      3
+    ],
+    "pointers": [
+      149751192,
+      149751312,
+      0,
+      149751360
+    ],
+    "scripts": 137482040,
+    "layout": 150181976
+  },
+  "AbandonedShip_Corridors_B1F": {
+    "group": 24,
+    "num": 57,
+    "header": 150488840,
+    "events": 149751540,
+    "counts": [
+      2,
+      8,
+      0,
+      1
+    ],
+    "pointers": [
+      149751416,
+      149751464,
+      0,
+      149751528
+    ],
+    "scripts": 137482632,
+    "layout": 150182272
+  },
+  "AbandonedShip_Rooms_B1F": {
+    "group": 24,
+    "num": 58,
+    "header": 150488868,
+    "events": 149751632,
+    "counts": [
+      2,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149751560,
+      149751608,
+      0,
+      0
+    ],
+    "scripts": 137483068,
+    "layout": 150182740
+  },
+  "AbandonedShip_Rooms2_B1F": {
+    "group": 24,
+    "num": 59,
+    "header": 150488896,
+    "events": 149751732,
+    "counts": [
+      2,
+      4,
+      0,
+      0
+    ],
+    "pointers": [
+      149751652,
+      149751700,
+      0,
+      0
+    ],
+    "scripts": 137483133,
+    "layout": 150183064
+  },
+  "AbandonedShip_Underwater1": {
+    "group": 24,
+    "num": 60,
+    "header": 150488924,
+    "events": 149751768,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149751752,
+      0,
+      0
+    ],
+    "scripts": 137483200,
+    "layout": 150183228
+  },
+  "AbandonedShip_Room_B1F": {
+    "group": 24,
+    "num": 61,
+    "header": 150488952,
+    "events": 149751828,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149751788,
+      149751812,
+      0,
+      0
+    ],
+    "scripts": 137483215,
+    "layout": 150183408
+  },
+  "AbandonedShip_Rooms2_1F": {
+    "group": 24,
+    "num": 62,
+    "header": 150488980,
+    "events": 149751992,
+    "counts": [
+      5,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149751848,
+      149751968,
+      0,
+      0
+    ],
+    "scripts": 137483216,
+    "layout": 150183752
+  },
+  "AbandonedShip_CaptainsOffice": {
+    "group": 24,
+    "num": 63,
+    "header": 150489008,
+    "events": 149752076,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149752012,
+      149752060,
+      0,
+      0
+    ],
+    "scripts": 137484523,
+    "layout": 150183916
+  },
+  "AbandonedShip_Underwater2": {
+    "group": 24,
+    "num": 64,
+    "header": 150489036,
+    "events": 149752104,
+    "counts": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149752096,
+      0,
+      0
+    ],
+    "scripts": 137484790,
+    "layout": 150184248
+  },
+  "AbandonedShip_HiddenFloorCorridors": {
+    "group": 24,
+    "num": 65,
+    "header": 150489064,
+    "events": 149752220,
+    "counts": [
+      0,
+      6,
+      0,
+      4
+    ],
+    "pointers": [
+      0,
+      149752124,
+      0,
+      149752172
+    ],
+    "scripts": 137484805,
+    "layout": 150266684
+  },
+  "AbandonedShip_HiddenFloorRooms": {
+    "group": 24,
+    "num": 66,
+    "header": 150489092,
+    "events": 149752552,
+    "counts": [
+      5,
+      9,
+      0,
+      10
+    ],
+    "pointers": [
+      149752240,
+      149752360,
+      0,
+      149752432
+    ],
+    "scripts": 137485408,
+    "layout": 150288784
+  },
+  "IslandCave": {
+    "group": 24,
+    "num": 67,
+    "header": 150489120,
+    "events": 149752656,
+    "counts": [
+      1,
+      3,
+      0,
+      3
+    ],
+    "pointers": [
+      149752572,
+      149752596,
+      0,
+      149752620
+    ],
+    "scripts": 137485872,
+    "layout": 150255380
+  },
+  "AncientTomb": {
+    "group": 24,
+    "num": 68,
+    "header": 150489148,
+    "events": 149752760,
+    "counts": [
+      1,
+      3,
+      0,
+      3
+    ],
+    "pointers": [
+      149752676,
+      149752700,
+      0,
+      149752724
+    ],
+    "scripts": 137486270,
+    "layout": 150256540
+  },
+  "Underwater_Route134": {
+    "group": 24,
+    "num": 69,
+    "header": 150489176,
+    "events": 149752788,
+    "counts": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149752780,
+      0,
+      0
+    ],
+    "scripts": 137486533,
+    "layout": 150256936
+  },
+  "Underwater_SealedChamber": {
+    "group": 24,
+    "num": 70,
+    "header": 150489204,
+    "events": 149752828,
+    "counts": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "pointers": [
+      0,
+      149752808,
+      0,
+      149752816
+    ],
+    "scripts": 137486548,
+    "layout": 150259084
+  },
+  "SealedChamber_OuterRoom": {
+    "group": 24,
+    "num": 71,
+    "header": 150489232,
+    "events": 149753204,
+    "counts": [
+      0,
+      1,
+      0,
+      29
+    ],
+    "pointers": [
+      0,
+      149752848,
+      0,
+      149752856
+    ],
+    "scripts": 137486614,
+    "layout": 150260088
+  },
+  "SealedChamber_InnerRoom": {
+    "group": 24,
+    "num": 72,
+    "header": 150489260,
+    "events": 149753352,
+    "counts": [
+      0,
+      1,
+      0,
+      10
+    ],
+    "pointers": [
+      0,
+      149753224,
+      0,
+      149753232
+    ],
+    "scripts": 137486855,
+    "layout": 150286456
+  },
+  "ScorchedSlab": {
+    "group": 24,
+    "num": 73,
+    "header": 150489288,
+    "events": 149753448,
+    "counts": [
+      2,
+      2,
+      0,
+      1
+    ],
+    "pointers": [
+      149753372,
+      149753420,
+      0,
+      149753436
+    ],
+    "scripts": 137487009,
+    "layout": 150289420
+  },
+  "AquaHideout_UnusedRubyMap1": {
+    "group": 24,
+    "num": 74,
+    "header": 150489316,
+    "events": 149753468,
+    "counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137487015,
+    "layout": 150293200
+  },
+  "AquaHideout_UnusedRubyMap2": {
+    "group": 24,
+    "num": 75,
+    "header": 150489344,
+    "events": 149753488,
+    "counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137487016,
+    "layout": 150296212
+  },
+  "AquaHideout_UnusedRubyMap3": {
+    "group": 24,
+    "num": 76,
+    "header": 150489372,
+    "events": 149753508,
+    "counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137487017,
+    "layout": 150297880
+  },
+  "SkyPillar_Entrance": {
+    "group": 24,
+    "num": 77,
+    "header": 150489400,
+    "events": 149753568,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149753528,
+      149753552,
+      0,
+      0
+    ],
+    "scripts": 137487018,
+    "layout": 150303400
+  },
+  "SkyPillar_Outside": {
+    "group": 24,
+    "num": 78,
+    "header": 150489428,
+    "events": 149753628,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149753588,
+      149753612,
+      0,
+      0
+    ],
+    "scripts": 137487031,
+    "layout": 150304724
+  },
+  "SkyPillar_1F": {
+    "group": 24,
+    "num": 79,
+    "header": 150489456,
+    "events": 149753708,
+    "counts": [
+      1,
+      3,
+      0,
+      1
+    ],
+    "pointers": [
+      149753648,
+      149753672,
+      0,
+      149753696
+    ],
+    "scripts": 137487706,
+    "layout": 150305152
+  },
+  "SkyPillar_2F": {
+    "group": 24,
+    "num": 80,
+    "header": 150489484,
+    "events": 149753744,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149753728,
+      0,
+      0
+    ],
+    "scripts": 137487728,
+    "layout": 150305580
+  },
+  "SkyPillar_3F": {
+    "group": 24,
+    "num": 81,
+    "header": 150489512,
+    "events": 149753908,
+    "counts": [
+      4,
+      3,
+      0,
+      2
+    ],
+    "pointers": [
+      149753764,
+      149753860,
+      0,
+      149753884
+    ],
+    "scripts": 137487776,
+    "layout": 150306008
+  },
+  "SkyPillar_4F": {
+    "group": 24,
+    "num": 82,
+    "header": 150489540,
+    "events": 149753952,
+    "counts": [
+      0,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149753928,
+      0,
+      0
+    ],
+    "scripts": 137487798,
+    "layout": 150306436
+  },
+  "ShoalCave_LowTideIceRoom": {
+    "group": 24,
+    "num": 83,
+    "header": 150489568,
+    "events": 149754148,
+    "counts": [
+      5,
+      1,
+      0,
+      4
+    ],
+    "pointers": [
+      149753972,
+      149754092,
+      0,
+      149754100
+    ],
+    "scripts": 137487846,
+    "layout": 150310404
+  },
+  "SkyPillar_5F": {
+    "group": 24,
+    "num": 84,
+    "header": 150489596,
+    "events": 149754292,
+    "counts": [
+      4,
+      2,
+      0,
+      1
+    ],
+    "pointers": [
+      149754168,
+      149754264,
+      0,
+      149754280
+    ],
+    "scripts": 137487847,
+    "layout": 150311048
+  },
+  "SkyPillar_Top": {
+    "group": 24,
+    "num": 85,
+    "header": 150489624,
+    "events": 149754456,
+    "counts": [
+      4,
+      1,
+      1,
+      2
+    ],
+    "pointers": [
+      149754312,
+      149754408,
+      149754416,
+      149754432
+    ],
+    "scripts": 137487869,
+    "layout": 150312380
+  },
+  "MagmaHideout_1F": {
+    "group": 24,
+    "num": 86,
+    "header": 150489652,
+    "events": 149754780,
+    "counts": [
+      10,
+      5,
+      0,
+      2
+    ],
+    "pointers": [
+      149754476,
+      149754716,
+      0,
+      149754756
+    ],
+    "scripts": 137488323,
+    "layout": 150317372
+  },
+  "MagmaHideout_2F_1R": {
+    "group": 24,
+    "num": 87,
+    "header": 150489680,
+    "events": 149754968,
+    "counts": [
+      6,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149754800,
+      149754944,
+      0,
+      0
+    ],
+    "scripts": 137488880,
+    "layout": 150319984
+  },
+  "MagmaHideout_2F_2R": {
+    "group": 24,
+    "num": 88,
+    "header": 150489708,
+    "events": 149755208,
+    "counts": [
+      6,
+      2,
+      0,
+      5
+    ],
+    "pointers": [
+      149754988,
+      149755132,
+      0,
+      149755148
+    ],
+    "scripts": 137489464,
+    "layout": 150322764
+  },
+  "MagmaHideout_3F_1R": {
+    "group": 24,
+    "num": 89,
+    "header": 150489736,
+    "events": 149755348,
+    "counts": [
+      3,
+      3,
+      0,
+      2
+    ],
+    "pointers": [
+      149755228,
+      149755300,
+      0,
+      149755324
+    ],
+    "scripts": 137490184,
+    "layout": 150324144
+  },
+  "MagmaHideout_3F_2R": {
+    "group": 24,
+    "num": 90,
+    "header": 150489764,
+    "events": 149755424,
+    "counts": [
+      2,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149755368,
+      149755416,
+      0,
+      0
+    ],
+    "scripts": 137490580,
+    "layout": 150324996
+  },
+  "MagmaHideout_4F": {
+    "group": 24,
+    "num": 91,
+    "header": 150489792,
+    "events": 149755652,
+    "counts": [
+      8,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149755444,
+      149755636,
+      0,
+      0
+    ],
+    "scripts": 137490827,
+    "layout": 150328336
+  },
+  "MagmaHideout_3F_3R": {
+    "group": 24,
+    "num": 92,
+    "header": 150489820,
+    "events": 149755712,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149755672,
+      149755696,
+      0,
+      0
+    ],
+    "scripts": 137492289,
+    "layout": 150358416
+  },
+  "MagmaHideout_2F_3R": {
+    "group": 24,
+    "num": 93,
+    "header": 150489848,
+    "events": 149755784,
+    "counts": [
+      1,
+      2,
+      0,
+      1
+    ],
+    "pointers": [
+      149755732,
+      149755756,
+      0,
+      149755772
+    ],
+    "scripts": 137492290,
+    "layout": 150360732
+  },
+  "MirageTower_1F": {
+    "group": 24,
+    "num": 94,
+    "header": 150489876,
+    "events": 149755832,
+    "counts": [
+      0,
+      2,
+      0,
+      1
+    ],
+    "pointers": [
+      0,
+      149755804,
+      0,
+      149755820
+    ],
+    "scripts": 137492291,
+    "layout": 150361484
+  },
+  "MirageTower_2F": {
+    "group": 24,
+    "num": 95,
+    "header": 150489904,
+    "events": 149755868,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149755852,
+      0,
+      0
+    ],
+    "scripts": 137492307,
+    "layout": 150362236
+  },
+  "MirageTower_3F": {
+    "group": 24,
+    "num": 96,
+    "header": 150489932,
+    "events": 149755952,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149755888,
+      149755936,
+      0,
+      0
+    ],
+    "scripts": 137492334,
+    "layout": 150362988
+  },
+  "MirageTower_4F": {
+    "group": 24,
+    "num": 97,
+    "header": 150489960,
+    "events": 149756052,
+    "counts": [
+      3,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149755972,
+      149756044,
+      0,
+      0
+    ],
+    "scripts": 137492361,
+    "layout": 150364184
+  },
+  "DesertUnderpass": {
+    "group": 24,
+    "num": 98,
+    "header": 150489988,
+    "events": 149756104,
+    "counts": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149756072,
+      149756096,
+      0,
+      0
+    ],
+    "scripts": 137492755,
+    "layout": 150370616
+  },
+  "ArtisanCave_B1F": {
+    "group": 24,
+    "num": 99,
+    "header": 150490016,
+    "events": 149756212,
+    "counts": [
+      1,
+      2,
+      0,
+      4
+    ],
+    "pointers": [
+      149756124,
+      149756148,
+      0,
+      149756164
+    ],
+    "scripts": 137492879,
+    "layout": 150397128
+  },
+  "ArtisanCave_1F": {
+    "group": 24,
+    "num": 100,
+    "header": 150490044,
+    "events": 149756272,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149756232,
+      149756256,
+      0,
+      0
+    ],
+    "scripts": 137492889,
+    "layout": 150398088
+  },
+  "Underwater_MarineCave": {
+    "group": 24,
+    "num": 101,
+    "header": 150490072,
+    "events": 149756300,
+    "counts": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149756292,
+      0,
+      0
+    ],
+    "scripts": 137492890,
+    "layout": 150405548
+  },
+  "MarineCave_Entrance": {
+    "group": 24,
+    "num": 102,
+    "header": 150490100,
+    "events": 149756328,
+    "counts": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149756320,
+      0,
+      0
+    ],
+    "scripts": 137492914,
+    "layout": 150406384
+  },
+  "MarineCave_End": {
+    "group": 24,
+    "num": 103,
+    "header": 150490128,
+    "events": 149756396,
+    "counts": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "pointers": [
+      149756348,
+      149756372,
+      149756380,
+      0
+    ],
+    "scripts": 137492929,
+    "layout": 150429840
+  },
+  "TerraCave_Entrance": {
+    "group": 24,
+    "num": 104,
+    "header": 150490156,
+    "events": 149756432,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149756416,
+      0,
+      0
+    ],
+    "scripts": 137493133,
+    "layout": 150407220
+  },
+  "TerraCave_End": {
+    "group": 24,
+    "num": 105,
+    "header": 150490184,
+    "events": 149756500,
+    "counts": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "pointers": [
+      149756452,
+      149756476,
+      149756484,
+      0
+    ],
+    "scripts": 137493143,
+    "layout": 150408876
+  },
+  "AlteringCave": {
+    "group": 24,
+    "num": 106,
+    "header": 150490212,
+    "events": 149756528,
+    "counts": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149756520,
+      0,
+      0
+    ],
+    "scripts": 137493347,
+    "layout": 150435764
+  },
+  "MeteorFalls_StevensCave": {
+    "group": 24,
+    "num": 107,
+    "header": 150490240,
+    "events": 149756580,
+    "counts": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149756548,
+      149756572,
+      0,
+      0
+    ],
+    "scripts": 137493357,
+    "layout": 150448516
+  },
+  "ScorchedGrotto": {
+    "group": 24,
+    "num": 108,
+    "header": 150490268,
+    "events": 149756656,
+    "counts": [
+      1,
+      1,
+      0,
+      2
+    ],
+    "pointers": [
+      149756600,
+      149756624,
+      0,
+      149756632
+    ],
+    "scripts": 137459657,
+    "layout": 150453648
+  },
+  "NewMauville_Maintenance": {
+    "group": 24,
+    "num": 109,
+    "header": 150490296,
+    "events": 149756716,
+    "counts": [
+      0,
+      2,
+      0,
+      2
+    ],
+    "pointers": [
+      0,
+      149756676,
+      0,
+      149756692
+    ],
+    "scripts": 137996240,
+    "layout": 150453848
+  },
+  "NewMauville_HighVoltage": {
+    "group": 24,
+    "num": 110,
+    "header": 150490324,
+    "events": 149756780,
+    "counts": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "pointers": [
+      149756736,
+      149756760,
+      0,
+      149756768
+    ],
+    "scripts": 137996301,
+    "layout": 150454048
+  },
+  "ScorchedSlab_SealedRoom": {
+    "group": 24,
+    "num": 111,
+    "header": 150490352,
+    "events": 149756820,
+    "counts": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "pointers": [
+      0,
+      149756800,
+      0,
+      149756808
+    ],
+    "scripts": 137996311,
+    "layout": 150454684
+  },
+  "AquaHideout_Storage": {
+    "group": 24,
+    "num": 112,
+    "header": 150490380,
+    "events": 149756908,
+    "counts": [
+      2,
+      1,
+      0,
+      1
+    ],
+    "pointers": [
+      149756840,
+      149756888,
+      0,
+      149756896
+    ],
+    "scripts": 137996312,
+    "layout": 150464624
+  },
+  "ArcheCampus_Maintenance": {
+    "group": 24,
+    "num": 113,
+    "header": 150490408,
+    "events": 149756984,
+    "counts": [
+      2,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149756928,
+      149756976,
+      0,
+      0
+    ],
+    "scripts": 137996433,
+    "layout": 150464900
+  },
+  "MagmaHideout_RescuePassage": {
+    "group": 24,
+    "num": 114,
+    "header": 150490436,
+    "events": 149757072,
+    "counts": [
+      2,
+      1,
+      0,
+      1
+    ],
+    "pointers": [
+      149757004,
+      149757052,
+      0,
+      149757060
+    ],
+    "scripts": 137996459,
+    "layout": 150465176
+  },
+  "Route126_StillWaterCave": {
+    "group": 24,
+    "num": 115,
+    "header": 150490464,
+    "events": 149757128,
+    "counts": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "pointers": [
+      149757092,
+      0,
+      0,
+      149757116
+    ],
+    "scripts": 137996234,
+    "layout": 150466832
+  },
+  "MeteorFalls_DeepStrata": {
+    "group": 24,
+    "num": 116,
+    "header": 150490492,
+    "events": 149757308,
+    "counts": [
+      2,
+      2,
+      0,
+      8
+    ],
+    "pointers": [
+      149757148,
+      149757196,
+      0,
+      149757212
+    ],
+    "scripts": 137996233,
+    "layout": 150468788
+  },
+  "MeteorFalls_DragonNest": {
+    "group": 24,
+    "num": 117,
+    "header": 150490520,
+    "events": 149757468,
+    "counts": [
+      3,
+      1,
+      0,
+      5
+    ],
+    "pointers": [
+      149757328,
+      149757400,
+      0,
+      149757408
+    ],
+    "scripts": 137996227,
+    "layout": 150470744
+  },
+  "Route133_TideMarkCave": {
+    "group": 24,
+    "num": 118,
+    "header": 150490548,
+    "events": 149757544,
+    "counts": [
+      1,
+      1,
+      0,
+      2
+    ],
+    "pointers": [
+      149757488,
+      149757512,
+      0,
+      149757520
+    ],
+    "scripts": 137996226,
+    "layout": 150471380
+  },
+  "SecretBase_RedCave1": {
+    "group": 25,
+    "num": 0,
+    "header": 150490576,
+    "events": 149757932,
+    "counts": [
+      15,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149757564,
+      149757924,
+      0,
+      0
+    ],
+    "scripts": 137493708,
+    "layout": 150184484
+  },
+  "SecretBase_BrownCave1": {
+    "group": 25,
+    "num": 1,
+    "header": 150490604,
+    "events": 149758320,
+    "counts": [
+      15,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149757952,
+      149758312,
+      0,
+      0
+    ],
+    "scripts": 137493708,
+    "layout": 150184720
+  },
+  "SecretBase_BlueCave1": {
+    "group": 25,
+    "num": 2,
+    "header": 150490632,
+    "events": 149758708,
+    "counts": [
+      15,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149758340,
+      149758700,
+      0,
+      0
+    ],
+    "scripts": 137493708,
+    "layout": 150184956
+  },
+  "SecretBase_YellowCave1": {
+    "group": 25,
+    "num": 3,
+    "header": 150490660,
+    "events": 149759096,
+    "counts": [
+      15,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149758728,
+      149759088,
+      0,
+      0
+    ],
+    "scripts": 137493708,
+    "layout": 150185192
+  },
+  "SecretBase_Tree1": {
+    "group": 25,
+    "num": 4,
+    "header": 150490688,
+    "events": 149759484,
+    "counts": [
+      15,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149759116,
+      149759476,
+      0,
+      0
+    ],
+    "scripts": 137493708,
+    "layout": 150185428
+  },
+  "SecretBase_Shrub1": {
+    "group": 25,
+    "num": 5,
+    "header": 150490716,
+    "events": 149759872,
+    "counts": [
+      15,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149759504,
+      149759864,
+      0,
+      0
+    ],
+    "scripts": 137493708,
+    "layout": 150185664
+  },
+  "SecretBase_RedCave2": {
+    "group": 25,
+    "num": 6,
+    "header": 150490744,
+    "events": 149760260,
+    "counts": [
+      15,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149759892,
+      149760252,
+      0,
+      0
+    ],
+    "scripts": 137493708,
+    "layout": 150185924
+  },
+  "SecretBase_BrownCave2": {
+    "group": 25,
+    "num": 7,
+    "header": 150490772,
+    "events": 149760648,
+    "counts": [
+      15,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149760280,
+      149760640,
+      0,
+      0
+    ],
+    "scripts": 137493708,
+    "layout": 150186212
+  },
+  "SecretBase_BlueCave2": {
+    "group": 25,
+    "num": 8,
+    "header": 150490800,
+    "events": 149761036,
+    "counts": [
+      15,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149760668,
+      149761028,
+      0,
+      0
+    ],
+    "scripts": 137493708,
+    "layout": 150186460
+  },
+  "SecretBase_YellowCave2": {
+    "group": 25,
+    "num": 9,
+    "header": 150490828,
+    "events": 149761424,
+    "counts": [
+      15,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149761056,
+      149761416,
+      0,
+      0
+    ],
+    "scripts": 137493708,
+    "layout": 150186748
+  },
+  "SecretBase_Tree2": {
+    "group": 25,
+    "num": 10,
+    "header": 150490856,
+    "events": 149761812,
+    "counts": [
+      15,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149761444,
+      149761804,
+      0,
+      0
+    ],
+    "scripts": 137493708,
+    "layout": 150187008
+  },
+  "SecretBase_Shrub2": {
+    "group": 25,
+    "num": 11,
+    "header": 150490884,
+    "events": 149762200,
+    "counts": [
+      15,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149761832,
+      149762192,
+      0,
+      0
+    ],
+    "scripts": 137493708,
+    "layout": 150187256
+  },
+  "SecretBase_RedCave3": {
+    "group": 25,
+    "num": 12,
+    "header": 150490912,
+    "events": 149762588,
+    "counts": [
+      15,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149762220,
+      149762580,
+      0,
+      0
+    ],
+    "scripts": 137493708,
+    "layout": 150187532
+  },
+  "SecretBase_BrownCave3": {
+    "group": 25,
+    "num": 13,
+    "header": 150490940,
+    "events": 149762976,
+    "counts": [
+      15,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149762608,
+      149762968,
+      0,
+      0
+    ],
+    "scripts": 137493708,
+    "layout": 150187900
+  },
+  "SecretBase_BlueCave3": {
+    "group": 25,
+    "num": 14,
+    "header": 150490968,
+    "events": 149763364,
+    "counts": [
+      15,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149762996,
+      149763356,
+      0,
+      0
+    ],
+    "scripts": 137493708,
+    "layout": 150188276
+  },
+  "SecretBase_YellowCave3": {
+    "group": 25,
+    "num": 15,
+    "header": 150490996,
+    "events": 149763752,
+    "counts": [
+      15,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149763384,
+      149763744,
+      0,
+      0
+    ],
+    "scripts": 137493708,
+    "layout": 150188576
+  },
+  "SecretBase_Tree3": {
+    "group": 25,
+    "num": 16,
+    "header": 150491024,
+    "events": 149764140,
+    "counts": [
+      15,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149763772,
+      149764132,
+      0,
+      0
+    ],
+    "scripts": 137493708,
+    "layout": 150188884
+  },
+  "SecretBase_Shrub3": {
+    "group": 25,
+    "num": 17,
+    "header": 150491052,
+    "events": 149764528,
+    "counts": [
+      15,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149764160,
+      149764520,
+      0,
+      0
+    ],
+    "scripts": 137493708,
+    "layout": 150189208
+  },
+  "SecretBase_RedCave4": {
+    "group": 25,
+    "num": 18,
+    "header": 150491080,
+    "events": 149764916,
+    "counts": [
+      15,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149764548,
+      149764908,
+      0,
+      0
+    ],
+    "scripts": 137493708,
+    "layout": 150189516
+  },
+  "SecretBase_BrownCave4": {
+    "group": 25,
+    "num": 19,
+    "header": 150491108,
+    "events": 149765304,
+    "counts": [
+      15,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149764936,
+      149765296,
+      0,
+      0
+    ],
+    "scripts": 137493708,
+    "layout": 150189888
+  },
+  "SecretBase_BlueCave4": {
+    "group": 25,
+    "num": 20,
+    "header": 150491136,
+    "events": 149765692,
+    "counts": [
+      15,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149765324,
+      149765684,
+      0,
+      0
+    ],
+    "scripts": 137493708,
+    "layout": 150190232
+  },
+  "SecretBase_YellowCave4": {
+    "group": 25,
+    "num": 21,
+    "header": 150491164,
+    "events": 149766080,
+    "counts": [
+      15,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149765712,
+      149766072,
+      0,
+      0
+    ],
+    "scripts": 137493708,
+    "layout": 150190632
+  },
+  "SecretBase_Tree4": {
+    "group": 25,
+    "num": 22,
+    "header": 150491192,
+    "events": 149766468,
+    "counts": [
+      15,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149766100,
+      149766460,
+      0,
+      0
+    ],
+    "scripts": 137493708,
+    "layout": 150191060
+  },
+  "SecretBase_Shrub4": {
+    "group": 25,
+    "num": 23,
+    "header": 150491220,
+    "events": 149766856,
+    "counts": [
+      15,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149766488,
+      149766848,
+      0,
+      0
+    ],
+    "scripts": 137493708,
+    "layout": 150191404
+  },
+  "BattleColosseum_2P": {
+    "group": 25,
+    "num": 24,
+    "header": 150491248,
+    "events": 149766948,
+    "counts": [
+      1,
+      2,
+      2,
+      0
+    ],
+    "pointers": [
+      149766876,
+      149766900,
+      149766916,
+      0
+    ],
+    "scripts": 137494397,
+    "layout": 150191692
+  },
+  "TradeCenter": {
+    "group": 25,
+    "num": 25,
+    "header": 150491276,
+    "events": 149767040,
+    "counts": [
+      1,
+      2,
+      2,
+      0
+    ],
+    "pointers": [
+      149766968,
+      149766992,
+      149767008,
+      0
+    ],
+    "scripts": 137494398,
+    "layout": 150191944
+  },
+  "RecordCorner": {
+    "group": 25,
+    "num": 26,
+    "header": 150491304,
+    "events": 149767180,
+    "counts": [
+      1,
+      4,
+      4,
+      0
+    ],
+    "pointers": [
+      149767060,
+      149767084,
+      149767116,
+      0
+    ],
+    "scripts": 137494399,
+    "layout": 150192380
+  },
+  "BattleColosseum_4P": {
+    "group": 25,
+    "num": 27,
+    "header": 150491332,
+    "events": 149767296,
+    "counts": [
+      0,
+      4,
+      4,
+      0
+    ],
+    "pointers": [
+      0,
+      149767200,
+      149767232,
+      0
+    ],
+    "scripts": 137494400,
+    "layout": 150192668
+  },
+  "ContestHall": {
+    "group": 25,
+    "num": 28,
+    "header": 150491360,
+    "events": 149767676,
+    "counts": [
+      15,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149767316,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137494401,
+    "layout": 150193036
+  },
+  "UnusedContestHall1": {
+    "group": 25,
+    "num": 29,
+    "header": 150491388,
+    "events": 149767676,
+    "counts": [
+      15,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149767316,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137494401,
+    "layout": 150193076
+  },
+  "UnusedContestHall2": {
+    "group": 25,
+    "num": 30,
+    "header": 150491416,
+    "events": 149767676,
+    "counts": [
+      15,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149767316,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137494401,
+    "layout": 150193116
+  },
+  "UnusedContestHall3": {
+    "group": 25,
+    "num": 31,
+    "header": 150491444,
+    "events": 149767676,
+    "counts": [
+      15,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149767316,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137494401,
+    "layout": 150193156
+  },
+  "UnusedContestHall4": {
+    "group": 25,
+    "num": 32,
+    "header": 150491472,
+    "events": 149767676,
+    "counts": [
+      15,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149767316,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137494401,
+    "layout": 150193196
+  },
+  "UnusedContestHall5": {
+    "group": 25,
+    "num": 33,
+    "header": 150491500,
+    "events": 149767676,
+    "counts": [
+      15,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149767316,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137494401,
+    "layout": 150193236
+  },
+  "UnusedContestHall6": {
+    "group": 25,
+    "num": 34,
+    "header": 150491528,
+    "events": 149767676,
+    "counts": [
+      15,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149767316,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137494401,
+    "layout": 150193276
+  },
+  "ContestHallBeauty": {
+    "group": 25,
+    "num": 35,
+    "header": 150491556,
+    "events": 149767676,
+    "counts": [
+      15,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149767316,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137494401,
+    "layout": 150193644
+  },
+  "ContestHallTough": {
+    "group": 25,
+    "num": 36,
+    "header": 150491584,
+    "events": 149767676,
+    "counts": [
+      15,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149767316,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137494401,
+    "layout": 150194012
+  },
+  "ContestHallCool": {
+    "group": 25,
+    "num": 37,
+    "header": 150491612,
+    "events": 149767676,
+    "counts": [
+      15,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149767316,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137494401,
+    "layout": 150194380
+  },
+  "ContestHallSmart": {
+    "group": 25,
+    "num": 38,
+    "header": 150491640,
+    "events": 149767676,
+    "counts": [
+      15,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149767316,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137494401,
+    "layout": 150194748
+  },
+  "ContestHallCute": {
+    "group": 25,
+    "num": 39,
+    "header": 150491668,
+    "events": 149767676,
+    "counts": [
+      15,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149767316,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137494401,
+    "layout": 150195116
+  },
+  "InsideOfTruck": {
+    "group": 25,
+    "num": 40,
+    "header": 150491696,
+    "events": 149767900,
+    "counts": [
+      3,
+      3,
+      3,
+      5
+    ],
+    "pointers": [
+      149767696,
+      149767768,
+      149767792,
+      149767840
+    ],
+    "scripts": 137496361,
+    "layout": 150195204
+  },
+  "SSTidalCorridor": {
+    "group": 25,
+    "num": 41,
+    "header": 150491724,
+    "events": 149768256,
+    "counts": [
+      5,
+      9,
+      0,
+      12
+    ],
+    "pointers": [
+      149767920,
+      149768040,
+      0,
+      149768112
+    ],
+    "scripts": 137496563,
+    "layout": 150252408
+  },
+  "SSTidalLowerDeck": {
+    "group": 25,
+    "num": 42,
+    "header": 150491752,
+    "events": 149768344,
+    "counts": [
+      2,
+      1,
+      0,
+      1
+    ],
+    "pointers": [
+      149768276,
+      149768324,
+      0,
+      149768332
+    ],
+    "scripts": 137498156,
+    "layout": 150252888
+  },
+  "SSTidalRooms": {
+    "group": 25,
+    "num": 43,
+    "header": 150491780,
+    "events": 149768676,
+    "counts": [
+      8,
+      12,
+      0,
+      2
+    ],
+    "pointers": [
+      149768364,
+      149768556,
+      0,
+      149768652
+    ],
+    "scripts": 137498493,
+    "layout": 150254220
+  },
+  "BattlePyramidSquare01": {
+    "group": 25,
+    "num": 44,
+    "header": 150491808,
+    "events": 149768864,
+    "counts": [
+      7,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149768696,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137500063,
+    "layout": 150352736
+  },
+  "BattlePyramidSquare02": {
+    "group": 25,
+    "num": 45,
+    "header": 150491836,
+    "events": 149769052,
+    "counts": [
+      7,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149768884,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137500063,
+    "layout": 150352900
+  },
+  "BattlePyramidSquare03": {
+    "group": 25,
+    "num": 46,
+    "header": 150491864,
+    "events": 149769240,
+    "counts": [
+      7,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149769072,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137500063,
+    "layout": 150353064
+  },
+  "BattlePyramidSquare04": {
+    "group": 25,
+    "num": 47,
+    "header": 150491892,
+    "events": 149769428,
+    "counts": [
+      7,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149769260,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137500063,
+    "layout": 150353228
+  },
+  "BattlePyramidSquare05": {
+    "group": 25,
+    "num": 48,
+    "header": 150491920,
+    "events": 149769616,
+    "counts": [
+      7,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149769448,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137500063,
+    "layout": 150353392
+  },
+  "BattlePyramidSquare06": {
+    "group": 25,
+    "num": 49,
+    "header": 150491948,
+    "events": 149769804,
+    "counts": [
+      7,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149769636,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137500063,
+    "layout": 150353556
+  },
+  "BattlePyramidSquare07": {
+    "group": 25,
+    "num": 50,
+    "header": 150491976,
+    "events": 149769992,
+    "counts": [
+      7,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149769824,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137500063,
+    "layout": 150353720
+  },
+  "BattlePyramidSquare08": {
+    "group": 25,
+    "num": 51,
+    "header": 150492004,
+    "events": 149770180,
+    "counts": [
+      7,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149770012,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137500063,
+    "layout": 150353884
+  },
+  "BattlePyramidSquare09": {
+    "group": 25,
+    "num": 52,
+    "header": 150492032,
+    "events": 149770368,
+    "counts": [
+      7,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149770200,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137500063,
+    "layout": 150354048
+  },
+  "BattlePyramidSquare10": {
+    "group": 25,
+    "num": 53,
+    "header": 150492060,
+    "events": 149770556,
+    "counts": [
+      7,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149770388,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137500063,
+    "layout": 150354212
+  },
+  "BattlePyramidSquare11": {
+    "group": 25,
+    "num": 54,
+    "header": 150492088,
+    "events": 149770744,
+    "counts": [
+      7,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149770576,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137500063,
+    "layout": 150354376
+  },
+  "BattlePyramidSquare12": {
+    "group": 25,
+    "num": 55,
+    "header": 150492116,
+    "events": 149770932,
+    "counts": [
+      7,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149770764,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137500063,
+    "layout": 150354540
+  },
+  "BattlePyramidSquare13": {
+    "group": 25,
+    "num": 56,
+    "header": 150492144,
+    "events": 149771120,
+    "counts": [
+      7,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149770952,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137500063,
+    "layout": 150354704
+  },
+  "BattlePyramidSquare14": {
+    "group": 25,
+    "num": 57,
+    "header": 150492172,
+    "events": 149771308,
+    "counts": [
+      7,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149771140,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137500063,
+    "layout": 150354868
+  },
+  "BattlePyramidSquare15": {
+    "group": 25,
+    "num": 58,
+    "header": 150492200,
+    "events": 149771496,
+    "counts": [
+      7,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149771328,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137500063,
+    "layout": 150355032
+  },
+  "BattlePyramidSquare16": {
+    "group": 25,
+    "num": 59,
+    "header": 150492228,
+    "events": 149771684,
+    "counts": [
+      7,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149771516,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137500063,
+    "layout": 150355196
+  },
+  "UnionRoom": {
+    "group": 25,
+    "num": 60,
+    "header": 150492256,
+    "events": 149771936,
+    "counts": [
+      9,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149771704,
+      149771920,
+      0,
+      0
+    ],
+    "scripts": 137500064,
+    "layout": 150383124
+  },
+  "SafariZone_Northwest": {
+    "group": 26,
+    "num": 0,
+    "header": 150492284,
+    "events": 149772028,
+    "counts": [
+      3,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149771956,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137500230,
+    "layout": 150198440
+  },
+  "SafariZone_North": {
+    "group": 26,
+    "num": 1,
+    "header": 150492312,
+    "events": 149772264,
+    "counts": [
+      9,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149772048,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137500240,
+    "layout": 150201676
+  },
+  "SafariZone_Southwest": {
+    "group": 26,
+    "num": 2,
+    "header": 150492340,
+    "events": 149772352,
+    "counts": [
+      2,
+      1,
+      0,
+      1
+    ],
+    "pointers": [
+      149772284,
+      149772332,
+      0,
+      149772340
+    ],
+    "scripts": 137500259,
+    "layout": 150204912
+  },
+  "SafariZone_South": {
+    "group": 26,
+    "num": 3,
+    "header": 150492368,
+    "events": 149772560,
+    "counts": [
+      6,
+      1,
+      0,
+      3
+    ],
+    "pointers": [
+      149772372,
+      149772516,
+      0,
+      149772524
+    ],
+    "scripts": 137500278,
+    "layout": 150208148
+  },
+  "BattleFrontier_OutsideWest": {
+    "group": 26,
+    "num": 4,
+    "header": 150492396,
+    "events": 149773304,
+    "counts": [
+      24,
+      11,
+      0,
+      5
+    ],
+    "pointers": [
+      149772580,
+      149773156,
+      0,
+      149773244
+    ],
+    "scripts": 137500638,
+    "layout": 150235824
+  },
+  "BattleFrontier_BattleTowerLobby": {
+    "group": 26,
+    "num": 5,
+    "header": 150492424,
+    "events": 149773624,
+    "counts": [
+      9,
+      3,
+      0,
+      5
+    ],
+    "pointers": [
+      149773324,
+      149773540,
+      0,
+      149773564
+    ],
+    "scripts": 137503906,
+    "layout": 150227724
+  },
+  "BattleFrontier_BattleTowerElevator": {
+    "group": 26,
+    "num": 6,
+    "header": 150492452,
+    "events": 149773668,
+    "counts": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149773644,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137513271,
+    "layout": 150235932
+  },
+  "BattleFrontier_BattleTowerCorridor": {
+    "group": 26,
+    "num": 7,
+    "header": 150492480,
+    "events": 149773712,
+    "counts": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149773688,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137513478,
+    "layout": 150236140
+  },
+  "BattleFrontier_BattleTowerBattleRoom": {
+    "group": 26,
+    "num": 8,
+    "header": 150492508,
+    "events": 149773820,
+    "counts": [
+      3,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149773732,
+      149773804,
+      0,
+      0
+    ],
+    "scripts": 137513628,
+    "layout": 150236356
+  },
+  "SouthernIsland_Exterior": {
+    "group": 26,
+    "num": 9,
+    "header": 150492536,
+    "events": 149773916,
+    "counts": [
+      2,
+      2,
+      0,
+      1
+    ],
+    "pointers": [
+      149773840,
+      149773888,
+      0,
+      149773904
+    ],
+    "scripts": 137516568,
+    "layout": 150268700
+  },
+  "SouthernIsland_Interior": {
+    "group": 26,
+    "num": 10,
+    "header": 150492564,
+    "events": 149774108,
+    "counts": [
+      6,
+      2,
+      0,
+      1
+    ],
+    "pointers": [
+      149773936,
+      149774080,
+      0,
+      149774096
+    ],
+    "scripts": 137516693,
+    "layout": 150270032
+  },
+  "SafariZone_RestHouse": {
+    "group": 26,
+    "num": 11,
+    "header": 150492592,
+    "events": 149774216,
+    "counts": [
+      3,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149774128,
+      149774200,
+      0,
+      0
+    ],
+    "scripts": 137517135,
+    "layout": 150310620
+  },
+  "SafariZone_Northeast": {
+    "group": 26,
+    "num": 12,
+    "header": 150492620,
+    "events": 149774476,
+    "counts": [
+      9,
+      0,
+      0,
+      2
+    ],
+    "pointers": [
+      149774236,
+      0,
+      0,
+      149774452
+    ],
+    "scripts": 137517163,
+    "layout": 150386360
+  },
+  "SafariZone_Southeast": {
+    "group": 26,
+    "num": 13,
+    "header": 150492648,
+    "events": 149774640,
+    "counts": [
+      5,
+      0,
+      0,
+      2
+    ],
+    "pointers": [
+      149774496,
+      0,
+      0,
+      149774616
+    ],
+    "scripts": 137517164,
+    "layout": 150389596
+  },
+  "BattleFrontier_OutsideEast": {
+    "group": 26,
+    "num": 14,
+    "header": 150492676,
+    "events": 149775492,
+    "counts": [
+      26,
+      14,
+      0,
+      8
+    ],
+    "pointers": [
+      149774660,
+      149775284,
+      0,
+      149775396
+    ],
+    "scripts": 137517165,
+    "layout": 150340224
+  },
+  "BattleFrontier_BattleTowerMultiPartnerRoom": {
+    "group": 26,
+    "num": 15,
+    "header": 150492704,
+    "events": 149775728,
+    "counts": [
+      9,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149775512,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137520300,
+    "layout": 150371284
+  },
+  "BattleFrontier_BattleTowerMultiCorridor": {
+    "group": 26,
+    "num": 16,
+    "header": 150492732,
+    "events": 149775844,
+    "counts": [
+      4,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149775748,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137534481,
+    "layout": 150371492
+  },
+  "BattleFrontier_BattleTowerMultiBattleRoom": {
+    "group": 26,
+    "num": 17,
+    "header": 150492760,
+    "events": 149776008,
+    "counts": [
+      6,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149775864,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137534895,
+    "layout": 150236356
+  },
+  "BattleFrontier_BattleDomeLobby": {
+    "group": 26,
+    "num": 18,
+    "header": 150492788,
+    "events": 149776236,
+    "counts": [
+      6,
+      2,
+      0,
+      4
+    ],
+    "pointers": [
+      149776028,
+      149776172,
+      0,
+      149776188
+    ],
+    "scripts": 137536900,
+    "layout": 150313200
+  },
+  "BattleFrontier_BattleDomeCorridor": {
+    "group": 26,
+    "num": 19,
+    "header": 150492816,
+    "events": 149776296,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149776256,
+      149776280,
+      0,
+      0
+    ],
+    "scripts": 137541573,
+    "layout": 150313908
+  },
+  "BattleFrontier_BattleDomePreBattleRoom": {
+    "group": 26,
+    "num": 20,
+    "header": 150492844,
+    "events": 149776356,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149776316,
+      149776340,
+      0,
+      0
+    ],
+    "scripts": 137541824,
+    "layout": 150314088
+  },
+  "BattleFrontier_BattleDomeBattleRoom": {
+    "group": 26,
+    "num": 21,
+    "header": 150492872,
+    "events": 149776736,
+    "counts": [
+      15,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149776376,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137543899,
+    "layout": 150314524
+  },
+  "BattleFrontier_BattlePalaceLobby": {
+    "group": 26,
+    "num": 22,
+    "header": 150492900,
+    "events": 149776960,
+    "counts": [
+      6,
+      3,
+      0,
+      3
+    ],
+    "pointers": [
+      149776756,
+      149776900,
+      0,
+      149776924
+    ],
+    "scripts": 137549650,
+    "layout": 150328972
+  },
+  "BattleFrontier_BattlePalaceCorridor": {
+    "group": 26,
+    "num": 23,
+    "header": 150492928,
+    "events": 149777180,
+    "counts": [
+      7,
+      4,
+      0,
+      0
+    ],
+    "pointers": [
+      149776980,
+      149777148,
+      0,
+      0
+    ],
+    "scripts": 137554736,
+    "layout": 150329484
+  },
+  "BattleFrontier_BattlePalaceBattleRoom": {
+    "group": 26,
+    "num": 24,
+    "header": 150492956,
+    "events": 149777336,
+    "counts": [
+      5,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149777200,
+      149777320,
+      0,
+      0
+    ],
+    "scripts": 137555438,
+    "layout": 150329820
+  },
+  "BattleFrontier_BattlePyramidLobby": {
+    "group": 26,
+    "num": 25,
+    "header": 150492984,
+    "events": 149777484,
+    "counts": [
+      4,
+      1,
+      0,
+      2
+    ],
+    "pointers": [
+      149777356,
+      149777452,
+      0,
+      149777460
+    ],
+    "scripts": 137558578,
+    "layout": 150352408
+  },
+  "BattleFrontier_BattlePyramidFloor": {
+    "group": 26,
+    "num": 26,
+    "header": 150493012,
+    "events": 149777888,
+    "counts": [
+      16,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149777504,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137565130,
+    "layout": 150352572
+  },
+  "BattleFrontier_BattlePyramidTop": {
+    "group": 26,
+    "num": 27,
+    "header": 150493040,
+    "events": 149777972,
+    "counts": [
+      2,
+      0,
+      1,
+      0
+    ],
+    "pointers": [
+      149777908,
+      0,
+      149777956,
+      0
+    ],
+    "scripts": 137570962,
+    "layout": 150356796
+  },
+  "BattleFrontier_BattleArenaLobby": {
+    "group": 26,
+    "num": 28,
+    "header": 150493068,
+    "events": 149778144,
+    "counts": [
+      5,
+      1,
+      0,
+      2
+    ],
+    "pointers": [
+      149777992,
+      149778112,
+      0,
+      149778120
+    ],
+    "scripts": 137573161,
+    "layout": 150343232
+  },
+  "BattleFrontier_BattleArenaCorridor": {
+    "group": 26,
+    "num": 29,
+    "header": 150493096,
+    "events": 149778188,
+    "counts": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149778164,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137577342,
+    "layout": 150343772
+  },
+  "BattleFrontier_BattleArenaBattleRoom": {
+    "group": 26,
+    "num": 30,
+    "header": 150493124,
+    "events": 149778424,
+    "counts": [
+      9,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149778208,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137577516,
+    "layout": 150344160
+  },
+  "BattleFrontier_BattleFactoryLobby": {
+    "group": 26,
+    "num": 31,
+    "header": 150493152,
+    "events": 149778640,
+    "counts": [
+      6,
+      2,
+      0,
+      3
+    ],
+    "pointers": [
+      149778444,
+      149778588,
+      0,
+      149778604
+    ],
+    "scripts": 137580739,
+    "layout": 150340716
+  },
+  "BattleFrontier_BattleFactoryPreBattleRoom": {
+    "group": 26,
+    "num": 32,
+    "header": 150493180,
+    "events": 149778684,
+    "counts": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149778660,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137584899,
+    "layout": 150341228
+  },
+  "BattleFrontier_BattleFactoryBattleRoom": {
+    "group": 26,
+    "num": 33,
+    "header": 150493208,
+    "events": 149778896,
+    "counts": [
+      8,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149778704,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137588496,
+    "layout": 150341576
+  },
+  "BattleFrontier_BattlePikeLobby": {
+    "group": 26,
+    "num": 34,
+    "header": 150493236,
+    "events": 149779060,
+    "counts": [
+      4,
+      3,
+      0,
+      2
+    ],
+    "pointers": [
+      149778916,
+      149779012,
+      0,
+      149779036
+    ],
+    "scripts": 137590320,
+    "layout": 150341900
+  },
+  "BattleFrontier_BattlePikeCorridor": {
+    "group": 26,
+    "num": 35,
+    "header": 150493264,
+    "events": 149779104,
+    "counts": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149779080,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137593340,
+    "layout": 150342160
+  },
+  "BattleFrontier_BattlePikeThreePathRoom": {
+    "group": 26,
+    "num": 36,
+    "header": 150493292,
+    "events": 149779316,
+    "counts": [
+      2,
+      0,
+      9,
+      0
+    ],
+    "pointers": [
+      149779124,
+      0,
+      149779172,
+      0
+    ],
+    "scripts": 137593538,
+    "layout": 150342484
+  },
+  "BattleFrontier_BattlePikeRoomNormal": {
+    "group": 26,
+    "num": 37,
+    "header": 150493320,
+    "events": 149779496,
+    "counts": [
+      2,
+      0,
+      7,
+      0
+    ],
+    "pointers": [
+      149779336,
+      0,
+      149779384,
+      0
+    ],
+    "scripts": 137595258,
+    "layout": 150342664
+  },
+  "BattleFrontier_BattlePikeRoomFinal": {
+    "group": 26,
+    "num": 38,
+    "header": 150493348,
+    "events": 149779540,
+    "counts": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      149779516,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137599128,
+    "layout": 150342780
+  },
+  "BattleFrontier_BattlePikeRoomWildMons": {
+    "group": 26,
+    "num": 39,
+    "header": 150493376,
+    "events": 149779672,
+    "counts": [
+      0,
+      0,
+      7,
+      0
+    ],
+    "pointers": [
+      0,
+      0,
+      149779560,
+      0
+    ],
+    "scripts": 137599245,
+    "layout": 150351792
+  },
+  "BattleFrontier_RankingHall": {
+    "group": 26,
+    "num": 40,
+    "header": 150493404,
+    "events": 149779924,
+    "counts": [
+      3,
+      2,
+      0,
+      12
+    ],
+    "pointers": [
+      149779692,
+      149779764,
+      0,
+      149779780
+    ],
+    "scripts": 137599388,
+    "layout": 150391224
+  },
+  "BattleFrontier_Lounge1": {
+    "group": 26,
+    "num": 41,
+    "header": 150493432,
+    "events": 149780024,
+    "counts": [
+      3,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149779944,
+      149780016,
+      0,
+      0
+    ],
+    "scripts": 137599950,
+    "layout": 150446428
+  },
+  "BattleFrontier_ExchangeServiceCorner": {
+    "group": 26,
+    "num": 42,
+    "header": 150493460,
+    "events": 149780308,
+    "counts": [
+      10,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149780044,
+      149780284,
+      0,
+      0
+    ],
+    "scripts": 137601513,
+    "layout": 150391836
+  },
+  "BattleFrontier_Lounge2": {
+    "group": 26,
+    "num": 43,
+    "header": 150493488,
+    "events": 149780464,
+    "counts": [
+      5,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149780328,
+      149780448,
+      0,
+      0
+    ],
+    "scripts": 137604509,
+    "layout": 150391468
+  },
+  "BattleFrontier_Lounge3": {
+    "group": 26,
+    "num": 44,
+    "header": 150493516,
+    "events": 149780612,
+    "counts": [
+      5,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149780484,
+      149780604,
+      0,
+      0
+    ],
+    "scripts": 137608543,
+    "layout": 150446428
+  },
+  "BattleFrontier_Lounge4": {
+    "group": 26,
+    "num": 45,
+    "header": 150493544,
+    "events": 149780712,
+    "counts": [
+      3,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149780632,
+      149780704,
+      0,
+      0
+    ],
+    "scripts": 137612341,
+    "layout": 150446428
+  },
+  "BattleFrontier_ScottsHouse": {
+    "group": 26,
+    "num": 46,
+    "header": 150493572,
+    "events": 149780772,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149780732,
+      149780756,
+      0,
+      0
+    ],
+    "scripts": 137612541,
+    "layout": 150446560
+  },
+  "BattleFrontier_Lounge5": {
+    "group": 26,
+    "num": 47,
+    "header": 150493600,
+    "events": 149780904,
+    "counts": [
+      4,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149780792,
+      149780888,
+      0,
+      0
+    ],
+    "scripts": 137615240,
+    "layout": 150391468
+  },
+  "BattleFrontier_Lounge6": {
+    "group": 26,
+    "num": 48,
+    "header": 150493628,
+    "events": 149780956,
+    "counts": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149780924,
+      149780948,
+      0,
+      0
+    ],
+    "scripts": 137616193,
+    "layout": 150446428
+  },
+  "BattleFrontier_Lounge7": {
+    "group": 26,
+    "num": 49,
+    "header": 150493656,
+    "events": 149781080,
+    "counts": [
+      4,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149780976,
+      149781072,
+      0,
+      0
+    ],
+    "scripts": 137616610,
+    "layout": 150446428
+  },
+  "BattleFrontier_ReceptionGate": {
+    "group": 26,
+    "num": 50,
+    "header": 150493684,
+    "events": 149781236,
+    "counts": [
+      5,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149781100,
+      149781220,
+      0,
+      0
+    ],
+    "scripts": 137619808,
+    "layout": 150392124
+  },
+  "BattleFrontier_Lounge8": {
+    "group": 26,
+    "num": 51,
+    "header": 150493712,
+    "events": 149781336,
+    "counts": [
+      3,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149781256,
+      149781328,
+      0,
+      0
+    ],
+    "scripts": 137623265,
+    "layout": 150446428
+  },
+  "BattleFrontier_Lounge9": {
+    "group": 26,
+    "num": 52,
+    "header": 150493740,
+    "events": 149781396,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149781356,
+      149781380,
+      0,
+      0
+    ],
+    "scripts": 137623656,
+    "layout": 150446428
+  },
+  "BattleFrontier_PokemonCenter_1F": {
+    "group": 26,
+    "num": 53,
+    "header": 150493768,
+    "events": 149781560,
+    "counts": [
+      5,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149781416,
+      149781536,
+      0,
+      0
+    ],
+    "scripts": 137623657,
+    "layout": 150079180
+  },
+  "BattleFrontier_PokemonCenter_2F": {
+    "group": 26,
+    "num": 54,
+    "header": 150493796,
+    "events": 149781700,
+    "counts": [
+      4,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      149781580,
+      149781676,
+      0,
+      0
+    ],
+    "scripts": 137623956,
+    "layout": 150079496
+  },
+  "BattleFrontier_Mart": {
+    "group": 26,
+    "num": 55,
+    "header": 150493824,
+    "events": 149781832,
+    "counts": [
+      4,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149781720,
+      149781816,
+      0,
+      0
+    ],
+    "scripts": 137623995,
+    "layout": 150079708
+  },
+  "FarawayIsland_Entrance": {
+    "group": 26,
+    "num": 56,
+    "header": 150493852,
+    "events": 149781976,
+    "counts": [
+      2,
+      2,
+      3,
+      1
+    ],
+    "pointers": [
+      149781852,
+      149781900,
+      149781916,
+      149781964
+    ],
+    "scripts": 137624339,
+    "layout": 150401252
+  },
+  "FarawayIsland_Interior": {
+    "group": 26,
+    "num": 57,
+    "header": 150493880,
+    "events": 149782036,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149781996,
+      149782020,
+      0,
+      0
+    ],
+    "scripts": 137624447,
+    "layout": 150402796
+  },
+  "BirthIsland_Exterior": {
+    "group": 26,
+    "num": 58,
+    "header": 150493908,
+    "events": 149782112,
+    "counts": [
+      2,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149782056,
+      149782104,
+      0,
+      0
+    ],
+    "scripts": 137624975,
+    "layout": 150404632
+  },
+  "BirthIsland_Harbor": {
+    "group": 26,
+    "num": 59,
+    "header": 150493936,
+    "events": 149782188,
+    "counts": [
+      2,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149782132,
+      149782180,
+      0,
+      0
+    ],
+    "scripts": 137625302,
+    "layout": 150405112
+  },
+  "TrainerHill_Entrance": {
+    "group": 26,
+    "num": 60,
+    "header": 150493964,
+    "events": 149782380,
+    "counts": [
+      5,
+      3,
+      1,
+      1
+    ],
+    "pointers": [
+      149782208,
+      149782328,
+      149782352,
+      149782368
+    ],
+    "scripts": 137625382,
+    "layout": 150430524
+  },
+  "TrainerHill_1F": {
+    "group": 26,
+    "num": 61,
+    "header": 150493992,
+    "events": 149782416,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149782400,
+      0,
+      0
+    ],
+    "scripts": 137628061,
+    "layout": 150431232
+  },
+  "TrainerHill_2F": {
+    "group": 26,
+    "num": 62,
+    "header": 150494020,
+    "events": 149782452,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149782436,
+      0,
+      0
+    ],
+    "scripts": 137628077,
+    "layout": 150431940
+  },
+  "TrainerHill_3F": {
+    "group": 26,
+    "num": 63,
+    "header": 150494048,
+    "events": 149782488,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149782472,
+      0,
+      0
+    ],
+    "scripts": 137628093,
+    "layout": 150432648
+  },
+  "TrainerHill_4F": {
+    "group": 26,
+    "num": 64,
+    "header": 150494076,
+    "events": 149782524,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149782508,
+      0,
+      0
+    ],
+    "scripts": 137628104,
+    "layout": 150433356
+  },
+  "TrainerHill_Roof": {
+    "group": 26,
+    "num": 65,
+    "header": 150494104,
+    "events": 149782584,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149782544,
+      149782568,
+      0,
+      0
+    ],
+    "scripts": 137628115,
+    "layout": 150434192
+  },
+  "NavelRock_Exterior": {
+    "group": 26,
+    "num": 66,
+    "header": 150494132,
+    "events": 149782620,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149782604,
+      0,
+      0
+    ],
+    "scripts": 137628382,
+    "layout": 150436808
+  },
+  "NavelRock_Harbor": {
+    "group": 26,
+    "num": 67,
+    "header": 150494160,
+    "events": 149782696,
+    "counts": [
+      2,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149782640,
+      149782688,
+      0,
+      0
+    ],
+    "scripts": 137628392,
+    "layout": 150405112
+  },
+  "NavelRock_Entrance": {
+    "group": 26,
+    "num": 68,
+    "header": 150494188,
+    "events": 149782732,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149782716,
+      0,
+      0
+    ],
+    "scripts": 137628472,
+    "layout": 150438188
+  },
+  "NavelRock_B1F": {
+    "group": 26,
+    "num": 69,
+    "header": 150494216,
+    "events": 149782768,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149782752,
+      0,
+      0
+    ],
+    "scripts": 137628473,
+    "layout": 150441532
+  },
+  "NavelRock_Fork": {
+    "group": 26,
+    "num": 70,
+    "header": 150494244,
+    "events": 149782812,
+    "counts": [
+      0,
+      3,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149782788,
+      0,
+      0
+    ],
+    "scripts": 137628474,
+    "layout": 150446212
+  },
+  "NavelRock_Up1": {
+    "group": 26,
+    "num": 71,
+    "header": 150494272,
+    "events": 149782848,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149782832,
+      0,
+      0
+    ],
+    "scripts": 137628475,
+    "layout": 150440808
+  },
+  "NavelRock_Up2": {
+    "group": 26,
+    "num": 72,
+    "header": 150494300,
+    "events": 149782884,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149782868,
+      0,
+      0
+    ],
+    "scripts": 137628476,
+    "layout": 150440988
+  },
+  "NavelRock_Up3": {
+    "group": 26,
+    "num": 73,
+    "header": 150494328,
+    "events": 149782920,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149782904,
+      0,
+      0
+    ],
+    "scripts": 137628477,
+    "layout": 150440808
+  },
+  "NavelRock_Up4": {
+    "group": 26,
+    "num": 74,
+    "header": 150494356,
+    "events": 149782956,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149782940,
+      0,
+      0
+    ],
+    "scripts": 137628478,
+    "layout": 150440988
+  },
+  "NavelRock_Top": {
+    "group": 26,
+    "num": 75,
+    "header": 150494384,
+    "events": 149783036,
+    "counts": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "pointers": [
+      149782976,
+      149783000,
+      149783008,
+      149783024
+    ],
+    "scripts": 137628479,
+    "layout": 150439624
+  },
+  "NavelRock_Down01": {
+    "group": 26,
+    "num": 76,
+    "header": 150494412,
+    "events": 149783072,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149783056,
+      0,
+      0
+    ],
+    "scripts": 137628790,
+    "layout": 150440808
+  },
+  "NavelRock_Down02": {
+    "group": 26,
+    "num": 77,
+    "header": 150494440,
+    "events": 149783108,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149783092,
+      0,
+      0
+    ],
+    "scripts": 137628791,
+    "layout": 150440988
+  },
+  "NavelRock_Down03": {
+    "group": 26,
+    "num": 78,
+    "header": 150494468,
+    "events": 149783144,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149783128,
+      0,
+      0
+    ],
+    "scripts": 137628792,
+    "layout": 150440808
+  },
+  "NavelRock_Down04": {
+    "group": 26,
+    "num": 79,
+    "header": 150494496,
+    "events": 149783180,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149783164,
+      0,
+      0
+    ],
+    "scripts": 137628793,
+    "layout": 150440988
+  },
+  "NavelRock_Down05": {
+    "group": 26,
+    "num": 80,
+    "header": 150494524,
+    "events": 149783216,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149783200,
+      0,
+      0
+    ],
+    "scripts": 137628794,
+    "layout": 150440808
+  },
+  "NavelRock_Down06": {
+    "group": 26,
+    "num": 81,
+    "header": 150494552,
+    "events": 149783252,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149783236,
+      0,
+      0
+    ],
+    "scripts": 137628795,
+    "layout": 150440988
+  },
+  "NavelRock_Down07": {
+    "group": 26,
+    "num": 82,
+    "header": 150494580,
+    "events": 149783288,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149783272,
+      0,
+      0
+    ],
+    "scripts": 137628796,
+    "layout": 150440808
+  },
+  "NavelRock_Down08": {
+    "group": 26,
+    "num": 83,
+    "header": 150494608,
+    "events": 149783324,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149783308,
+      0,
+      0
+    ],
+    "scripts": 137628797,
+    "layout": 150440988
+  },
+  "NavelRock_Down09": {
+    "group": 26,
+    "num": 84,
+    "header": 150494636,
+    "events": 149783360,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149783344,
+      0,
+      0
+    ],
+    "scripts": 137628798,
+    "layout": 150440808
+  },
+  "NavelRock_Down10": {
+    "group": 26,
+    "num": 85,
+    "header": 150494664,
+    "events": 149783396,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149783380,
+      0,
+      0
+    ],
+    "scripts": 137628799,
+    "layout": 150440988
+  },
+  "NavelRock_Down11": {
+    "group": 26,
+    "num": 86,
+    "header": 150494692,
+    "events": 149783432,
+    "counts": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149783416,
+      0,
+      0
+    ],
+    "scripts": 137628800,
+    "layout": 150440808
+  },
+  "NavelRock_Bottom": {
+    "group": 26,
+    "num": 87,
+    "header": 150494720,
+    "events": 149783484,
+    "counts": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "pointers": [
+      149783452,
+      149783476,
+      0,
+      0
+    ],
+    "scripts": 137628801,
+    "layout": 150440628
+  },
+  "TrainerHill_Elevator": {
+    "group": 26,
+    "num": 88,
+    "header": 150494748,
+    "events": 149783544,
+    "counts": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149783504,
+      149783528,
+      0,
+      0
+    ],
+    "scripts": 137629051,
+    "layout": 150235932
+  },
+  "Route104_Prototype": {
+    "group": 27,
+    "num": 0,
+    "header": 150494776,
+    "events": 149783564,
+    "counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137629214,
+    "layout": 150265904
+  },
+  "Route104_PrototypePrettyPetalFlowerShop": {
+    "group": 27,
+    "num": 1,
+    "header": 150494804,
+    "events": 149783584,
+    "counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "scripts": 137629215,
+    "layout": 150107988
+  },
+  "Route109_SeashoreHouse": {
+    "group": 28,
+    "num": 0,
+    "header": 150494832,
+    "events": 149783716,
+    "counts": [
+      4,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149783604,
+      149783700,
+      0,
+      0
+    ],
+    "scripts": 137629216,
+    "layout": 150211536
+  },
+  "Route110_TrickHouseEntrance": {
+    "group": 29,
+    "num": 0,
+    "header": 150494860,
+    "events": 149783884,
+    "counts": [
+      2,
+      3,
+      4,
+      1
+    ],
+    "pointers": [
+      149783736,
+      149783784,
+      149783808,
+      149783872
+    ],
+    "scripts": 137630453,
+    "layout": 150211764
+  },
+  "Route110_TrickHouseEnd": {
+    "group": 29,
+    "num": 1,
+    "header": 150494888,
+    "events": 149783972,
+    "counts": [
+      1,
+      2,
+      1,
+      1
+    ],
+    "pointers": [
+      149783904,
+      149783928,
+      149783944,
+      149783960
+    ],
+    "scripts": 137634295,
+    "layout": 150211992
+  },
+  "Route110_TrickHouseCorridor": {
+    "group": 29,
+    "num": 2,
+    "header": 150494916,
+    "events": 149784024,
+    "counts": [
+      0,
+      4,
+      0,
+      0
+    ],
+    "pointers": [
+      0,
+      149783992,
+      0,
+      0
+    ],
+    "scripts": 137636716,
+    "layout": 150212748
+  },
+  "Route110_TrickHousePuzzle1": {
+    "group": 29,
+    "num": 3,
+    "header": 150494944,
+    "events": 149784440,
+    "counts": [
+      15,
+      3,
+      0,
+      1
+    ],
+    "pointers": [
+      149784044,
+      149784404,
+      0,
+      149784428
+    ],
+    "scripts": 137636728,
+    "layout": 150213444
+  },
+  "Route110_TrickHousePuzzle2": {
+    "group": 29,
+    "num": 4,
+    "header": 150494972,
+    "events": 149784680,
+    "counts": [
+      5,
+      3,
+      4,
+      1
+    ],
+    "pointers": [
+      149784460,
+      149784580,
+      149784604,
+      149784668
+    ],
+    "scripts": 137637244,
+    "layout": 150214140
+  },
+  "Route110_TrickHousePuzzle3": {
+    "group": 29,
+    "num": 5,
+    "header": 150495000,
+    "events": 149784968,
+    "counts": [
+      7,
+      3,
+      4,
+      1
+    ],
+    "pointers": [
+      149784700,
+      149784868,
+      149784892,
+      149784956
+    ],
+    "scripts": 137638008,
+    "layout": 150214836
+  },
+  "Route110_TrickHousePuzzle4": {
+    "group": 29,
+    "num": 6,
+    "header": 150495028,
+    "events": 149785360,
+    "counts": [
+      14,
+      3,
+      0,
+      1
+    ],
+    "pointers": [
+      149784988,
+      149785324,
+      0,
+      149785348
+    ],
+    "scripts": 137640328,
+    "layout": 150215532
+  },
+  "Route110_TrickHousePuzzle5": {
+    "group": 29,
+    "num": 7,
+    "header": 150495056,
+    "events": 149785888,
+    "counts": [
+      5,
+      3,
+      22,
+      1
+    ],
+    "pointers": [
+      149785380,
+      149785500,
+      149785524,
+      149785876
+    ],
+    "scripts": 137640869,
+    "layout": 150216228
+  },
+  "Route110_TrickHousePuzzle6": {
+    "group": 29,
+    "num": 8,
+    "header": 150495084,
+    "events": 149786040,
+    "counts": [
+      4,
+      3,
+      0,
+      1
+    ],
+    "pointers": [
+      149785908,
+      149786004,
+      0,
+      149786028
+    ],
+    "scripts": 137645015,
+    "layout": 150216924
+  },
+  "Route110_TrickHousePuzzle7": {
+    "group": 29,
+    "num": 9,
+    "header": 150495112,
+    "events": 149786456,
+    "counts": [
+      9,
+      13,
+      4,
+      1
+    ],
+    "pointers": [
+      149786060,
+      149786276,
+      149786380,
+      149786444
+    ],
+    "scripts": 137645633,
+    "layout": 150217620
+  },
+  "Route110_TrickHousePuzzle8": {
+    "group": 29,
+    "num": 10,
+    "header": 150495140,
+    "events": 149786608,
+    "counts": [
+      4,
+      3,
+      0,
+      1
+    ],
+    "pointers": [
+      149786476,
+      149786572,
+      0,
+      149786596
+    ],
+    "scripts": 137647368,
+    "layout": 150218316
+  },
+  "Route110_SeasideCyclingRoadSouthEntrance": {
+    "group": 29,
+    "num": 11,
+    "header": 150495168,
+    "events": 149786716,
+    "counts": [
+      1,
+      4,
+      2,
+      0
+    ],
+    "pointers": [
+      149786628,
+      149786652,
+      149786684,
+      0
+    ],
+    "scripts": 137647890,
+    "layout": 150218664
+  },
+  "Route110_SeasideCyclingRoadNorthEntrance": {
+    "group": 29,
+    "num": 12,
+    "header": 150495196,
+    "events": 149786824,
+    "counts": [
+      1,
+      4,
+      2,
+      0
+    ],
+    "pointers": [
+      149786736,
+      149786760,
+      149786792,
+      0
+    ],
+    "scripts": 137648105,
+    "layout": 150218664
+  },
+  "Route113_GlassWorkshop": {
+    "group": 30,
+    "num": 0,
+    "header": 150495224,
+    "events": 149786908,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149786844,
+      149786892,
+      0,
+      0
+    ],
+    "scripts": 137648376,
+    "layout": 150081508
+  },
+  "Route123_BerryMastersHouse": {
+    "group": 31,
+    "num": 0,
+    "header": 150495252,
+    "events": 149786992,
+    "counts": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149786928,
+      149786976,
+      0,
+      0
+    ],
+    "scripts": 137650795,
+    "layout": 150078892
+  },
+  "Route119_WeatherInstitute_1F": {
+    "group": 32,
+    "num": 0,
+    "header": 150495280,
+    "events": 149787264,
+    "counts": [
+      7,
+      3,
+      0,
+      5
+    ],
+    "pointers": [
+      149787012,
+      149787180,
+      0,
+      149787204
+    ],
+    "scripts": 137651369,
+    "layout": 150237784
+  },
+  "Route119_WeatherInstitute_2F": {
+    "group": 32,
+    "num": 1,
+    "header": 150495308,
+    "events": 149787520,
+    "counts": [
+      8,
+      1,
+      0,
+      3
+    ],
+    "pointers": [
+      149787284,
+      149787476,
+      0,
+      149787484
+    ],
+    "scripts": 137652223,
+    "layout": 150238260
+  },
+  "Route119_House": {
+    "group": 32,
+    "num": 2,
+    "header": 150495336,
+    "events": 149787724,
+    "counts": [
+      7,
+      2,
+      0,
+      0
+    ],
+    "pointers": [
+      149787540,
+      149787708,
+      0,
+      0
+    ],
+    "scripts": 137654245,
+    "layout": 150078680
+  },
+  "Route124_DivingTreasureHuntersHouse": {
+    "group": 33,
+    "num": 0,
+    "header": 150495364,
+    "events": 149787796,
+    "counts": [
+      1,
+      2,
+      0,
+      1
+    ],
+    "pointers": [
+      149787744,
+      149787768,
+      0,
+      149787784
+    ],
+    "scripts": 137654377,
+    "layout": 150277804
+  }
+}

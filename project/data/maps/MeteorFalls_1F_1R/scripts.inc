@@ -286,6 +286,7 @@ MeteorFalls_Part3_Stardust::
  giveitem ITEM_STARDUST, 1
  goto_if_eq VAR_RESULT, FALSE, MeteorFalls_Part3_Stardust_BagFull
  setflag FLAG_PART3_METEOR_STARDUST
+ special StoryRefreshPickupMarkers
 MeteorFalls_Part3_Stardust_Done::
  msgbox MeteorFalls_Part3_Stardust_After, MSGBOX_DEFAULT
  releaseall

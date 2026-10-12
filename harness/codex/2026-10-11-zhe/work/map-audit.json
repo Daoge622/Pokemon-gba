@@ -1,0 +1,12 @@
+{
+  "rom_sha256": "cf9b34f57b57a71613e12fe078eba35835ec9e1283ac355b4436201bf854cbde",
+  "maps": 543,
+  "objects": 3458,
+  "warps": 1370,
+  "coordinates": 586,
+  "background_events": 977,
+  "gfx_table": "0x8c5ec78",
+  "gfx_count": 401,
+  "issues": [],
+  "source_graphics_differences": []
+}

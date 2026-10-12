@@ -1,0 +1,20 @@
+{
+  "checks": "PASS",
+  "input_sha256": "cf9b34f57b57a71613e12fe078eba35835ec9e1283ac355b4436201bf854cbde",
+  "output_sha256": "8c3142dcf6678093913e9f572865272d46dbe9862f60d03f5f9d251259037e8d",
+  "different_bytes": 472,
+  "modified_regions": 8,
+  "bps_independent_apply": "PASS",
+  "bytecode_commands_verified": 121,
+  "external_script_targets": [
+    "0x830d1e1",
+    "0x838ed7c",
+    "0x8399401",
+    "0x8399446",
+    "0x839960d"
+  ],
+  "normal_Pyre_playthrough": "menu, select order, cancel, win, six identities restored; Scizor 40 to 41 persisted",
+  "other_entries": "controlled fixture warp and script entry; Route119/Lavaridge selection/cancel/party preservation, Steven existing order enters battle; not full story playthrough",
+  "normal_loss": "six identities restored, loss outcome 2, returns Pokemon Center group11 map5, no victory flag",
+  "postbattle": "field walk, normal party menu, in-game normal Save then clean boot to same Pyre map; screenshots archived"
+}

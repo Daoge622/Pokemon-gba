@@ -521,6 +521,7 @@ Part7_BackflowNuggets::
 	giveitem ITEM_NUGGET, 2
 	goto_if_eq VAR_RESULT, FALSE, Part7_BagFullAll
 	setflag FLAG_PART7_BACKFLOW_NUGGETS
+	special StoryRefreshPickupMarkers
 	releaseall
 	end
 Part7_BackflowNuggets_Empty::
@@ -1028,8 +1029,21 @@ Part7_119Latios::
 Part7_119Girl::
 	msgbox Part7_Text_183, MSGBOX_DEFAULT
 	clearflag FLAG_TEMP_B
-	addobject LOCALID_PART7_119_GIRL
-	addobject LOCALID_PART7_119_JIGGLY
+	closemessage
+	setvar VAR_0x8000, LOCALID_PART7_119_GIRL
+	setvar VAR_0x8001, 6
+	setvar VAR_0x8002, 0
+	call Story_SpawnNearPlayer
+	setvar VAR_0x8000, LOCALID_PART7_119_JIGGLY
+	setvar VAR_0x8001, 7
+	setvar VAR_0x8002, 0
+	call Story_SpawnNearPlayer
+	setvar VAR_0x8000, LOCALID_PART7_119_GIRL
+	setvar VAR_0x8001, 1
+	call Story_WalkToPlayer
+	setvar VAR_0x8000, LOCALID_PART7_119_JIGGLY
+	setvar VAR_0x8001, 2
+	call Story_WalkToPlayer
 	msgbox Part7_Text_184, MSGBOX_DEFAULT
 	playmoncry SPECIES_JIGGLYPUFF, CRY_MODE_NORMAL
 	waitmoncry

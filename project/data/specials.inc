@@ -666,6 +666,11 @@ def_special BeginPart3EnteiBattle
 	def_special GivePart4LuvdiscToGirl
 	def_special SyncPart4LuvdiscObject
 	def_special SyncPart4MegaObjects
+	def_special StoryStepTowardPlayer
+	def_special StoryStepAwayFromPlayer
+	def_special StoryFindSpawnNearPlayer
+	def_special StoryPlayerFaceObject
+	def_special StoryRefreshPickupMarkers
 	def_special GetPart4RainState
 	def_special CheckPart4LeadCastform
 

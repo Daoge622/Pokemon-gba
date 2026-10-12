@@ -1,0 +1,30 @@
+[
+  {
+    "state": "couple-actual-battle.state",
+    "head": "0x20018c4",
+    "blocks": 55,
+    "allocated_bytes": 88884,
+    "errors": []
+  },
+  {
+    "state": "couple-win-0.state",
+    "head": "0x20018c4",
+    "blocks": 55,
+    "allocated_bytes": 88884,
+    "errors": []
+  },
+  {
+    "state": "couple-win-field.state",
+    "head": "0x20018c4",
+    "blocks": 6,
+    "allocated_bytes": 11648,
+    "errors": []
+  },
+  {
+    "state": "couple-verified-final.state",
+    "head": "0x20018c4",
+    "blocks": 6,
+    "allocated_bytes": 11648,
+    "errors": []
+  }
+]

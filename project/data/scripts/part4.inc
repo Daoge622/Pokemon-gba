@@ -67,7 +67,7 @@ Part4_PitCamper::
 	end
 
 Part4_Text_012:
-	.string "水壶在沙暴里弄丢了。你要是找到了\n，帮我带回来吧。$"
+	.string "水壶在沙暴里弄丢了。\p风是往南刮的，大概落在南边沙地的\n东侧了。你要是看到了，帮我带回来吧。$"
 
 Part4_Text_013:
 	.string "太好了！我刚才已经开始考虑，靠仙\n人掌撑到晚上了。$"
@@ -105,6 +105,7 @@ Part4_Canteen_Find::
 	giveitem ITEM_TRAVELER_CANTEEN, 1
 	goto_if_eq VAR_RESULT, FALSE, Part4_BagFull
 	setvar VAR_PART4_CANTEEN, 1
+	special StoryRefreshPickupMarkers
 	releaseall
 	end
 
@@ -122,6 +123,7 @@ Part4_FirstEvolutionStone::
 	giveitem ITEM_EVOLUTION_STONE, 1
 	goto_if_eq VAR_RESULT, FALSE, Part4_BagFull
 	setflag FLAG_PART4_FIRSTEVOLUTIONSTONE
+	special StoryRefreshPickupMarkers
 	Part4_FirstEvolutionStone_After::
 	msgbox Part4_Text_017, MSGBOX_DEFAULT
 	release
@@ -241,6 +243,7 @@ Part4_BottlePearl::
 	giveitem ITEM_PEARL, 1
 	goto_if_eq VAR_RESULT, FALSE, Part4_BagFull
 	setflag FLAG_PART4_BOTTLEPEARL
+	special StoryRefreshPickupMarkers
 	Part4_BottlePearl_After::
 	msgbox Part4_Text_031, MSGBOX_DEFAULT
 	release
@@ -466,6 +469,7 @@ Part4_BerryBasket_Find::
 	giveitem ITEM_BERRY_BASKET, 1
 	goto_if_eq VAR_RESULT, FALSE, Part4_BagFull
 	setvar VAR_PART4_BERRYBASKET, 1
+	special StoryRefreshPickupMarkers
 	releaseall
 	end
 
@@ -490,7 +494,10 @@ Part4_Text_056:
 	.string "水舰队队员：就是这个训练家！大家\n一起上！$"
 
 Part4_Text_057:
-	.string "男子：到此为止吧。巨钳螳螂。\p水舰队队员：等等！先撤退！$"
+	.string "男子：到此为止吧。巨钳螳螂。$"
+
+Part4_Text_057b:
+	.string "水舰队队员：那、那是……！\n等等！先撤退！$"
 
 Part4_Text_058:
 	.string "男子：刚才的战斗我看到了。你和宝\n可梦的配合很特别。\p正好，我这里有一样东西。放在我这\n里也没什么用，也许你更适合。$"
@@ -506,52 +513,114 @@ Part4_MegaScene::
 	goto_if_ge VAR_PART4_MEGA_STAGE, 3, Part4_MegaGift
 	goto_if_ge VAR_PART4_MEGA_STAGE, 2, Part4_MegaRescue
 	goto_if_defeated TRAINER_PART4_AQUA_A, Part4_MegaBattleB
+	@ Two Aqua grunts searching the beach spot the player and come over.
+	playse SE_PIN
+	applymovement LOCALID_PART4_AQUAA, Common_Movement_ExclamationMark
+	applymovement LOCALID_PART4_AQUAB, Common_Movement_ExclamationMark
+	waitmovement 0
+	setvar VAR_0x8000, LOCALID_PART4_AQUAA
+	setvar VAR_0x8001, 1
+	call Story_WalkToPlayer
 	msgbox Part4_Text_053, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_PART4_AQUA_A, Part4_Text_055
 	Part4_MegaBattleB::
 	setvar VAR_PART4_MEGA_STAGE, 1
-	special SyncPart4MegaObjects
-	removeobject LOCALID_PART4_AQUAA
+	setvar VAR_0x8000, LOCALID_PART4_AQUAA
+	setvar VAR_0x8001, 2
+	call Story_WalkAwayFromPlayerKeep
 	goto_if_defeated TRAINER_PART4_AQUA_B, Part4_MegaMore
+	setvar VAR_0x8000, LOCALID_PART4_AQUAB
+	setvar VAR_0x8001, 1
+	call Story_WalkToPlayer
 	msgbox Part4_Text_054, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_PART4_AQUA_B, Part4_Text_055
 	Part4_MegaMore::
 	setvar VAR_PART4_MEGA_STAGE, 2
-	Part4_MegaRescue::
 	special SyncPart4MegaObjects
-	removeobject LOCALID_PART4_AQUAB
-	addobject LOCALID_PART4_ANTI
-	addobject LOCALID_PART4_ANTISCIZOR
-	addobject LOCALID_PART4_AQUAEXTRA0
-	addobject LOCALID_PART4_AQUAEXTRA1
-	addobject LOCALID_PART4_AQUAEXTRA2
 	msgbox Part4_Text_056, MSGBOX_DEFAULT
+	closemessage
+	@ Reinforcements run in from both sides and surround the player.
+	setvar VAR_0x8000, LOCALID_PART4_AQUAEXTRA0
+	setvar VAR_0x8001, 6
+	setvar VAR_0x8002, 0xFFFF
+	call Story_SpawnNearPlayer
+	setvar VAR_0x8000, LOCALID_PART4_AQUAEXTRA1
+	setvar VAR_0x8001, 6
+	setvar VAR_0x8002, 2
+	call Story_SpawnNearPlayer
+	setvar VAR_0x8000, LOCALID_PART4_AQUAEXTRA2
+	setvar VAR_0x8001, 2
+	setvar VAR_0x8002, 5
+	call Story_SpawnNearPlayer
+	setvar VAR_0x8000, LOCALID_PART4_AQUAEXTRA0
+	setvar VAR_0x8001, 2
+	call Story_WalkToPlayer
+	setvar VAR_0x8000, LOCALID_PART4_AQUAEXTRA1
+	setvar VAR_0x8001, 2
+	call Story_WalkToPlayer
+	setvar VAR_0x8000, LOCALID_PART4_AQUAEXTRA2
+	setvar VAR_0x8001, 2
+	call Story_WalkToPlayer
+	Part4_MegaRescue::
+	@ A man with a Scizor walks in and breaks it up.
+	setvar VAR_0x8000, LOCALID_PART4_ANTI
+	setvar VAR_0x8001, 6
+	setvar VAR_0x8002, 0xFFFE
+	call Story_SpawnNearPlayer
+	setvar VAR_0x8000, LOCALID_PART4_ANTISCIZOR
+	setvar VAR_0x8001, 7
+	setvar VAR_0x8002, 0xFFFE
+	call Story_SpawnNearPlayer
+	setvar VAR_0x8000, LOCALID_PART4_ANTI
+	setvar VAR_0x8001, 3
+	call Story_WalkToPlayer
 	msgbox Part4_Text_057, MSGBOX_DEFAULT
+	closemessage
+	setvar VAR_0x8000, LOCALID_PART4_ANTISCIZOR
+	setvar VAR_0x8001, 2
+	call Story_WalkToPlayer
 	playmoncry SPECIES_SCIZOR, CRY_MODE_NORMAL
 	waitmoncry
 	applymovement LOCALID_PART4_ANTISCIZOR, Part4_ScizorFlash
 	waitmovement 0
-	applymovement LOCALID_PART4_AQUAEXTRA0, Part4_GruntRetreat
-	waitmovement 0
-	removeobject LOCALID_PART4_AQUAEXTRA0
-	applymovement LOCALID_PART4_AQUAEXTRA1, Part4_GruntRetreat
-	waitmovement 0
-	removeobject LOCALID_PART4_AQUAEXTRA1
-	applymovement LOCALID_PART4_AQUAEXTRA2, Part4_GruntRetreat
-	waitmovement 0
-	removeobject LOCALID_PART4_AQUAEXTRA2
+	msgbox Part4_Text_057b, MSGBOX_DEFAULT
+	closemessage
+	setvar VAR_0x8001, 8
+	setvar VAR_0x8000, LOCALID_PART4_AQUAEXTRA0
+	call Story_WalkAwayAndRemove
+	setvar VAR_0x8001, 8
+	setvar VAR_0x8000, LOCALID_PART4_AQUAEXTRA1
+	call Story_WalkAwayAndRemove
+	setvar VAR_0x8001, 8
+	setvar VAR_0x8000, LOCALID_PART4_AQUAEXTRA2
+	call Story_WalkAwayAndRemove
+	setvar VAR_0x8001, 8
+	setvar VAR_0x8000, LOCALID_PART4_AQUAB
+	call Story_WalkAwayAndRemove
+	setvar VAR_0x8001, 8
+	setvar VAR_0x8000, LOCALID_PART4_AQUAA
+	call Story_WalkAwayAndRemove
 	setvar VAR_PART4_MEGA_STAGE, 3
 	special SyncPart4MegaObjects
 	Part4_MegaGift::
+	setvar VAR_0x8000, LOCALID_PART4_ANTI
+	setvar VAR_0x8001, 1
+	call Story_WalkToPlayer
 	msgbox Part4_Text_058, MSGBOX_DEFAULT
 	giveitem ITEM_MEGA_RING
 	goto_if_eq VAR_RESULT, FALSE, Part4_BagFull
 	setflag FLAG_PART4_MEGA_RING_RECEIVED
 	setvar VAR_PART4_MEGA_STAGE, 4
 	msgbox Part4_Text_059, MSGBOX_DEFAULT
+	closemessage
 	special SyncPart4MegaObjects
-	removeobject LOCALID_PART4_ANTI
-	removeobject LOCALID_PART4_ANTISCIZOR
+	@ He leaves the way he came, Scizor following.
+	setvar VAR_0x8001, 9
+	setvar VAR_0x8000, LOCALID_PART4_ANTI
+	call Story_WalkAwayAndRemove
+	setvar VAR_0x8001, 9
+	setvar VAR_0x8000, LOCALID_PART4_ANTISCIZOR
+	call Story_WalkAwayAndRemove
 	releaseall
 	end
 	Part4_SceneEnd::
@@ -880,7 +949,7 @@ Part4_119Observer::
 	end
 
 Part4_Text_097:
-	.string "我的风筝落到树桥下面了。你能帮我\n找找吗？$"
+	.string "我的风筝被风吹走，掉到树桥底下了！\p就是商店东边那座长树桥的桥头下面。\n你能帮我捡回来吗？$"
 
 Part4_Text_098:
 	.string "找到了！这是我捡到的尖锐鸟嘴。送\n给你，我要去找青绵鸟玩。$"
@@ -918,6 +987,7 @@ Part4_Kite_Find::
 	giveitem ITEM_LOST_KITE, 1
 	goto_if_eq VAR_RESULT, FALSE, Part4_BagFull
 	setvar VAR_PART4_KITE, 1
+	special StoryRefreshPickupMarkers
 	releaseall
 	end
 
@@ -930,7 +1000,7 @@ Part4_PostPelipper::
 	end
 
 Part4_Text_101:
-	.string "这里有些信件，靠飞行宝可梦送更快\n。\p刚才一个包裹从树桥旁掉到草地了。\n能帮我捡回来吗？别拆开呀。$"
+	.string "这里有些信件，靠飞行宝可梦送更快。\p刚才一个包裹从树桥上掉下来了，\n就落在商店东边的草地上。\p能帮我捡回来吗？别拆开呀。$"
 
 Part4_Text_102:
 	.string "完好无损！今天总算不用赔钱了。这\n几个球拿去吧。$"
@@ -968,6 +1038,7 @@ Part4_Parcel_Find::
 	giveitem ITEM_POSTAL_PARCEL, 1
 	goto_if_eq VAR_RESULT, FALSE, Part4_BagFull
 	setvar VAR_PART4_PARCEL, 1
+	special StoryRefreshPickupMarkers
 	releaseall
 	end
 
@@ -1088,6 +1159,7 @@ Part4_Mawilite::
 	giveitem ITEM_SHINY_STONE, 1
 	goto_if_eq VAR_RESULT, FALSE, Part4_BagFull
 	setflag FLAG_PART4_MAWILITE
+	special StoryRefreshPickupMarkers
 	Part4_Mawilite_After::
 	msgbox Part4_Text_112, MSGBOX_DEFAULT
 	release
@@ -1122,8 +1194,11 @@ Part4_ArcheGuard::
 	trainerbattle_single TRAINER_PART4_ARCHE_GUARD, Part4_Text_115, Part4_Text_116, Part4_GuardPassed
 	Part4_GuardPassed::
 	msgbox Part4_Text_117, MSGBOX_DEFAULT
+	closemessage
 	setflag FLAG_PART4_GUARD_PASSED
-	removeobject LOCALID_PART4_ARCHEGUARD
+	setvar VAR_0x8000, LOCALID_PART4_ARCHEGUARD
+	setvar VAR_0x8001, 6
+	call Story_WalkAwayAndRemove
 	release
 	end
 
@@ -1218,7 +1293,7 @@ Part4_RuinsAggronite::
 	end
 
 Part4_Text_130:
-	.string "岩壁上的封印没有任何反应。现在似\n乎无法打开。$"
+	.string "石像身后的岩壁上刻着古老的封印。\n轻轻一碰，封印没有任何反应。\p……也许要等你成为丰缘的冠军，\n得到某人的许可之后，它才会打开。$"
 
 Part4_Seal::
 	lockall
@@ -1232,6 +1307,9 @@ Part4_Seal::
 	msgbox Part4_Text_130, MSGBOX_DEFAULT
 	releaseall
 	end
+
+Part4_SealStatue::
+	goto Part4_Seal
 
 Part4_SealLoad::
 	goto_if_unset FLAG_SYS_GAME_CLEAR, Part4_SealBlock

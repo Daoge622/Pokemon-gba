@@ -1,0 +1,47 @@
+start: 2026年10月11日 15:55:10
+make_exit=2
+elapsed=1497s
+--- error lines (first 40) ---
+140:tools/scaninc/scaninc.exe -M build/emerald/src/decompress_error_handler.d -g build/assets -I include -I tools/agbcc/include src/decompress_error_handler.c
+783:E:/msys64/ucrt64/bin/../lib/gcc/arm-none-eabi/16.1.0/cc1.exe -quiet <flags> -o build/emerald/src/decompress_error_handler.o src/decompress_error_handler.c
+3088:tools/compresSmol/compresSmolTilemap.exe graphics/berry_fix/gba_transfer_error.bin build/assets/graphics/berry_fix/gba_transfer_error.bin.smolTM 
+3089:tools/gbagfx/gbagfx.exe graphics/berry_fix/gba_transfer_error.png build/assets/graphics/berry_fix/gba_transfer_error.png.4bpp 
+3090:tools/gbagfx/gbagfx.exe graphics/berry_fix/gba_transfer_error.png build/assets/graphics/berry_fix/gba_transfer_error.png.gbapal 
+5488:tools/gbagfx/gbagfx.exe graphics/link/comm_error_bg.png build/assets/graphics/link/comm_error_bg.png.4bpp 
+24175:data/multiboot_berry_glitch_fix.s:4: Error: file not found: data/mb_berry_fix.gba
+24178:data/multiboot_ereader.s:5: Error: file not found: data/mb_ereader.gba
+24180:data/multiboot_pokemon_colosseum.s:4: Error: file not found: data/mb_colosseum.gba
+24181:make: *** [Makefile:525：build/emerald/data/multiboot_ereader.o] 错误 1
+24183:make: *** [Makefile:525：build/emerald/data/multiboot_pokemon_colosseum.o] 错误 1
+24184:make: *** [Makefile:525：build/emerald/data/multiboot_berry_glitch_fix.o] 错误 1
+--- last 30 lines ---
+tools/mapjson/mapjson.exe map emerald data/maps/VermilionCity_PokemonFanClub_Frlg/map.json data/layouts/layouts.json data/maps/VermilionCity_PokemonFanClub_Frlg
+tools/mapjson/mapjson.exe map emerald data/maps/VictoryRoad_1F/map.json data/layouts/layouts.json data/maps/VictoryRoad_1F
+tools/mapjson/mapjson.exe map emerald data/maps/VictoryRoad_1F_Frlg/map.json data/layouts/layouts.json data/maps/VictoryRoad_1F_Frlg
+tools/mapjson/mapjson.exe map emerald data/maps/VictoryRoad_2F_Frlg/map.json data/layouts/layouts.json data/maps/VictoryRoad_2F_Frlg
+tools/mapjson/mapjson.exe map emerald data/maps/VictoryRoad_3F_Frlg/map.json data/layouts/layouts.json data/maps/VictoryRoad_3F_Frlg
+tools/mapjson/mapjson.exe map emerald data/maps/VictoryRoad_B1F/map.json data/layouts/layouts.json data/maps/VictoryRoad_B1F
+tools/mapjson/mapjson.exe map emerald data/maps/VictoryRoad_B2F/map.json data/layouts/layouts.json data/maps/VictoryRoad_B2F
+tools/mapjson/mapjson.exe map emerald data/maps/ViridianCity_Frlg/map.json data/layouts/layouts.json data/maps/ViridianCity_Frlg
+tools/mapjson/mapjson.exe map emerald data/maps/ViridianCity_Gym_Frlg/map.json data/layouts/layouts.json data/maps/ViridianCity_Gym_Frlg
+tools/mapjson/mapjson.exe map emerald data/maps/ViridianCity_House_Frlg/map.json data/layouts/layouts.json data/maps/ViridianCity_House_Frlg
+tools/mapjson/mapjson.exe map emerald data/maps/ViridianCity_Mart_Frlg/map.json data/layouts/layouts.json data/maps/ViridianCity_Mart_Frlg
+tools/mapjson/mapjson.exe map emerald data/maps/ViridianCity_PokemonCenter_1F_Frlg/map.json data/layouts/layouts.json data/maps/ViridianCity_PokemonCenter_1F_Frlg
+tools/mapjson/mapjson.exe map emerald data/maps/ViridianCity_PokemonCenter_2F_Frlg/map.json data/layouts/layouts.json data/maps/ViridianCity_PokemonCenter_2F_Frlg
+tools/mapjson/mapjson.exe map emerald data/maps/ViridianCity_School_Frlg/map.json data/layouts/layouts.json data/maps/ViridianCity_School_Frlg
+tools/mapjson/mapjson.exe map emerald data/maps/ViridianForest_Frlg/map.json data/layouts/layouts.json data/maps/ViridianForest_Frlg
+tools/preproc/preproc.exe -s data/multiboot_berry_glitch_fix.s charmap.txt | arm-none-eabi-cpp -iquote include -Wno-trigraphs -DMODERN=1 -DTESTING=0 -DEMERALD -std=gnu17 -I include - | tools/preproc/preproc.exe -ie data/multiboot_berry_glitch_fix.s charmap.txt | arm-none-eabi-as -mcpu=arm7tdmi -march=armv4t -meabi=5 --defsym MODERN=1 --defsym EMERALD=1 -o build/emerald/data/multiboot_berry_glitch_fix.o
+tools/preproc/preproc.exe -s data/multiboot_ereader.s charmap.txt | arm-none-eabi-cpp -iquote include -Wno-trigraphs -DMODERN=1 -DTESTING=0 -DEMERALD -std=gnu17 -I include - | tools/preproc/preproc.exe -ie data/multiboot_ereader.s charmap.txt | arm-none-eabi-as -mcpu=arm7tdmi -march=armv4t -meabi=5 --defsym MODERN=1 --defsym EMERALD=1 -o build/emerald/data/multiboot_ereader.o
+tools/preproc/preproc.exe -s data/multiboot_pokemon_colosseum.s charmap.txt | arm-none-eabi-cpp -iquote include -Wno-trigraphs -DMODERN=1 -DTESTING=0 -DEMERALD -std=gnu17 -I include - | tools/preproc/preproc.exe -ie data/multiboot_pokemon_colosseum.s charmap.txt | arm-none-eabi-as -mcpu=arm7tdmi -march=armv4t -meabi=5 --defsym MODERN=1 --defsym EMERALD=1 -o build/emerald/data/multiboot_pokemon_colosseum.o
+tools/preproc/preproc.exe -s data/mystery_event_script_cmd_table.s charmap.txt | arm-none-eabi-cpp -iquote include -Wno-trigraphs -DMODERN=1 -DTESTING=0 -DEMERALD -std=gnu17 -I include - | tools/preproc/preproc.exe -ie data/mystery_event_script_cmd_table.s charmap.txt | arm-none-eabi-as -mcpu=arm7tdmi -march=armv4t -meabi=5 --defsym MODERN=1 --defsym EMERALD=1 -o build/emerald/data/mystery_event_script_cmd_table.o
+Assembler messages:
+data/multiboot_berry_glitch_fix.s:4: Error: file not found: data/mb_berry_fix.gba
+tools/preproc/preproc.exe -s data/mystery_gift.s charmap.txt | arm-none-eabi-cpp -iquote include -Wno-trigraphs -DMODERN=1 -DTESTING=0 -DEMERALD -std=gnu17 -I include - | tools/preproc/preproc.exe -ie data/mystery_gift.s charmap.txt | arm-none-eabi-as -mcpu=arm7tdmi -march=armv4t -meabi=5 --defsym MODERN=1 --defsym EMERALD=1 -o build/emerald/data/mystery_gift.o
+Assembler messages:
+data/multiboot_ereader.s:5: Error: file not found: data/mb_ereader.gba
+Assembler messages:
+data/multiboot_pokemon_colosseum.s:4: Error: file not found: data/mb_colosseum.gba
+make: *** [Makefile:525：build/emerald/data/multiboot_ereader.o] 错误 1
+make: *** 正在等待未完成的任务....
+make: *** [Makefile:525：build/emerald/data/multiboot_pokemon_colosseum.o] 错误 1
+make: *** [Makefile:525：build/emerald/data/multiboot_berry_glitch_fix.o] 错误 1

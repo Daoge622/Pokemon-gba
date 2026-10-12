@@ -111,9 +111,9 @@ StoryA_PyreAntiTrigger::
 	delay 40
 	applymovement LOCALID_STORY_A_PYRE_ANTI, StoryA_Movement_PyreAntiLeave
 	waitmovement 0
-	fadescreen FADE_TO_BLACK
-	removeobject LOCALID_STORY_A_PYRE_ANTI
-	fadescreen FADE_FROM_BLACK
+	setvar VAR_0x8000, LOCALID_STORY_A_PYRE_ANTI
+	setvar VAR_0x8001, 8
+	call Story_WalkAwayAndRemove
 	releaseall
 	end
 
@@ -215,9 +215,9 @@ StoryA_HayatoResign::
 StoryA_HayatoResign_Leave::
 	msgbox StoryA_Text_HayatoFarewell, MSGBOX_DEFAULT
 	closemessage
-	fadescreen FADE_TO_BLACK
-	removeobject VAR_LAST_TALKED
-	fadescreen FADE_FROM_BLACK
+	copyvar VAR_0x8000, VAR_LAST_TALKED
+	setvar VAR_0x8001, 8
+	call Story_WalkAwayAndRemove
 	release
 	end
 

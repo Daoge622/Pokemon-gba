@@ -1,0 +1,87 @@
+{
+  "input": "E:\\Pekemon Gba\\EmeraldStory-一周目完整版.gba",
+  "input_sha256": "cf9b34f57b57a71613e12fe078eba35835ec9e1283ac355b4436201bf854cbde",
+  "output": "C:\\Users\\DaoGe\\Documents\\Codex\\2026-10-11\\zhe\\outputs\\EmeraldStory-一周目完整版-组队选宝可梦修复.gba",
+  "output_sha256": "8c3142dcf6678093913e9f572865272d46dbe9862f60d03f5f9d251259037e8d",
+  "rom_length": 33554432,
+  "sites": [
+    {
+      "map": "MtPyre_Exterior",
+      "old_multi_do": "0x838ed31",
+      "selection_inserted": true
+    },
+    {
+      "map": "Route119",
+      "old_multi_do": "0x83993b6",
+      "selection_inserted": true
+    },
+    {
+      "map": "LavaridgeTown",
+      "old_multi_do": "0x83995c2",
+      "selection_inserted": true
+    },
+    {
+      "map": "MossdeepCity_SpaceCenter_2F",
+      "old_multi_do": "0x830d196",
+      "selection_inserted": false
+    }
+  ],
+  "changes": [
+    {
+      "offset": "0x1b00000",
+      "address": "0x9b00000",
+      "before": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "after": "2399600f08210d80010006014c00b0099701252a0027210d80000006016700b00925f9001604800200160580040025e800160580800023b1d20d0827160480060025e800252900055d00b009160580000023b1d20d0827252800252900260d80b500057ced38082529006b02",
+      "description": "MtPyre_Exterior complete multi_do with selection/restore/cancel"
+    },
+    {
+      "offset": "0x38ed31",
+      "address": "0x838ed31",
+      "before": "2399600f08",
+      "after": "050000b009",
+      "description": "MtPyre_Exterior redirect only the old AreMultiPartiesFullTeams instruction"
+    },
+    {
+      "offset": "0x1b0006c",
+      "address": "0x9b0006c",
+      "before": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "after": "2399600f08210d8001000601b800b0099701252a0027210d8000000601d300b00925f9001604800200160580040025e800160580800023b1d20d0827160480060025e80025290005c900b009160580000023b1d20d0827252800252900260d80b50005019439082529009701534000291f002b1e0907004694390897004f0f80b7a434085100006b02",
+      "description": "Route119 complete multi_do with selection/restore/cancel"
+    },
+    {
+      "offset": "0x3993b6",
+      "address": "0x83993b6",
+      "before": "2399600f08",
+      "after": "056c00b009",
+      "description": "Route119 redirect only the old AreMultiPartiesFullTeams instruction"
+    },
+    {
+      "offset": "0x1b000f8",
+      "address": "0x9b000f8",
+      "before": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "after": "2399600f08210d80010006014401b0099701252a0027210d80000006015f01b00925f9001604800200160580040025e800160580800023b1d20d0827160480060025e800252900055501b009160580000023b1d20d0827252800252900260d80b500050d9639082529009701531100531200291e0097006b02",
+      "description": "LavaridgeTown complete multi_do with selection/restore/cancel"
+    },
+    {
+      "offset": "0x3995c2",
+      "address": "0x83995c2",
+      "before": "2399600f08",
+      "after": "05f800b009",
+      "description": "LavaridgeTown redirect only the old AreMultiPartiesFullTeams instruction"
+    },
+    {
+      "offset": "0x1b00174",
+      "address": "0x9b00174",
+      "before": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "after": "2399600f08210d8001000601af01b00925f9001604800200160580040025e800160580800023b1d20d0827160480060025e80025290005c001b009160580000023b1d20d0827252800252900260d80b50005e1d13008",
+      "description": "MossdeepCity_SpaceCenter_2F complete multi_do with selection/restore/cancel"
+    },
+    {
+      "offset": "0x30d196",
+      "address": "0x830d196",
+      "before": "2399600f08",
+      "after": "057401b009",
+      "description": "MossdeepCity_SpaceCenter_2F redirect only the old AreMultiPartiesFullTeams instruction"
+    }
+  ]
+}

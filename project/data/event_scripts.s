@@ -1760,6 +1760,7 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 .include "data/scripts/story_b.inc"
 .include "data/scripts/story_c.inc"
 .include "data/scripts/campus.inc"
+.include "data/scripts/story_move.inc"
 .include "data/maps/Route133_TideMarkCave/scripts.inc"
 .include "data/maps/MeteorFalls_DragonNest/scripts.inc"
 .include "data/maps/MeteorFalls_DeepStrata/scripts.inc"

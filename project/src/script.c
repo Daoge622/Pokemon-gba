@@ -432,8 +432,11 @@ void RunOnLoadMapScript(void)
     MapHeaderRunScriptType(MAP_SCRIPT_ON_LOAD);
 }
 
+void Story_UpdatePickupMarkers(void);
+
 void RunOnTransitionMapScript(void)
 {
+    Story_UpdatePickupMarkers();
     MapHeaderRunScriptType(MAP_SCRIPT_ON_TRANSITION);
 }
 

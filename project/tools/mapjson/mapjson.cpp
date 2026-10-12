@@ -937,70 +937,88 @@ void process_layouts(string layouts_filepath, string output_asm, string output_c
 }
 
 int main(int argc, char *argv[]) {
-    if (argc < 3)
+    // Expand '@file' arguments: the file lists further arguments separated by whitespace.
+    // Needed on Windows hosts, where the ~960 map.json paths passed to 'groups' and
+    // 'event_constants' exceed the 32 KiB command-line limit.
+    vector<string> args;
+    for (int i = 0; i < argc; i++) {
+        string arg(argv[i]);
+        if (arg.size() > 1 && arg[0] == '@') {
+            ifstream argFile(arg.substr(1).c_str());
+            if (!argFile.is_open())
+                FATAL_ERROR("ERROR: cannot open argument file '%s'\n", arg.c_str() + 1);
+            string token;
+            while (argFile >> token)
+                args.push_back(token);
+        }
+        else {
+            args.push_back(arg);
+        }
+    }
+    const int nargs = (int)args.size();
+
+    if (nargs < 3)
         FATAL_ERROR("USAGE: mapjson <mode> <game-version> [options]\n");
 
-    char *version_arg = argv[2];
-    version = string(version_arg);
+    version = args[2];
     if (version != "emerald" && version != "ruby" && version != "firered")
         FATAL_ERROR("ERROR: <game-version> must be 'emerald', 'firered', or 'ruby'.\n");
 
-    char *mode_arg = argv[1];
-    string mode(mode_arg);
+    string mode = args[1];
     if (mode == "map") {
-        if (argc != 6)
+        if (nargs != 6)
             FATAL_ERROR("USAGE: mapjson map <game-version> <map_file> <layouts_file> <output_dir>\n");
 
-        infer_separator(argv[3]);
-        string filepath(argv[3]);
-        string layouts_filepath(argv[4]);
-        string output_dir(argv[5]);
+        infer_separator(args[3]);
+        string filepath = args[3];
+        string layouts_filepath = args[4];
+        string output_dir = args[5];
 
         process_map(filepath, layouts_filepath, output_dir);
     }
     else if (mode == "groups") {
-        if (argc < 6)
+        if (nargs < 6)
             FATAL_ERROR("USAGE: mapjson groups <game-version> <groups_file> <map_file> [additional_map_files] <output_asm_dir> <output_c_dir>\n");
 
-        infer_separator(argv[3]);
-        string filepath(argv[3]);
+        infer_separator(args[3]);
+        string filepath = args[3];
 
         vector<string> map_filepaths;
         const int firstMapFileArg = 4;
-        const int lastMapFileArg = argc - 3;
+        const int lastMapFileArg = nargs - 3;
         for (int i = firstMapFileArg; i <= lastMapFileArg; i++) {
-            map_filepaths.push_back(argv[i]);
+            map_filepaths.push_back(args[i]);
         }
 
-        string output_asm(argv[argc - 2]);
-        string output_c(argv[argc - 1]);
+        string output_asm = args[nargs - 2];
+        string output_c = args[nargs - 1];
 
         process_groups(filepath, map_filepaths, output_asm, output_c);
     }
     else if (mode == "layouts") {
-        if (argc != 6)
+        if (nargs != 6)
             FATAL_ERROR("USAGE: mapjson layouts <game-version> <layouts_file> <output_asm_dir> <output_c_dir>\n");
 
-        infer_separator(argv[3]);
-        string filepath(argv[3]);
-        string output_asm(argv[4]);
-        string output_c(argv[5]);
+        infer_separator(args[3]);
+        string filepath = args[3];
+        string output_asm = args[4];
+        string output_c = args[5];
 
         process_layouts(filepath, output_asm, output_c);
     }
     else if (mode == "event_constants") {
-        if (argc < 5)
+        if (nargs < 5)
             FATAL_ERROR("USAGE: mapjson event_constants <game-version> <map_file> [additional_map_files] <output_ids_file>");
 
-        infer_separator(argv[3]);
+        infer_separator(args[3]);
 
         vector<string> filepaths;
         const int firstMapFileArg = 3;
-        const int lastMapFileArg = argc - 2;
+        const int lastMapFileArg = nargs - 2;
         for (int i = firstMapFileArg; i <= lastMapFileArg; i++) {
-            filepaths.push_back(argv[i]);
+            filepaths.push_back(args[i]);
         }
-        string output_ids_file(argv[argc - 1]);
+        string output_ids_file = args[nargs - 1];
 
         process_event_constants(filepaths, output_ids_file);
     }

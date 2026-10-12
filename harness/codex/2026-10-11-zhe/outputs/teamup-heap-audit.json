@@ -1,0 +1,37 @@
+[
+  {
+    "state": "teamup-fixed-6.state",
+    "head": "0x20018c4",
+    "blocks": 22,
+    "allocated_bytes": 39064,
+    "errors": []
+  },
+  {
+    "state": "teamup-fixed-battle.state",
+    "head": "0x20018c4",
+    "blocks": 37,
+    "allocated_bytes": 71748,
+    "errors": []
+  },
+  {
+    "state": "teamup-victory-field.state",
+    "head": "0x20018c4",
+    "blocks": 7,
+    "allocated_bytes": 11696,
+    "errors": []
+  },
+  {
+    "state": "teamup-restored-party.state",
+    "head": "0x20018c4",
+    "blocks": 16,
+    "allocated_bytes": 27032,
+    "errors": []
+  },
+  {
+    "state": "teamup-post-walk.state",
+    "head": "0x20018c4",
+    "blocks": 6,
+    "allocated_bytes": 11648,
+    "errors": []
+  }
+]
