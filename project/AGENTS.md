@@ -2,15 +2,16 @@
 
 这是一个长期项目。以下规则适用于 Codex 每次处理本项目任务，无论用户是否再次提醒。
 
-## 项目入口与权威源码
+## 项目入口与权威源码（2026-10-12 起转线上）
 
-- Windows 项目入口：`D:\Pokemon gba`。
-- 唯一权威源码、Git、美术与接力文档：Windows 普通文件夹 `D:\Pokemon gba\project`。
-- WSL `/home/pokemon/projects/emerald-story` 仅为编译缓存，禁止直接编辑或提交；通过 Windows `scripts/windows/dev.ps1 -Action Build/Release/Sync` 单向同步。根入口 `scripts/dev.ps1` 转发至此。
-- 记录 PART7 差异使用 `-Action RecordDeltas`，然后复核返回 Windows 的清单；不自动接受基线。
-- 权威文档在 `project/docs/`；入口 `D:\Pokemon gba\docs` 是镜像，先改权威再同步。
-- `D:\Pokemon gba\source` 是旧初始快照，不得误作当前源码。
-- 本文件在 Windows 入口和权威仓库根目录保持相同内容，不形成两套规则。接力文档的权威位置与镜像同步方式按 `PROJECT_STATE.md` 执行。
+- **唯一权威源码、Git、美术与接力文档：GitHub 仓库 `https://github.com/Daoge622/Pokemon-gba` 的 `main` 分支**，工程在仓库的 `project/` 目录。
+- 本地任何文件夹（`E:\Pekemon Gba`、`D:\Pokemon gba` 等）都只是工作副本，不是权威；不得把本地副本当作正本，也不得用分片包 / 手工备份传递源码。
+- 每次开工前先 `git pull` 拿到最新版；每次完成有实质变化的修改后，必须提交（commit）并推送（push）到 GitHub，并在回复里说明提交编号和推送结果。没有推送成功不算完成。
+- 重要改动先放在单独分支，经用户确认后再合并进 `main`。
+- 不得提交 ROM（`*.gba`，`project/data/mb_*.gba` 除外）、存档（`*.sav`）、密钥或登录凭据。
+- 权威文档在仓库 `project/docs/`；不再有“入口镜像”，不需要同步。
+- 仓库根目录 `_work/留痕/` 与 `harness/` 是历史修改留痕，只追加，不改写。
+- 旧的 WSL 编译缓存与 `D:\Pokemon gba` 路径（含 `scripts/windows/dev.ps1` 里的同步逻辑）已不再是权威；构建脚本如仍引用这些路径，以仓库内容为准，发现冲突记录到 `CURRENT_TASK.md`，不要擅自按旧路径同步。
 
 ## 每次任务开始前必须阅读
 

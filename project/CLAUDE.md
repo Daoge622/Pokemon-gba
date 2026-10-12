@@ -2,16 +2,15 @@
 
 本文件是本项目的长期工作规则，每次进入项目都适用，无需用户再次提醒。
 
-## 0. 路径说明（2026-10-10迁移）
+## 0. 路径说明（2026-10-12 起转线上）
 
-- Windows 工作入口：`D:\Pokemon gba`。
-- **唯一权威源码与 Git 仓库：普通文件夹 `D:\Pokemon gba\project`**。请直接连接此文件夹。
-- 权威接力/剧情文档在该仓库 `docs/`；入口 `D:\Pokemon gba\docs` 仅镜像，先改权威，再同步入口。
-- WSL `/home/pokemon/projects/emerald-story` 仅编译缓存，禁止直接编辑或提交。
-- 使用 Windows `scripts/windows/dev.ps1 -Action Build` / `Release` 自动同步并编译；`Sync` 只同步；`RecordDeltas` 记录差异后必须复核。
-- `D:\Pokemon gba\source` 是旧初始快照，禁止开发。禁止 GUI/模拟器/ROM 规则继续有效。
+- **唯一权威源码与 Git 仓库：GitHub `https://github.com/Daoge622/Pokemon-gba` 的 `main` 分支**，工程在 `project/` 目录。本地文件夹只是工作副本。
+- 开工前先 `git pull`；完成修改后必须提交并推送到 GitHub，并告知用户提交编号。重要改动先走分支，用户确认后合并。
+- 权威接力/剧情文档在仓库 `project/docs/`，不再有 `D:\Pokemon gba\docs` 镜像。
+- 不得提交 ROM、存档、密钥或登录凭据。
+- 旧的 `D:\Pokemon gba`、WSL 编译缓存与 `dev.ps1` 同步流程已不再是权威。禁止 GUI/模拟器/ROM 规则继续有效。
 
-下文中的 `docs/...` 路径均指上述两处同名文件。
+下文中的 `docs/...` 路径均指仓库 `project/docs/` 下的文件。
 
 ==================================================
 AI HANDOFF / 项目记忆规则
