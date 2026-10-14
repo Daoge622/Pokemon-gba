@@ -1568,6 +1568,8 @@ Part55_UnderwaterResearcher::
 
 
 Part55_UnderwaterResearcher_Wait::
+	special Part6_CountAnomaly
+	buffernumberstring STR_VAR_1, VAR_RESULT
 	msgbox Part55_Text_0153, MSGBOX_DEFAULT
 	release
 	end
@@ -1809,13 +1811,13 @@ Part55_Text_0150:
 	.string "精神恢复了！接下来也要留意潮流。$"
 
 Part55_Text_0151:
-	.string "最近有几处水下观测值不太对。以后能\n潜水时，能帮忙记录高温、异常流向和\p能量读数吗？$"
+	.string "最近有几片海域的水下读数很奇怪。\p等你学会了潜水，能帮我去看看吗？\n一共三个地方。$"
 
 Part55_Text_0152:
-	.string "目前记录是0/3。不用急着完成，先准\n备好潜水能力。原因还不能确定。$"
+	.string "太好了！地点我跟你说清楚。\p第一处在126号水路，琉璃市火山口\n东北边的深水区。\p第二处在127号水路西南的深水带。\p第三处在128号水路西边，被一圈浅滩\n围起来的那片深色海水。\p三处的海底都有我们放下的观测装置，\n顶上亮着灯，靠近查看就能读到数据。$"
 
 Part55_Text_0153:
-	.string "水下观测记录：0/3。等可以潜水以后\n，再来一起调查吧。$"
+	.string "水下观测记录：{STR_VAR_1}/3。\p126号火山口东北、127号西南深水带、\n128号浅滩圈的中央，都要潜下去看。$"
 
 Part55_Text_0154:
 	.string "小球飞鱼围着歪掉的浮标转了一圈。它\n游开以后，你扶正了浮标。$"
@@ -3099,8 +3101,6 @@ Part55_DollShuppet::
 	setvar VAR_PART55_DOLL, 1
 	applymovement LOCALID_PART5_BANETTITE, Part55_ShuffleAside
 	waitmovement 0
-	setobjectxy LOCALID_PART5_BANETTITE, 10, 25
-	setobjectxyperm LOCALID_PART5_BANETTITE, 10, 25
 	release
 	end
 
@@ -3654,6 +3654,7 @@ Part55_LiaisonAfter_Post::
 
 
 Part55_SleepingPartner::
+	goto_if_unset FLAG_STORY_C_02, Part55_StargazeCouple
 	msgbox Part55_Text_0313, MSGBOX_NPC
 	end
 
@@ -3704,8 +3705,10 @@ Part55_ShuffleAside:
 	walk_in_place_faster_left
 	step_end
 
+@ The Shuppet stays in its dead-end nook (11,26); moving it to (10,25)
+@ blocked the only way back from the summit's west path.
 Part55_DollPosition::
-	setobjectxyperm LOCALID_PART5_BANETTITE, 10, 25
+	setobjectxyperm LOCALID_PART5_BANETTITE, 11, 26
 	return
 
 Part55_ExitRescueReward::

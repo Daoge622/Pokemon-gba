@@ -64,6 +64,19 @@ Part6_Anomaly1::
 	releaseall
 	end
 
+@ Underwater observation devices (visible objects; they replaced the old
+@ invisible sign events). One device can serve both the calibration job
+@ (Rain, Route 127) and the anomaly survey (researcher, Route 124).
+Part6_Site127::
+	goto_if_unset FLAG_PART6_CALIBRATION_ASKED, Part6_Anomaly1
+	goto_if_unset FLAG_PART6_CALIBRATION_1, Part6_CalPoint0
+	goto Part6_Anomaly1
+
+Part6_Site128::
+	goto_if_unset FLAG_PART6_CALIBRATION_ASKED, Part6_Anomaly2
+	goto_if_unset FLAG_PART6_CALIBRATION_3, Part6_CalPoint2
+	goto Part6_Anomaly2
+
 Part6_Anomaly2::
 	lockall
 	msgbox Part6_Text_012, MSGBOX_DEFAULT
@@ -439,10 +452,13 @@ Part6_RainObservatory::
 	goto_if_set FLAG_PART6_RAIN_INTRO, Part6_RainObservatory_Anomaly
 	msgbox Part6_Text_061, MSGBOX_DEFAULT
 	msgbox Part6_Text_062, MSGBOX_DEFAULT
+	call Part6_RainTurnToAssistant
 	msgbox Part6_Text_063, MSGBOX_DEFAULT
 	msgbox Part6_Text_064, MSGBOX_DEFAULT
 	msgbox Part6_Text_065, MSGBOX_DEFAULT
 	msgbox Part6_Text_066, MSGBOX_DEFAULT
+	applymovement LOCALID_PART6_RAIN_SC, Common_Movement_FacePlayer
+	waitmovement 0
 	setflag FLAG_PART6_RAIN_INTRO
 	release
 	end
@@ -453,12 +469,15 @@ Part6_RainObservatory_Anomaly::
 	goto_if_lt VAR_RESULT, 3, Part6_RainObservatory_Idle
 	msgbox Part6_Text_067, MSGBOX_DEFAULT
 	msgbox Part6_Text_068, MSGBOX_DEFAULT
+	call Part6_RainTurnToAssistant
 	msgbox Part6_Text_069, MSGBOX_DEFAULT
 	msgbox Part6_Text_070, MSGBOX_DEFAULT
 	msgbox Part6_Text_071, MSGBOX_DEFAULT
 	msgbox Part6_Text_072, MSGBOX_DEFAULT
 	msgbox Part6_Text_073, MSGBOX_DEFAULT
 	msgbox Part6_Text_074, MSGBOX_DEFAULT
+	applymovement LOCALID_PART6_RAIN_SC, Common_Movement_FacePlayer
+	waitmovement 0
 	msgbox Part6_Text_075, MSGBOX_DEFAULT
 	setflag FLAG_PART6_RAIN_ANOMALY_TALK
 	release
@@ -469,8 +488,21 @@ Part6_RainObservatory_Idle::
 	release
 	end
 
+@ Rain and his assistant stand face to face at (5,8)/(5,7); the
+@ assistant's lines are spoken to Rain, not to the player.
+Part6_RainTurnToAssistant::
+	applymovement LOCALID_PART6_RAIN_SC, Common_Movement_FaceUp
+	applymovement LOCALID_PART6_RAIN_ASSISTANT_SC, Common_Movement_FaceDown
+	waitmovement 0
+	return
+
 Part6_RainAssistant::
-	msgbox Part6_Text_077, MSGBOX_NPC
+	lock
+	faceplayer
+	msgbox Part6_Text_077, MSGBOX_DEFAULT
+	applymovement LOCALID_PART6_RAIN_ASSISTANT_SC, Common_Movement_FaceDown
+	waitmovement 0
+	release
 	end
 
 Part6_RainPlatform::
@@ -1538,19 +1570,19 @@ Part6_Text_008:
 	.string "周围的海水比其他地方温暖很多。\p岩石缝里不断冒出气泡。$"
 
 Part6_Text_009:
-	.string "记录：异常点 {STR_VAR_1}\n3$"
+	.string "已记录水下异常点：{STR_VAR_1}/3。$"
 
 Part6_Text_010:
 	.string "这里的水流明显比周围更强。\p附近没有明显的地形变化。$"
 
 Part6_Text_011:
-	.string "记录：异常点 {STR_VAR_1}\n3$"
+	.string "已记录水下异常点：{STR_VAR_1}/3。$"
 
 Part6_Text_012:
-	.string "仪器没有正常读数。\p屏幕上的数字一直在跳动。\p附近的宝可梦似乎也有些躁动。$"
+	.string "装置的读数完全不正常，\n屏幕上的数字一直在乱跳。\p附近的宝可梦好像也有些躁动。$"
 
 Part6_Text_013:
-	.string "记录：异常点 {STR_VAR_1}\n3$"
+	.string "已记录水下异常点：{STR_VAR_1}/3。$"
 
 Part6_Text_014:
 	.string "三个地方都有问题？\p那就麻烦了……\p这些资料我得重新整理。\p谢谢你。$"
@@ -1694,55 +1726,55 @@ Part6_Text_060:
 	.string "水君轻轻跃过水面，\p身影消失在洞窟深处……\p原本平静的水面又恢复了安静。$"
 
 Part6_Text_061:
-	.string "阿尔刻环境系统研究负责人　莱因\p……你就是那个训练家？$"
+	.string "我是阿尔刻环境系统研究部的负责人，\n莱因。\p……你就是最近在丰缘到处跑的那位\n训练家吧。$"
 
 Part6_Text_062:
-	.string "莱因：119号道路的降雨。\p124号水路的水温。\p还有最近的大气数据。\p全都开始偏离正常范围了。$"
+	.string "莱因：119号道路的雨量、124号水路\n的水温、还有这几周的大气数据——\p全都在往同一个方向偏离正常值。\n这不是巧合。$"
 
 Part6_Text_063:
-	.string "助手：需要暂停观测吗？$"
+	.string "助手：负责人，要不要先暂停观测？\n设备的读数也开始不稳定了。$"
 
 Part6_Text_064:
-	.string "莱因：为什么？\p设备还能工作。\p继续记录。真坏了再换。$"
+	.string "莱因：设备还能用，就继续记录。\p等它真坏了再换。现在停下来，\n我们就会漏掉最关键的那一段。$"
 
 Part6_Text_065:
-	.string "助手：需要上报联盟吗？$"
+	.string "助手：那……要先报告联盟吗？$"
 
 Part6_Text_066:
-	.string "莱因：已经报了。\p他们什么时候看完，是他们的事。\p我们先继续。$"
+	.string "莱因：早上就报了。\p他们什么时候看完报告，那是他们\n的事。我们这边不能等。$"
 
 Part6_Text_067:
-	.string "莱因：海底的调查数据？给我看看。\p……高温。\p异常海流。\p还有无法解释的能量读数。$"
+	.string "莱因：海底的记录？给我看看。\p……水温偏高，海流方向异常，\n还有一组无法解释的能量读数。$"
 
 Part6_Text_068:
 	.string "莱因：很好。$"
 
 Part6_Text_069:
-	.string "助手：这怎么看都不算好吧？$"
+	.string "助手：这……怎么看都不算好吧？$"
 
 Part6_Text_070:
-	.string "莱因：我说的是记录。\p现象当然很糟。$"
+	.string "莱因：我说的是这份记录很好。\n现象本身当然很糟。$"
 
 Part6_Text_071:
-	.string "助手：需要把原始数据发给天气研究所\n吗？$"
+	.string "助手：原始数据要发给天气研究所吗？$"
 
 Part6_Text_072:
-	.string "莱因：发处理后的版本。$"
+	.string "莱因：发处理过的版本。$"
 
 Part6_Text_073:
-	.string "助手：原始记录呢？$"
+	.string "助手：那原始记录呢？$"
 
 Part6_Text_074:
-	.string "莱因：留在内部数据库。$"
+	.string "莱因：留在内部数据库。\n没有我的签字，谁也不准调出来。$"
 
 Part6_Text_075:
-	.string "莱因：自然发生的事情，\p很多人习惯接受。\p……失控的自然，\p并不比失控的机器高贵。$"
+	.string "莱因：很多人觉得，只要是自然发生的\n事，就只能默默接受。\p可失控的自然，并不比失控的机器\n更高贵。$"
 
 Part6_Text_076:
-	.string "莱因：数据还在变。\p你要是没事，就别挡着屏幕。$"
+	.string "莱因：数据还在变化。\p……你要是没别的事，就别挡着屏幕。$"
 
 Part6_Text_077:
-	.string "负责人一盯数据就不吃饭……\p我已经热了三次便当了。$"
+	.string "负责人一盯上数据就忘了吃饭……\n这份便当我已经热了三次了。$"
 
 Part6_Text_078:
 	.string "莱因：最后一组传感器装好了。\p还缺一组高强度战斗时的\p环境扰动数据。\p……打一场？$"
@@ -1790,10 +1822,10 @@ Part6_Text_092:
 	.string "莱因：我知道。$"
 
 Part6_Text_093:
-	.string "莱因：你会潜水？\p那帮我校准三个海底数据点。\p两个在这片海下面，一个在128号水\n路。\p数据允许的话，校准完就拆。$"
+	.string "莱因：你会潜水？那正好，帮我校准\n三台海床观测装置。\p两台在这片海的西南边，那条深水带\n的正下方。\p最后一台在128号水路西边——\n有一圈浅滩围着一片深色的海水，\p从那片深水潜下去就能看到。\n装置顶上有灯，很好认。\p三台都校准完，数据没问题，\n我就把这里的设备拆掉。$"
 
 Part6_Text_098:
-	.string "渔夫：那个负责人说校准完就拆。\p我就在这儿等着。$"
+	.string "渔夫：那个负责人说校准完就拆。\p我就在这儿盯着，\n看他说话算不算数。$"
 
 Part6_Text_099:
 	.string "渔夫：……下网的地方没了。\p可那天要不是它，船也没了。$"
@@ -1802,22 +1834,22 @@ Part6_Text_100:
 	.string "技术员：观测项目的手续是齐的。\p……只是没人去跟渔民说。$"
 
 Part6_Text_101:
-	.string "莱因：三个点。别漏了。$"
+	.string "莱因：一共三台。这片海西南的深水带\n下面两台，128号浅滩圈中间一台。$"
 
 Part6_Text_102:
 	.string "船工：这一带的海流说变就变。\p有台机器提前提醒一声，其实也不坏。$"
 
 Part6_Text_103:
-	.string "海床上固定着一台阿尔刻的观测装置。\p按照说明完成了校准。$"
+	.string "海床上立着一台阿尔刻的观测装置，\n顶上的指示灯一闪一闪。\p照着侧面的说明完成了校准。$"
 
 Part6_Text_104:
-	.string "海床上固定着一台阿尔刻的观测装置。\p按照说明完成了校准。$"
+	.string "海床上立着一台阿尔刻的观测装置，\n顶上的指示灯一闪一闪。\p照着侧面的说明完成了校准。$"
 
 Part6_Text_105:
-	.string "海床上固定着一台阿尔刻的观测装置。\p按照说明完成了校准。\p屏幕上突然跳出红色警报！\p前方出现异常强海流。\p附近的船只停了下来。$"
+	.string "海床上立着一台阿尔刻的观测装置，\n顶上的指示灯一闪一闪。\p照着侧面的说明完成了校准。\p……屏幕上突然跳出红色警报！\n前方海域出现异常强海流！\p海面上传来船只紧急停航的汽笛声。$"
 
 Part6_Text_106:
-	.string "海床上固定着一台阿尔刻的观测装置。$"
+	.string "海床上立着一台阿尔刻的观测装置，\n顶上的指示灯一闪一闪。$"
 
 Part6_Text_107:
 	.string "莱因：……$"
