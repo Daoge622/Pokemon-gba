@@ -146,112 +146,136 @@ Campus_Apt_Mailbox::
 	end
 
 Campus_Text_HQ_LoungeVisitor:
-	.string "我是来谈合作的。等了四十分钟。\p前台每十分钟来道一次歉，\n每次都很有礼貌。$"
+	.string "我是来谈合作的，\n已经等了四十分钟了。\p"
+	.string "前台每十分钟来道一次歉，\n客气得我都不好意思发火。$"
 
 Campus_Text_HQ_StairStaff:
-	.string "二楼的展示区对访客开放。\p再往上？\n抱歉，那不在参观路线里。$"
+	.string "二楼的展示区对访客开放。\n再往上的楼层嘛……\p"
+	.string "抱歉，那里不在参观路线里。$"
 
 Campus_Text_HQ2_Analyst:
-	.string "这组数据我核对了三遍。\p结论没有问题。\n有问题的是没人告诉我它用在哪。$"
+	.string "这组数据我核对了三遍，\n结论绝对没问题。\p"
+	.string "问题是，从来没人告诉我\n这些数据到底用在哪儿。$"
 
 Campus_Text_HQ2_Meeting:
-	.string "会议室今天全天有人预约。\p预约人那一栏是空的。\n这里常有这种事。$"
+	.string "这间会议室今天全天都有人预约，\n可预约人那一栏是空的。\p"
+	.string "在这栋楼里，\n这种事一点也不稀奇。$"
 
 Campus_Text_TH_Trainee:
-	.string "每一场对战都有记录。\p赢的记，输的也记。\n习惯了就好。$"
+	.string "这里的每一场对战都有记录，\n赢了要记，输了也要记。\p"
+	.string "一开始挺别扭的，\n习惯了也就好了。$"
 
 Campus_Text_TH_Reviewer:
-	.string "我在看昨天的回放。\p第三回合换人慢了半拍。\n屏幕不会给人留面子。$"
+	.string "我在看昨天的对战回放。\n第三回合换人慢了半拍……\p"
+	.string "唉，屏幕可不会给人留面子。$"
 
 Campus_Text_TH_RackKeeper:
-	.string "器材用完请放回原位。\p少一个球，\n系统当天就会知道。$"
+	.string "器材用完请放回原位！\p"
+	.string "要是少了一个精灵球，\n系统当天就会发现。$"
 
 Campus_Text_Cafe_NightShift:
-	.string "刚下夜班。\p这里的咖啡谈不上好喝，\n不过凌晨四点也开着。$"
+	.string "我刚下夜班。\p"
+	.string "这里的咖啡算不上好喝，\n不过凌晨四点也照样开着。\p"
+	.string "光凭这一点，\n我就天天来。$"
 
 Campus_Text_Cafe_Trainee:
-	.string "训练馆的人都来这里吃午饭。\p咖喱加量不加钱。\n这点我没有怨言。$"
+	.string "训练馆的人都来这里吃午饭。\p"
+	.string "咖喱饭加量不加钱，\n这一点我完全没意见！$"
 
 Campus_Text_EX_Curator:
-	.string "展品可以看，说明牌可以读。\p没有写在牌子上的事，\n我也不清楚。$"
+	.string "展品随便看，说明牌随便读。\p"
+	.string "不过牌子上没写的事，\n问我也没用，我也不清楚。$"
 
 Campus_Text_EX_Visitor:
-	.string "我从外地的研究所来交流。\p他们的资料给得很大方。\n只是每一份都少最后一页。$"
+	.string "我是从外地研究所来交流的。\p"
+	.string "这边给资料给得很大方，\n只是每一份都少了最后一页。$"
 
 Campus_Text_Log_Clerk:
-	.string "进出的货物都要登记。\p品名、重量、去向。\n去向那一栏，多半写“内部”。$"
+	.string "进出的货物都要登记：\n品名、重量、去向。\p"
+	.string "不过去向那一栏，\n多半都写着“内部”。$"
 
 Campus_Text_Log_Loader:
-	.string "箱子上只有编号。\p里面是什么？\n我只管搬，不管问。$"
+	.string "箱子上只有编号。\n里面装的是什么？\p"
+	.string "别问我，\n我只管搬，从来不问。$"
 
 Campus_Text_Apt_TVWatcher:
-	.string "休息日就看看电视。\p园区的宿舍不收房租。\n所以没什么人搬出去。$"
+	.string "休息日我就在家看看电视。\p"
+	.string "园区的宿舍不收房租，\n所以几乎没人愿意搬出去。$"
 
 Campus_Text_Apt_NightShift:
-	.string "我轮到夜间巡逻。\p白天得补觉。\n……麻烦小声一点。$"
+	.string "我今晚轮到夜间巡逻，\n白天得抓紧时间补觉。\p"
+	.string "麻烦你说话小声一点……$"
 
 Campus_Text_HQ_ExhibitSensor:
-	.string "展品：环境传感器。\n“已在丰缘各地布设。”\p没有写一共布设了多少。$"
+	.string "展品：环境传感器。\n“已在丰缘各地布设。”\p"
+	.string "说明牌上没写一共布设了多少台。$"
 
 Campus_Text_HQ_ExhibitBuoy:
 	.string "展品：海流观测浮标的模型。\n“数据每十分钟回传一次。”$"
 
 Campus_Text_HQ_ExhibitModel:
-	.string "展品：园区的全景模型。\p地面上的建筑都做出来了。\n地面以下是一块平整的底板。$"
+	.string "展品：园区的全景模型。\p"
+	.string "地面上的建筑做得一清二楚，\n地面以下却只是一块平整的底板。$"
 
 Campus_Text_HQ2_MinutesShelf:
-	.string "架子上是按年份排好的会议记录。\p最近三年的那几格是空的。$"
+	.string "架子上是按年份排好的会议记录。\p"
+	.string "最近三年的那几格，\n全都是空的。$"
 
 Campus_Text_HQ2_ServerSign:
-	.string "机柜的指示灯在有规律地闪。\n标签上写着“观测网·备份”。$"
+	.string "机柜的指示灯有规律地闪烁着。\n标签上写着“观测网·备份”。$"
 
 Campus_Text_HQ2_SampleTable:
-	.string "桌上是分好类的样本盒。\n每个盒子上只有日期和编号。$"
+	.string "桌上是分好类的样本盒。\n每个盒子上只写着日期和编号。$"
 
 Campus_Text_TH_MachineSign:
-	.string "对战记录终端。\p屏幕上滚动着今天的场次。\n每一场都标着“已归档”。$"
+	.string "对战记录终端。\p"
+	.string "屏幕上滚动着今天的对战场次，\n每一场后面都标着“已归档”。$"
 
 Campus_Text_TH_ScreenSign:
-	.string "大屏幕在回放刚才的对战。\n画面一角显示着招式的各项读数。$"
+	.string "大屏幕正在回放刚才的对战。\n画面一角显示着招式的各项读数。$"
 
 Campus_Text_TH_RackSign:
-	.string "器材架。精灵球按编号排得很整齐。$"
+	.string "器材架。\n精灵球按编号排得整整齐齐。$"
 
 Campus_Text_TH_GlassSign:
-	.string "观战区的隔板。\n从这里可以看清整个场地。$"
+	.string "观战区的隔板。\n从这里能看清整个场地。$"
 
 Campus_Text_Cafe_Menu:
-	.string "今日菜单：\n咖喱饭、三明治、咖啡。\p“员工凭工牌半价。”$"
+	.string "今日菜单：\n咖喱饭、三明治、咖啡。\p"
+	.string "“员工凭工牌享受半价。”$"
 
 Campus_Text_Cafe_Clock:
-	.string "挂钟走得很准。\n旁边贴着各部门的轮班时间。$"
+	.string "挂钟走得分秒不差。\n旁边贴着各部门的轮班时间表。$"
 
 Campus_Text_EX_Globe:
-	.string "一只缓缓转动的地球仪。\n丰缘的位置贴着一个蓝色的小标记。$"
+	.string "一个缓缓转动的地球仪。\n丰缘的位置贴着一个蓝色小标记。$"
 
 Campus_Text_EX_WindowCase:
-	.string "展柜里是各地送来的交流纪念品。\n每一件都附着感谢信。$"
+	.string "展柜里是各地送来的交流纪念品，\n每一件都附着一封感谢信。$"
 
 Campus_Text_EX_ShipModel:
-	.string "观测船的模型。\n船身上没有写船名，只有一个字母“A”。$"
+	.string "观测船的模型。\p"
+	.string "船身上没有写船名，\n只有一个字母“A”。$"
 
 Campus_Text_EX_Sample:
 	.string "封在玻璃里的岩石样本。\n说明牌：“采集地点：丰缘。”$"
 
 Campus_Text_EX_Tube:
-	.string "圆柱形的展示柜。\n里面是空的。说明牌写着“筹备中”。$"
+	.string "一个圆柱形的展示柜，\n里面是空的。\p"
+	.string "说明牌上写着“筹备中”。$"
 
 Campus_Text_Log_Tank:
-	.string "一台正在运转的过滤设备。\n管道通向墙的另一边。$"
+	.string "一台正在运转的过滤设备。\n管道一直通到墙的另一边。$"
 
 Campus_Text_Log_Schedule:
-	.string "图板上是本周的运输安排。\p水静港那一行，\n用红笔圈了出来。$"
+	.string "图板上是本周的运输安排。\p"
+	.string "水静港那一行，\n被人用红笔圈了出来。$"
 
 Campus_Text_Log_Console:
 	.string "仓库的控制台。\n屏幕上显示着“库存正常”。$"
 
 Campus_Text_Apt_Mailbox:
-	.string "住户的信箱。\n只有房间号，没有名字。$"
+	.string "住户的信箱。\n上面只有房间号，没有名字。$"
 
 
 @ ---- outdoor campus (v3 layout)
@@ -300,31 +324,39 @@ Campus_Out_LockedDorm::
 	end
 
 Campus_Text_Out_GateGuard:
-	.string "访客请走大道，不要进绿地。\p……其实也没人拦你。\n只是会被记下来。$"
+	.string "访客请走大道，不要进绿地。\p"
+	.string "……其实也没人会拦你，\n只是会被记录下来而已。$"
 
 Campus_Text_Out_Jogger:
-	.string "从北边跑到码头，正好一千步。\p公司说步数也算进考勤。\n我不知道是不是玩笑。$"
+	.string "从园区北边跑到码头，\n正好一千步。\p"
+	.string "公司说步数也算进考勤……\n我到现在都不知道是不是玩笑。$"
 
 Campus_Text_Out_PoolResearcher:
-	.string "这两个水池不是装饰。\n是用来对照海水读数的。\p顺便好看而已。$"
+	.string "这两个水池可不是装饰，\n是用来对照海水读数的。\p"
+	.string "当然，顺便也挺好看的。$"
 
 Campus_Text_Out_DockWorker:
-	.string "夜里来的船不挂牌子。\p卸什么货，我们只管签收，\n不管打开。$"
+	.string "夜里来的船都不挂牌子。\n卸的是什么货？\p"
+	.string "我们只管签收，\n从来不打开看。$"
 
 Campus_Text_Out_CourtTrainee:
-	.string "场地随便用。\p只是每一场都有人在记，\n连热身也记。$"
+	.string "这块场地随便用。\p"
+	.string "不过每一场都有人在旁边记录，\n连热身都要记。$"
 
 Campus_Text_Out_Fisherman:
-	.string "园区修好以后，这一带鱼变多了。\p我问过他们为什么。\n他们说“数据允许”。$"
+	.string "园区修好以后，\n这一带的鱼反而变多了。\p"
+	.string "我问他们是怎么回事，\n他们只回了一句“数据允许”。$"
 
 Campus_Text_Out_PondKid:
-	.string "池子里的鲤鱼王是我喂的！\p穿白大褂的姐姐说，\n它每天游几圈都有人数。$"
+	.string "池子里的鲤鱼王是我喂的！\p"
+	.string "穿白大褂的姐姐说，\n它每天游几圈都有人在数呢！$"
 
 Campus_Text_Out_LockedLab:
 	.string "第二实验楼\p门禁亮着红灯。$"
 
 Campus_Text_Out_LockedWarehouse:
-	.string "二号仓库\p门上贴着封条，日期是上周。$"
+	.string "二号仓库\p"
+	.string "门上贴着封条，\n日期是上周。$"
 
 Campus_Text_Out_LockedGate:
 	.string "东门值班室\p访客请到总部一楼登记。$"
