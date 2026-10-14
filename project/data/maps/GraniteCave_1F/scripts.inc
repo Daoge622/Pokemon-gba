@@ -44,7 +44,7 @@ GraniteCave_Part1_Stardust_BagFull::
  end
 
 GraniteCave_Part1_Stardust_Intro:
-	.string "岩石旁有一件东西。$"
+	.string "岩石旁边掉着一件东西。$"
 
 GraniteCave_Part1_Stardust_After:
 	.string "这里已经没有东西了。$"
@@ -54,4 +54,4 @@ GraniteCave_Part1_MetalWall::
  end
 
 GraniteCave_Part1_MetalText:
-	.string "岩石中混杂着闪闪发亮的金属颗粒。$"
+	.string "岩石里混着闪闪发亮的金属颗粒。$"

@@ -889,7 +889,7 @@ Route110_Part2_SuperPotion_BagFull::
  end
 
 Route110_Part2_SuperPotion_Intro:
-	.string "这里有旅行用品！$"
+	.string "路边放着一些旅行用品！$"
 
 Route110_Part2_SuperPotion_After:
 	.string "这里已经没有东西了。$"
@@ -913,7 +913,7 @@ Route110_Part2_Ether_BagFull::
  end
 
 Route110_Part2_Ether_Intro:
-	.string "这里有旅行用品！$"
+	.string "路边放着一些旅行用品！$"
 
 Route110_Part2_Ether_After:
 	.string "这里已经没有东西了。$"
@@ -929,4 +929,4 @@ Route110_Part2_RaltsRemark::
  return
 
 Route110_Part2_RaltsText:
-	.string "咦？你也在培养拉鲁拉丝啊？\p这种宝可梦，好像特别容易感受到训\n练家的心情呢。$"
+	.string "咦？你也在培养拉鲁拉丝啊？\p听说这种宝可梦，\n特别能感受到训练家的心情呢。$"

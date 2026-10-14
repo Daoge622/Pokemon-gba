@@ -180,16 +180,16 @@ Route113_Part3_View::
  end
 
 Route113_Part3_PainterIntro:
-	.string "大家都觉得这里灰扑扑的。\p可我倒觉得，灰色也有灰色的漂亮。$"
+	.string "大家都说这里灰扑扑的。\p可我倒觉得，灰色也有灰色的美。\n你也好好看看这片风景吧。$"
 
 Route113_Part3_PainterGift:
-	.string "你也仔细看过这片风景了吧？\p这根羽毛给你。连落灰的时候，看起\n来也很漂亮呢！$"
+	.string "你也仔细看过这片风景了吧？\p这根漂亮的羽毛送给你。\n就算沾了灰，它看起来也很美呢！$"
 
 Route113_Part3_PainterAfter:
-	.string "同一片风景，每次看都会发现一点新\n东西。$"
+	.string "同一片风景，\n每次看都能发现新的东西。$"
 
 Route113_Part3_ViewText:
-	.string "灰白的道路延伸到远处。\p风吹过时，薄薄的火山灰像波纹一样\n散开。$"
+	.string "灰白色的道路一直延伸到远方。\p一阵风吹过，薄薄的火山灰\n像波纹一样散开了。$"
 
 Route113_Part3_SpindaCry::
  lock
@@ -214,17 +214,17 @@ Route113_Part3_SpindaKidParty::
  end
 
 Route113_Part3_SpindaKidText:
-	.string "晃晃斑最喜欢在火山灰里跑了。\p每次回来，都把自己弄得全身是灰！$"
+	.string "我的晃晃斑最喜欢在火山灰里跑了。\p每次回来，都把自己弄得全身是灰！$"
 
 Route113_Part3_SpindaKidPartyText:
-	.string "你的晃晃斑花纹也完全不一样！\p真的没有两只是一模一样的吗？$"
+	.string "你的晃晃斑花纹和我的完全不一样！\p真的没有两只是一模一样的吗？$"
 
 Route113_Part3_AshHint::
  msgbox Route113_Part3_AshHintText, MSGBOX_NPC
  end
 
 Route113_Part3_AshHintText:
-	.string "火山灰下面，偶尔会盖住一些东西。\p走慢一点，多看看脚下。$"
+	.string "火山灰底下，偶尔会埋着些东西。\p走慢一点，多留意脚下吧。$"
 
 Route113_Part3_OddishCry::
  lock
@@ -240,4 +240,4 @@ Route113_Part3_AshGrandma::
  end
 
 Route113_Part3_AshGrandmaText:
-	.string "我刚扫干净，风一吹就又白干了。\p走路草倒是高兴，转眼又钻进灰里去\n了！$"
+	.string "我刚扫干净，风一吹又白扫了。\p走路草倒是高兴得很，\n一转眼又钻进灰堆里去了！$"

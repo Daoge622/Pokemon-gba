@@ -722,7 +722,7 @@ Dewford_Part1_Stock:
  pokemartlistend
 
 Dewford_Part1_MerchantText:
-	.string "渔船刚带来一些旅行用品，看看吧！\p有些精灵球在水里会特别好用。\p等你真正开始探索大海，就明白了。$"
+	.string "渔船刚运来一批旅行用品，来看看吧！\p有些精灵球在水里特别好用。\n等你真正出海探险，就明白了。$"
 
 Dewford_Part1_FindShell::
  lockall
@@ -759,16 +759,16 @@ Dewford_Part1_ShellBagFull::
  end
 
 Dewford_Part1_FoundShellText:
-	.string "潮水留下了一枚漂亮的贝壳。\p先收好，再问问附近的人吧。$"
+	.string "潮水冲上来一枚漂亮的贝壳。\p先收起来，问问附近有没有人在找吧。$"
 
 Dewford_Part1_ShellEmptyText:
-	.string "细沙上只剩下潮水留下的痕迹。$"
+	.string "细沙上只留下了潮水的痕迹。$"
 
 Dewford_Part1_ShellIntro:
-	.string "我找到的漂亮贝壳被潮水冲走了……\p你能帮我在海边找找吗？$"
+	.string "我捡到的漂亮贝壳被潮水冲走了……\p你能帮我在海滩上找找吗？$"
 
 Dewford_Part1_ShellThanks:
-	.string "就是这枚！谢谢你帮我找回来！\p这颗珍珠送给你！$"
+	.string "就是这枚！谢谢你帮我找回来！\p这颗珍珠送给你，当作谢礼！$"
 
 Dewford_Part1_ShellAfter:
-	.string "这次我会把贝壳好好收起来！$"
+	.string "这次我一定把贝壳好好收起来！$"

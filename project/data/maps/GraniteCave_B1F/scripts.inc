@@ -29,7 +29,7 @@ GraniteCave_Part1_Everstone_BagFull::
  end
 
 GraniteCave_Part1_Everstone_Intro:
-	.string "岩石旁有一件东西。$"
+	.string "岩石旁边掉着一件东西。$"
 
 GraniteCave_Part1_Everstone_After:
 	.string "这里已经没有东西了。$"

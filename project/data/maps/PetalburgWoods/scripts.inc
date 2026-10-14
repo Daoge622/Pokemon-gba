@@ -460,7 +460,7 @@ PetalburgWoods_Part1_ChildBagFull::
  end
 
 PetalburgWoods_Part1_ObserverText:
-	.string "蘑蘑菇喜欢阴暗又潮湿的地方。\p别看它们安安静静的，受到惊吓时可\n是会放出孢子的哦。$"
+	.string "蘑蘑菇喜欢阴暗又潮湿的地方。\p别看它们安安静静的，受到惊吓时\n可是会喷出孢子的哦。$"
 
 PetalburgWoods_Part1_PartnerText:
 	.string "哦！你已经和蘑蘑菇成为伙伴了啊。\p看来你很懂森林嘛！$"
@@ -469,16 +469,16 @@ PetalburgWoods_Part1_WurmpleLook:
 	.string "刺尾虫正好奇地看着你。$"
 
 PetalburgWoods_Part1_WurmpleQuestion:
-	.string "要带它去森林入口吗？$"
+	.string "要把它带到森林入口吗？$"
 
 PetalburgWoods_Part1_ChildIntro:
-	.string "我很想近距离看看刺尾虫……\p可是森林里面黑黑的，我一个人不敢\n进去。$"
+	.string "我好想近距离看看刺尾虫……\p可是森林里面黑漆漆的，\n我一个人不敢进去。\p如果你在森林里遇到刺尾虫，能帮我\n把它带过来吗？$"
 
 PetalburgWoods_Part1_ChildThanks:
-	.string "哇！真的带它来了！\p原来刺尾虫这么可爱！\p谢谢你！这个送给你！$"
+	.string "哇！你真的把它带来了！\p原来刺尾虫这么可爱！\p谢谢你！这个送给你！$"
 
 PetalburgWoods_Part1_ChildAfter:
-	.string "它又来这里陪我玩了！\p等它想回森林的时候，我也会跟它好\n好道别的。$"
+	.string "它又跑来陪我玩了！\p等它想回森林的时候，\n我也会好好跟它道别的。$"
 
 PetalburgWoods_Part1_FriendWurmple::
  lock

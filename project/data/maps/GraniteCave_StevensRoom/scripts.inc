@@ -112,7 +112,7 @@ GraniteCave_Part1_SteelWingBagFull::
  end
 
 GraniteCave_Part1_StevenIntro:
-	.string "你是从卡那兹一路来到这里的吧？\p能来到洞穴这么深的地方，看来你也\n不是普通新人。$"
+	.string "你是从卡那兹一路找到这里来的吧？\p能走到洞穴这么深的地方，\n看来你不是普通的新人呢。$"
 
 GraniteCave_Part1_BeldumText:
-	.string "嗯？你也在培养铁哑铃啊。\p这种宝可梦并不容易与训练家建立默\n契。\p好好珍惜它吧。$"
+	.string "嗯？你也在培养铁哑铃啊。\p这种宝可梦要和训练家培养默契，\n可不是件容易的事。\p请好好珍惜它吧。$"

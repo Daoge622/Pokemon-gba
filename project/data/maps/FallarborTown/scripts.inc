@@ -81,7 +81,7 @@ FallarborTown_Part3_Researcher::
  end
 
 FallarborTown_Part3_ResearcherText:
-	.string "这里离流星瀑布很近。\p偶尔真的能找到从天上掉下来的石头\n。$"
+	.string "这里离流星瀑布很近。\p运气好的话，还真能捡到陨石呢！$"
 
 FallarborTown_Part3_MeteorFan::
  lock
@@ -96,10 +96,10 @@ FallarborTown_Part3_MeteorFanAfter::
  end
 
 FallarborTown_Part3_MeteorFanText:
-	.string "你觉得从天上掉下来的石头，和我们\n脚下的石头，真的有什么不同吗？$"
+	.string "你说，从天上掉下来的石头，\n和我们脚下的石头真有什么不同吗？$"
 
 FallarborTown_Part3_MeteorFanAfterText:
-	.string "什么？真的有人为了陨石把博士带走\n了？\p我只是喜欢捡石头而已啊……$"
+	.string "什么？真有人为了陨石，\n把索蓝斯博士带走了？\p我只是喜欢捡石头而已啊……$"
 
 FallarborTown_Part3_Collector::
  lock
@@ -119,7 +119,7 @@ FallarborTown_Part3_CollectorFull::
  end
 
 FallarborTown_Part3_CollectorIntro:
-	.string "这块没什么研究价值。\p不过挺漂亮的，送给你吧。$"
+	.string "这块石头没什么研究价值。\p不过挺漂亮的，就送给你吧。$"
 
 FallarborTown_Part3_CollectorAfter:
-	.string "不懂研究也没关系。喜欢这些石头，\n本身就挺开心的。$"
+	.string "不懂研究也没关系。\n光是喜欢这些石头，就很开心了。$"

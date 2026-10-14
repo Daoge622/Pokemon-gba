@@ -1168,7 +1168,7 @@ Slateport_Part2_QuickStock:
  pokemartlistend
 
 Slateport_Part2_QuickText:
-	.string "这是我从做宝可梦用品生意的朋友那\n里弄来的。\p数量不多哦，喜欢的话就看看吧！$"
+	.string "这是我从朋友那儿弄来的先机球，\n他是做宝可梦用品生意的。\p数量不多，喜欢的话就看看吧！$"
 
 Slateport_Part2_FocusPunch::
  lock
@@ -1188,10 +1188,10 @@ Slateport_Part2_FocusPunch_BagFull::
  end
 
 Slateport_Part2_FocusPunch_Intro:
-	.string "真正有威力的一拳，最重要的可不只\n是力气。\p还要等待最合适的时机。\p这个招式挺难用，不过你看起来能掌\n握它。$"
+	.string "真正厉害的一拳，靠的不只是力气，\n还要等待最合适的时机。\p这个招式不太好用，不过我看你应该\n能掌握它。$"
 
 Slateport_Part2_FocusPunch_After:
-	.string "气合拳讲究时机。\p不要只想着用力哦！$"
+	.string "气合拳讲究的是时机。\p可别只顾着用力哦！$"
 
 Slateport_Part2_Charm::
  lock
@@ -1212,10 +1212,10 @@ Slateport_Part2_CharmFull::
  end
 
 Slateport_Part2_CharmIntro:
-	.string "我的男朋友为了工作去了水静市。\p以前他还会偶尔回来看看我……\p现在工作越来越忙，已经很少有时间\n回来了。\p而且他总不肯告诉我，到底在做什么\n工作。\p我其实有点担心他。\p如果你以后在水静市见到他……\p能不能帮我把这个交给他？$"
+	.string "我的男朋友为了工作去了水静市。\p以前他偶尔还会回来看看我，\n可现在工作越来越忙，很少回来了。\p他也总不肯告诉我，\n到底在做什么工作。\p我真的有点担心他。\p如果你以后在水静市见到他，\n能不能帮我把这枚平安符交给他？$"
 
 Slateport_Part2_CharmAfter:
-	.string "那枚平安符，能替我送到他手里就好\n了。\p希望他一切都好。$"
+	.string "要是那枚平安符能送到他手里就好了。\p希望他一切都好。$"
 
 Slateport_Part2_ShowWingull::
  clearflag FLAG_TEMP_C
@@ -1265,10 +1265,10 @@ Slateport_Part2_Delivery_Wait::
  end
 
 Slateport_Part2_Delivery_Intro:
-	.string "你可算回来了！\p我今天的货差点都送不出去了！\p谢谢你，收下这些吧！$"
+	.string "长翅鸥终于回来了！\p今天的货差点就送不出去了！\p谢谢你，这些请收下吧！$"
 
 Slateport_Part2_Delivery_After:
-	.string "这孩子总爱到处去玩。\p这次可得把送货的事记好了！$"
+	.string "这孩子总爱到处乱跑。\p下次可得把送货的事记牢了！$"
 
 Slateport_Part2_Delivery_WaitText:
-	.string "我的长翅鸥又跑出去玩了。\p如果你在市场附近看见它，帮我叫它\n回来吧！$"
+	.string "我的长翅鸥又跑出去玩了。\p你要是在市场附近看到它，\n帮我把它叫回来吧！$"

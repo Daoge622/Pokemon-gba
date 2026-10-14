@@ -142,10 +142,10 @@ FlowerShop_Part1_BagFull::
  end
 
 FlowerShop_Part1_Intro:
-	.string "如果旅行经过这里，可以偶尔回来看\n看哦。\p我们每天都会挑一些成熟的树果送给\n训练家。\p今天这一枚就送给你吧！$"
+	.string "旅行路过的时候，欢迎常回来看看！\p我们每天都会挑一颗熟透的树果，\n送给来店里的训练家。\p今天这颗就送给你吧！$"
 
 FlowerShop_Part1_After:
-	.string "今天的树果已经送给你啦。\p明天旅行经过时，再来看看吧！$"
+	.string "今天的树果已经送给你啦。\p明天路过的时候，再来看看吧！$"
 
 FlowerShop_Part1_MeetOwner:
-	.string "欢迎！先和店里的姐姐聊聊树果的用\n法吧。$"
+	.string "欢迎光临！\n先去和店里的姐姐聊聊树果的用法吧。$"
