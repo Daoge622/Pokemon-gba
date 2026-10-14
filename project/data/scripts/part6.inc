@@ -404,6 +404,7 @@ Part6_SampleDive::
 	fadescreen FADE_FROM_BLACK
 	goto_if_eq VAR_RESULT, FALSE, Part6_BagFullAll
 	setflag FLAG_PART6_SAMPLE_CASE_TAKEN
+	special StoryRefreshPickupMarkers
 	releaseall
 	end
 
@@ -548,6 +549,7 @@ Part6_CalFisher::
 	goto_if_set FLAG_PART6_CALIBRATION_DONE, Part6_CalFisher_Done
 	goto_if_set FLAG_PART6_CALIBRATION_ASKED, Part6_CalFisher_Check
 	msgbox Part6_Text_085, MSGBOX_DEFAULT
+	call Part6_CalFaceArgue
 	msgbox Part6_Text_086, MSGBOX_DEFAULT
 	msgbox Part6_Text_087, MSGBOX_DEFAULT
 	msgbox Part6_Text_088, MSGBOX_DEFAULT
@@ -555,6 +557,7 @@ Part6_CalFisher::
 	msgbox Part6_Text_090, MSGBOX_DEFAULT
 	msgbox Part6_Text_091, MSGBOX_DEFAULT
 	msgbox Part6_Text_092, MSGBOX_DEFAULT
+	call Part6_CalFacePlayer
 	goto_if_unset FLAG_RECEIVED_HM_DIVE, Part6_CalFisher_End
 	msgbox Part6_Text_093, MSGBOX_DEFAULT
 	setflag FLAG_PART6_CALIBRATION_ASKED
@@ -566,7 +569,9 @@ Part6_CalFisher_Check::
 	goto_if_unset FLAG_PART6_CALIBRATION_1, Part6_CalFisher_Wait
 	goto_if_unset FLAG_PART6_CALIBRATION_2, Part6_CalFisher_Wait
 	goto_if_unset FLAG_PART6_CALIBRATION_3, Part6_CalFisher_Wait
+	call Part6_CalFaceArgue
 	call StoryA_CalHandIn
+	call Part6_CalFacePlayer
 	checkitemspace ITEM_PP_UP, 1
 	goto_if_eq VAR_RESULT, FALSE, Part6_BagFull
 	checkitemspace ITEM_BIG_PEARL, 2
@@ -586,6 +591,20 @@ Part6_CalFisher_Done::
 	msgbox Part6_Text_099, MSGBOX_DEFAULT
 	release
 	end
+
+@ Fisher (11,31) and the technician (9,31) face each other across the island; Rain (10,29) looks down at them.
+Part6_CalFaceArgue::
+	applymovement LOCALID_PART6_CAL_FISHER, Common_Movement_FaceLeft
+	applymovement LOCALID_PART6_CAL_TECH, Common_Movement_FaceRight
+	applymovement LOCALID_PART6_CAL_RAIN, Common_Movement_FaceDown
+	waitmovement 0
+	return
+
+Part6_CalFacePlayer::
+	applymovement LOCALID_PART6_CAL_RAIN, Common_Movement_FacePlayer
+	applymovement LOCALID_PART6_CAL_FISHER, Common_Movement_FacePlayer
+	waitmovement 0
+	return
 
 Part6_CalTech::
 	msgbox Part6_Text_100, MSGBOX_NPC
@@ -1660,7 +1679,7 @@ Part6_Text_038:
 	.string "这里没有别的东西了。$"
 
 Part6_Text_039:
-	.string "这只呆呆兽每天都坐在这儿。\n有时候我觉得，它比我还懂海。\p对了，我的潮流记录仪\n被浪冲到海底去了。\p大概就沉在南边那片珊瑚附近。\n你能帮我找回来吗？$"
+	.string "这只呆呆兽每天都坐在这儿。\n有时候我觉得，它比我还懂海。\p对了，我的潮流记录仪\n被浪冲到海底去了。\p就沉在这座小岛东边的深水带底下，\n珊瑚旁边。你能帮我捞回来吗？$"
 
 Part6_Text_040:
 	.string "找到了？太好了！\p……你看，它比我还高兴。\p这块石头是我们在礁石上捡的，\n送给你吧。$"
@@ -1675,7 +1694,7 @@ Part6_Text_043:
 	.string "这里没有别的东西了。$"
 
 Part6_Text_044:
-	.string "刚才那阵浪，\n把我的工具箱卷到海里去了。\p里面没什么值钱东西，\n可没了它，我什么都修不了。\p应该就沉在这儿北边的海底。\n你会潜水的话，帮我捞一下吧？$"
+	.string "刚才那阵浪，\n把我的工具箱卷到海里去了。\p里面没什么值钱东西，\n可没了它，我什么都修不了。\p就沉在小岛西北边那块深色海水\n底下。你会潜水的话，帮我捞一下吧？$"
 
 Part6_Text_045:
 	.string "居然真找回来了！\n泡成这样，工具居然还能用。\p这些你收着，\n算是我的一点心意。$"
@@ -1702,7 +1721,7 @@ Part6_Text_052:
 	.string "沉船的残骸静静地躺在海底。$"
 
 Part6_Text_053:
-	.string "我本来是来调查附近岩层的。\p结果昨天一阵急流，\n把我的样本箱冲走了。\p里面装着一块化石样本，\n它可比我这个人值钱多了。\p箱子应该就沉在这附近的海里。\n你能潜下去帮我找找吗？$"
+	.string "我本来是来调查附近岩层的。\p结果昨天一阵急流，\n把我的样本箱冲走了。\p里面装着一块化石样本，\n它可比我这个人值钱多了。\p箱子漂到这个木台南边去了，\n海面上有个亮点的地方就是。\p你会潜水的话，帮我捞上来吧？$"
 
 Part6_Text_054:
 	.string "完整无损！\n我连损失报告都准备好了。\p……咦，箱子里还混着一块怪石头。\n跟我的研究没关系，你拿着吧。$"
@@ -1795,7 +1814,7 @@ Part6_Text_083:
 	.string "莱因：战斗数据收集完毕。\p你比仪器麻烦多了。\n……不过也有用得多。\p这是测试报酬，拿着。$"
 
 Part6_Text_084:
-	.string "莱因：平台这边的数据正常。\n接下来要看海底的情况了。$"
+	.string "莱因：岛上这边的数据正常。\n接下来要看海底的情况了。$"
 
 Part6_Text_085:
 	.string "渔夫：那台机器正好挡住了\n我平时下网的地方！\p装的时候，也没人来问过我一声。$"
@@ -1822,7 +1841,7 @@ Part6_Text_092:
 	.string "莱因：我知道你不会同意。$"
 
 Part6_Text_093:
-	.string "莱因：你会潜水？那正好，帮我校准\n三台海床观测装置。\p两台在这片海的西南边，那条深水带\n的正下方。\p最后一台在128号水路西边——\n有一圈浅滩围着一片深色的海水，\p从那片深水潜下去就能看到。\n装置顶上有灯，很好认。\p三台都校准完，数据没问题，\n我就把这里的设备拆掉。$"
+	.string "莱因：你会潜水？那正好，帮我校准\n三台海床观测装置。\p两台就在这座小岛南边，\n那条深水带的正下方。\p最后一台在128号水路西边——\n有一圈浅滩围着一片深色的海水，\p从那片深水潜下去就能看到。\n装置顶上有灯，很好认。\p三台都校准完，数据没问题，\n我就把这里的设备拆掉。$"
 
 Part6_Text_098:
 	.string "渔夫：那个负责人说校准完就拆。\p我就在这儿盯着，\n看他说话算不算数。$"
@@ -1834,7 +1853,7 @@ Part6_Text_100:
 	.string "技术员：观测项目的手续都是齐的。\p……只是从头到尾，\n都没人去跟渔民们说一声。$"
 
 Part6_Text_101:
-	.string "莱因：一共三台。这片海西南的深水带\n下面两台，128号浅滩圈中间一台。$"
+	.string "莱因：一共三台。小岛南边的深水带\n下面两台，128号浅滩圈中间一台。$"
 
 Part6_Text_102:
 	.string "船工：这一带的海流说变就变。\p有台机器能提前提醒一声，\n其实也不坏。$"
