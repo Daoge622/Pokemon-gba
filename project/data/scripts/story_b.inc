@@ -121,13 +121,13 @@ StoryB_Release::
 	end
 
 StoryB_Text_Post:
-	.string "某种测量设备。\n没有厂牌，没有编号。$"
+	.string "某种测量设备。\n上面没有厂牌，也没有编号。$"
 
 StoryB_Text_PostMarkedBySaori:
-	.string "纱织标记的就是这里。$"
+	.string "纱织在地图上标记的，\n就是这一根。$"
 
 StoryB_Text_PostMarked:
-	.string "和路上见过的桩子是同一种。\p这一根钉着蓝色的标牌。\n上面只有一个字母：“A”。$"
+	.string "和路上见过的桩子是同一种。\p不过这一根钉着蓝色的标牌，\n上面只有一个字母：“A”。$"
 
 @ ---------------------------------------------------------------
 @ Hayato
@@ -150,13 +150,13 @@ StoryB_Hayato1_After::
 	end
 
 StoryB_Text_Hayato1_Intro:
-	.string "你也是今年出发的？\n我早你半个月。\p……早半个月又怎样。\n打一场就知道了。$"
+	.string "你也是今年出发的？\n我比你早半个月。\p……不过早半个月又怎样，\n打一场就知道了。$"
 
 StoryB_Text_Hayato1_Defeat:
-	.string "行。你走前面。$"
+	.string "行，你走前面。$"
 
 StoryB_Text_Hayato1_After:
-	.string "我叫隼人。\p别回头看。我会跟上来的。$"
+	.string "我叫隼人。\p别回头看我，\n我很快就会追上来的。$"
 
 StoryB_Hayato2::
 	lock
@@ -190,22 +190,22 @@ StoryB_Hayato2_After::
 	end
 
 StoryB_Text_Hayato2_IntroMet:
-	.string "……是你。\p我在这儿卡了三天。\n紫堇道馆，过不去。\p别用那种眼神看我。\n来，打一场。$"
+	.string "……是你啊。\p我在这儿卡了三天了，\n紫堇道馆就是过不去。\p别用那种眼神看我。\n来，打一场。$"
 
 StoryB_Text_Hayato2_IntroNew:
-	.string "你也是今年出发的？\n我叫隼人，早你半个月。\p早半个月，照样卡在紫堇道馆。\n三天了。\p来，打一场。$"
+	.string "你也是今年出发的？\n我叫隼人，比你早半个月。\p早半个月，还不是照样\n在紫堇道馆卡了三天。\p来，打一场。$"
 
 StoryB_Text_Hayato2_Defeat:
-	.string "……飞膝踢都没踢中。$"
+	.string "……连飞膝踢都没踢中。$"
 
 StoryB_Text_Hayato2_Take:
-	.string "输了就是输了。\n这个拿着。$"
+	.string "输了就是输了。\n这个你拿着。$"
 
 StoryB_Text_Hayato2_Lend:
-	.string "借你的。\n赢了铁旋再还我。$"
+	.string "先借你用。\n等你赢了铁旋再还我。$"
 
 StoryB_Text_Hayato2_After:
-	.string "我再练两天。\n你先去。$"
+	.string "我再练两天。\n你先走吧。$"
 
 StoryB_Hayato3::
 	lock
@@ -231,22 +231,22 @@ StoryB_Hayato3_After::
 	end
 
 StoryB_Text_Hayato3_Intro:
-	.string "我算过了。\n照这个速度到联盟，钱先花完。\p……听说水静那边有地方招陪练。\n包吃住。$"
+	.string "我算过了，照这个速度\n走到联盟，钱会先花光。\p……听说水静那边\n有地方招陪练，包吃包住。$"
 
 StoryB_Text_Hayato3_Ask:
 	.string "走之前，再打一场？$"
 
 StoryB_Text_Hayato3_No:
-	.string "行。不勉强。\n我泡完这一回再走。$"
+	.string "行，不勉强。\n我泡完这一回温泉再走。$"
 
 StoryB_Text_Hayato3_Defeat:
-	.string "……还是差一截。$"
+	.string "……还是差了一截。$"
 
 StoryB_Text_Hayato3_Win:
-	.string "头带你留着。\p我去水静看看。\n混不下去再说。$"
+	.string "头带你留着吧。\p我去水静看看。\n混不下去再说。$"
 
 StoryB_Text_Hayato3_After:
-	.string "还没走。\n泡完这一回就动身。$"
+	.string "还没走呢。\n泡完这一回就动身。$"
 
 @ ---------------------------------------------------------------
 @ Saori
@@ -307,22 +307,22 @@ StoryB_Text_SaoriWoods_Hush:
 	.string "嘘——别动。$"
 
 StoryB_Text_SaoriWoods_Got:
-	.string "……好，拍到了。\p你知道这家伙老家离这儿多远吗？\n我也不知道它怎么来的。$"
+	.string "……好，拍到了。\p你知道这家伙的老家\n离这儿有多远吗？\p我也不知道它是怎么跑来的。$"
 
 StoryB_Text_SaoriWoods_Ask:
-	.string "你一路走过来，\n见过别的“外来户”没有？$"
+	.string "你一路走过来，\n有没有见过别的“外来户”？$"
 
 StoryB_Text_SaoriWoods_Yes:
-	.string "见过？那就不是我眼花。\n再见到，记得多看两眼。$"
+	.string "见过？那就不是我眼花了。\n下次再碰到，记得多看两眼。$"
 
 StoryB_Text_SaoriWoods_No:
-	.string "没有？还是没留意？\n以后留意一下。$"
+	.string "没见过？还是没留意？\n以后多留意一下吧。$"
 
 StoryB_Text_SaoriWoods_After:
-	.string "我是纱织。拍照的，也写稿。\n底片够了，我再蹲一会儿。$"
+	.string "我叫纱织，拍照的，也写稿子。\n我在这儿再蹲一会儿。$"
 
 StoryB_Text_WoodsVenipede:
-	.string "不是这片森林里的宝可梦。\n有人正对着它举着相机。$"
+	.string "这不是这片森林里的宝可梦。\n有人正举着相机对准它。$"
 
 StoryB_SaoriSlateport::
 	lock
@@ -357,19 +357,19 @@ StoryB_SaoriSlateport_Done::
 	end
 
 StoryB_Text_SaoriSlateport_Offer:
-	.string "你是训练家？正好。\n训练家不都爱到处跑吗？\p我是纱织。拍照的，也写稿。\p地图上我标了三处：\n103、110、117号道路。\p路边各有一根灰色的桩子。\n替我各看一眼，回来告诉我。$"
+	.string "你是训练家？正好。\n训练家不都爱到处跑吗？\p我叫纱织，拍照的，也写稿子。\p我在地图上标了三个地方：\n103、110、117号道路。\p每条路边都有一根灰色的桩子。\n替我各看一眼，再回来告诉我。$"
 
 StoryB_Text_SaoriSlateport_Wait:
-	.string "103、110、117号道路。\n路边的灰色桩子，看一眼就行。$"
+	.string "103、110、117号道路，\n路边的灰色桩子，看一眼就行。\p看完了就回凯那来找我。$"
 
 StoryB_Text_SaoriSlateport_Report:
-	.string "三个地方都有？同一种桩子？\p……有意思。\p没有厂牌的东西，\n往往是最不缺钱的人做的。$"
+	.string "三个地方都有？还是同一种桩子？\p……有意思。\p没有厂牌的东西，\n往往是最不缺钱的人做的。$"
 
 StoryB_Text_SaoriSlateport_Thanks:
-	.string "多出来的镜头，归你了。\n我往北边去。$"
+	.string "这个多出来的镜头归你了。\n我要往北边去了。$"
 
 StoryB_Text_SaoriSlateport_Done:
-	.string "秋叶镇有间能洗胶卷的屋子。\n我去那边把线连起来。$"
+	.string "秋叶镇有间能冲洗胶卷的屋子。\n我去那边把线索串起来。$"
 
 StoryB_SaoriFallarbor::
 	lock
@@ -386,10 +386,10 @@ StoryB_SaoriFallarbor_After::
 	end
 
 StoryB_Text_SaoriFallarbor:
-	.string "别碰那个盆，胶卷还泡着。\p看墙上的地图。红线是我画的，\n从卡那兹一路到119号道路。\p同一种桩子，一根接一根。\p是谁的设备？不知道。\n不知道才有意思，对吧？$"
+	.string "别碰那个盆，胶卷还泡着呢。\p看墙上的地图。红线是我画的，\n从卡那兹一路连到119号道路。\p沿线都是同一种桩子，\n一根接着一根。\p是谁的设备？不知道。\n不过，不知道才有意思，对吧？$"
 
 StoryB_Text_SaoriFallarbor_After:
-	.string "红线的尽头在119号道路。\n等胶卷干了，我就过去。$"
+	.string "红线的尽头在119号道路。\n等胶卷晾干了，我就过去。$"
 
 StoryB_119Shared::
 	lock
@@ -404,7 +404,7 @@ StoryB_119Shared::
 	end
 
 StoryB_Text_Saori119:
-	.string "原来是他们。\p你看那身制服，多新。\p这种规模的调查，\n我一篇报道都没见过。\p……我换个角度再拍。回头见。$"
+	.string "原来是他们。\p你看那身制服，崭新崭新的。\p这么大规模的调查，\n我却连一篇报道都没见过。\p……我换个角度再拍几张，回头见。$"
 
 @ ---------------------------------------------------------------
 @ Foreshadowing NPCs
@@ -419,24 +419,24 @@ StoryB_RustboroBuyerB::
 	end
 
 StoryB_Text_RustboroBuyerA:
-	.string "前台说，那种规格的零件\n不对外供货。\p……说得倒是很客气。$"
+	.string "前台说，那种规格的零件\n不对外供货。\p……话倒是说得挺客气。$"
 
 StoryB_Text_RustboroBuyerB:
-	.string "算了。\n我们自己做也行。$"
+	.string "算了，\n我们自己做也一样。$"
 
 StoryB_ShipyardWorker::
 	msgbox StoryB_Text_ShipyardWorker, MSGBOX_NPC
 	end
 
 StoryB_Text_ShipyardWorker:
-	.string "前阵子有一批精密仪器的订单。\n订货方不明。\p付钱很爽快，就是不让问用途。\p货已经拉去港口了。\n那边有人盯着，说是今晚装船。$"
+	.string "前阵子来了一批精密仪器的订单，\n订货方是谁，没人知道。\p钱付得很爽快，\n就是不让问用途。\p货已经拉去港口了。\n听说有人盯着，今晚就装船。$"
 
 StoryB_MauvilleMeter::
 	msgbox StoryB_Text_MauvilleMeter, MSGBOX_NPC
 	end
 
 StoryB_Text_MauvilleMeter:
-	.string "我？抄电表的。\p新紫堇的事故报告，\n上个月被人调阅过。\p不是市政的人。$"
+	.string "我？抄电表的。\p新紫堇的事故报告，\n上个月被人调去看过。\p调阅的人不是市政府的。$"
 
 StoryB_CableWorker::
 	lock
@@ -447,14 +447,14 @@ StoryB_CableWorker::
 	end
 
 StoryB_Text_CableWorker:
-	.string "箱子里是一台测温仪。\n他正在扣上最后一道锁。\p“数据够了。\p山不会再升温了，\n至少今年不会。”$"
+	.string "箱子里装着一台测温仪。\n他正扣上最后一道锁。\p“数据够了。\p这座山不会再升温了，\n至少今年不会。”$"
 
 StoryB_Xavier114::
 	msgbox StoryB_Text_Xavier114, MSGBOX_SIGN
 	end
 
 StoryB_Text_Xavier114:
-	.string "……\p浮标动了一下。$"
+	.string "他专心盯着水面，\n一句话也没说。\p浮标轻轻动了一下。$"
 
 @ ---------------------------------------------------------------
 @ Magma rookie: Route119 tag battle (uniform)
@@ -522,19 +522,19 @@ StoryB_Movement_Rookie119Arrive:
 	step_end
 
 StoryB_Text_Rookie119_Aqua:
-	.string "又来一个？\p刚才那个熔岩队的小鬼\n还赖在附近没走呢。$"
+	.string "又来一个？\p刚才那个熔岩队的小鬼\n还赖在附近不走呢。$"
 
 StoryB_Text_Rookie119_Intro:
-	.string "谁是小鬼！\p……你、你怎么在这儿！\p算了，来得正好。\n这两个人缠了我半天。\p我可不是求你帮忙！\n二对二才公平，仅此而已！$"
+	.string "谁是小鬼啊！\p……咦，你、你怎么在这儿！\p算了，来得正好。\n这两个人缠了我半天了。\p我可不是在求你帮忙！\n二对二才公平，仅此而已！$"
 
 StoryB_Text_Rookie119_AquaALose:
-	.string "熔岩队还带帮手的？$"
+	.string "熔岩队居然还带帮手？$"
 
 StoryB_Text_Rookie119_AquaBLose:
-	.string "啧……桥照样不让过。$"
+	.string "啧……反正桥照样不让过。$"
 
 StoryB_Text_Rookie119_After:
-	.string "……谢了。\p别误会，我还是熔岩队的人。\n下次碰上，照样是对手。\p胖丁，走了。任务还没完呢。$"
+	.string "……谢了。\p别误会，我还是熔岩队的人。\n下次碰上，照样是对手。\p胖丁，走了！任务还没完成呢。$"
 
 @ ---------------------------------------------------------------
 @ Magma rookie: Lavaridge tag battle (casual clothes)
@@ -596,25 +596,25 @@ StoryB_LavaGrunt::
 	end
 
 StoryB_Text_RookieLava_Intro:
-	.string "……嗨。\p等等。你后面那两个人——$"
+	.string "……嗨。\p等等，你后面那两个人是——$"
 
 StoryB_Text_RookieLava_Grunt:
-	.string "找到了。\p队里说了，你的辞呈不算数。\n跟我们回去。$"
+	.string "总算找到你了。\p队里说了，你的辞呈不算数。\n跟我们回去。$"
 
 StoryB_Text_RookieLava_Refuse:
-	.string "我不回去。\p……这一次，你站我这边，行吗？$"
+	.string "我不回去。\p……这一次，你能站在我这边吗？$"
 
 StoryB_Text_RookieLava_GruntALose:
-	.string "她什么时候这么能打了？$"
+	.string "她什么时候变得这么能打了？$"
 
 StoryB_Text_RookieLava_GruntBLose:
-	.string "……打不过。$"
+	.string "……打不过啊。$"
 
 StoryB_Text_RookieLava_GruntLeave:
-	.string "……算了。\n就报告说没找到人。$"
+	.string "……算了。\n回去就报告说没找到人吧。$"
 
 StoryB_Text_RookieLava_Thanks:
-	.string "谢谢。\p头一回，不是站在你对面。$"
+	.string "谢谢你。\p这还是我头一回\n没有站在你的对面。$"
 
 StoryB_Text_LavaGrunt:
-	.string "别挡路。我们在找人。$"
+	.string "别挡路。\n我们在找人。$"
