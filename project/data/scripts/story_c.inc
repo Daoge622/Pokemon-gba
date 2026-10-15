@@ -103,76 +103,91 @@ StoryC_HayatoHall_End::
 @ Text
 @ ---------------------------------------------------------------
 StoryC_Text_BugFansIntro:
-	.string "飞天螳螂才是最强的！\p不对，巨钳螳螂的钳子才是！\p你来评评理！用对战来评！$"
+	.string "飞天螳螂才是最强的！\n速度又快，镰刀又帅！\p"
+	.string "胡说！巨钳螳螂的钢铁钳子\n一夹下去谁都受不了！\p"
+	.string "我们吵了一上午也没结果。\n你来当裁判，用对战说话！$"
 
 StoryC_Text_GearIntro:
-	.string "买错了也不能白买。\p陪我们试试这些用品，\n两个一起上！$"
+	.string "东西买错了，也不能白买！\n陪我们试试这些用品吧。\p"
+	.string "我们两个一起上！$"
 
 StoryC_Text_GearDefeat:
-	.string "……果然用不上。$"
+	.string "……果然用不上啊。\n这钱花得真冤。$"
 
 StoryC_Text_GearNotEnough:
-	.string "你得带两只能战斗的宝可梦才行。$"
+	.string "我们是两个人一起上的，\n你得带两只能战斗的宝可梦才行。$"
 
 StoryC_Text_GraveIntro:
-	.string "这里的宝可梦闲不住。\p扫墓之前，\n先陪它们活动活动吧。$"
+	.string "这里的宝可梦精力旺盛得很，\n一刻也闲不住。\p"
+	.string "扫墓之前，\n先陪它们活动活动筋骨吧！$"
 
 StoryC_Text_GraveDefeat:
-	.string "……它们玩得很高兴。$"
+	.string "哈哈，它们玩得很开心。\n谢谢你陪它们。$"
 
 StoryC_Text_StarIntro:
-	.string "嘘……他刚睡着。\p……你是训练家？\n那正好，我把他叫起来。\p两个人一起上，你不介意吧？$"
+	.string "嘘……他刚睡着。\p"
+	.string "嗯？你是训练家？\n那正好，我把他叫起来！\p"
+	.string "我们两个一起上，\n你不介意吧？$"
 
 StoryC_Text_StarDefeat:
-	.string "……他又睡着了。$"
+	.string "输了……\n你看，他又睡着了。$"
 
 StoryC_Text_StarNotEnough:
-	.string "你只带了一只宝可梦？\n那就算了，让他睡吧。$"
+	.string "你只带了一只宝可梦？\n那就算了，让他接着睡吧。$"
 
 StoryC_Text_BuoyIntro:
-	.string "采样正好告一段落。\p陪我的伙伴放放电吧。\n谢礼打完再给你。$"
+	.string "采样工作正好告一段落。\n陪我的伙伴放放电吧！\p"
+	.string "说好的谢礼，打完就给你。$"
 
 StoryC_Text_BuoyDefeat:
-	.string "……数据记下了。输的那种。$"
+	.string "数据记下来了……\n是输掉的那一种。$"
 
 StoryC_Text_BuoyGive:
-	.string "说好的谢礼。\n潜水的时候用得上。$"
+	.string "这是说好的谢礼。\n潜水的时候能派上用场。$"
 
 StoryC_Text_ForeignIntro:
-	.string "我的伙伴都是从外地来的。\p想见识一下吗？\n在丰缘可不常见。$"
+	.string "我的伙伴都是从外地来的，\n在丰缘可不常见哦。\p"
+	.string "想见识一下吗？$"
 
 StoryC_Text_ForeignDefeat:
-	.string "……丰缘的训练家真不简单。$"
+	.string "丰缘的训练家真不简单！$"
 
 StoryC_Text_HayatoNew:
-	.string "隼人：包吃住，器材随便用。\p……哪有这种好事。$"
+	.string "隼人：包吃包住，器材随便用。\n天底下哪有这种好事？\p"
+	.string "反正我是不太信。$"
 
 StoryC_Text_HayatoBadge7:
-	.string "隼人：他们记录每一场对战。\p连我输的都记。$"
+	.string "隼人：这里每一场对战都有记录，\n连我输掉的那几场也记。\p"
+	.string "记得这么细，到底想干什么？$"
 
 StoryC_Text_HayatoCrisis:
-	.string "隼人：我问过那些数据\n拿去干什么。\p没人回答我。$"
+	.string "隼人：我问过他们，\n那些数据拿去干什么用。\p"
+	.string "结果没有一个人回答我。$"
 
 StoryC_Text_HayatoAsk:
-	.string "……打一场？\n要记就让他们记。$"
+	.string "要不要打一场？\n想记录就让他们记去吧。$"
 
 StoryC_Text_HayatoNo:
-	.string "行。想打再来。$"
+	.string "行，想打了再来找我。$"
 
 StoryC_Text_HayatoIntro:
-	.string "别放水。$"
+	.string "别放水，\n拿出你的真本事来！$"
 
 StoryC_Text_HayatoDefeat:
-	.string "……行。这场也记上吧。$"
+	.string "……行，我输了。\n这场也让他们记上吧。$"
 
 StoryC_Text_HayatoWon:
-	.string "隼人：输了就是输了。\p……下次不在这儿打。$"
+	.string "隼人：输了就是输了，我认。\p"
+	.string "下次换个地方打，\n不在这种被人盯着的地方。$"
 
 StoryC_Text_HayatoClear:
 	.string "隼人：……$"
 
 StoryC_Text_MaxieArche:
-	.string "赤焰松：阿尔刻……那家公司？\n他们量得很准。\p量完之后什么都不做。$"
+	.string "赤焰松：阿尔刻？那家公司啊。\n他们的测量确实很精确。\p"
+	.string "可是测完之后，\n他们什么也不做。$"
 
 StoryC_Text_ArchieArche:
-	.string "对了，老大提过阿尔刻那帮人。\p“他们来买过我们的潜水数据。\n我没卖。\p跟钱没关系，\n我不喜欢他们看海的眼神。”$"
+	.string "对了，老大提过阿尔刻那帮人。\p"
+	.string "“他们来买过我们的潜水数据，\n我没卖。\p"
+	.string "跟钱没关系。\n我只是不喜欢他们看海的眼神。”$"

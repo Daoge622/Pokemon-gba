@@ -494,7 +494,7 @@ RusturfTunnel_Part1_Barrier::
  end
 
 RusturfTunnel_Part1_BarrierText:
-	.string "巨大的岩石堵住了通道。\p现在似乎还无法过去。$"
+	.string "巨大的岩石堵住了通道。\p现在好像还过不去。$"
 
 RusturfTunnel_Part1_Whismur::
  lock

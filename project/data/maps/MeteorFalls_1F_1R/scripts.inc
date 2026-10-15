@@ -274,10 +274,10 @@ MeteorFalls_Part3_VisitorTense::
  end
 
 MeteorFalls_Part3_VisitorTenseText:
-	.string "我只是来看瀑布的……\p怎么突然来了这么多人？$"
+	.string "我只是来看瀑布的……\p怎么突然来了这么多奇怪的人？$"
 
 MeteorFalls_Part3_VisitorNormalText:
-	.string "瀑布的声音真让人安心。\p上面的岩层好像还有通道。等能越过\n瀑布的时候，再来看看吧。$"
+	.string "瀑布的声音真让人安心。\p上面的岩层好像还有通道。\n等你能登上瀑布的时候，再来看看吧。$"
 
 MeteorFalls_Part3_Stardust::
  lockall
@@ -297,7 +297,7 @@ MeteorFalls_Part3_Stardust_BagFull::
  end
 
 MeteorFalls_Part3_Stardust_Intro:
-	.string "岩石的裂缝里，有一点闪亮的粉末。$"
+	.string "岩石的裂缝里有一些闪亮的粉末。$"
 
 MeteorFalls_Part3_Stardust_After:
 	.string "裂缝里的粉末已经收集好了。$"

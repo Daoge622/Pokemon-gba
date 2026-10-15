@@ -438,13 +438,13 @@ Route116_Part1_MinerBagFull::
  end
 
 Route116_Part1_ConstructionText:
-	.string "这条隧道原本要连通卡那兹和绿荫镇\n。\p爆破和大型机械会惊扰里面的咕妞妞\n，所以工程暂停了。\p停工确实很麻烦，可总不能为了赶工\n，把宝可梦全赶走吧。$"
+	.string "这条隧道原本是要连通卡那兹\n和绿荫镇的。\p可是爆破和大型机械会吓到里面的\n咕妞妞，所以工程只好暂停了。\p停工确实很麻烦，可总不能为了赶工，\n把宝可梦全都赶走吧。$"
 
 Route116_Part1_MinerIntro:
-	.string "这家伙总喜欢把我刚捡回来的矿石咬\n上两口。\p我都分不清谁才是在这里工作的了。\p有时候工具会莫名其妙地粘在岩壁上\n。\p矿工们都说，这一带的磁场有点奇怪\n。$"
+	.string "这家伙总爱把我刚捡回来的矿石\n啃上两口。\p搞得我都分不清，\n到底谁才是在这儿干活的了。\p还有啊，工具有时候会莫名其妙地\n粘在岩壁上。\p矿工们都说，这一带的磁场有点怪。$"
 
 Route116_Part1_MinerGift:
-	.string "听说隧道那边又出事了？\p唉……这里好不容易才安静一点。\p这块石头它好像不喜欢，你拿去吧。$"
+	.string "听说隧道那边又出事了？\p唉，这里好不容易才安静一点。\p这块石头可可多拉好像不喜欢，\n你拿去吧。$"
 
 Route116_Part1_MinerAfter:
 	.string "可可多拉又在挑矿石了。\p我也得继续干活才行！$"
@@ -481,19 +481,19 @@ Route116_Part2_ScytherDone::
  end
 
 Route116_Part2_ScytherIntro:
-	.string "你就是{PLAYER}吧？\p有人让我在这里等你。\p他说你一定会来的。\p他让我把这个交给你。$"
+	.string "你就是{PLAYER}吧？\p有人托我在这里等你，\n他说你一定会来。\p他让我把这只宝可梦交给你。$"
 
 Route116_Part2_ScytherReceived:
 	.string "{PLAYER}获得了飞天螳螂！$"
 
 Route116_Part2_ScytherFarewell:
-	.string "他还让我转告你一句话。\p加油吧。$"
+	.string "他还托我带一句话给你：\n“加油吧。”$"
 
 Route116_Part2_ScytherNoRoom:
-	.string "你的队伍已经满了。\p空出一个位置，再回来找我吧。$"
+	.string "你的队伍已经满了。\p空出一个位置以后，再来找我吧。$"
 
 Route116_Part2_ScytherAfter:
-	.string "东西已经交给你了。\p我的任务也算完成了。$"
+	.string "东西已经交给你了，\n我的任务也算完成啦。$"
 
 Route116_Part3_MinerOpen::
  msgbox Route116_Part3_MinerText, MSGBOX_DEFAULT
@@ -501,7 +501,7 @@ Route116_Part3_MinerOpen::
  end
 
 Route116_Part3_ConstructionText:
-	.string "最后还是训练家和宝可梦，解决了我\n们一直没解决的问题啊。\p看来施工也不一定非得靠爆破。$"
+	.string "最后，还是训练家和宝可梦解决了\n我们一直没解决的难题啊。\p看来施工也不一定非得靠爆破嘛。$"
 
 Route116_Part3_MinerText:
-	.string "总算能直接从这里去绿荫镇了。\p以后送矿石方便多了！可可多拉，你\n可别在路上偷吃啊。$"
+	.string "总算能直接从这里去绿荫镇了！\p以后送矿石方便多了。可可多拉，\n路上可别偷吃啊！$"

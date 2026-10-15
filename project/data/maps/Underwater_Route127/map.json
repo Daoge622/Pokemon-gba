@@ -56,6 +56,34 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Part6_TideRecorderSpot",
       "flag": "FLAG_TEMP_D"
+    },
+    {
+      "local_id": "LOCALID_PART6_DEVICE_127A",
+      "graphics_id": "OBJ_EVENT_GFX_SURVEY_POST_MARKED",
+      "x": 15,
+      "y": 40,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Part6_Site127",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_PART6_DEVICE_127B",
+      "graphics_id": "OBJ_EVENT_GFX_SURVEY_POST_MARKED",
+      "x": 16,
+      "y": 42,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Part6_CalPoint1",
+      "flag": "0"
     }
   ],
   "warp_events": [
@@ -107,14 +135,6 @@
       "elevation": 3,
       "item": "ITEM_RED_SHARD",
       "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_127_RED_SHARD"
-    },
-    {
-      "type": "sign",
-      "x": 15,
-      "y": 40,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "Part6_Anomaly1"
     },
     {
       "type": "sign",
@@ -179,22 +199,6 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Part6_TideRecorderSpot"
-    },
-    {
-      "type": "sign",
-      "x": 15,
-      "y": 41,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "Part6_CalPoint0"
-    },
-    {
-      "type": "sign",
-      "x": 16,
-      "y": 42,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "Part6_CalPoint1"
     }
   ]
 }

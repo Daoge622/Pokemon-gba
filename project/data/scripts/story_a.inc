@@ -296,97 +296,97 @@ StoryA_Text_Silence:
 	.string "……$"
 
 StoryA_Text_CalRein1:
-	.string "莱因：留下。$"
+	.string "莱因：这台设备留在这里，\n不拆了。$"
 
 StoryA_Text_CalFisher1:
-	.string "渔夫：你说过校准完就拆。$"
+	.string "渔夫：你不是说过，\n校准完就拆走吗？$"
 
 StoryA_Text_CalRein2:
-	.string "莱因：我说的是如果数据允许。\p数据不允许。$"
+	.string "莱因：我说的是“如果数据允许”。\n现在数据不允许。$"
 
 StoryA_Text_CalBoatman:
-	.string "船工：上周就是这台机器\n提前报了警。\p不然我们已经撞进那股急流了。$"
+	.string "船工：上周就是这台机器\n提前报的警。\p要不然，我们的船早就\n撞进那股急流里了。$"
 
 StoryA_Text_CalFisher2:
-	.string "渔夫没再说话。$"
+	.string "渔夫挠了挠头，没再说什么。$"
 
 StoryA_Text_CalRein3:
-	.string "莱因：你校准得很准。\p所以它得留下。\p……这不是夸你。$"
+	.string "莱因：你的校准做得很准确，\n所以它才值得留下。\p……这只是陈述事实，\n不是在夸你。$"
 
 StoryA_Text_EvelynAfter1:
-	.string "伊芙琳：你赢了。\n后续实验到此为止。\p样本在你上来之前就采完了。\n你阻止的是我还没做的那一半。$"
+	.string "伊芙琳：你赢了。\n后续实验到此中止。\p不过，样本在你上来之前\n就已经采集完毕。\p你阻止的，只是我还没开始的\n那一半。$"
 
 StoryA_Text_EvelynAfter2:
-	.string "莱因只相信读数。\p读数不会告诉他接下来该做什么。\p……我会。$"
+	.string "莱因只相信读数。\p但读数不会告诉他\n接下来该做什么。\p……这件事，由我来告诉他。$"
 
 StoryA_Text_StevenSample:
-	.string "大吾：塔顶有人先到过。\p设备的痕迹还很新。\p……我会去查。$"
+	.string "大吾：天空之柱的塔顶，\n有人比我们先到过。\p留下的设备痕迹还很新。\n这件事，我会去查清楚。$"
 
 StoryA_Text_ReinSample1:
-	.string "莱因：她带回来的东西，\n我没签过字。$"
+	.string "莱因：她带回来的那批东西，\n我没有签过字。$"
 
 StoryA_Text_ReinSample2:
-	.string "莱因：环境部门和生命部门\n不是一回事。\p别问我。$"
+	.string "莱因：环境部门和生命部门\n不是同一个部门。\p其他的，别问我。$"
 
 StoryA_Text_Saori1:
-	.string "是你啊。\p天空之柱下面撤出来\n一支运输队。我拍到了。\p稿子交上去，你猜怎么着？$"
+	.string "是你啊。\p前阵子，有一支运输队\n从天空之柱下面撤了出来，\p被我拍到了。\n稿子交上去，你猜怎么着？$"
 
 StoryA_Text_Saori2:
-	.string "他们说版面调整。\p我干这行八年，头一回听说\n版面能调整三次。\p……这张底片放你那儿。$"
+	.string "他们说要“调整版面”。\p我干这行八年了，头一回听说\n版面能连着调整三次。\p……这张底片，先放在你那儿吧。$"
 
 StoryA_Text_SaoriDone:
-	.string "底片还在你那儿吧？\p那就行。$"
+	.string "底片还在你那儿吧？\n那就好。$"
 
 StoryA_Text_MuseumAnti:
-	.string "……做得很像。$"
+	.string "……这模型做得挺像的嘛。$"
 
 StoryA_Text_AntiCafe:
-	.string "这里的咖啡一般。\p坐一会儿还可以。$"
+	.string "这里的咖啡很一般。\n不过坐一会儿还行。$"
 
 StoryA_Text_PyreGrave:
-	.string "字迹磨平了。\p看不出是哪一年立的。$"
+	.string "碑上的字已经磨平了，\n看不出是哪一年立的。$"
 
 StoryA_Text_XavierIntro:
-	.string "……让我看看，\n它们选了什么样的人。$"
+	.string "……让我瞧瞧，\n它们挑中的是个什么样的人。$"
 
 StoryA_Text_XavierDefeat:
-	.string "……$"
+	.string "……嗯。$"
 
 StoryA_Text_XavierAfter:
-	.string "一个量天，一个量命。\p……都太急了。\p这个，你拿着。\p读不懂没关系。$"
+	.string "一个量天，一个量命。\n……都太心急了。\p这个，你拿着。\n看不懂也没关系。$"
 
 StoryA_Text_MomLetters:
-	.string "对了，有你的信。\p两封。$"
+	.string "对了，有你的信，\n一共两封。$"
 
 StoryA_Text_StevenLetter:
-	.string "是大吾寄来的信。\p“烈空坐醒来之前，\n有人从塔顶取走了某样东西。”\p“运输记录到水静港就断了。”\p“我会继续查。\n你先休息。”$"
+	.string "是大吾寄来的信。\p“烈空坐醒来之前，\n有人从塔顶取走了某样东西。”\p“运输记录到水静港就断了。\n我会继续调查，你先好好休息。”$"
 
 StoryA_Text_UnsignedLetter:
-	.string "另一封信没有署名。\p里面只有一张卡片和一行字。\p“想知道的话，来地下看看。”\p“不想知道也没有关系。”$"
+	.string "另一封信没有署名。\n里面只有一张卡片和两行字：\p“想知道的话，就来地下看看。\n不想知道，也没有关系。”$"
 
 StoryA_Text_ElevatorSwipe:
-	.string "电梯面板上有一个“B”键。\p把访客卡贴了上去。$"
+	.string "电梯面板上有一个“B”键。\n你把访客卡贴了上去。$"
 
 StoryA_Text_ElevatorDenied:
-	.string "“权限不足。\n已记录本次访问。”$"
+	.string "“权限不足。\n本次访问已被记录。”$"
 
 StoryA_Text_ElevatorPlain:
-	.string "员工电梯。\p需要刷卡才能使用。$"
+	.string "这是员工电梯，\n需要刷卡才能使用。$"
 
 StoryA_Text_GuardPlain:
-	.string "保安：这部电梯访客不能用。$"
+	.string "保安：不好意思，\n这部电梯访客不能用。$"
 
 StoryA_Text_GuardCard:
-	.string "保安：……这张卡是谁给你的？$"
+	.string "保安：……等等，\n这张卡是谁给你的？$"
 
 StoryA_Text_HayatoResign:
-	.string "我辞了。\p他们对我不差。\p就是因为不差，我才想不通\n他们要那些记录干什么。\p……走之前，再打一场。$"
+	.string "我辞职了。\p他们待我不差。\n正因为不差，我才更想不通，\p他们要那些记录到底干什么。\p……走之前，再跟我打一场。$"
 
 StoryA_Text_HayatoDefeat:
-	.string "行。\n还是你走前面。$"
+	.string "行。\n还是你走在前面。$"
 
 StoryA_Text_HayatoFarewell:
-	.string "下次见面，\n我要比你先知道答案。$"
+	.string "下次见面的时候，\n我一定比你先找到答案。$"
 
 StoryA_Text_PartOneEnd:
 	.string "第一部　完$"

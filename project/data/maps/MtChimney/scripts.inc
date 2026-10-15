@@ -840,19 +840,19 @@ MtChimney_Part3_RookieRunAway:
  step_end
 
 MtChimney_Part3_RookieIntro:
-	.string "站、站住！\p我才刚刚加入熔岩队……第一次参加任\n务，就是这么重要的行动！\p一定得好好表现才行！\p来吧！我不会让你过去的！$"
+	.string "站、站住！\p我才刚加入熔岩队，第一次出任务\n就是这么重要的行动！\p我一定要好好表现！\n来吧，我是不会让你过去的！$"
 
 MtChimney_Part3_RookieDefeat:
 	.string "诶？这、这就结束了？$"
 
 MtChimney_Part3_RookiePostBattle:
-	.string "可是干部和老大他们……到现在都还没\n给我发宝可梦啊……\p这只胖丁，还是我加入以前就一直陪\n着我的……\p没、没关系！第一次任务失败也是经\n验！\p下次我一定会表现好的！$"
+	.string "可是干部和老大他们，\n到现在都还没给我发宝可梦啊……\p这只胖丁是我入队前就一直陪着我的\n伙伴。\p没、没关系！第一次任务失败也是\n一种经验！\p下次我一定会好好表现的！$"
 
 MtChimney_Part3_RookieFollowup:
-	.string "为什么大家都有大狼犬和呆火驼……\p我的宝可梦什么时候发啊……$"
+	.string "为什么大家都有大狼犬和呆火驼……\p我的宝可梦到底什么时候才发啊？$"
 
 MtChimney_Part3_RookieRetreatText:
-	.string "诶？大家都走了？\p等、等等我啊！$"
+	.string "诶？大家都撤了？\p等、等等我啊！$"
 
 MtChimney_Part3_CookieThanks::
  goto_if_unset FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY, MtChimney_Part3_CookieThanksEnd
@@ -868,7 +868,7 @@ MtChimney_Part3_CookieThanksFull::
  return
 
 MtChimney_Part3_CookieThanksText:
-	.string "多亏你，山顶又能安心做生意了。\p这是刚做好的釜炎仙贝，拿三个在路\n上吃吧！$"
+	.string "多亏了你，山顶又能安心做生意了！\p这是刚做好的釜炎仙贝，\n送你三块，路上当点心吧！$"
 
 MtChimney_Part3_Telescope::
  lockall
@@ -882,7 +882,7 @@ MtChimney_Part3_TelescopeBlocked::
  end
 
 MtChimney_Part3_TelescopeText:
-	.string "一架望远镜正对着远方。\p从这里可以看到丰缘很远的地方。\p北边是被火山灰覆盖的道路，南边则\n能看到釜炎镇。$"
+	.string "这是一架对着远方的望远镜。\p从这里能看到丰缘很远的地方。\p北边是被火山灰覆盖的道路，\n南边能看到釜炎镇。$"
 
 MtChimney_Part3_TelescopeBlockedText:
-	.string "望远镜附近正被封锁，暂时没法使用\n。$"
+	.string "望远镜附近被封锁了，\n暂时没法使用。$"

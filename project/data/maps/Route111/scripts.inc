@@ -663,10 +663,10 @@ Route111_Part3_DesertTraveler::
  end
 
 Route111_Part3_PicnicFatherText:
-	.string "一家人出来野餐，连饭团都比平时香\n了！$"
+	.string "一家人出来野餐，\n连饭团都比平时香！$"
 
 Route111_Part3_PicnicChildText:
-	.string "蛇纹熊一直盯着篮子。\p它肯定也想吃点心！$"
+	.string "蛇纹熊一直盯着篮子看。\p它肯定也想吃点心！$"
 
 Route111_Part3_PicnicMother::
  lock
@@ -686,10 +686,10 @@ Route111_Part3_PicnicMother_BagFull::
  end
 
 Route111_Part3_PicnicMother_Intro:
-	.string "路上带的点心有点多。这是釜炎镇的\n特产，你也尝尝吧。$"
+	.string "路上带的点心有点多。\n这是釜炎镇的特产，你也尝尝吧！$"
 
 Route111_Part3_PicnicMother_After:
-	.string "休息好了以后，再继续旅行吧！$"
+	.string "休息够了，再继续旅行吧！$"
 
 Route111_Part3_PicnicZigzagoon::
  lock
@@ -701,4 +701,4 @@ Route111_Part3_PicnicZigzagoon::
  end
 
 Route111_Part3_DesertTravelerText:
-	.string "前面的沙暴可不是普通风沙。没有合\n适的装备，连方向都很难分清。\p听说沙漠深处，生活着不少外面见不\n到的宝可梦。$"
+	.string "前面的沙暴可不是普通的风沙。\p没有合适的装备，连方向都分不清。\p听说在沙漠深处，\n住着很多外面见不到的宝可梦。$"

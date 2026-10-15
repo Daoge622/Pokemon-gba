@@ -1,7 +1,7 @@
 @ PART 4 shared events. Terminal builds only.
 
 Part4_Text_001:
-	.string "背包已经装满了。整理一下再来吧。$"
+	.string "背包已经满了。整理出空位再来吧。$"
 
 Part4_BagFull::
 	msgbox Part4_Text_001, MSGBOX_DEFAULT
@@ -13,31 +13,31 @@ Part4_QuietEnd::
 	end
 
 Part4_Text_002:
-	.string "这里地方不大，来往的船倒是不少。\p有时外地的新鲜玩意儿，比本岛还先\n送到这里。$"
+	.string "这里地方不大，来往的船倒是不少。\p有时候外地的新鲜玩意儿，\n比本岛还先运到这里呢。$"
 
 Part4_Text_003:
-	.string "釜炎仙贝在外地也卖得不错。就是海\n运久了容易碎。$"
+	.string "釜炎仙贝在外地也很好卖。\p就是走海运的时间一长，容易压碎。$"
 
 Part4_Text_004:
-	.string "有些设备是丰缘造的，零件则要从外\n地订。装起来能正常运转就行。$"
+	.string "有些设备是丰缘造的，零件却得从\n外地订。\p只要装好能正常运转，我就满意了。$"
 
 Part4_Text_005:
-	.string "流星瀑布的样本很特别。我们也会寄\n给外地同行一起分析。$"
+	.string "流星瀑布采来的样本很特别。\p我们也会寄一些给外地的同行，\n大家一起分析。$"
 
 Part4_Text_006:
-	.string "朋友推荐我来丰缘旅行。这儿的温泉\n比传闻还舒服。$"
+	.string "朋友一直推荐我来丰缘旅行。\p这儿的温泉比传闻中还要舒服！$"
 
 Part4_Text_007:
-	.string "海洋观测资料会定期与其他地区的研\n究机构交换。$"
+	.string "我们会定期和其他地区的研究机构\n交换海洋观测资料。$"
 
 Part4_Text_008:
-	.string "偶尔还有外地客人，专程来订我们的\n自行车。$"
+	.string "偶尔还会有外地客人专程跑来，\n就为了订我们的自行车！$"
 
 Part4_Text_009:
-	.string "系统常收到其他地区开发者的反馈。\n大家使用盒子的习惯还真不一样。$"
+	.string "系统常常收到其他地区开发者的反馈。\p每个地方的人用盒子的习惯，\n真的很不一样呢。$"
 
 Part4_Text_010:
-	.string "别看这里全是沙。找到水以后，总会\n有东西活下来。$"
+	.string "别看这里到处都是沙子。\p只要找得到水，总会有生命活下来。$"
 
 Part4_OasisTraveler::
 	msgbox Part4_Text_010, MSGBOX_NPC
@@ -60,23 +60,23 @@ Part4_PitTrapinch::
 	end
 
 Part4_Text_011:
-	.string "我刚才差点一脚踩进它挖的坑里。$"
+	.string "我刚才差点一脚踩进大颚蚁挖的坑\n里，吓死我了！$"
 
 Part4_PitCamper::
 	msgbox Part4_Text_011, MSGBOX_NPC
 	end
 
 Part4_Text_012:
-	.string "水壶在沙暴里弄丢了。\p风是往南刮的，大概落在南边沙地的\n东侧了。你要是看到了，帮我带回来吧。$"
+	.string "我的水壶在沙暴里弄丢了。\p风是往南刮的，应该落在南边那片\n沙地的东侧。\p你要是看到了，能帮我带回来吗？$"
 
 Part4_Text_013:
-	.string "太好了！我刚才已经开始考虑，靠仙\n人掌撑到晚上了。$"
+	.string "太好了，是我的水壶！我都开始盘算\n要不要靠仙人掌撑到晚上了。\p这块石头是谢礼，请收下吧。$"
 
 Part4_Text_014:
-	.string "谢谢你的帮忙。$"
+	.string "多亏了你，我总算不用渴着赶路了。$"
 
 Part4_Text_015:
-	.string "找到了。先带回去吧。$"
+	.string "找到了一个水壶。\n先带回去还给失主吧。$"
 
 Part4_Canteen::
 	lock
@@ -110,10 +110,10 @@ Part4_Canteen_Find::
 	end
 
 Part4_Text_016:
-	.string "沙子下面露出一块形状奇特的石头。\n摸起来还有一点温度。$"
+	.string "沙子下面露出一块形状奇特的石头。\n摸上去还带着一点温度。$"
 
 Part4_Text_017:
-	.string "只剩下一点碎石。$"
+	.string "这里只剩下一些碎石了。$"
 
 Part4_FirstEvolutionStone::
 	lock
@@ -130,17 +130,17 @@ Part4_FirstEvolutionStone::
 	end
 
 Part4_Text_018:
-	.string "墙壁被风沙侵蚀得很严重。细沙不断\n从石缝里落下来。$"
+	.string "墙壁被风沙侵蚀得很厉害。\p细沙正不停地从石缝里落下来。$"
 
 Part4_MirageWall::
 	msgbox Part4_Text_018, MSGBOX_NPC
 	end
 
 Part4_Text_019:
-	.string "终于要挑战爸爸了吗？他嘴上不怎么\n说，心里一直等着这一天吧。别紧张\p。$"
+	.string "终于要去挑战爸爸了吗？\p他嘴上不说，其实一直盼着这一天。\p别紧张，像平常那样去比赛就好！$"
 
 Part4_Text_020:
-	.string "你们两个真是的，对战时谁都不肯让\n一步。$"
+	.string "你和爸爸真是一个样，\n对战的时候谁也不肯让谁。\p不过看你们打得那么开心，\n妈妈也就放心了。$"
 
 Part4_MomVisit::
 	goto_if_unset FLAG_BADGE04_GET, Part4_Return
@@ -155,24 +155,24 @@ Part4_Return::
 	return
 
 Part4_Text_021:
-	.string "咦，你回来了！已经有四枚徽章了？\n这才过了多久啊！$"
+	.string "咦，你回来啦！\n已经拿到四枚徽章了？\p这才过了多久啊，也太厉害了吧！$"
 
 PetalburgCity_EventScript_GymBoy_Part4::
 	msgbox Part4_Text_021, MSGBOX_DEFAULT
 	return
 
 Part4_Text_022:
-	.string "千里馆主一直在等你回来。$"
+	.string "千里馆主一直在等你回来。\p去道馆之前，可要做好准备哦。$"
 
 PetalburgCity_EventScript_Gentleman_Part4::
 	msgbox Part4_Text_022, MSGBOX_DEFAULT
 	return
 
 Part4_Text_023:
-	.string "我刚从道馆出来。千里馆主那只请假\n王……我现在听见脚步声都有点紧张\p。$"
+	.string "我刚从道馆被打出来……\p千里馆主那只请假王实在太可怕了。\n我现在听见脚步声都会发抖。$"
 
 Part4_Text_024:
-	.string "你赢了？那我也不能一直坐在这里。$"
+	.string "你打赢千里馆主了？\p那我也不能一直坐在这里发呆了。\n我回去再练练！$"
 
 Part4_NormanVisitor::
 	lock
@@ -188,10 +188,10 @@ Part4_NormanVisitor::
 	end
 
 Part4_Text_025:
-	.string "岸边有一包保存完好的食物。$"
+	.string "岸边放着一包保存得很好的食物。$"
 
 Part4_Text_026:
-	.string "这里已经没有东西了。$"
+	.string "这里已经什么都没有了。$"
 
 Part4_SurfLeftovers::
 	lock
@@ -208,13 +208,13 @@ Part4_SurfLeftovers::
 	end
 
 Part4_Text_027:
-	.string "有了冲浪，以前只能在岸边看着的地\n方，现在也能去了。$"
+	.string "学会冲浪以后，以前只能在岸边远远\n看着的地方，现在也能去了！$"
 
 Part4_Text_028:
-	.string "石缝里卡着一个小小的冠状物。$"
+	.string "石缝里卡着一个小小的王冠状东西。$"
 
 Part4_Text_029:
-	.string "石缝已经空了。$"
+	.string "石缝里已经空了。$"
 
 Part4_Route115KingsRock::
 	lock
@@ -230,10 +230,10 @@ Part4_Route115KingsRock::
 	end
 
 Part4_Text_030:
-	.string "沙滩上卡着一个旧玻璃瓶。里面的纸\n被海水泡得模糊。\p只剩一句话：希望下一片海也有好天\n气。$"
+	.string "沙滩上卡着一个旧玻璃瓶。\n瓶里的纸条被海水泡得模糊不清。\p只能认出一句话：\n“愿下一片海也有好天气。”$"
 
 Part4_Text_031:
-	.string "瓶子已经空了。$"
+	.string "瓶子里已经空了。$"
 
 Part4_BottlePearl::
 	lock
@@ -250,28 +250,28 @@ Part4_BottlePearl::
 	end
 
 Part4_Text_032:
-	.string "箱子上的字已经褪色。还能看出几个\n不同地区的港口名称。$"
+	.string "箱子上的字已经褪色了。\p还能勉强认出几个不同地区的港口名。$"
 
 Part4_ShipCargo::
 	msgbox Part4_Text_032, MSGBOX_NPC
 	end
 
 Part4_Text_033:
-	.string "旧机器零件散落在里面。包装来自丰\n缘之外。$"
+	.string "里面散落着一些旧机器零件。\p从包装来看，是从丰缘以外运来的。$"
 
 Part4_ShipParts::
 	msgbox Part4_Text_033, MSGBOX_NPC
 	end
 
 Part4_Text_034:
-	.string "这艘船以前似乎跑过很远的航线。$"
+	.string "看样子，这艘船以前跑过很远的航线。$"
 
 Part4_ShipList::
 	msgbox Part4_Text_034, MSGBOX_NPC
 	end
 
 Part4_Text_035:
-	.string "货舱里还有一块没有生锈的金属膜。$"
+	.string "货舱里有一块完全没生锈的金属膜。$"
 
 Part4_Text_036:
 	.string "货舱的角落已经空了。$"
@@ -290,10 +290,10 @@ Part4_ShipMetalCoat::
 	end
 
 Part4_Text_037:
-	.string "角落里有一瓶未开封的营养剂。$"
+	.string "角落里有一瓶还没开封的营养剂。$"
 
 Part4_Text_038:
-	.string "这里已经没有东西了。$"
+	.string "这里已经什么都没有了。$"
 
 Part4_ShipDivePPUp::
 	lock
@@ -309,16 +309,16 @@ Part4_ShipDivePPUp::
 	end
 
 Part4_Text_039:
-	.string "把你最信任的伙伴派出来吧。让我看\n看这一路的成果。$"
+	.string "把你最信任的伙伴派出来吧。\n让我看看你这一路的成果。$"
 
 Part4_Text_040:
-	.string "你真的变强了。看来我多虑了。$"
+	.string "你真的变强了。\n看来是我多虑了。$"
 
 Part4_Text_041:
-	.string "机器停下后，这块松动的检修板可以\n打开了。$"
+	.string "机器停下来以后，这块松动的检修板\n就能打开了。\p要进去看看吗？$"
 
 Part4_Text_042:
-	.string "面板在剧烈振动。现在打不开。$"
+	.string "面板在剧烈地振动，现在打不开。$"
 
 Part4_MaintenanceHatch::
 	lockall
@@ -343,10 +343,10 @@ Part4_MaintenanceTiles::
 	return
 
 Part4_Text_043:
-	.string "这里的旧设备经常需要检查。停机后\n才能进去，安全第一。$"
+	.string "这里的旧设备经常要检查。\p不过得等机器停下来才能进去，\n安全第一嘛。$"
 
 Part4_Text_044:
-	.string "你碰到阿尔刻的外勤人员了？我也在\n帮他们检查旧设备。$"
+	.string "你碰到阿尔刻的外勤人员了？\p我最近也在帮他们检查这里的旧设备。$"
 
 Part4_PowerTechnician::
 	lock
@@ -361,14 +361,14 @@ Part4_PowerTechnician::
 	end
 
 Part4_Text_045:
-	.string "空气里有一股刺鼻的气味。头发似乎\n都竖起来了。$"
+	.string "空气里有一股刺鼻的气味。\n头发好像都要竖起来了。$"
 
 Part4_StaticAir::
 	msgbox Part4_Text_045, MSGBOX_NPC
 	end
 
 Part4_Text_046:
-	.string "电缆上留着焦黑的痕迹。附近不时传\n来低沉的响声。$"
+	.string "电缆上留着焦黑的痕迹。\n附近不时传来低沉的嗡嗡声。$"
 
 Part4_ScorchedCable::
 	msgbox Part4_Text_046, MSGBOX_NPC
@@ -407,7 +407,7 @@ Part4_RaikouFailure::
 	return
 
 Part4_Text_048:
-	.string "你说地下那阵电是宝可梦造成的？哇\n哈哈！难怪那些仪器怎么修都不对劲\p！$"
+	.string "你说地下那阵电是宝可梦造成的？\n哇哈哈哈！\p难怪那些仪器怎么修都不对劲！$"
 
 Part4_WattsonReaction::
 	goto_if_ne VAR_PART4_RAIKOU_STATE, 2, Part4_Return
@@ -431,16 +431,16 @@ Part4_118ILLUMISE::
 	end
 
 Part4_Text_049:
-	.string "我装树果的篮子被河水冲走了。好像\n漂到那边的岸上了。$"
+	.string "我装树果的篮子被河水冲走了！\p好像漂到河那边的岸上了。\n你能帮我找回来吗？$"
 
 Part4_Text_050:
-	.string "是我的篮子！给你几颗树果吧，装在\n口袋里就不会漂走了。$"
+	.string "是我的篮子！太谢谢你了。\p送你几颗树果吧。装在口袋里，\n就不怕被水冲走了！$"
 
 Part4_Text_051:
-	.string "谢谢你的帮忙。$"
+	.string "谢谢你帮我找回篮子！$"
 
 Part4_Text_052:
-	.string "找到了。先带回去吧。$"
+	.string "找到了一个装树果的篮子。\n先带回去还给失主吧。$"
 
 Part4_BerryBasket::
 	lock
@@ -482,28 +482,28 @@ Part4_AntiScizor::
 	end
 
 Part4_Text_053:
-	.string "水舰队队员：站住！我们在找一批从\n河上运来的货。先让你的宝可梦退开\p！$"
+	.string "水舰队队员：站住！我们正在找一批\n从河上运来的货。\p识相的话，就让你的宝可梦退开！$"
 
 Part4_Text_054:
-	.string "水舰队队员：一个人还挺能打！我来\n对付你！$"
+	.string "水舰队队员：一个人还挺能打嘛！\n换我来对付你！$"
 
 Part4_Text_055:
-	.string "啧……还没完呢！$"
+	.string "啧，别得意，这还没完！$"
 
 Part4_Text_056:
-	.string "水舰队队员：就是这个训练家！大家\n一起上！$"
+	.string "水舰队队员：就是这个训练家！\n大家一起上，把人围起来！$"
 
 Part4_Text_057:
-	.string "男子：到此为止吧。巨钳螳螂。$"
+	.string "男子：好了，到此为止吧。\n巨钳螳螂，交给你了。$"
 
 Part4_Text_057b:
-	.string "水舰队队员：那、那是……！\n等等！先撤退！$"
+	.string "水舰队队员：那、那是什么速度……！\n撤、撤退！先撤！$"
 
 Part4_Text_058:
-	.string "男子：刚才的战斗我看到了。你和宝\n可梦的配合很特别。\p正好，我这里有一样东西。放在我这\n里也没什么用，也许你更适合。$"
+	.string "男子：刚才那场对战我都看到了。\n你和宝可梦的配合挺有意思的。\p正好我手上有样东西，放我这儿也\n是闲着，给你应该更合适。$"
 
 Part4_Text_059:
-	.string "有些宝可梦能在战斗中，完成超越普\n通进化的变化。\p这叫超级进化。需要手环，以及宝可\n梦携带对应的超级石。\p训练家和宝可梦的配合也很重要。试\n着亲手感受吧。\p我还要赶路。有机会再见。$"
+	.string "有些宝可梦能在战斗中发生超越普通\n进化的变化，这就是超级进化。\p条件有两个：训练家要戴着这个手环，\n宝可梦要携带对应的超级石。\p当然，光有道具可不够，你和宝可梦\n的默契也很重要。自己去试试吧。\p我还得赶路，有缘再见啦。$"
 
 Part4_MegaScene::
 	goto_if_unset FLAG_BADGE05_GET, Part4_SceneEnd
@@ -627,10 +627,10 @@ Part4_MegaScene::
 	end
 
 Part4_Text_060:
-	.string "这里有一块带着电光纹路的石头。$"
+	.string "这里有一块带着闪电纹路的石头。$"
 
 Part4_Text_061:
-	.string "岩石上仍有细小的电击痕迹。$"
+	.string "岩石上还残留着细小的电击痕迹。$"
 
 Part4_Manectite::
 	lock
@@ -646,7 +646,7 @@ Part4_Manectite::
 	end
 
 Part4_Text_062:
-	.string "淋成这样了？过来歇一会儿吧。等伙\n伴缓过来再走。$"
+	.string "淋成这样了？快过来歇一会儿吧。\p等伙伴们缓过来再出发也不迟。$"
 
 Part4_RainCamp::
 	lock
@@ -662,7 +662,7 @@ Part4_Text_063:
 	.string "水边的泥里露出一颗很大的珍珠。$"
 
 Part4_Text_064:
-	.string "泥里已经没有东西了。$"
+	.string "泥里已经什么都没有了。$"
 
 Part4_119BigPearl::
 	lock
@@ -678,13 +678,13 @@ Part4_119BigPearl::
 	end
 
 Part4_Text_065:
-	.string "下雨也不能把它们都叫回来。你看，\n虫宝可梦自己也想对战！$"
+	.string "下雨天也没法把它们叫回来！\p你看，我的虫宝可梦自己都想对战呢！$"
 
 Part4_Text_066:
-	.string "唔，被雨声盖住指令了吗？$"
+	.string "唔，雨声太大，把我的指令盖住了吗？$"
 
 Part4_Text_067:
-	.string "雨天的宝可梦总会换一种精神。下次\n我也会留心。$"
+	.string "下雨天，宝可梦的状态也会跟着变。\n下次我得多留心才行。$"
 
 Part4_RainBug::
 	lock
@@ -709,13 +709,13 @@ Part4_ChildPositions::
 	return
 
 Part4_Text_068:
-	.string "我和莲叶童子一起去看河水，回头就\n找不到妈妈了……她在南边的营地。$"
+	.string "我和莲叶童子一起来看河水，\n一回头就找不到妈妈了……\p妈妈在南边的营地。\n你能带我们回去吗？$"
 
 Part4_Text_069:
-	.string "小孩和莲叶童子回到了营地。$"
+	.string "你把小孩和莲叶童子送回了营地。$"
 
 Part4_Text_070:
-	.string "下次我会先告诉妈妈，再出门的。$"
+	.string "下次出门前，我一定先跟妈妈说一声！$"
 
 Part4_LostChild::
 	lockall
@@ -736,13 +736,13 @@ Part4_LostChild::
 	end
 
 Part4_Text_071:
-	.string "你帮他找到了路？太感谢了。孩子自\n己不害怕，我都快急坏了。给你几瓶\p牛奶。$"
+	.string "是你把孩子送回来的？太感谢了！\p孩子自己一点都不怕，倒是我快急坏\n了。这几瓶哞哞鲜奶请收下吧。$"
 
 Part4_Text_072:
-	.string "你也注意脚下，别光顾着看宝可梦呀\n。$"
+	.string "你走路也要注意脚下哦，\n别光顾着看宝可梦啦。$"
 
 Part4_Text_073:
-	.string "孩子刚才带着莲叶童子往北走了，到\n现在还没回来。$"
+	.string "我家孩子带着莲叶童子往北走了，\n到现在还没回来。\p要是你在北边看到那孩子，\n能帮我把孩子带回营地吗？$"
 
 Part4_ChildParent::
 	lock
@@ -763,35 +763,35 @@ Part4_ChildParent::
 	end
 
 Part4_Text_074:
-	.string "屏幕上正在记录降雨量。图表边缘留\n着手写的校正记号。$"
+	.string "屏幕上正在记录降雨量。\n图表边上留着手写的校正记号。$"
 
 Part4_Instrument1F0::
 	msgbox Part4_Text_074, MSGBOX_NPC
 	end
 
 Part4_Text_075:
-	.string "屏幕上正在记录降雨量。图表边缘留\n着手写的校正记号。$"
+	.string "屏幕上的降雨量曲线还在更新。\n边上有人用笔做了校正记号。$"
 
 Part4_Instrument2F0::
 	msgbox Part4_Text_075, MSGBOX_NPC
 	end
 
 Part4_Text_076:
-	.string "一份海洋温度记录。不同日期的数据\n被仔细整理在一起。$"
+	.string "一份海洋温度记录。\n不同日期的数据被整理得井井有条。$"
 
 Part4_Instrument2F1::
 	msgbox Part4_Text_076, MSGBOX_NPC
 	end
 
 Part4_Text_077:
-	.string "观测日志上写着：连续降雨，河流水\n位需复核。$"
+	.string "观测日志上写着：\n“连续降雨，河流水位需要复核。”$"
 
 Part4_Instrument2F2::
 	msgbox Part4_Text_077, MSGBOX_NPC
 	end
 
 Part4_Text_078:
-	.string "设备运行正常，读数很稳定。$"
+	.string "观测桩运转正常，刻度读数很稳定。$"
 
 Part4_Observation0::
 	lockall
@@ -802,7 +802,7 @@ Part4_Observation0::
 	end
 
 Part4_Text_079:
-	.string "雨水把设备外壳冲得很干净。$"
+	.string "雨水把观测桩的外壳冲得干干净净。\n读数没有问题。$"
 
 Part4_Observation1::
 	lockall
@@ -813,7 +813,7 @@ Part4_Observation1::
 	end
 
 Part4_Text_080:
-	.string "这条线路松了一点。\n你把它重新接好了。$"
+	.string "这根观测桩的线路有点松了。\n你把它重新接好了。$"
 
 Part4_Observation2::
 	lockall
@@ -824,13 +824,13 @@ Part4_Observation2::
 	end
 
 Part4_Text_081:
-	.string "三个观测桩都确认过了？帮大忙了。\n这瓶营养剂给你。$"
+	.string "三根观测桩你都确认过了？\n真是帮了大忙！\p这瓶营养剂是谢礼，请收下吧。$"
 
 Part4_Text_082:
-	.string "雨还会下上一阵。过河时要留心。$"
+	.string "这场雨还要下上一阵子。\n过河的时候要多留心哦。$"
 
 Part4_Text_083:
-	.string "观测桩在南边河岸。能帮我查看三处\n的刻度吗？不赶时间的话再去就好。$"
+	.string "观测桩一共有三根，都在研究所南边\n的河岸上。\p能帮我去查看一下那三处的刻度吗？\n不着急，有空的时候再去就好。$"
 
 Part4_Observations::
 	lock
@@ -854,7 +854,7 @@ Part4_Observations::
 	end
 
 Part4_Text_084:
-	.string "它在外面有换过样子吗？如果有，记\n得告诉我们当天的天气。$"
+	.string "它在外面变过样子吗？\p如果变过，记得告诉我们那天的天气！$"
 
 Part4_CastformComment::
 	special CheckPart4LeadCastform
@@ -863,25 +863,25 @@ Part4_CastformComment::
 	return
 
 Part4_Text_085:
-	.string "雨声很大，对战的指令也得说清楚。\n一起试试？$"
+	.string "雨声这么大，下指令可得喊清楚。\n来试试吧！$"
 
 Part4_Text_086:
-	.string "记录好了。配合比我们想得还重要。$"
+	.string "记下了。双打里的配合，比我们想的\n还要重要。$"
 
 Part4_Text_087:
-	.string "我们在这儿做野外观测。要不要来一\n场双打？不方便也没关系。$"
+	.string "我们正在这里做野外观测。\p要不要来一场双打？\n不方便的话也没关系。$"
 
 Part4_Text_088:
-	.string "我们是阿尔刻的外勤人员，常在这条\n路观测连续降雨。\p那位技术员负责仪器，我们两个负责\n调查和安全。你有兴趣的话，下次再\p聊。$"
+	.string "我们是阿尔刻的外勤人员，经常在这\n条路上观测连续降雨。\p那位技术员负责照看仪器，我们两个\n负责调查和安全。\p有兴趣的话，下次再慢慢聊吧。$"
 
 Part4_Text_089:
-	.string "带上两只还能战斗的宝可梦，双打才\n方便。$"
+	.string "双打需要两只还能战斗的宝可梦。\n准备好了再来找我们吧。$"
 
 Part4_Text_090:
-	.string "好，赶路要紧。祝你一路顺利。$"
+	.string "好，赶路要紧。祝你一路顺风！$"
 
 Part4_Text_091:
-	.string "那边好像出了点事。我们先看着这几\n台仪器。$"
+	.string "研究所那边好像出事了。\n我们得先守着这几台仪器。$"
 
 Part4_ArcheSurvey::
 	lock
@@ -906,20 +906,20 @@ Part4_ArcheSurvey::
 	end
 
 Part4_Text_092:
-	.string "仪器的接口进水了。别碰，等我擦干\n。$"
+	.string "仪器的接口进水了。\n先别碰，等我把它擦干。$"
 
 Part4_ArcheTech::
 	msgbox Part4_Text_092, MSGBOX_NPC
 	end
 
 Part4_Text_093:
-	.string "我走阿尔刻的物流渠道进货。时间球\n和树果管够，石头可没那么多。每种\p普通进化石两块，进化石一块。$"
+	.string "我是走阿尔刻的物流渠道进的货。\p时间球和树果管够，石头可就少了：\n普通进化石每种两块，进化石一块。$"
 
 Part4_Text_094:
-	.string "有需要再来。我也会在这附近多歇几\n天。$"
+	.string "有需要再来吧。\n这几天我都会在附近歇脚。$"
 
 Part4_Text_095:
-	.string "路上太湿，货还没拆开。你先往前走\n吧。$"
+	.string "路上太潮湿，货还没拆开呢。\n你先往前走吧。$"
 
 Part4_ImportMerchant::
 	lock
@@ -937,7 +937,7 @@ Part4_ImportMerchant::
 	end
 
 Part4_Text_096:
-	.string "水位比记录高了一点。\n这里的天气变化得真快。$"
+	.string "河水的水位比记录高了一点。\n这里的天气变得真快啊。$"
 
 Part4_119Observer::
 	lock
@@ -952,13 +952,13 @@ Part4_Text_097:
 	.string "我的风筝被风吹走，掉到树桥底下了！\p就是商店东边那座长树桥的桥头下面。\n你能帮我捡回来吗？$"
 
 Part4_Text_098:
-	.string "找到了！这是我捡到的尖锐鸟嘴。送\n给你，我要去找青绵鸟玩。$"
+	.string "就是这个！谢谢你！\p这是我捡到的尖锐鸟嘴，送给你吧。\n我要去找青绵鸟玩啦！$"
 
 Part4_Text_099:
-	.string "谢谢你的帮忙。$"
+	.string "谢谢你帮我捡回风筝！$"
 
 Part4_Text_100:
-	.string "找到了。先带回去吧。$"
+	.string "找到了一只风筝。\n先带回去还给它的主人吧。$"
 
 Part4_Kite::
 	lock
@@ -1003,13 +1003,13 @@ Part4_Text_101:
 	.string "这里有些信件，靠飞行宝可梦送更快。\p刚才一个包裹从树桥上掉下来了，\n就落在商店东边的草地上。\p能帮我捡回来吗？别拆开呀。$"
 
 Part4_Text_102:
-	.string "完好无损！今天总算不用赔钱了。这\n几个球拿去吧。$"
+	.string "完好无损！\n今天总算不用赔钱了！\p这几个高级球是谢礼，拿去吧。$"
 
 Part4_Text_103:
-	.string "谢谢你的帮忙。$"
+	.string "谢谢你帮我找回包裹！$"
 
 Part4_Text_104:
-	.string "找到了。先带回去吧。$"
+	.string "找到了一个包裹。\n先带回去交给失主吧。$"
 
 Part4_Parcel::
 	lock
@@ -1043,7 +1043,7 @@ Part4_Parcel_Find::
 	end
 
 Part4_Text_105:
-	.string "这儿的木板常要换。长鼻叶比我还会\n挑木料，不过钉钉子还得靠我。$"
+	.string "这儿的木板经常要换。\p长鼻叶挑木料的眼光比我还准，\n不过钉钉子还得靠我！$"
 
 Part4_Carpenter::
 	msgbox Part4_Text_105, MSGBOX_NPC
@@ -1066,7 +1066,7 @@ Part4_KiteSwablu::
 	end
 
 Part4_Text_106:
-	.string "你赢了娜琪？在这儿住这么久，我都\n没能跟上她的飞行宝可梦。$"
+	.string "你赢了娜琪？\p我在这儿住了这么久，\n还从来没跟上过她的飞行宝可梦。$"
 
 Part4_FortreeBadgeComment::
 	goto_if_unset FLAG_BADGE06_GET, Part4_Return
@@ -1074,24 +1074,24 @@ Part4_FortreeBadgeComment::
 	return
 
 Part4_Text_107:
-	.string "这件小摆设是外地朋友寄来的。放在\n木头房间里还挺合适。$"
+	.string "这件小摆设是外地朋友寄来的。\n放在木头房间里正合适。$"
 
 Part4_Text_108:
-	.string "一个小巧的外地工艺品。边角被擦得\n很干净。$"
+	.string "一件小巧的外地工艺品。\n边角被擦得干干净净。$"
 
 Part4_ForeignDecor::
 	msgbox Part4_Text_108, MSGBOX_NPC
 	end
 
 Part4_Text_109:
-	.string "有人在树边刻了个小小的箭头。旁边\n写着：我的秘密基地。$"
+	.string "有人在树边刻了个小小的箭头，\n旁边写着：“我的秘密基地”。$"
 
 Part4_BaseNote::
 	msgbox Part4_Text_109, MSGBOX_NPC
 	end
 
 Part4_Text_110:
-	.string "大吾：那个手环……你已经得到它了\n？看来这一路，你确实遇到了不少人\p。$"
+	.string "大吾：那个手环……你已经拿到它了？\p看来这一路上，你遇到了很多人，\n也经历了不少事。$"
 
 Part4_StevenRing::
 	checkitem ITEM_MEGA_RING
@@ -1145,7 +1145,7 @@ Part4_KecleonNoScope::
 	end
 
 Part4_Text_111:
-	.string "树根间闪着一点光。是一块带有复杂\n纹路的石头。$"
+	.string "树根之间闪着一点光。\n是一块带着复杂纹路的石头。$"
 
 Part4_Text_112:
 	.string "树根之间只剩下潮湿的泥土。$"
@@ -1166,19 +1166,19 @@ Part4_Mawilite::
 	end
 
 Part4_Text_113:
-	.string "前面正在测量，设备还没收好。先别\n踩进去。$"
+	.string "前面正在测量，设备还没收好。\n请先别进去。$"
 
 Part4_Text_114:
-	.string "你一定要过去？那先和我打一场。也\n可以等我们收好设备。$"
+	.string "你一定要过去？\p那就先和我打一场吧。\n或者等我们把设备收好也行。$"
 
 Part4_Text_115:
-	.string "让你的伙伴也留心脚下。$"
+	.string "让你的伙伴也留心脚下的线路！$"
 
 Part4_Text_116:
-	.string "行。你比我想的稳多了。$"
+	.string "行，你比我想的稳多了。$"
 
 Part4_Text_117:
-	.string "过去吧，别踩到线路。我把这边的设\n备挪开。$"
+	.string "过去吧，小心别踩到线路。\n我把这边的设备挪开。$"
 
 Part4_ArcheGuard::
 	lock
@@ -1203,10 +1203,10 @@ Part4_ArcheGuard::
 	end
 
 Part4_Text_118:
-	.string "石碑上的字已经模糊了。只能辨出很\n浅的刻痕。$"
+	.string "石碑上的字已经模糊了，\n只能辨认出很浅的刻痕。$"
 
 Part4_Text_119:
-	.string "雨水沿着凹槽流下。那些线条，好像\n在描绘风、云和山。$"
+	.string "雨水顺着凹槽流下来。\p那些线条，好像描绘着风、云和山。$"
 
 Part4_OldTablet::
 	lockall
@@ -1221,13 +1221,13 @@ Part4_OldTablet::
 	end
 
 Part4_Text_120:
-	.string "急着赶路吗？不着急的话，和我们认\n真比一场吧。$"
+	.string "急着赶路吗？\n不急的话，和我们认真比一场吧！$"
 
 Part4_Text_121:
-	.string "呼……这一场值得！$"
+	.string "呼……这一场打得真过瘾！$"
 
 Part4_Text_122:
-	.string "我就待在这里练习。你想往前走，绕\n过我就行。$"
+	.string "我就在这里练习。\n你要往前走的话，从旁边绕过去就行。$"
 
 Part4_ForestAce::
 	lock
@@ -1238,19 +1238,19 @@ Part4_ForestAce::
 	end
 
 Part4_Text_123:
-	.string "我本来在钓爱心鱼，结果……全是这\n些大家伙！你来看看！$"
+	.string "我本来想钓爱心鱼，结果上钩的全是\n这些大家伙！来，你也见识一下！$"
 
 Part4_Text_124:
-	.string "唉，钓鱼和对战都没顺过！$"
+	.string "唉，钓鱼不顺，对战也不顺！$"
 
 Part4_Text_125:
-	.string "阿尔刻那些人在边上摆仪器，把钓位\n都占了。我女儿快过生日了，还没钓\p到她想要的爱心鱼。她在水静市。$"
+	.string "阿尔刻那些人在湖边摆满了仪器，\n好钓位全被他们占了。\p女儿快过生日了，想要一只爱心鱼，\n可我到现在一条都没钓到。\p她住在水静市。你要是有爱心鱼，\n能不能帮我送她一只？$"
 
 Part4_Text_126:
-	.string "女儿收到爱心鱼了？真是帮大忙了。\n我钓到过这块石头，你拿着吧。$"
+	.string "女儿收到爱心鱼了？\n真是帮了我大忙！\p这块石头是我以前钓上来的，\n你拿着吧。$"
 
 Part4_Text_127:
-	.string "今年的生日，总算有件能让她开心的\n事了。$"
+	.string "今年的生日，\n总算能让她开开心心地过了。$"
 
 Part4_LakeFisher::
 	lock
@@ -1274,10 +1274,10 @@ Part4_LakeFisher::
 	end
 
 Part4_Text_128:
-	.string "这块石头是我在附近捡到的。岩石上\n本来没有这种花纹。\p比起研究它，我更想找到遗迹的入口\n。你拿去看看吧。$"
+	.string "这块石头是我在附近捡到的。\n岩石上原本没有这种花纹。\p比起研究它，我更想找到遗迹的入口。\p这块石头就给你吧。$"
 
 Part4_Text_129:
-	.string "也许哪天，我就能找到入口了。$"
+	.string "总有一天，我一定会找到入口的。$"
 
 Part4_RuinsAggronite::
 	lock
@@ -1293,7 +1293,7 @@ Part4_RuinsAggronite::
 	end
 
 Part4_Text_130:
-	.string "石像身后的岩壁上刻着古老的封印。\n轻轻一碰，封印没有任何反应。\p……也许要等你成为丰缘的冠军，\n得到某人的许可之后，它才会打开。$"
+	.string "石像身后的岩壁上刻着古老的封印。\n轻轻一碰，封印没有任何反应。\p看来要等你成为丰缘的冠军，\n再得到某个人的许可，它才会打开。$"
 
 Part4_Seal::
 	lockall
@@ -1321,10 +1321,10 @@ Part4_SealLoad::
 	end
 
 Part4_Text_131:
-	.string "封印深处留着一小块材料。$"
+	.string "封印深处还留着一小块奇怪的材料。$"
 
 Part4_Text_132:
-	.string "封印内部已经空了。$"
+	.string "封印里面已经空了。$"
 
 Part4_UnknownResearchData::
 	lock
@@ -1349,22 +1349,22 @@ Part4_GirlLuvdisc::
 	end
 
 Part4_Text_133:
-	.string "我的生日快到了。爸爸去120号道路\n钓爱心鱼，好几天都没钓到。你愿意\p送我一只吗？$"
+	.string "我的生日快到了。\p爸爸去120号道路钓爱心鱼，好几天\n都没钓到。\p你愿意送我一只爱心鱼吗？$"
 
 Part4_Text_134:
-	.string "你的队伍里还没有爱心鱼。没关系，\n我可以再等等。$"
+	.string "你的队伍里还没有爱心鱼呢。\n没关系，我可以再等等。$"
 
 Part4_Text_135:
-	.string "等等，你还要带着能战斗的伙伴旅行\n。先别把它送给我。$"
+	.string "等等，你旅行还得靠能战斗的伙伴，\n先别把它送给我啦。$"
 
 Part4_Text_136:
-	.string "它还带着东西呢。先把道具取下来吧\n。$"
+	.string "它身上还带着道具呢。\n先把道具取下来再给我吧。$"
 
 Part4_Text_137:
-	.string "谢谢你！我会好好照顾它的。也告诉\n爸爸一声吧，他还在120号道路的湖\p边。$"
+	.string "谢谢你！我会好好照顾它的！\p也去告诉爸爸一声吧，\n他还在120号道路的湖边钓鱼呢。$"
 
 Part4_Text_138:
-	.string "它好可爱！这是我收到的最好的生日\n礼物。$"
+	.string "它好可爱！\n这是我收到过最棒的生日礼物！$"
 
 Part4_BirthdayGirl::
 	lock
@@ -1397,16 +1397,16 @@ Part4_BirthdayGirl::
 	end
 
 Part4_Text_139:
-	.string "……这个给你。$"
+	.string "这孩子，交给你了。$"
 
 Part4_Text_140:
 	.string "得到了古空棘鱼！$"
 
 Part4_Text_141:
-	.string "你会需要它的。$"
+	.string "以后，你会需要它的。$"
 
 Part4_Text_142:
-	.string "……先留一个空位。$"
+	.string "队伍满了。空出一个位置再来。$"
 
 Part4_Text_143:
 	.string "……$"
@@ -1434,16 +1434,16 @@ Part4_QuietVisitor::
 	end
 
 Part4_Text_144:
-	.string "那个人前几天就来了，一直不怎么说\n话。大概喜欢安静吧。$"
+	.string "那个人前几天就来了，一直不太说话。\n大概是喜欢清静吧。$"
 
 Part4_Text_145:
-	.string "树屋之间的风，可没看起来那么简单\n。让它们带你体验一下！$"
+	.string "树屋之间的风，可没看起来那么简单！\n让我的宝可梦带你体验一下！$"
 
 Part4_Text_146:
 	.string "被你找准风向了！$"
 
 Part4_Text_147:
-	.string "娜琪能看到更高处的风。我还差得远\n呢。$"
+	.string "娜琪能看见更高处的风。\n我还差得远呢。$"
 
 Part4_TreeBird::
 	lock
@@ -1454,10 +1454,10 @@ Part4_TreeBird::
 	end
 
 Part4_Text_148:
-	.string "我和伙伴飞过丰缘的天空。现在，让\n我看看你们会怎样迎着风向前。$"
+	.string "我和伙伴们飞遍了丰缘的天空。\p现在，让我看看你们如何迎风前进！$"
 
 Part4_Text_149:
-	.string "娜琪：你有那样的手环了。力量发生\n变化时，配合也要跟着改变。记住刚\p才战斗中的感觉。$"
+	.string "娜琪：你已经有那种手环了啊。\p力量变了，配合方式也要跟着变。\n记住刚才战斗中的那种感觉吧。$"
 
 Part4_WinonaRing::
 	checkitem ITEM_MEGA_RING
@@ -1466,10 +1466,10 @@ Part4_WinonaRing::
 	return
 
 Part4_Text_155:
-	.string "南边的人提到过你。\n看来你很喜欢到处跑。$"
+	.string "南边那些人提起过你。\n看来你很喜欢到处跑嘛。$"
 
 Part4_Text_156:
-	.string "雷公的身影随着一道电光，\n消失在通道深处……\p空气中仍残留着细微的电流。\p也许等你站上丰缘训练家的\n顶点之后，它还会再次回应你。$"
+	.string "雷公化作一道电光，\n消失在通道深处。\p空气中仍残留着细微的电流。\p等你登上丰缘训练家的顶点之后，\n它或许还会再次回应你。$"
 
 Part4_Text_157:
-	.string "终于追上你了！这条路也太长了，\n而且一路都在下雨！\p正好，来打一场，活动一下！$"
+	.string "终于追上你了！这条路也太长了，\n而且一路都在下雨！\p正好，来打一场活动活动筋骨吧！$"

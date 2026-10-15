@@ -82,4 +82,4 @@ Route114_LanettesHouse_Part3_GiftFull::
  return
 
 Route114_LanettesHouse_Part3_GiftText:
-	.string "这些高级球送给你吧。\p旅行时认识更多宝可梦，也别忘了给\n它们留个舒服的地方！$"
+	.string "这些高级球送给你吧。\p旅行中认识更多宝可梦的时候，\n也别忘了给它们留个舒服的地方哦！$"

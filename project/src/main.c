@@ -26,6 +26,10 @@
 #include "test_runner.h"
 #include "constants/rgb.h"
 
+#if CRASH_TRACE
+void CrashTrace_Frame(void);
+#endif
+
 static void VBlankIntr(void);
 static void HBlankIntr(void);
 static void VCountIntr(void);
@@ -169,6 +173,9 @@ void AgbMainLoop(void)
 
         PlayTimeCounter_Update();
         MapMusicMain();
+#if CRASH_TRACE
+        CrashTrace_Frame();
+#endif
         WaitForVBlank();
     }
 }

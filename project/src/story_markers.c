@@ -33,6 +33,7 @@ static const struct PickupMarker sPickupMarkers[] =
     {MAP_ROUTE118,                   30,  9, FLAG_TEMP_C,  VAR_PART4_BERRYBASKET,          1, 0},
     {MAP_ROUTE120,                    8, 35, FLAG_TEMP_C,  FLAG_PART4_MAWILITE,            0, FLAG_PART4_KECLEON_0},
     {MAP_ROUTE131,                   52, 25, FLAG_TEMP_C,  FLAG_PART6_PLANK_3,             0, 0},
+    {MAP_ROUTE131,                   48, 31, FLAG_TEMP_D,  FLAG_PART6_SAMPLE_CASE_TAKEN,   0, FLAG_RECEIVED_HM_DIVE},
     {MAP_ROUTE133,                   77,  6, FLAG_TEMP_C,  FLAG_PART7_BACKFLOW_NUGGETS,    0, 0},
     {MAP_SHOAL_CAVE_LOW_TIDE_ICE_ROOM, 14, 22, FLAG_TEMP_C, VAR_PART55_FROZEN_STONE,       1, FLAG_PART55_SHELL_BELL_CRAFTED},
     {MAP_UNDERWATER_ROUTE127,        14, 39, FLAG_TEMP_C,  FLAG_PART6_DIVE_LAMP_TAKEN,     0, 0},

@@ -360,4 +360,4 @@ VerdanturfTown_BattleTentLobby_Part3_PrizeBagFull::
  return
 
 VerdanturfTown_BattleTentLobby_Part3_PrizeText:
-	.string "恭喜你第一次赢得完整的三连胜！\p这是给你的特别纪念品。$"
+	.string "恭喜你第一次完成三连胜！\p这是送给你的特别纪念品。$"

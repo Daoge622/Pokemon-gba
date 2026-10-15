@@ -87,4 +87,10 @@
 // Naming Screen
 #define AUTO_LOWERCASE_KEYBOARD      GEN_LATEST  // Starting in GEN_6, after entering the first uppercase character, the keyboard switches to lowercase letters.
 
+// Debug builds only: log breadcrumbs to flash sectors 30/31 (see src/crash_trace.c).
+// Build with: make release CRASH_TRACE=1 (touch src/main.c src/crash_trace.c first)
+#ifndef CRASH_TRACE
+#define CRASH_TRACE 0
+#endif
+
 #endif // GUARD_CONFIG_GENERAL_H

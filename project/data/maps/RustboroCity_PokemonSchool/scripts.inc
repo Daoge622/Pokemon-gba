@@ -310,25 +310,25 @@ School_Part1_BagFull::
  end
 
 School_Part1_Q0:
-	.string "今天的小问题！\p水属性招式对岩石属性效果很好，对\n吗？$"
+	.string "今天的小问题！\p水属性招式对岩石属性的宝可梦\n效果绝佳，对吗？$"
 
 School_Part1_Q1:
 	.string "今天的小问题！\p解毒药能治好麻痹，对吗？$"
 
 School_Part1_Q2:
-	.string "今天的小问题！\p濒死的宝可梦不能继续参加战斗，对\n吗？$"
+	.string "今天的小问题！\p濒死的宝可梦不能继续参加战斗，\n对吗？$"
 
 School_Part1_A0:
-	.string "答案是对。水属性招式能有效攻击岩\n石属性宝可梦。$"
+	.string "可惜，答案是“对”。\p水属性招式能有效攻击岩石属性的\n宝可梦。$"
 
 School_Part1_A1:
-	.string "答案是不对。解毒药治疗中毒，解麻\n药才能治疗麻痹。$"
+	.string "可惜，答案是“不对”。\p解毒药只能治疗中毒，\n要治麻痹得用解麻药。$"
 
 School_Part1_A2:
-	.string "答案是对。先让它恢复体力，再一起\n训练吧！$"
+	.string "可惜，答案是“对”。\p宝可梦濒死后要先恢复体力，\n才能再一起训练哦。$"
 
 School_Part1_CorrectText:
-	.string "答对了！这一枚树果送给你！$"
+	.string "答对了！这颗树果是给你的奖励！$"
 
 School_Part1_After:
-	.string "今天的奖励已经领过啦。\p明天再来试试别的问题吧！$"
+	.string "今天的奖励已经领过啦。\p明天再来挑战别的问题吧！$"
