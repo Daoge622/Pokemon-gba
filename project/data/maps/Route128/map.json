@@ -172,8 +172,8 @@
     {
       "local_id": "LOCALID_PART6_RAIN_PLATFORM",
       "graphics_id": "OBJ_EVENT_GFX_ARCHE_REIN",
-      "x": 100,
-      "y": 11,
+      "x": 85,
+      "y": 22,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
