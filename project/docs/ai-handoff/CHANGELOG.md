@@ -41,3 +41,4 @@
 - 原因：10-14 把莱因（Part6_RainPlatform）放到 128 东北 (96-104,8-15)，那片水被原版礁石跨图围住，从主海域冲浪进不去；单图可达性检查漏掉。
 - 修复：该处还原原版海面，莱因新岛改到 128 东侧礁石带北边 (82-89,20-25)，莱因站 (85,22)；宇宙中心助手台词补一句位置提示。
 - 新增 scripts/tests/sea-reach.py 跨地图冲浪可达性检查；mGBA 用用户存档冲浪登岛实测通过。
+- 加入默认关闭的卡死调试记录（src/crash_trace.c、Makefile CRASH_TRACE 变量、scripts/tests/read-crash-trace.py），用来定位 MyBoy 上的随机卡死；正式 ROM 不受影响。
