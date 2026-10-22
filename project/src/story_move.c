@@ -87,6 +87,12 @@ void StoryStepTowardPlayer(void)
         s32 c = sQueue[head++];
         s16 cx = x0 + (c % WIN), cy = y0 + (c / WIN);
         u8 dir;
+        // 255 is the unvisited sentinel, not a representable path distance.
+        // Stop expanding before assigning it or wrapping an 8-bit distance.
+        // Each cell is then enqueued at most once; the existing greedy fallback
+        // handles paths longer than this bounded search can represent.
+        if (sDist[cy - y0][cx - x0] >= MAX_STEPS - 1)
+            continue;
         for (dir = DIR_SOUTH; dir <= DIR_EAST; dir++)
         {
             // neighbour n steps in `dir` to reach c, so n = c - delta(dir)

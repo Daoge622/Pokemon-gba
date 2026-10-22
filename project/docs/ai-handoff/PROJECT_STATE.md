@@ -32,3 +32,11 @@ TESTED：此前送神火山组队选队/取消/胜败/六只恢复/保存冷启�
 当前报告：C:\Users\DaoGe\Documents\Codex\2026-10-11\zhe\outputs\战后对话修复与Claude接力记录.md；此前记录仍在 outputs/组队双打修复与接力记录.md、体检与接力记录.md。
 
 - 本轮女孩战后使用交付ROM游戏内普通记录，再新建核心冷启动读档：回到基地24/87，等待600帧无对话循环、锁为0；存档中的女孩脚本指针已更新为0x09B0046C。dialogue-coldboot-verification.json与截图已归档。
+
+## 2026-10-22 / Codex：海图与稳定性续查
+
+IMPLEMENTED：131 实际激活地形补木台/船观察点，132 漂流者移出强制水流，剧情寻路 u8 距离边界修复，诊断跟踪改为 RAM 快照，2 处文本宽度修正。无存档结构或 Flag/VAR 变化。
+
+TESTED（静态）：964 张地图结构、海域任务交互点跨图可达、固定潜水出口、36 个零变量坐标事件/763 个立即入口、文字宽度；不代表实机 TESTED。云端环境验证版 02939df7a1 在 run 39391363548 普通/Release 成功；本轮修复产物以修复分支最新成功 ROM build 的 BUILD_SOURCE/SHA256 为准。
+
+MyBoy 2.0.9 加速随机卡死仍 Pending，未证明根因。源码/修改/检查边界见 ../../BUGFIX_WORLD_MYBOY_2026-10-22.md；历史 manifest/基线缺失，未伪报旧全套检查通过。工作副本 D:\Pokemon gba\cloud-audit\project；旧本机未提交源码保留，不与云端反向混合。
