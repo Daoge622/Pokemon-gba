@@ -296,7 +296,7 @@ PlayersHouse_1F_Text_GoSetTheClock:
     .string "妈妈：{PLAYER}，\p记得先去房间调好时钟哦。$"
 
 PlayersHouse_1F_Text_OhComeQuickly:
-    .string "妈妈：……啊！{PLAYER}，{PLAYER}！\n快过来看！$"
+    .string "妈妈：……啊！{PLAYER}！\n快过来看！$"
 
 PlayersHouse_1F_Text_MaybeDadWillBeOn:
     .string "妈妈：橙华市道馆上电视了！\n说不定能看到你爸爸！$"

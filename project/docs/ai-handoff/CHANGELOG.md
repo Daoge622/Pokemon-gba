@@ -42,3 +42,11 @@
 - 修复：该处还原原版海面，莱因新岛改到 128 东侧礁石带北边 (82-89,20-25)，莱因站 (85,22)；宇宙中心助手台词补一句位置提示。
 - 新增 scripts/tests/sea-reach.py 跨地图冲浪可达性检查；mGBA 用用户存档冲浪登岛实测通过。
 - 加入默认关闭的卡死调试记录（src/crash_trace.c、Makefile CRASH_TRACE 变量、scripts/tests/read-crash-trace.py），用来定位 MyBoy 上的随机卡死；正式 ROM 不受影响。
+
+## 2026-10-22 / Codex / 海图通路与 MyBoy 稳定性
+
+- 基于最新 Claude 修复分支另建 codex/reachability-myboy-20261020；旧本机未提交修改原样保留。建立 GitHub Actions 普通/Release 构建及源提交号、SHA256 交付；环境验证 run 39391363548 成功。
+- 修复 131 布局切换漏木台/船观察点、132 水流上训练家交互、寻路 255 哨兵边界；Flash 跟踪改为默认关闭的 RAM 快照；修复 2 处已有文本宽度。
+- 增加跨图/水流/潜水检查及真实 C 寻路回归；全 964 地图结构扫描，修正立即脚本检查 Windows 路径遗漏。未改 Canon、存档结构或永久状态；未运行模拟器/ROM。MyBoy 根因仍 Pending，详见 ../../BUGFIX_WORLD_MYBOY_2026-10-22.md。
+
+- 构建补记：修复源码 baa6c65160、云端 run 39712885042 普通/Release 及本轮全部可用检查成功。已核验 ZIP/ROM/头/源提交号并对齐 artifacts/current 与桌面包，旧产物备份。无 MyBoy 动态验收，未标卡死 FIXED。

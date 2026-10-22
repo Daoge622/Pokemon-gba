@@ -72,11 +72,11 @@ def u16s(path):
     return [b[i] | (b[i + 1] << 8) for i in range(0, len(b) - 1, 2)]
 
 class Map:
-    def __init__(self, name):
+    def __init__(self, name, layout=None):
         self.name = name
         self.dir = os.path.join(ROOT, 'data/maps', name)
         self.j = json.load(open(os.path.join(self.dir, 'map.json')))
-        self.lay = layouts()[self.j['layout']]
+        self.lay = layouts()[layout or self.j['layout']]
         self.w, self.h = self.lay['width'], self.lay['height']
         self.binpath = os.path.join(ROOT, self.lay['blockdata_filepath'])
         self.grid = u16s(self.binpath)

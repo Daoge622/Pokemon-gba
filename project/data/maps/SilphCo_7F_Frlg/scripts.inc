@@ -332,7 +332,7 @@ SilphCo_7F_Text_Grunt2PostBattle::
     .string "赶快回家吧！$"
 
 SilphCo_7F_Text_RivalWhatKeptYou::
-    .string "{RIVAL}：你来的可真慢，{PLAYER}？$"
+    .string "{RIVAL}：你来的可真慢，\n{PLAYER}？$"
 
 SilphCo_7F_Text_RivalIntro::
     .string "{RIVAL}：哈哈哈！我等在这儿\n"

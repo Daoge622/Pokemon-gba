@@ -6,6 +6,7 @@ Special/native implementations require source review in addition to this check.
 from pathlib import Path
 import json, re, sys, subprocess
 from collections import Counter
+from urllib.request import urlopen
 R = Path(__file__).resolve().parents[2]
 WAIT = set("lock lockall msgbox message waitstate waitmovement delay applymovement waitmessage waitbuttonpress waitfanfare waitmoncry waitcry waitse fadescreen fadescreenspeed yesnobox multichoice multichoicedefault multichoicegrid trainerbattle trainerbattle_single trainerbattle_double trainerbattle_no_intro wildbattle dowildbattle waitfieldse waitdooranim waitcryend showmonpic braillemessage drawboxtext bufferboxname givemon giveegg givepokemon giveitem".split())
 HOOKS = {"MAP_SCRIPT_ON_TRANSITION", "MAP_SCRIPT_ON_LOAD", "MAP_SCRIPT_ON_RESUME", "MAP_SCRIPT_ON_RETURN_TO_FIELD", "MAP_SCRIPT_ON_DIVE_WARP", "MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE"}
@@ -81,7 +82,15 @@ UPSTREAM = 'bb1093a7c72d3961d9a37d8e02ad2abc2c866682'
 
 def legacy_matches(nodes, labels, root, waits, seen):
     source_files = sorted({n[0] for n in seen})
-    originals = [(f, subprocess.check_output(['git','show',UPSTREAM+':'+f],cwd=R,text=True)) for f in source_files]
+    def original(f):
+        p = subprocess.run(['git','show',UPSTREAM+':'+f],cwd=R,capture_output=True)
+        if p.returncode == 0:
+            return p.stdout.decode('utf-8')
+        # Cloud import has no upstream Git history. Compare against the same
+        # pinned official source, never accept a changed baseline silently.
+        url = 'https://raw.githubusercontent.com/rh-hideout/pokeemerald-expansion/' + UPSTREAM + '/' + f
+        return urlopen(url, timeout=30).read().decode('utf-8')
+    originals = [(f, original(f)) for f in source_files]
     old_nodes,old_labels = parse(originals)
     old_waits,_ = walk(old_nodes,old_labels,root)
     def signature(graph, issues):
@@ -90,7 +99,7 @@ def legacy_matches(nodes, labels, root, waits, seen):
 
 def main():
     self_test()
-    files = [(str(p.relative_to(R)),p.read_text()) for ext in ('*.inc','*.s') for p in (R/'data').rglob(ext)]
+    files = [(p.relative_to(R).as_posix(),p.read_text(encoding='utf-8')) for ext in ('*.inc','*.s') for p in (R/'data').rglob(ext)]
     nodes, labels = parse(files)
     roots, zero = [], 0
     for p in (R/'data/maps').glob('*/map.json'):

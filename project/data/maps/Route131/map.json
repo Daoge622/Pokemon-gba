@@ -200,9 +200,9 @@
     },
     {
       "type": "sign",
-      "x": 10,
-      "y": 8,
-      "elevation": 1,
+      "x": 49,
+      "y": 25,
+      "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Part6_ArcheShip"
     }
