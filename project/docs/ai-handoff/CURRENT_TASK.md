@@ -16,7 +16,7 @@ Pending：
 
 ## 当前：2026-10-22 / Codex
 
-- 分支 codex/reachability-myboy-20261020，基于 Claude 最新 4e15154194，保留其修复。已完成本轮源码修复和静态检查，等待/核对同分支云端普通与 Release 构建。详细范围见 ../../BUGFIX_WORLD_MYBOY_2026-10-22.md。
+- 分支 codex/reachability-myboy-20261020，基于 Claude 最新 4e15154194，保留其修复。已完成本轮源码修复和静态检查，同分支云端普通与 Release 构建已通过（run 39712885042，源码 baa6c65160）。详细范围见 ../../BUGFIX_WORLD_MYBOY_2026-10-22.md。
 - 旧 Flash 诊断模式已改为 RAM 快照；新版普通 .sav 不包含新跟踪条目。不得继续指示用户依靠该功能导出卡死轨迹。
 - 下一步：交付已验证来源和 SHA256 的 Release；用户 MyBoy 用普通存档做 1 倍速/加速对比，复测 131 木台与 132 漂流者。需要实际卡死 ROM/.sav 才能进一步归因；不能标记 MyBoy 已修。
 
@@ -26,3 +26,5 @@ Pending：
 - 原版动态天气/幻岛/潮汐/机关/剧情位移和图搜索未覆盖区域的人工复核；候选清单不是自动修改许可。
 - 云端缺失历史 PART manifests/基线，不能运行历史全套检查或接受新的差异基线。
 - 本分支经用户确认后才合并 main；默认 master 切换仍未决定。
+
+交付完成：桌面 EmeraldStory-云端修复-2026-10-22；Release SHA256 f562af83dd87588d8eb00dad8acdd059a0d6bfb3136ff1ef19271bd133fcde55。artifacts/current 已与云端对齐；当前只待手机/人工验证，随机卡死未归因。文档后续提交不改变该构建源码。

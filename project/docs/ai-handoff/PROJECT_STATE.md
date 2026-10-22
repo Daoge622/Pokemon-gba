@@ -40,3 +40,5 @@ IMPLEMENTED：131 实际激活地形补木台/船观察点，132 漂流者移出
 TESTED（静态）：964 张地图结构、海域任务交互点跨图可达、固定潜水出口、36 个零变量坐标事件/763 个立即入口、文字宽度；不代表实机 TESTED。云端环境验证版 02939df7a1 在 run 39391363548 普通/Release 成功；本轮修复产物以修复分支最新成功 ROM build 的 BUILD_SOURCE/SHA256 为准。
 
 MyBoy 2.0.9 加速随机卡死仍 Pending，未证明根因。源码/修改/检查边界见 ../../BUGFIX_WORLD_MYBOY_2026-10-22.md；历史 manifest/基线缺失，未伪报旧全套检查通过。工作副本 D:\Pokemon gba\cloud-audit\project；旧本机未提交源码保留，不与云端反向混合。
+
+构建结论补记：修复源码 baa6c65160 在云端 run 39712885042 普通/Release 全部成功，964 地图结构/186 地图跨图搜索、10-10 试玩回归、立即脚本、文本、真实 C 寻路夹具通过。Release SHA256 f562af83dd87588d8eb00dad8acdd059a0d6bfb3136ff1ef19271bd133fcde55；当前产物及桌面已校验对齐，旧产物已备份。MyBoy/剧情运行仍未 TESTED。详细日志与候选范围见本轮报告，不宣称所有候选已修复。

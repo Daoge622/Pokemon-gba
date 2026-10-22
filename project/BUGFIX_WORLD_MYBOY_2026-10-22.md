@@ -40,3 +40,15 @@
 ## 历史检查工具的缺失
 
 仓库导入未包含 `docs/project/part7-deltas.json`、多个 PART manifest 和旧私有基线标签；旧 `scripts/build.sh` 还硬编码 WSL `/mnt/d/Pokemon gba`。依赖这些资料的历史全套检查/RecordDeltas 不能据此宣称成功；不自动生成并接受一份新基线。当前云端工作流运行可独立验证当前源码的检查。恢复历史基线是单独 Pending 项。
+
+## 2026-10-22 构建与交付复核
+
+- **TESTED（云端构建与静态/主机测试）**：run [39712885042](https://github.com/Daoge622/Pokemon-gba/actions/runs/39712885042)，普通版/Release 全部成功；源码提交 `baa6c65160f6452b2844e0020f305e2448656c4f`。
+- 普通版构建时间 2026-10-22 10:47:40（UTC+8），SHA256 `21ec3ac653b0a6d0805ec38d8af077c68b466f4c0f29890a2360300c6709a412`。
+- Release 构建时间 2026-10-22 10:49:11（UTC+8），SHA256 `f562af83dd87588d8eb00dad8acdd059a0d6bfb3136ff1ef19271bd133fcde55`。EWRAM 231222 B，IWRAM 28316 B；ROM 32 MiB。
+- 独立 C 夹具用 ASan/UBSan 运行真实寻路源码：历史版本产生 4 个零距离点，修复版仅保留真实起点；普通/相邻/不存在 NPC/长迷宫均通过。
+- 既有 10-10 试玩回归（博物馆奖励、釜炎调度、奖励满包、113 训练家停止、烟囱山撤离等）、立即脚本、文字及新地图检查均通过；可选 RAM 跟踪分支也完成编译验证。
+- 图搜索覆盖 186 张地图、88504 个状态、2748 个交互点；全部 964 张地图做结构检查。余 78 个候选与 13 个图搜索未进入区域写入 `world-current.json`，涉及动态事件/机关等，未把它们自动判为 bug 或全部改通。
+- 两个 ZIP 的 GitHub digest、内部文件 CRC、ROM SHA256、GBA 头、FLASH1M 标识和源提交号已本机校验。`D:\Pokemon gba\artifacts\current` 对齐；旧产物备份于 `artifacts/archive/pre-cloud-20261022`。桌面包：`C:\Users\29051\Desktop\EmeraldStory-云端修复-2026-10-22`，未附带或改写用户存档。
+- **未实机 TESTED**：MyBoy、地图演出和全剧情。普通存档格式兼容；如在修改地图原地读档，应离开再进入以刷新对象坐标。MyBoy 根因仍 Pending。
+- 本文后续文档提交只更新记录，不改变上述已构建源码。分支仍待用户确认后合并。

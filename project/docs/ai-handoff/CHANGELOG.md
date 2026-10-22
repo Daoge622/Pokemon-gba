@@ -48,3 +48,5 @@
 - 基于最新 Claude 修复分支另建 codex/reachability-myboy-20261020；旧本机未提交修改原样保留。建立 GitHub Actions 普通/Release 构建及源提交号、SHA256 交付；环境验证 run 39391363548 成功。
 - 修复 131 布局切换漏木台/船观察点、132 水流上训练家交互、寻路 255 哨兵边界；Flash 跟踪改为默认关闭的 RAM 快照；修复 2 处已有文本宽度。
 - 增加跨图/水流/潜水检查及真实 C 寻路回归；全 964 地图结构扫描，修正立即脚本检查 Windows 路径遗漏。未改 Canon、存档结构或永久状态；未运行模拟器/ROM。MyBoy 根因仍 Pending，详见 ../../BUGFIX_WORLD_MYBOY_2026-10-22.md。
+
+- 构建补记：修复源码 baa6c65160、云端 run 39712885042 普通/Release 及本轮全部可用检查成功。已核验 ZIP/ROM/头/源提交号并对齐 artifacts/current 与桌面包，旧产物备份。无 MyBoy 动态验收，未标卡死 FIXED。

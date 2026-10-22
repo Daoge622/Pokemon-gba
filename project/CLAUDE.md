@@ -151,3 +151,10 @@ Handoff 文档应该：
 
 目标：任何新的 Claude / ChatGPT / Codex 只阅读这些文件，
 就能在几分钟内正确接手项目。
+
+## 云端构建规则（2026-10-22 用户确认工作方向）
+
+- 日常 ROM 编译使用 `.github/workflows/rom-build.yml`；推送 main/codex/claude 分支源码后云端构建普通版与 Release。默认不在本机编译 ROM，不调用旧 WSL 同步构建入口。
+- 开工先核查远程 main 与 CURRENT_TASK 中尚未合并的最新修复分支，不把较旧 main 或本机副本覆盖到用户正在试玩的新修复分支。重要变更仍待用户确认后合并。
+- 每次交付检查 Actions 成功、BUILD_SOURCE 源提交号/分支/variant、SHA256 与产物一致，再对齐本机 artifacts/current；禁止只靠文件日期选择“最新版”。普通存档与即时存档兼容性分别说明。
+- 本轮最新已构建源码 baa6c65160、run 39712885042；接续文档提交与构建提交可不同，必须核对源码是否发生变化，不能把未编译的新代码当成已交付。
